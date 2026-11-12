@@ -3,15 +3,24 @@
     "status": "imported"
   },
   "translation_it": {
-    "status": "todo"
+    "status": "draft",
+    "model": "Claude"
   },
   "faq": {
-    "status": "todo"
+    "status": "draft",
+    "langs": [
+      "en",
+      "it"
+    ],
+    "model": "Claude"
   },
   "audio_en": {
     "status": "todo"
   },
   "audio_it": {
     "status": "todo"
+  },
+  "podcast_brief": {
+    "status": "draft"
   }
 }
