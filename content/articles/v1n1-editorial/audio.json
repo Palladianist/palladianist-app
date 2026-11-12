@@ -16,8 +16,11 @@
     },
     {
       "lang": "it",
-      "status": "todo",
-      "note": "Prima versione 17:22, troppo lunga: da rigenerare (Approfondimento, Più breve).",
+      "status": "reviewed",
+      "tool": "NotebookLM Audio Overview (Approfondimento, più breve)",
+      "file": "/audio/v1n1-editorial/v1n1-editorial_it.m4a",
+      "mime": "audio/mp4",
+      "durationSec": 315,
       "chapters": []
     }
   ]

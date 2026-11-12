@@ -1,0 +1,35 @@
+---
+import Base from '../../layouts/Base.astro';
+import { LANGS, listIssues, loadArticle } from '../../lib/content.js';
+import { T } from '../../lib/i18n.js';
+export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
+const { lang } = Astro.params; const t = T[lang];
+const issues = listIssues().sort((a, b) => (b.year - a.year) || (b.number - a.number));
+const issue = issues[0];
+const arts = issue.articles.map((id) => loadArticle(id));
+const titleOf = (a) => (lang === 'it' && a.text.it?.title) || a.meta?.title || a.id;
+---
+<Base title={`Palladianist — ${t.latest}`} lang={lang}>
+  <header class="topbar"><div class="wrap">
+    <a class="brand" href={`/${lang}/`}><span>P</span>alladianist</a>
+    <nav class="lang">{LANGS.map((l) => l === lang ? <span aria-current="true">{l.toUpperCase()}</span> : <a href={`/${l}/`}>{l.toUpperCase()}</a>)}</nav>
+  </div></header>
+  <main class="wrap" style="padding-top:24px">
+    <div class="kicker">{t.latest}</div>
+    <div class="card" style="margin-top:10px">
+      <div class="meta">VOL. {issue.volume} · N. {issue.number} · {issue.year}</div>
+      <h1 class="title">{issue.title?.[lang] || issue.title?.en}</h1>
+      <div class="kicker" style="margin-top:12px">{t.contents}</div>
+      <nav class="toc">
+        {arts.map((a) => (
+          <a href={`/${lang}/articles/${a.id}/`}>
+            <div class="meta">{a.meta?.section?.[lang] || ''}</div>
+            <div class="t">{titleOf(a)}</div>
+            <div class="meta">{(a.meta?.authors || []).map((x) => `${x.given} ${x.family}`).join(', ')}</div>
+          </a>
+        ))}
+      </nav>
+    </div>
+  </main>
+  <footer class="site wrap">Palladianist. The Future of Drawing · INTBAU Italia APS · Open Access</footer>
+</Base>

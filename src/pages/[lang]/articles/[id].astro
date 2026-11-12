@@ -1,0 +1,167 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, listArticles, loadArticle } from '../../../lib/content.js';
+import { T } from '../../../lib/i18n.js';
+
+export function getStaticPaths() {
+  const out = [];
+  for (const id of listArticles()) {
+    const a = loadArticle(id);
+    for (const lang of Object.keys(a.text)) out.push({ params: { lang, id }, props: { a } });
+  }
+  return out;
+}
+const { lang, id } = Astro.params;
+const { a } = Astro.props;
+const t = T[lang];
+const m = a.meta || {};
+const doc = a.text[lang];
+const en = a.text.en;
+const enById = Object.fromEntries(en.blocks.filter((b) => b.text).map((b) => [b.id, b.text]));
+const title = (lang !== 'en' && doc.title) || m.title;
+const abstract = lang === 'en' ? (a.epub.abstract || []) : (doc.abstract || []);
+const keywords = lang === 'en' ? (a.epub.keywords || []) : (doc.keywords || []);
+const figs = Object.fromEntries(a.figures.map((f) => [f.id, { ...f, ...(lang !== 'en' && doc.figures?.[f.id] ? doc.figures[f.id] : {}) }]));
+const ep = a.audio.episodes.find((e) => e.lang === lang) || a.audio.episodes.find((e) => e.lang === 'en');
+const authors = (m.authors || []).map((x) => `${x.given} ${x.family}`).join(', ');
+const strip = (h) => h.replace(/<[^>]+>/g, '');
+const doiUrl = m.doi ? `https://doi.org/${m.doi}` : null;
+const apaAuthors = (m.authors || []).map((x) => `${x.family}, ${x.given[0]}.`).join(', ');
+const apa = `${apaAuthors} (${m.year}). ${m.title}. ${m.journal}, ${m.volume}(${m.number}), ${m.pages}.${doiUrl ? ' ' + doiUrl : ''}`;
+const bib = `@article{${(m.authors?.[0]?.family || 'x').toLowerCase()}${m.year}${id.replace(/\W/g, '')},
+  author  = {${(m.authors || []).map((x) => `${x.family}, ${x.given}`).join(' and ')}},
+  title   = {${m.title}},
+  journal = {${m.journal}},
+  volume  = {${m.volume}}, number = {${m.number}}, year = {${m.year}},
+  pages   = {${(m.pages || '').replace('–', '--')}}${m.doi ? `,\n  doi     = {${m.doi}}` : ''}
+}`;
+const notice = lang !== 'en' ? t.aiNotice.replace('{date}', new Date(a.review.translation_it?.reviewedOn || Date.now()).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })) : '';
+const canonical = m.ojsUrl || undefined;
+---
+<Base title={`${strip(title)} — Palladianist`} lang={lang} description={strip(abstract[0] || '')} canonical={canonical}
+      alternates={Object.fromEntries(Object.keys(a.text).map((l) => [l, `https://read.palladianist.org/${l}/articles/${id}/`]))}>
+  <header class="topbar"><div class="wrap">
+    <a class="brand" href={`/${lang}/`} aria-label={t.home}><span>P</span>alladianist</a>
+    <nav class="lang" aria-label="Language">
+      {Object.keys(a.text).map((l) => l === lang
+        ? <span aria-current="true">{l.toUpperCase()}</span>
+        : <a href={`/${l}/articles/${id}/`} data-langswitch>{l.toUpperCase()}</a>)}
+    </nav>
+  </div></header>
+
+  <main class="wrap" style="padding-top:20px">
+    <div class="kicker">VOL. {m.volume} · N. {m.number} · {m.section?.[lang]}</div>
+    <h1 class="title" set:html={title} />
+    <p style="font-family:var(--font-text);font-size:18px;margin:4px 0">{authors}{m.authors?.[0]?.affiliation && <span style="color:var(--muted)"> · {m.authors[0].affiliation}</span>}</p>
+    <div class="meta">
+      <span>{doiUrl ? <a href={doiUrl}>DOI {m.doi}</a> : t.doiPending}</span>
+      <span><a href={m.license?.url}>{m.license?.code}</a></span>
+      <span>{m.dates?.published}</span>
+    </div>
+
+    {ep && <p style="margin:14px 0"><button class="btn" id="listen" type="button">▶ {t.listen} · {Math.round(ep.durationSec / 60)} {t.min}</button></p>}
+    {notice && <p class="notice">{notice}</p>}
+
+    <div class="tabs" role="tablist">
+      <button role="tab" aria-selected="true" aria-controls="tab-read" id="b-read">{t.read}</button>
+      <button role="tab" aria-selected="false" aria-controls="tab-faq" id="b-faq" disabled={!a.faqs[lang]}>{t.faq}</button>
+      <button role="tab" aria-selected="false" aria-controls="tab-cite" id="b-cite">{t.cite}</button>
+      <button role="tab" aria-selected="false" aria-controls="tab-info" id="b-info">{t.info}</button>
+    </div>
+
+    <section id="tab-read" class="panel prose" role="tabpanel" aria-labelledby="b-read">
+      <div class="kicker" style="margin-top:18px">{t.abstract}</div>
+      {abstract.slice(0, 1).map((p) => <p class="abstract" set:html={p} />)}
+      {keywords.length > 0 && <p style="font-family:var(--font-meta);font-size:14px;color:var(--muted)">{t.keywords}: {keywords.join(' · ')}</p>}
+      {(() => {
+        const out = []; let list = [];
+        const flush = () => { if (list.length) { out.push(<ul>{list}</ul>); list = []; } };
+        for (const b of doc.blocks) {
+          if (b.type === 'listitem') { list.push(<li id={b.id} data-en={enById[b.id]} set:html={b.text} />); continue; }
+          flush();
+          if (b.type === 'heading') out.push(<h2 id={b.id} set:html={b.text} />);
+          else if (b.type === 'figure') { const f = figs[b.ref]; if (f) out.push(
+            <figure id={b.id}><button type="button" data-zoom={f.src} aria-label={strip(f.caption)}><img src={f.src} alt={f.alt} loading="lazy" /></button><figcaption set:html={f.caption} /></figure>); }
+          else out.push(<p id={b.id} data-en={enById[b.id]} set:html={b.text} />);
+        }
+        flush(); return out;
+      })()}
+      <h2>{t.references}</h2>
+      <div class="refs">{en.references.map((r) => <p set:html={r} />)}</div>
+    </section>
+
+    <section id="tab-faq" class="panel faq" role="tabpanel" aria-labelledby="b-faq" hidden>
+      {(a.faqs[lang] || []).map((f) => (
+        <details><summary>{f.q}</summary><p>{f.a}</p>
+          <p style="font-family:var(--font-ui);font-size:14px;letter-spacing:.6px">{f.refs.slice(0, 3).map((r) => <a href={`#${r}`} data-goto={r} style="margin-right:12px">→ §{r}</a>)}</p>
+        </details>))}
+    </section>
+
+    <section id="tab-cite" class="panel cite" role="tabpanel" aria-labelledby="b-cite" hidden>
+      <h3 class="kicker" style="margin-top:20px">APA 7</h3>
+      <pre id="apa">{apa}</pre>
+      <button class="btn secondary" type="button" data-copy="apa">{t.copy}</button>
+      <h3 class="kicker" style="margin-top:20px">BibTeX</h3>
+      <pre id="bib">{bib}</pre>
+      <button class="btn secondary" type="button" data-copy="bib">{t.copy}</button>
+    </section>
+
+    <section id="tab-info" class="panel" role="tabpanel" aria-labelledby="b-info" hidden>
+      <dl style="font-size:15px;line-height:1.6;margin-top:20px">
+        <dt class="kicker">{t.issue}</dt><dd>Vol. {m.volume}, n. {m.number} ({m.year}), pp. {m.pages}</dd>
+        <dt class="kicker">{t.section}</dt><dd>{m.section?.[lang]}</dd>
+        <dt class="kicker">Received · Accepted · Published</dt><dd>{m.dates?.received} · {m.dates?.accepted} · {m.dates?.published}</dd>
+        <dt class="kicker">{t.license}</dt><dd><a href={m.license?.url}>{m.license?.code}</a></dd>
+        {a.audio.disclaimer?.[lang] && <><dt class="kicker">Audio</dt><dd>{a.audio.disclaimer[lang]}</dd></>}
+      </dl>
+    </section>
+  </main>
+
+  <footer class="site wrap">Palladianist. The Future of Drawing · INTBAU Italia APS</footer>
+
+  {ep && <div class="player" id="player" hidden>
+    <div class="row"><audio id="audio" controls preload="none" src={ep.file}></audio></div>
+    <small>{a.audio.disclaimer?.[lang] || a.audio.disclaimer?.en}</small>
+  </div>}
+
+  <dialog class="zoom" id="zoom"><form method="dialog"><button aria-label="Close">✕</button></form><img id="zoomimg" alt="" /></dialog>
+
+  <script is:inline define:vars={{ lang, title: strip(title), copied: t.copied, original: t.original }}>
+    // tabs
+    const tabs = [...document.querySelectorAll('[role=tab]')];
+    const show = (b) => { tabs.forEach((x) => { const on = x === b; x.setAttribute('aria-selected', on); document.getElementById(x.getAttribute('aria-controls')).hidden = !on; }); };
+    tabs.forEach((b) => b.addEventListener('click', () => show(b)));
+    document.querySelectorAll('[data-goto]').forEach((l) => l.addEventListener('click', () => show(tabs[0])));
+    // copy
+    document.querySelectorAll('[data-copy]').forEach((b) => b.addEventListener('click', async () => {
+      try { await navigator.clipboard.writeText(document.getElementById(b.dataset.copy).textContent); b.textContent = copied; } catch (e) {}
+    }));
+    // keep reading position across languages
+    document.querySelectorAll('[data-langswitch]').forEach((l) => l.addEventListener('click', (e) => {
+      const els = [...document.querySelectorAll('#tab-read [id]')];
+      const top = els.find((el) => el.getBoundingClientRect().top > 60);
+      if (top) { e.preventDefault(); location.href = l.href + '#' + top.id; }
+    }));
+    // long press -> English original
+    if (lang !== 'en') {
+      let timer, pop;
+      const close = () => { pop && pop.remove(); pop = null; };
+      document.querySelectorAll('[data-en]').forEach((p) => {
+        const start = () => { timer = setTimeout(() => { close(); pop = document.createElement('div'); pop.className = 'orig-pop'; pop.innerHTML = '<div class="kicker">' + original + '</div>' + p.dataset.en; pop.addEventListener('click', close); document.body.appendChild(pop); }, 600); };
+        const stop = () => clearTimeout(timer);
+        p.addEventListener('pointerdown', start); p.addEventListener('pointerup', stop); p.addEventListener('pointerleave', stop);
+      });
+      document.addEventListener('scroll', close, { passive: true });
+    }
+    // figures
+    const dlg = document.getElementById('zoom');
+    document.querySelectorAll('[data-zoom]').forEach((b) => b.addEventListener('click', () => { document.getElementById('zoomimg').src = b.dataset.zoom; dlg.showModal(); }));
+    // audio
+    const btn = document.getElementById('listen');
+    if (btn) btn.addEventListener('click', () => {
+      const pl = document.getElementById('player'), au = document.getElementById('audio');
+      pl.hidden = false; au.play();
+      if ('mediaSession' in navigator) navigator.mediaSession.metadata = new MediaMetadata({ title, artist: 'Palladianist', album: 'Vol. 1 n. 1' });
+    });
+  </script>
+</Base>

@@ -1,0 +1,20 @@
+{
+  "articleId": "v1n1-editorial",
+  "provisional": true,
+  "note": "Compilato a mano dall'impaginato; sarà sostituito dalla sincronizzazione OJS.",
+  "ojsSubmissionId": null,
+  "ojsUrl": null,
+  "pdfUrl": null,
+  "doi": null,
+  "issue": "v1n1",
+  "volume": 1,
+  "number": 1,
+  "year": 2026,
+  "section": {"en": "Editorial", "it": "Editoriale"},
+  "title": "Palladio. The first algorithm. Rule, dataset and the myth of the humanist origin of design",
+  "authors": [{"given": "Giuseppe", "family": "Amoruso", "affiliation": "Politecnico di Milano", "orcid": null, "email": "giuseppe.amoruso@polimi.it"}],
+  "pages": "8–39",
+  "dates": {"received": "2026-09-01", "accepted": "2026-09-01", "published": "2026-10-30"},
+  "license": {"code": "CC BY 4.0", "url": "https://creativecommons.org/licenses/by/4.0/"},
+  "journal": "Palladianist. The Future of Drawing"
+}

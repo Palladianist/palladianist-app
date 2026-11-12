@@ -1,0 +1,10 @@
+---
+import Base from '../layouts/Base.astro';
+---
+<Base title="Palladianist">
+  <script is:inline>
+    var l = (navigator.language || 'en').slice(0, 2) === 'it' ? 'it' : 'en';
+    location.replace('/' + l + '/');
+  </script>
+  <noscript><p><a href="/en/">English</a> · <a href="/it/">Italiano</a></p></noscript>
+</Base>
