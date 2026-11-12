@@ -59,3 +59,8 @@ dialog.zoom button { min-width:var(--tap); min-height:var(--tap); border-radius:
 .toc a { display:block; padding:12px 0; border-bottom:1px solid var(--rule); text-decoration:none; color:var(--ink); }
 .toc .t { font-family:var(--font-display); font-size:20px; }
 footer.site { font-size:13px; color:var(--muted); padding:32px 0 120px; }
+
+.issue-head { display:flex; gap:16px; align-items:flex-start; }
+.issue-head .cover { flex:0 0 120px; }
+.issue-head .cover img { display:block; width:120px; height:auto; border-radius:2px; box-shadow:0 2px 10px rgba(0,0,0,.18); }
+@media (min-width:600px) { .issue-head .cover { flex-basis:170px; } .issue-head .cover img { width:170px; } }

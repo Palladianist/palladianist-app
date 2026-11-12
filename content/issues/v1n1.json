@@ -8,7 +8,10 @@
     "it": "Universal Knowledge in the Age of AI"
   },
   "ojsIssueId": null,
-  "cover": null,
+  "cover": {
+    "large": "/covers/v1n1.jpg",
+    "small": "/covers/v1n1-small.jpg"
+  },
   "articles": [
     "v1n1-editorial"
   ],

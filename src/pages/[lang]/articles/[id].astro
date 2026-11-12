@@ -161,7 +161,7 @@ const canonical = m.ojsUrl || undefined;
     if (btn) btn.addEventListener('click', () => {
       const pl = document.getElementById('player'), au = document.getElementById('audio');
       pl.hidden = false; au.play();
-      if ('mediaSession' in navigator) navigator.mediaSession.metadata = new MediaMetadata({ title, artist: 'Palladianist', album: 'Vol. 1 n. 1' });
+      if ('mediaSession' in navigator) navigator.mediaSession.metadata = new MediaMetadata({ title, artist: 'Palladianist', album: 'Vol. 1 n. 1', artwork: [{ src: '/covers/v1n1-small.jpg', sizes: '425x600', type: 'image/jpeg' }] });
     });
   </script>
 </Base>

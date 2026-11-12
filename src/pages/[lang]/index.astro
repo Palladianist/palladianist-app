@@ -17,8 +17,13 @@ const titleOf = (a) => (lang === 'it' && a.text.it?.title) || a.meta?.title || a
   <main class="wrap" style="padding-top:24px">
     <div class="kicker">{t.latest}</div>
     <div class="card" style="margin-top:10px">
-      <div class="meta">VOL. {issue.volume} · N. {issue.number} · {issue.year}</div>
-      <h1 class="title">{issue.title?.[lang] || issue.title?.en}</h1>
+      <div class="issue-head">
+        {issue.cover && <a href={issue.cover.large} class="cover"><img src={issue.cover.small} alt={`Palladianist, Vol. ${issue.volume} n. ${issue.number}`} width="425" height="600" /></a>}
+        <div>
+          <div class="meta">VOL. {issue.volume} · N. {issue.number} · {issue.year}</div>
+          <h1 class="title">{issue.title?.[lang] || issue.title?.en}</h1>
+        </div>
+      </div>
       <div class="kicker" style="margin-top:12px">{t.contents}</div>
       <nav class="toc">
         {arts.map((a) => (
