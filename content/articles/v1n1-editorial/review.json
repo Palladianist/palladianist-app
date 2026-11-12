@@ -17,10 +17,12 @@
     "model": "Claude"
   },
   "audio_en": {
-    "status": "todo"
+    "status": "reviewed",
+    "durationSec": 393
   },
   "audio_it": {
-    "status": "todo"
+    "status": "todo",
+    "note": "rigenerare: 17 min"
   },
   "podcast_brief": {
     "status": "draft"

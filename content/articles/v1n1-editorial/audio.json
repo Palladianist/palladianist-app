@@ -1,0 +1,24 @@
+{
+  "articleId": "v1n1-editorial",
+  "disclaimer": {
+    "en": "AI-generated audio overview of the article, reviewed by the editors. Synthetic voices.",
+    "it": "Sintesi audio generata con AI a partire dall'articolo e rivista dalla redazione. Voci sintetiche."
+  },
+  "episodes": [
+    {
+      "lang": "en",
+      "status": "reviewed",
+      "tool": "NotebookLM Audio Overview (Deep Dive, shorter)",
+      "file": "/audio/v1n1-editorial/v1n1-editorial_en.m4a",
+      "mime": "audio/mp4",
+      "durationSec": 393,
+      "chapters": []
+    },
+    {
+      "lang": "it",
+      "status": "todo",
+      "note": "Prima versione 17:22, troppo lunga: da rigenerare (Approfondimento, Più breve).",
+      "chapters": []
+    }
+  ]
+}
