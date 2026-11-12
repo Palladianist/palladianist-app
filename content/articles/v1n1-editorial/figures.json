@@ -1,0 +1,45 @@
+{
+  "articleId": "v1n1-editorial",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-editorial/fig1_pipeline_EN.png",
+      "alt": "Diagram comparing two five-step pipelines: Palladio's treatise and shape grammar, ending in licence as motivated deviation, and a generative AI model, ending in fluctuation without a cause.",
+      "caption": "Fig. 1. Treatise and generative model: two pipelines compared. The analogy breaks down at the declared cause of variation. Graphic elaboration by the author.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-editorial/fig2_derivation_EN.png",
+      "alt": "Five schematic plans showing a villa derived step by step on a 5 x 3 grid: grid, central axis and hall, rooms, walls and openings, and a front loggia with columns.",
+      "caption": "Fig. 2. Schematic derivation of a plan on a 5 × 3 grid following the generative logic of the <em>Palladian Grammar</em>. Original teaching diagram by the author.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-editorial/fig3_levels_EN.png",
+      "alt": "Three nested ellipses: the historical corpus of Palladio's villas inside the generative language of the grammar, inside the wider design space of all possible configurations.",
+      "caption": "Fig. 3. Historical corpus, generative language and design space. Graphic elaboration by the author based on data from Stiny and Mitchell (1978b) and Benrós et al. (2012).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-editorial/fig4_Malcontenta_QuattroLibri_II_p50_pagina.jpg",
+      "alt": "Page 50 of Book II of Palladio's Quattro Libri: woodcut plan and front elevation of Villa Foscari, La Malcontenta, with its raised Ionic portico, below the original Italian text.",
+      "caption": "Fig. 4. A. Palladio, Villa Foscari (“La Malcontenta”), plan and elevation, <em>I quattro libri dell’architettura</em>, Book II, p. 50. Getty Research Institute (public domain).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-editorial/fig5_protocol_EN.png",
+      "alt": "Five cards listing a critical protocol for generative systems: provenance, rule, measure, deviation and responsibility, above a sequence describing a pedagogical inversion.",
+      "caption": "Fig. 5. The five-criterion critical protocol and the sequence of the pedagogical inversion. Graphic elaboration by the author.",
+      "downloadable": true,
+      "credit": ""
+    }
+  ]
+}

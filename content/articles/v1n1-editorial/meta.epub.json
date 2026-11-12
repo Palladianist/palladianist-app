@@ -1,0 +1,36 @@
+{
+  "articleId": "v1n1-editorial",
+  "issue": "v1n1",
+  "section": "editorial",
+  "keywords": [
+    "ANDREA Palladio",
+    "generative artificial intelligence",
+    "epistemology of drawing",
+    "architectural eidetics",
+    "digital representation"
+  ],
+  "abstract": [
+    "This essay offers a deliberately provocative reading of Palladio’s method as one of the earliest historically documented examples, and certainly the most extensively studied in computational research, of a design system based on explicit production rules, formalized since 1978 as a generative shape grammar. Starting from the structural analogy between treatise and dataset, the essay identifies the point at which the comparison breaks down: licence, understood as a reasoned departure from the rule, which in Palladio’s method is always a traceable interpretive act, never a statistical fluctuation without a discernible cause. On this basis, the essay argues that drawing in the humanist tradition functions as an eidetic and heuristic cognitive instrument, irreducible to mere output. It concludes by proposing a critical protocol for using generative systems and a pedagogical reversal, both grounded in the traceability of judgment.",
+    "Dedicated to Universal Knowledge in the Age of AI, this inaugural issue brings together theoretical, historical, critical, and design contributions that examine Palladio’s legacy through the relationships between universal knowledge and local traditions, classical method and technological innovation, and rule and variation, taking drawing, measurement, and representation as critical instruments."
+  ],
+  "authorsRaw": [
+    "Giuseppe Amoruso, PhD, Associate Professor at Politecnico di Milano. He holds the National Scientific Qualification as Full Professor. An expert in traditional architecture and urbanism, his research covers regeneration of historic centres, cultural heritage design, and experimental museology. He has published a series of books about the architecture of Italian lighthouses. He is the founder and Chair of INTBAU Italia, part of the international network founded under the patronage of HM King Charles III. He is the director of the summer school The Architecture of Palladio. He directed the research Regenerating Amatrice. The resilience of local identity and the strategic plan for the Museum of Folklore & Popular Traditions and the Roman Theatre in Amman.",
+    "giuseppe.amoruso@polimi.it",
+    "Giuseppe Amoruso",
+    "Politecnico di Milano"
+  ],
+  "frontMatter": [
+    "EDITORIAL",
+    "Palladio. The first ALGORITHM",
+    "Rule, dataset and the myth of the humanist origin of design",
+    "How to cite this article",
+    "Amoruso, G. (2026).",
+    "Palladio. The first algorithm.",
+    "Rule, dataset and the myth of the humanist origin of design.",
+    "Palladianist. The Future of Drawing, 1, 8–39.",
+    "https://doi.org/",
+    "Received [09/01/2026] | Accepted [09/01/2026] | Published [10/30/2026]"
+  ],
+  "source": "EDITORIALE.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

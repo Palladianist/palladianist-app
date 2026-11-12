@@ -1,0 +1,24 @@
+{
+  "note": "Lessico disciplinare vincolante per traduzioni e podcast. Ampliare a ogni numero.",
+  "terms": [
+    {"en": "shape grammar", "it": "grammatica della forma (shape grammar)", "es": "gramática de formas"},
+    {"en": "Palladian Grammar", "it": "Grammatica palladiana", "es": "Gramática palladiana"},
+    {"en": "design space", "it": "spazio progettuale", "es": "espacio de diseño"},
+    {"en": "historical corpus", "it": "corpus storico", "es": "corpus histórico"},
+    {"en": "generative language", "it": "linguaggio generativo", "es": "lenguaje generativo"},
+    {"en": "licence (motivated deviation)", "it": "licenza (deviazione motivata)", "es": "licencia (desviación motivada)"},
+    {"en": "lineamenta", "it": "lineamenta", "es": "lineamenta", "keep": true},
+    {"en": "drawing", "it": "disegno", "es": "dibujo"},
+    {"en": "treatise", "it": "trattato", "es": "tratado"},
+    {"en": "order (architectural)", "it": "ordine", "es": "orden"},
+    {"en": "portico", "it": "pronao / portico", "es": "pórtico"},
+    {"en": "loggia", "it": "loggia", "es": "logia"},
+    {"en": "through-hall", "it": "salone passante", "es": "salón pasante"},
+    {"en": "enfilade", "it": "infilata", "es": "enfilada"},
+    {"en": "bay (module)", "it": "campata (modulo)", "es": "crujía (módulo)"},
+    {"en": "plan / elevation / section", "it": "pianta / prospetto / sezione", "es": "planta / alzado / sección"},
+    {"en": "generative AI", "it": "IA generativa", "es": "IA generativa"},
+    {"en": "dataset", "it": "dataset", "es": "conjunto de datos (dataset)"},
+    {"en": "The Four Books of Architecture", "it": "I Quattro Libri dell'Architettura", "es": "Los cuatro libros de arquitectura"}
+  ]
+}

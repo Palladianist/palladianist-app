@@ -1,0 +1,365 @@
+{
+  "articleId": "v1n1-editorial",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "The <em>Palladianist</em> project stems from the conviction that the legacy of Vitruvius and Andrea Palladio is not in the past but offers one of the most robust theoretical frameworks for interpreting the present’s cultural and technological transformations. In an age dominated by the automation of cognitive processes, the algorithmic production of images and the growing dematerialisation of design experience, the paradigms of architectural knowledge and design culture must be decisively redefined. Vitruvius understood that architecture is a discipline founded on the relationship between technique, knowledge, and civic responsibility. Palladio translated this legacy into a universal method, making drawing an instrument of knowledge, representation a cultural technology, and the dissemination of knowledge an act of social transformation. <em>I quattro libri dell’architettura</em> (The Four Books on Architecture) were not merely a treatise, but an intellectual infrastructure for building a new idea of the world."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Today, in the age of artificial intelligence, we face a comparable responsibility. Emerging technologies are radically changing how we produce images, interpret data, transmit knowledge, and conceive design. Faced with this transformation, the risk is not only technical but cultural: reducing critical thinking to a procedure, heritage to information, design to predictive calculation, and the result to mere communication."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "This first issue, devoted to the theme <em>Universal Knowledge in the Age of AI</em>, brings together theoretical, historical, critical and design contributions that question Palladio’s legacy in the relationship between universal knowledge and local traditions, between classical method and technological innovation, between rule and variation, taking drawing, measurement and representation as critical tools. This editorial does not seek to summarise them, but to make explicit the framework within which the journal positions itself: to assess generative artificial intelligence not with the enthusiasm or the fear that accompany its spread, but with the same criteria of verifiability, measure and responsibility that the Palladian tradition placed at the foundation of drawing."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "The eight contributions in this issue develop this framework along several lines."
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "The first concerns the genealogy and fortune of Palladio’s architectural language. David Hemsoll opens the volume by questioning Palladio “in time”, between fictitious pasts and imaginary futures, that is, how each era has constructed its own Palladio. Paolo Clini returns to the basilica of <em>Fanum Fortunae</em>, the only building Vitruvius claims to have designed, to trace its descent to Palladio and reconstruct a genealogy of classical architecture. Alberto Sdegno examines the relationship between Palladio and Canaletto in Venice, on the threshold between reality and imagination. Two contributions then widen the view beyond Europe: Amir Abbas Mansoori Mehr follows the translation of architectural knowledge in modern Iran through Beaux-Arts pedagogy, between Palladio and Persepolis; Pedro P. Palazzo compares the ways of representing space in fourteenth- and fifteenth-century China and Italy. What emerges is a Palladio understood not as a style to be exported, but as a method translated and transformed through contact with other traditions: a concrete case of the relationship between universal knowledge and local cultures at the heart of this issue."
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "David Moreno-García and Albert Samper use terrestrial laser scanning to compare ideal geometry and built reality in Gothic cathedrals. In both cases, survey makes measurable the distance between model and work, between rule and construction: the very distance that this editorial takes as the place of judgement."
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "The third line addresses the volume’s theme directly. Ricardo Alvarez-Diaz, “between measure and machine”, questions the relevance of Palladian methodologies in the age of artificial intelligence, in direct dialogue with the issues discussed in these pages. The issue includes with a contribution on heritage communities:: Viviana Matrangola interprets limits as a principle of care and responsibility. Within the framework of the Faro Convention (Council of Europe, 2005), the contribution assigns heritage communities an active role, as the experiences from Apulia discussed there show. It is a timely reminder for this editorial too: the traceability of judgement is, ultimately, a form of shared responsibility."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "Why Palladio, why now"
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "Discussing architectural drawing in the face of generative artificial intelligence today constantly risks sliding into technical territory (which software, which algorithms, which outputs) that overshadows the real stakes, which are historiographical before they are technological. The question is not whether a machine can produce plausible images of buildings, a question already largely answered in the affirmative, but whether drawing, in the disciplinary tradition that runs from Alberti to Palladio and on to contemporary design culture, has ever been reducible to the production of an image. To treat drawing as a mere executive technique is already to have decided, implicitly, that generative AI can replace it without residue, since what is purely technical is, by definition, automatable."
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "This essay starts from the opposite hypothesis: that drawing has historically been also, and above all, an instrument of thought, and that it is this dimension, not its visual rendering, that must be critically interrogated in the comparison with generative systems."
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "Turning to Palladio is motivated by a precise methodological reason. Palladio represents one of the best-documented cases in the discipline’s history in which a complete system of rules, measure, proportion, and typology coexists with a declared margin of adaptation to the specific case, without one cancelling the other. This coexistence of rule and variation is exactly what the contemporary debate on generative AI struggles to focus on, oscillating between a purely mechanical algorithm and an artificial creativity indistinguishable from human creativity. The essay proceeds in six steps: it recalls the humanist foundation of drawing as an instrument of measurement and thought (§1); reads Palladio’s treatise as an operation of selecting and normalising a corpus, analogous to dataset curation (§2); reconstructs the computational formalisation of Palladio’s system as a generative grammar and the notion of design space that derives from it (§3); identifies licence as the point at which the analogy ceases to hold (§4); compares this logic with the mediations introduced by digital tools and generative models (§5); and finally proposes a critical protocol and a pedagogical inversion (§6)."
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Drawing as thought: <em>lineamenta</em>, measure, projection"
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "Alberti’s distinction between <em>lineamenta</em> and <em>materia</em>, formulated in <em>De re aedificatoria</em>, provides the historical foundation for the reading proposed here. For Alberti, a building has a dual nature: a conceptual design, the <em>lineamenta</em>, which establishes its form, proportions and arrangement of parts independently of the material, the “transmissible rule”, and a material realisation that gives physical substance to that design (Alberti, 1485/1955; 1485/1966)."
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "From the Renaissance onward, the shift from manuscript to print-based architectural culture introduced new conditions for reproducing and transmitting design. The ability to disseminate drawings and texts in identical copies encouraged the systematisation of architectural rules, laying the groundwork for today’s interpretations of Palladio’s work through formal grammars (Carpo, 2001). In 1519, the <em>Letter to Leo X</em>, expressing Raphael’s thought and drafted with Baldassare Castiglione’s contribution, clearly distinguishes the architect’s drawing from the painter’s. The architect represents measurable reality through plans, elevations and sections, preserving actual proportions. The text therefore excludes the foreshortenings and perspective reductions proper to pictorial representation, since no real measurement can be derived from a foreshortened line (Di Teodoro, 2020). Architectural drawing thus emerges as an instrument of knowledge and project transmission, grounded in measurability and verifiability. It is no coincidence that the <em>Letter</em> is among the earliest attestations of the term “order” applied to columns: the passage from the Vitruvian <em>genus</em> to the <em>ordo</em> marks the transformation of the varieties of columns into a codified system of proportions and of compositional and constructional rules (Thoenes, 1998)."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "Drawing makes visible thought that is not yet formed: this is its eidetic dimension. In a narrower, disciplinary sense, the term denotes drawing’s capacity to make visible, and therefore available for analysis, a thought that, before its graphic translation, lacks a definite form. This reading finds a solid theoretical basis in Robin Evans’s analysis of projective drawing as an autonomous cognitive device, capable, through its three geometries, of producing spatial relationships that no preliminary verbal description already contained in explicit form: for Evans, drawing does not transmit a spatiality conceived elsewhere, but constitutes it in its own making (Evans, 1995). This eidetic dimension distinguishes architectural drawing from mere technical notation. Closely connected to the eidetic dimension is the heuristic function of drawing: its capacity to produce discoveries that the designer had not anticipated before drawing. Anyone who surveys an ancient building or graphically studies a façade’s proportions often finds that drawing, rather than preliminary observation or theoretical calculation, reveals an unforeseen geometric relationship. This heuristic must not be confused with the random generation of variants: heuristic discovery in manual drawing is always situated within a hypothesis that the designer is testing. Studies of design cognition have described this dynamic as a “reflective conversation” with the situation (Schön, 1983) and as a dialectic between “seeing as” and “seeing that”, through which the sketch returns to the designer more information than was deliberately put into it (Goldschmidt, 1991). It is this reciprocity, and not merely the capacity to produce variants, that is the true criterion of comparison with generative systems."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "2. What distinguishes a treatise of compositional rules from a model trained on a corpus?"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "A generative model (whether language- or image-based) produces plausible outputs by sampling from a probability distribution learned from a training corpus; a treatise such as <em>I quattro libri dell’architettura</em> produces, through the designer who applies it, typological variations from a finite set of selected rules, proportions and precedents. This resemblance is not an isolated intuition: in 1978 George Stiny and William J. Mitchell took literally Palladio’s own statement that variety and novelty must never contradict the precepts of the art, and translated it into a <em>shape grammar</em> capable of generating the plan of the Villa Malcontenta through the recursive application of explicit rules (Stiny &amp; Mitchell, 1978a). The research questions they asked, what makes a villa “Palladian”, and to what extent a system of rules can be translated into an architectural type, shift the focus from recognition to operation: a style derives not only from a set of visual features, but also from a set of operations. If a sixteenth-century treatise can be formalised as a generative system of rules, the question this essay asks is no longer merely rhetorical."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "A historiographical clarification is nevertheless needed. Palladio is neither the only nor chronologically the first to base design on explicit rules: from the Vitruvian tradition to the <em>Regola delli cinque ordini d’architettura</em> (Barozzi da Vignola, 1562), sixteenth-century culture knew modular procedures even more prescriptive, while the <em>Précis des leçons d’architecture</em> would turn the combinatorics of elements on a grid into an explicit teaching method (Durand, 1802–1805)."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "What makes the Palladian case exemplary is not absolute priority, but the coexistence, within a single corpus documented by treatise, drawings and buildings, of typological rule, proportional system and motivated variation: this is why it has become the privileged testing ground of computational design research (Mitchell, 1990). It is in this sense, and only in this sense, that the title speaks of “the first algorithm”. Palladio does not invent the rules he transmits: he extracts, selects and systematises them from a pre-existing corpus. Strictly speaking, this operation is dataset curation, and the most rigorous historiography indirectly confirms it."
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "Rudolf Wittkower, in his study of proportional relationships in humanist architecture, showed how selective and normative the criteria were by which Palladio harmonised ancient sources into a coherent system, and identified the plan’s configuration as the distinctive character of Palladio’s villas (Wittkower, 1949). Mario Carpo has reconstructed how the architectural culture of the age of print depended on the possibility of fixing <em>lineamenta</em> that were reproducible and identical at a distance, a thesis which, applied to the Palladian case, shows that the treatise does not describe antiquity as it was, but offers an already selected and normalised version of it, just as a training dataset is never a neutral sample of reality (Carpo, 2001, 2011)."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "Here, however, the analogy shows its first limit. The datasets on which contemporary image models are trained comprise billions of image–text pairs automatically scraped from the web and filtered by statistical criteria rather than authorial judgement: LAION-5B, one of the most widely used, contains about 5.85 billion image–text pairs (Schuhmann et al., 2022). The treatise is a corpus selected by an author who answers for it; the dataset is an aggregated corpus for which no one answers in full. In this sense, the difference in scale is already a difference in kind (Fig. 1)."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "Palladio inherits and specialises Alberti’s conception through a drawing practice that operates on three registers: survey, conjectural reconstruction and the type, abstracted from particular cases and transferable to new programmes. The proportional analysis that Wittkower carried out on this corpus, first in his systematic study of the architectural principles of the humanist age (1949) and later within the activities of the Centro Internazionale di Studi di Architettura Andrea Palladio (CISA), founded in Vicenza in 1958, showed how this threefold operation was guided by harmonic ratios derived from the Pythagorean–Vitruvian tradition and applied consistently across the corpus of villas."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "Later studies questioned this thesis, showing a discrepancy between the dimensions stated in the treatise and those of the buildings as built (Howard &amp; Longair, 1982), a discrepancy that, as we shall see, is integral to the argument. <em>I quattro libri dell’architettura</em> are often read as a catalogue of typological solutions to be drawn upon for stylistic emulation. This reading obscures their most important component: the treatise does not merely show results, but sets out the procedure that generated them. In chapter XX of the first book (“<em>De gli abusi</em>”), Palladio himself claims never to have departed from the universal rules of the art even where he introduced variety and novelty (“<em>ancora che il variare e trovar cose nuove a tutti debba piacere, non si deve però far ciò contra i precetti dell’arte, e contra quello che la ragione ci dimostra</em>” [although variation and the invention of new things should please everyone, this must not be done against the precepts of the art and against what reason shows us]; Palladio, 1570, I, XX), a methodological statement that George Stiny and William Mitchell took literally in 1978, turning this very passage into the premise of their <em>shape grammar</em>."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "3. The <em>Palladian Grammar</em>: from described style to generated style"
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "However, Stiny and Mitchell’s work matters beyond interpreting Palladio’s architecture. The question is broader: if an architectural style can be represented by a finite system of generative rules, then the design knowledge embedded in a historical corpus can be made explicit, formalised, and used not only to analyse existing buildings but also to produce new ones."
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "This approach belongs to the theory of <em>shape grammars</em>, introduced by Stiny and Gips in the early 1970s as a formalism for generating and analysing visual configurations. <em>Shape Grammars and the Generative Specification of Painting and Sculpture</em> is the immediate theoretical precedent (Stiny &amp; Gips, 1972); Stiny would later systematise the formalism in <em>Pictorial and Formal Aspects of Shape and Shape Grammars</em> (Stiny, 1975) and in <em>Introduction to Shape and Shape Grammars</em> (Stiny, 1980), up to the synthesis of <em>Shape: Talking about Seeing and Doing</em> (Stiny, 2006). The thesis of this essay is not that Palladio was an algorithm. Rather, it is a matter of recognising what in his method is already procedural and combinatorial, which makes it possible to isolate more precisely what is not: licence, deliberate error, critical judgement. Hence the rereading of Palladio’s proportional system as production rules."
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "The most complete demonstration of this mechanism remains Stiny and Mitchell’s shape grammar: a set of parametric rules that directly translates Palladio’s explicit compositional canons into a generative procedure capable of reproducing the main features of most of the plans drawn in the <em>Quattro libri</em> (Fig. 2)."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "The <em>Palladian Grammar</em> thus represents the decisive step from the general theory of <em>shape grammars</em> to their systematic application to architectural history and design. The fundamental theoretical move in Stiny and Mitchell’s work is shifting from a descriptive to a generative conception of style."
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "A traditional classification might define Palladio’s architecture through observable properties: symmetry; centrality; recurrence of specific proportions; presence of loggias and porticoes; hierarchy of rooms; specific dimensional relationships. A <em>shape grammar</em> works differently. It does not merely establish that a given configuration has these features; it seeks to specify the operations that generate such configurations. The model can be summarised as: initial shape - application of a rule - new configuration - application of a rule - … - final configuration. The theoretical consequence is significant: style is conceived not as a static repertoire of forms, but as a system of transformations."
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "In the <em>Palladian Grammar</em>, the rules operate mainly on the plan. Through successive transformations, they define the geometric structure, internal subdivisions, relationships between rooms and the main architectural elements. The grammar is parametric, so the rules do not necessarily produce a single configuration but can generate a family of variable configurations. This introduces a fundamental distinction in the history of computational design: the model does not represent a building, but the space of possible configurations obtainable through a set of rules. The rule in the Palladian villa is therefore a generative structure, expressed through the relationship between order and module and through volumetric variation. Palladio’s modular system works as a generative structure in the proper sense: once the module is fixed, it determines or tightly constrains a wide range of dimensional solutions. Stiny and Mitchell’s grammar showed that the “open space” of Palladio’s system is large but not infinite, and is precisely defined by the structure of the rules applied. Describing Palladio’s dimensional module as “classical inspiration” is as imprecise as describing an algorithm as “the programmer’s intuition”. The same mechanism was reconstructed by Lawrence Sass, first in his doctoral thesis at MIT and then at the 2001 ACADIA conference, by systematically comparing the dimensional ratios of Palladio’s rooms with the compositional rules of the plans, to the point of building digital parametric architectural elements directly derived from those proportions (Sass, 2000, 2001)."
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "In a separately published paper, <em>Counting Palladian Plans</em>, Stiny and Mitchell applied combinatorics and colour grammars to enumerate the solutions the system can generate: ten distinct solutions for a 3 × 3 grid, two hundred and twenty for a 5 × 3 grid (Stiny &amp; Mitchell, 1978b). Benrós, Duarte and Hanna (2012, p. 525) list the nine villas on which the original grammar is based: Malcontenta, Badoer, Zeno, Pisani, Emo, Saraceno, Ragona and Poiana on a 5 × 3 grid, and Villa Angarano on a 3 × 3 grid. Sass’s work extended the same parametric logic to villas on a 5 × 3 grid (Villa Poiana, Villa Zeno, Villa Thiene at Cicogna), building an experimental tool in which different hypotheses for filling documentary gaps could be tested."
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "The fact that alternative grammars, such as the subdivision grammar proposed by Deborah Benrós, were developed precisely to test whether different rule systems can generate the same corpus confirms that the space of Palladian possibilities is not arbitrary but measurable (Benrós et al., 2012). Along the same lines, Hersey and Freedman (1992) translated the rules derived from the <em>Quattro libri</em> into a computer program, generating “possible” Palladian villas and, instructively, some impossible ones, and showing that the capacity to produce coherent variants does not coincide with the capacity to recognise their appropriateness. The problem thus shifts from reconstructing a building to the combinatorics of design space. This shift is theoretically significant because it introduces the conception of the project as <em>design space</em>. The grammar makes it possible to distinguish at least three levels (Fig. 3):"
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "l-001",
+      "type": "listitem",
+      "text": "<em>historical corpus</em>: the buildings actually realised;"
+    },
+    {
+      "id": "l-002",
+      "type": "listitem",
+      "text": "<em>generative language</em>: the set of configurations admissible under the rules;"
+    },
+    {
+      "id": "l-003",
+      "type": "listitem",
+      "text": "<em>design space</em>: all configurations theoretically obtainable through combinations of the rules."
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "The relationship between these three levels is one of the most fertile themes of subsequent research. The historical corpus does not necessarily coincide with the full range of the grammar’s language: Palladio realised only some of the configurations the system would allow."
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "Consequently, the grammar implicitly introduces a distinction between what Palladio designed and what Palladio’s compositional system could have produced. This step is what makes the <em>shape grammar</em> relevant to contemporary generative design. The problem that emerges is immediate: if a grammar can generate many configurations, not all of them are necessarily good architecture. The grammar’s generative capacity must therefore be distinguished from the evaluation of the result. Stiny and Gips addressed this issue as early as 1978 in <em>An Evaluation of Palladian Plans</em>, proposing aesthetic evaluation criteria applied to the complete catalogues of plans that can be generated on 3 × 3 and 5 × 3 grids (Stiny &amp; Gips, 1978). This introduces a conceptual separation that remains fundamental in contemporary research: generation is distinct from evaluation. A grammar defines a space of possibilities; further criteria must establish which solutions are preferable. The <em>Palladian Grammar</em> can therefore be considered one of the first examples of a conceptual pipeline that, in modern terms, can be described as: <em>rules - generation - evaluation - selection</em>."
+    },
+    {
+      "id": "h-06",
+      "type": "heading",
+      "level": 2,
+      "text": "4. Error as a critical act: what the algorithm does not do"
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "Palladio’s system explicitly admits, in motivated circumstances, deviations from the norm that the treatise itself does not conceal. These licences are presented not as failures of the rule, but as the exercise of a judgement that the rule itself presupposes. Later shape grammar studies, such as the one based on an alternative subdivision grammar, had to confront precisely these cases of deviation in order to test whether different grammars could generate the same corpus of solutions (Benrós et al., 2012), a problem that remains unresolved precisely because Palladian licence cannot be codified once and for all. Palladio’s system can be described as a combinatorial structure: the shape grammar research community has recognised the Palladian Grammar as the first complete architectural grammar in the history of computational design studies. Hence the deliberately provocative hypothesis of a Palladian “algorithm” <em>avant la lettre</em>."
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "But it is essential not to confuse this structure with the mechanical seriality that the term “algorithm” evokes: through the designer’s judgement, Palladio’s system selects which variations are relevant to the specific case, a selection that no shape grammar has so far been able to formalise completely."
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "Sass’s study (2001) begins with the observation that Palladio’s built architecture differs systematically from the ideal architecture represented in the <em>Quattro libri</em> (Fig. 4), differences that scholars have analysed for generations to uncover their causes. In contemporary generative models, by contrast, output variability is governed by stochastic parameters: in language models, the “temperature”, which modulates the distribution from which the next token is sampled; in diffusion models, the initial noise (<em>seed</em>) and the strength of text guidance (<em>guidance scale</em>) (Rombach et al., 2022). Studies documenting the generative use of these systems also systematically record “failed” images, too abstract or too literal, an outcome that depends on the stochastic configuration of sampling, not on an evaluation of the specific circumstance (Tan &amp; Luhrs, 2024)."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "Intentional error, not the complexity of the rule system, is the true epistemic dividing line. A contemporary generative model introduces variability through a stochastic mechanism: it samples from a learned probability distribution. Palladio’s system, even in its most rigorous formalisation as a shape grammar, does not generate variants by random sampling: each rule application presupposes a decision that, in Stiny and Mitchell’s grammar, the human operator makes, not a random process internal to the system. The difference is not one of degree but of kind."
+    },
+    {
+      "id": "h-07",
+      "type": "heading",
+      "level": 2,
+      "text": "5. Drawing as mediation: tools, conventions, protocols"
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "Every drawing tool mediates between thought and representation: projective conventions already did so. Vector CAD and parametric BIM introduce further declared mediations; generative AI introduces a leap of a different kind, positioning itself as a proposing agent rather than a merely executive tool, within what Carpo (2017) has called a second digital turn, founded no longer on notation but on the processing of large quantities of data (cf. Leach, 2022). In <em>An Algorithmic Approach to Palladio’s Design of Stairs</em> (Giovannini, 2023), Elisabetta Caterina Giovannini translates the indications on staircases in Book I of the <em>Quattro libri dell’architettura</em> into geometric rules and algorithms for parametric HBIM modelling. By analysing texts and drawings, the study reconstructs the proportional relationships between steps, supports, and central voids. The study implements these relationships in Dynamo, the visual programming environment integrated into Revit, which lets users build algorithms by connecting graphical nodes without writing code, automate operations, and generate parametric models governed by geometric rules and proportional relationships. The paper shows the semi-automatic generation of six spiral and oval staircase configurations, adaptable to different dimensions. The research also examines 38 plans from Book II, classifies the staircases they contain, and compares them with the theoretical solutions. The corpus analysed shows no spiral staircases with a central newel, consistent with Palladio’s preference for a central void that admits light. The main contribution is to make Palladio’s proportional rules explicit, verifiable and reusable, laying the foundations for an HBIM library of architectural elements for research and teaching. The method creates a mediated protocol from the historical source to the HBIM model: the treatise becomes an operational basis for building adaptable, reusable digital elements. Modelling thus also takes on an interpretive function, making the geometric logic of Palladio’s staircases legible and verifiable. Generative models, by contrast, lack proportional intentionality. A shape grammar makes every generative step explicit and verifiable; a diffusion model leaves it implicit in the weights of a neural network, inaccessible to inspection of the same kind. The plausibility of a façade generated by a contemporary model derives from the frequency of similar patterns in the training data, not from an explicit calculation that establishes proportionality. The possible formalisations of a historical corpus are potentially many, but each is declared and refutable; the distribution learned by a model is not. However, recent pipelines tend to reintroduce drawing as a constraint. Conditioning techniques such as ControlNet let us guide a diffusion model with edges, depth maps, or perspective lines (Zhang et al., 2023): geometry returns upstream of generation, and the model acts on rendering, not structure. This development confirms, rather than refutes, the thesis advanced here: traceability is recovered only when drawing precedes the image."
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "A 2025 experiment that used GPT-4o and Claude 3.5 Sonnet for the three-dimensional synthesis of the Villa Rotonda and Palazzo Porto from the descriptions in the <em>Quattro libri</em> shows that both systems successfully generate the individual parts of the building but struggle to assemble them according to the required spatial relationships (Huang &amp; Haridis, 2025). The finding is telling: what is missing is not combinatorial capacity, but control over relationships, which is precisely what a grammar makes explicit. The dividing line therefore lies elsewhere: in the capacity to motivate a deviation from the rule as a response to a circumstance, making it a traceable act of judgement rather than a statistically plausible event."
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "Studies of Midjourney’s use in design practice, such as Tan and Luhrs (2024), document how the software accelerates ideation and enhances the architect’s divergent and convergent thinking. The generative model works as a mirror without heuristics: it returns non-trivial combinations of its training data, but without the question-and-answer relationship that characterises heuristic discovery. The reflection focuses on what we really lose: not the gesture’s uniqueness, but the responsibility of judgement. A systematic review published in 2026 on the use of generative AI as a conceptual partner in architecture, conducted according to PRISMA guidelines on forty studies published between 2015 and 2025, identifies a specific risk: not the replacement of the graphic gesture, but the erosion of students’ reflective engagement when AI acts as a substitute rather than as a partner in the ideation phase. If it occurs, the loss is epistemic: responsibility for judgement is silently delegated to a process that, by its nature, cannot account for it (Stanimirovic et al., 2026). The problem also has a properly disciplinary dimension. In the culture of heritage survey and representation, a drawing’s documentary value depends on declaring its sources, methods, and degree of uncertainty, a principle the <em>London Charter</em> has placed at the foundation of digital visualisation of cultural heritage (Denard, 2009). A generated image that takes on the appearance of a survey without being one produces evidence without provenance: a risk all the more serious when generative systems are used for conjectural reconstructions."
+    },
+    {
+      "id": "h-08",
+      "type": "heading",
+      "level": 2,
+      "text": "6. A critical protocol and a pedagogical inversion"
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "What remains after this twofold deconstruction is not a dismissal of the analogy between treatise and algorithm, but a more precise rehabilitation of the Palladian model. Palladio emerges as a historically exemplary case study, in which rule, measure and motivated variation coexist within a single documented corpus, and, today, as one of the most extensively studied cases in computational research and rule-based design. Its value for the present does not lie in any claim to have anticipated artificial intelligence, but in the clarity with which it shows where a system of rules ends and where judgement begins. On this basis, the proposal is to test a critical protocol that evaluates generative systems according to their capacity to accommodate licence and judgement, rather than according to the quantity or novelty of the variants they produce. The question to be asked of a generative tool is therefore not how many plausible solutions it can generate, but whether each solution can be related back to a rule, measured against it, and, where it departs from it, justified by a circumstance. A protocol for the critical use of generative systems should not assess outputs on the basis of their apparent originality, which in a stochastic process may be no more than an effect of sampling. It should assess them on the possibility of reconstructing, after generation, a chain of reasons that justifies their adoption: which data and instructions produced them, which rule they respond to, which deviations they introduce and who takes responsibility for accepting them. This is the same principle of transparency that the systematic review cited above identifies as a necessary condition for AI to function as a genuine critical partner rather than as a substitute for reflection (Stanimirovic et al., 2026). In operational terms, the protocol can be organised into five criteria (Fig. 5):"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "l-004",
+      "type": "listitem",
+      "text": "<em>Provenance</em>: declaration of the model and its version, of the reference images or data, of the <em>prompts</em> and of the generation parameters, so that the process is repeatable. This declaration is now also a legal obligation: the European regulation on artificial intelligence requires that content generated or manipulated by AI be identifiable as such (Regulation (EU) 2024/1689, Art. 50)."
+    },
+    {
+      "id": "l-005",
+      "type": "listitem",
+      "text": "<em>Rule</em>: explicit statement of the compositional or proportional rule (module, order, type, grid) against which the output is evaluated, so that conformity is not judged on appearance."
+    },
+    {
+      "id": "l-006",
+      "type": "listitem",
+      "text": "<em>Measure</em>: metric and projective verification of the output in plan, elevation and section, according to Raphael’s criterion of the unforeshortened line, before any aesthetic evaluation."
+    },
+    {
+      "id": "l-007",
+      "type": "listitem",
+      "text": "<em>Deviation</em>: documentation of every accepted deviation from the rule, with an indication of the circumstance that motivates it; a deviation that cannot be motivated is an error, not a licence."
+    },
+    {
+      "id": "l-008",
+      "type": "listitem",
+      "text": "<em>Responsibility</em>: explicit attribution of the final decision to an author, who answers for it as for their own drawing."
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "The resulting pedagogical inversion reverses the sequence now most common in design studios. Rather than starting with the generated image and then rationalising it, students start with drawing: they survey, redraw, and formalise the rules of a Palladian case (module, order, grid, room proportions) and then use the generative system to produce variants for verification. What is assessed is not the image, but the judgement dossier that accompanies each accepted or rejected variant. In this sequence, AI does not replace the reflective phase but makes it more demanding, serving as a <em>sparring partner</em> rather than a substitute (Stanimirovic et al., 2026). <em>Palladianist</em> intends to build its own experimentation on this model."
+    },
+    {
+      "id": "h-09",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusions"
+    },
+    {
+      "id": "p-040",
+      "type": "paragraph",
+      "text": "Generative AI does not threaten the traditional design method: it forces it, for the first time with comparable clarity, to declare what it has always been. The path followed here has gone through a deliberately uncomfortable sequence: recognising in Palladio a system of rules comparable to a curated dataset, already formalised as a generative grammar in 1978; isolating in module and order a mechanism quantifiable within its own combinatorial space; halting the analogy exactly at the point where it ceases to hold, licence: a point that today also finds empirical confirmation, both in the difficulty multimodal models have in governing the spatial relationships of a Palladian building and in the decline of students’ reflective engagement when AI replaces, rather than supports, the ideation phase. From Alberti’s <em>lineamenta</em> to Stiny and Mitchell’s computational formalisation of Palladio’s rules, through the experiments with multimodal models on the Villa Rotonda and Palazzo Porto, the same confirmation emerges: it is not the complexity of the rule system, but the traceability of motivated deviation, that distinguishes classical method from algorithmic calculation. This traceability is the critical guarantee on which a disenchanted, but not defeatist, use of generative AI in architecture can be built. At a time when access to information is growing faster than the capacity to interpret it, <em>Palladianist</em> asserts the role of scientific research, drawing and design culture as essential tools for shaping the future. Digitising heritage or automating processes is not enough: we must build cultural models that can govern technological transformation without renouncing historical depth, the complexity of thought, or the responsibility of design. The contemporary challenge is not to choose between tradition and innovation, but to found a new authority of knowledge in the age of artificial intelligence. From this perspective, Palladianist intends to operate as a critical, editorial, and scientific platform dedicated to building a future of digital awareness, in which technology once again becomes an instrument of culture, not a substitute for thought."
+    }
+  ],
+  "references": [
+    "Alberti, L. B. (1955). <em>Ten books on architecture</em> (J. Leoni, Trans.; J. Rykwert, Ed.). Alec Tiranti. (Original work published 1485)",
+    "Alberti, L. B. (1966). <em>L’architettura [De re aedificatoria]</em> [Architecture] (G. Orlandi, Ed. &amp; Trans.; P. Portoghesi, Intro. &amp; notes). Il Polifilo. (Original work published 1485)",
+    "Barozzi da Vignola, G. (1562). <em>Regola delli cinque ordini d’architettura</em> [Rule of the five orders of architecture]. [s.n.].",
+    "Benrós, D., Duarte, J. P., &amp; Hanna, S. (2012). A new Palladian shape grammar: A subdivision grammar as alternative to the Palladian grammar. <em>International Journal of Architectural Computing, 10</em>(4), 521–540. https://doi.org/10.1260/1478-0771.10.4.521",
+    "Carpo, M. (2001). <em>Architecture in the age of printing: Orality, writing, typography, and printed images in the history of architectural theory</em>. MIT Press.",
+    "Carpo, M. (2011). <em>The alphabet and the algorithm</em>. MIT Press.",
+    "Carpo, M. (2017). <em>The second digital turn: Design beyond intelligence</em>. MIT Press.",
+    "Council of Europe. (2005). <em>Council of Europe Framework Convention on the Value of Cultural Heritage for Society</em> (Council of Europe Treaty Series No. 199). Council of Europe.",
+    "Denard, H. (Ed.). (2009). <em>The London Charter for the computer-based visualisation of cultural heritage</em> (Version 2.1). King’s College London. https://www.londoncharter.org/",
+    "Di Teodoro, F. P. (Ed.). (2020). <em>Lettera a Leone X di Raffaello e Baldassarre Castiglione</em> [Letter to Leo X by Raphael and Baldassare Castiglione]. Leo S. Olschki.",
+    "Durand, J.-N.-L. (1802–1805). <em>Précis des leçons d’architecture données à l’École polytechnique</em> [Summary of the lectures on architecture given at the École polytechnique] (2 vols.). Chez l’auteur.",
+    "Evans, R. (1995). <em>The projective cast: Architecture and its three geometries</em>. MIT Press.",
+    "Giovannini, E. C. (2023). An algorithmic approach to Palladio’s design of stairs. <em>Nexus Network Journal, 25</em>(Suppl. 1), 293–301. https://doi.org/10.1007/s00004-023-00668-6",
+    "Goldschmidt, G. (1991). The dialectics of sketching. <em>Creativity Research Journal, 4</em>(2), 123–143. https://doi.org/10.1080/10400419109534381",
+    "Hersey, G., &amp; Freedman, R. (1992). <em>Possible Palladian villas (plus a few instructively impossible ones)</em>. MIT Press.",
+    "Howard, D., &amp; Longair, M. (1982). Harmonic proportion and Palladio’s Quattro Libri. <em>Journal of the Society of Architectural Historians, 41</em>(2), 116–143. https://doi.org/10.2307/989675",
+    "Huang, J., &amp; Haridis, A. (2025). <em>Evaluation of architectural synthesis using generative AI</em> (arXiv:2503.02861). arXiv. https://doi.org/10.48550/arXiv.2503.02861",
+    "Leach, N. (2022). <em>Architecture in the age of artificial intelligence: An introduction to AI for architects</em>. Bloomsbury Visual Arts.",
+    "Mitchell, W. J. (1990). <em>The logic of architecture: Design, computation, and cognition</em>. MIT Press.",
+    "Palladio, A. (1570). <em>I quattro libri dell’architettura</em> [The four books on architecture]. Dominico de’ Franceschi.",
+    "Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence (Artificial Intelligence Act). (2024). <em>Official Journal of the European Union</em>, L series, 12 July 2024. http://data.europa.eu/eli/reg/2024/1689/oj",
+    "Rombach, R., Blattmann, A., Lorenz, D., Esser, P., &amp; Ommer, B. (2022). High-resolution image synthesis with latent diffusion models. In <em>Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition</em> (pp. 10684–10695). IEEE.",
+    "Sass, L. (2000). <em>Reconstructing Palladio’s villas: An analysis of Palladio’s villa design and construction process</em> [Doctoral dissertation, Massachusetts Institute of Technology]. DSpace@MIT. http://hdl.handle.net/1721.1/32701",
+    "Sass, L. (2001). Reconstructing Palladio’s villas: A computational analysis of Palladio’s villa design and construction process. In <em>ACADIA 2001: Reinventing the discourse</em> (pp. 212–226). Association for Computer Aided Design in Architecture.",
+    "Schön, D. A. (1983). <em>The reflective practitioner: How professionals think in action</em>. Basic Books.",
+    "Schuhmann, C., Beaumont, R., Vencu, R., Gordon, C., Wightman, R., Cherti, M., Coombes, T., Katta, A., Mullis, C., Wortsman, M., Schramowski, P., Kundurthy, S., Crowson, K., Schmidt, L., Kaczmarczyk, R., &amp; Jitsev, J. (2022). LAION-5B: An open large-scale dataset for training next generation image-text models. In <em>Advances in Neural Information Processing Systems 35</em> (NeurIPS 2022, Datasets and Benchmarks Track). Curran Associates.",
+    "Stanimirovic, M., Momcilovic Petronijevic, A., Stoiljkovic, B., Kondic, S., &amp; Nikolic, B. (2026). AI sparring in conceptual architectural design: A systematic review of generative AI as a pedagogical partner (2015–2025). <em>Buildings, 16</em>(3), Article 488. https://doi.org/10.3390/buildings16030488",
+    "Stiny, G. (1975). <em>Pictorial and formal aspects of shape and shape grammars</em>. Birkhäuser.",
+    "Stiny, G. (1980). Introduction to shape and shape grammars. <em>Environment and Planning B, 7</em>(3), 343–351. https://doi.org/10.1068/b070343",
+    "Stiny, G. (2006). <em>Shape: Talking about seeing and doing</em>. MIT Press.",
+    "Stiny, G., &amp; Gips, J. (1972). Shape grammars and the generative specification of painting and sculpture. In C. V. Freiman (Ed.), <em>Information processing 71</em> (pp. 1460–1465). North-Holland.",
+    "Stiny, G., &amp; Gips, J. (1978). An evaluation of Palladian plans. <em>Environment and Planning B, 5</em>(2), 199–206. https://doi.org/10.1068/b050199",
+    "Stiny, G., &amp; Mitchell, W. J. (1978a). The Palladian grammar. <em>Environment and Planning B, 5</em>(1), 5–18. https://doi.org/10.1068/b050005",
+    "Stiny, G., &amp; Mitchell, W. J. (1978b). Counting Palladian plans. <em>Environment and Planning B, 5</em>(2), 189–198. https://doi.org/10.1068/b050189",
+    "Tan, L., &amp; Luhrs, M. (2024). Using generative AI Midjourney to enhance divergent and convergent thinking in an architect’s creative design process. <em>The Design Journal, 27</em>(4), 677–699. https://doi.org/10.1080/14606925.2024.2353479",
+    "Thoenes, C. (1998). <em>Sostegno e adornamento: Saggi sull’architettura del Rinascimento. Disegni, ordini, magnificenza</em> [Support and adornment: Essays on Renaissance architecture]. Electa.",
+    "Wittkower, R. (1949). <em>Architectural principles in the age of humanism</em>. Warburg Institute.",
+    "Zhang, L., Rao, A., &amp; Agrawala, M. (2023). Adding conditional control to text-to-image diffusion models. In <em>Proceedings of the IEEE/CVF International Conference on Computer Vision</em> (pp. 3836–3847). IEEE."
+  ]
+}
