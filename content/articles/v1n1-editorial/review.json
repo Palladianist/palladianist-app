@@ -3,11 +3,13 @@
     "status": "imported"
   },
   "translation_it": {
-    "status": "draft",
-    "model": "Claude"
+    "status": "reviewed",
+    "model": "Claude",
+    "reviewedBy": "Giuseppe Amoruso",
+    "reviewedOn": "2026-11-12"
   },
   "faq": {
-    "status": "draft",
+    "status": "reviewed",
     "langs": [
       "en",
       "it"
