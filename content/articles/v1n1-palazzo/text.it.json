@@ -2,72 +2,300 @@
   "articleId": "v1n1-palazzo",
   "lang": "it",
   "source": "text.en.json",
-  "translation": {"method": "AI-assisted (Claude) con glossario disciplinare", "status": "draft", "reviewedBy": null, "reviewedOn": null},
+  "translation": {
+    "method": "AI-assisted (Claude) con glossario disciplinare",
+    "status": "reviewed",
+    "reviewedBy": "Giuseppe Amoruso",
+    "reviewedOn": "2026-11-22"
+  },
   "translationNotes": "Punti da verificare con l'autore nell'originale: (1) in p-005 Dong è indicato come Fig. 1 e Vasari come Fig. 2, ma le didascalie dicono il contrario; (2) la numerazione delle sezioni salta da 2 a 4 («4. Form and formlessness»); (3) «homeotropic/heterotropic» in p-021 è reso con «omeotropo/eterotropo», come nell'originale (forse si intendeva «isotropo/anisotropo»); (4) in p-013 Zhou Wenju (917–975) è detto pittore di corte Tang (618–907). La traduzione segue l'originale in tutti e quattro i casi.",
   "title": "Lo spazio nella pittura classica cinese e italiana. Dispositivi concettuali e geometrici del tardo Rinascimento",
   "abstract": [
-    "L'articolo propone uno sguardo comparativo sullo sviluppo delle rappresentazioni dello spazio architettonico e dello spazio aperto nella pittura e nel disegno cinesi e italiani. Gli storici dell'architettura hanno a lungo discusso il concetto di spazio nell'ambito delle teorie della percezione e della cognizione estetica. I loro lavori, tuttavia, hanno legato lo studio della concezione spaziale a nozioni estranee come la libertà artistica, e a una visione teleologica del Moderno come fine (e scopo) di ogni sviluppo spaziale in architettura e nella sua rappresentazione artistica. Esaminare la rappresentazione dello spazio nell'arte premoderna permette di comprendere l'articolazione spaziale nell'architettura, nel disegno urbano e del paesaggio nei termini delle culture che l'hanno prodotta, liberi dai presupposti della teoria moderna. L'arte cinese e italiana del Trecento e del Quattrocento, vista attraverso gli occhi dei critici del Cinquecento, è particolarmente rilevante per uno studio di questo tipo: entrambe le tradizioni fecero i conti con il proprio passato alla luce degli sforzi contemporanei di affermare nuovi sistemi di governo del territorio e di definire il rapporto tra approccio tecnico e approccio da gentiluomo all'arte e all'architettura. Attraverso lo studio di alcune opere canoniche di rappresentazione bidimensionale dello spazio, l'articolo esplora concetti come vuoto e forma, profondità e bassa profondità, e il loro significato politico e culturale in entrambe le società."
+    "L'articolo propone uno sguardo comparativo sullo sviluppo delle rappresentazioni dello spazio architettonico e dello spazio aperto nella pittura e nel disegno cinesi e italiani. Gli storici dell'architettura hanno a lungo discusso il concetto di spazio nell'ambito delle teorie della percezione e della cognizione estetica. I loro lavori, tuttavia, hanno legato lo studio della concezione spaziale a nozioni estranee come la libertà artistica, e a una visione teleologica del Moderno come fine (e scopo) di ogni sviluppo spaziale in architettura e nella sua rappresentazione artistica. Esaminare la rappresentazione dello spazio nell'arte premoderna permette di comprendere l'articolazione spaziale nell'architettura, nel disegno urbano e del paesaggio nei termini delle culture che l'hanno prodotta, liberi dai presupposti della teoria moderna. L'arte cinese e italiana del Trecento e del Quattrocento, vista attraverso gli occhi dei critici del Cinquecento, è particolarmente rilevante per uno studio di questo tipo: entrambe le tradizioni fecero i conti con il proprio passato alla luce degli sforzi contemporanei di affermare nuovi sistemi di governo del territorio e di definire il rapporto tra l'approccio tecnico e quello da gentiluomo all'arte e all'architettura. Attraverso lo studio di alcune opere canoniche di rappresentazione bidimensionale dello spazio, l'articolo esplora concetti come vuoto e forma, profondità e bassa profondità, e il loro significato politico e culturale in entrambe le società."
   ],
-  "keywords": ["Spazio architettonico", "prospettiva", "storia culturale", "Cina", "Italia"],
+  "keywords": [
+    "Spazio architettonico",
+    "prospettiva",
+    "storia culturale",
+    "Cina",
+    "Italia"
+  ],
   "blocks": [
-    {"id": "h-01", "type": "heading", "level": 2, "text": "Introduzione"},
-    {"id": "p-001", "type": "paragraph", "text": "Lo studio comparato dell'arte e dell'architettura aiuta a chiarire i tratti particolari che distinguono culture e periodi storici. Benché negli ultimi decenni gran parte degli studi si sia specializzata nell'analisi dettagliata entro confini culturali specifici o, al più, negli scambi culturali documentati da fonti testuali, il confronto interculturale dei metodi artistici può accrescere la nostra consapevolezza delle preferenze e delle tecniche adottate in contesti diversi. È il caso dello studio di come l'arte cinese e quella italiana del Trecento e del Quattrocento affrontarono il problema di mostrare lo spazio tridimensionale sulla superficie bidimensionale di disegni e dipinti figurativi. I dialoghi su <em>Raffaello e Zhang Zeduan</em> promossi dalla Pinacoteca di Brera nel 2020 (Bradburne, 2020) costituiscono un precedente prezioso per un simile approccio."},
-    {"id": "p-002", "type": "paragraph", "text": "Questo studio esplora la costruzione dello spazio nella pittura cinese e italiana a partire dagli scritti di due artisti, critici e storici successivi: Dong Qichang e Giorgio Vasari (Vasari, 1568/1991; per Dong si veda Cahill, 1978). Indaga i diversi dispositivi rappresentativi che, all'epoca di questi critici, vennero considerati i tratti distintivi delle due culture artistiche: la manipolazione dello spazio vuoto sul piano pittorico cinese e la costruzione della prospettiva geometrica nelle scene italiane. L'impiego di questi dispositivi in pittura comportava tuttavia contraddizioni pittoriche e concettuali insite nei loro stessi principi. Il modo in cui artisti e critici in Cina e in Italia riconobbero queste contraddizioni e lavorarono con esse illumina la crescente considerazione dell'arte come attività intellettuale e del mestiere dell'artista come corpo di sapere teorico nel Cinquecento e nel Seicento."},
-    {"id": "p-003", "type": "paragraph", "text": "La raffigurazione dello spazio in pittura e nel disegno fu una preoccupazione centrale delle scuole formaliste della storiografia artistica. Benché approcci (più o meno) deterministici come quello di Wölfflin (1950) siano stati screditati o resi superati, alcuni testi della prima metà del Novecento continuano a pesare, sia pure in modo sotterraneo, sulla nostra comprensione dello spazio architettonico e del suo significato per la storia dell'arte. Tra questi vi sono l'interpretazione di Panofsky (1997) della rappresentazione dello spazio in prospettiva lineare come portatrice di significato simbolico e, soprattutto, la teoria di Schmarsow (Schwarzer &amp; Schmarsow, 1991), poi sviluppata da Bruno Zevi e da Argan (1961/1973), secondo cui l'evoluzione della coscienza spaziale è l'indicatore del mutamento storico in architettura."},
-    {"id": "p-004", "type": "paragraph", "text": "Questo studio procede, secondo la definizione di Kita (1999), per antologia o, nei termini di Gombrich (1996), raccogliendo i sintomi di una sindrome culturale anziché cercare un rapporto deterministico di causa ed effetto. Ciò perché l'argomentazione dell'articolo si fonda su sperimentazioni con metodi di rappresentazione dello spazio che, come Scott (1914) avvertiva a proposito delle interpretazioni dell'architettura del Rinascimento, non possono essere pensate come una ricerca teleologica di una soluzione prestabilita. Inoltre, Evans (1995) ci ricorda che l'apparente unità delle composizioni classiche è un risultato brillante ma artificioso, fatto di applicazioni contraddittorie di un principio di fondo. È questa tensione – da un lato tra ricerche intellettuali diffuse in un dato periodo storico e contesto culturale, dall'altro tra la necessità di rendere conto delle difficoltà tecniche o concettuali che sorgono dalla loro attuazione – a dare il proprio carattere distintivo alle rappresentazioni cinesi e italiane dello spazio dal Trecento al Cinquecento."},
-    {"id": "h-02", "type": "heading", "level": 2, "text": "1. Spazio intellettuale"},
-    {"id": "p-005", "type": "paragraph", "text": "Lo sviluppo di metodi distinti per raffigurare o proiettare lo spazio sul piano pittorico, e persino l'ascesa e il declino dell'interesse per la ricerca di tali metodi, restano rilevanti nello studio comparato della storia dell'arte. Ancor più, l'influenza reciproca dell'articolazione spaziale nell'arte pittorica e nell'architettura (compreso il disegno del paesaggio) rende visibili attraverso le opere sfide tecniche e interessi intellettuali. Questa rilevanza fu costruita dallo sguardo retrospettivo di autori di storia e teoria dell'arte in periodi successivi dell'arte cinese e italiana: il pittore della tarda dinastia Ming (1368–1644) Dong Qichang (1555–1636, Fig. 1) e il pittore e architetto fiorentino Giorgio Vasari (1511–1574, fig. 2), che fissarono entrambi un canone di interessi per soggetti e metodi di raffigurazione. La storia e la teoria della pittura di paesaggio di Dong, attente al ruolo dell'intuizione nell'apprezzamento e nella rappresentazione del paesaggio a partire dalla dinastia Song (960–1279), sono divenute note ai lettori occidentali in parte grazie a Cahill (1978). Vasari, a sua volta, si interessava all'evoluzione della tecnica artistica in Italia dal periodo gotico (fine del Duecento) fino al proprio tempo, la metà del Cinquecento."},
-    {"id": "f-01", "type": "figure", "ref": "fig-1"},
-    {"id": "f-02", "type": "figure", "ref": "fig-2"},
-    {"id": "p-006", "type": "paragraph", "text": "Negli scritti di Vasari come in quelli di Dong, l'interesse per le opere degli artisti precedenti era legato alla preoccupazione per lo stato presente dell'arte. Fu con questo intento che Dong raggruppò la pittura di paesaggio della dinastia Song in due «scuole», quella del Nord e quella del Sud. La distinzione non era geografica, ma si fondava su modi diversi di rappresentare la profondità spaziale nel paesaggio. Essa si basava a sua volta su un'analogia con le scuole filosofiche Chan (Zen) del Nord e del Sud."},
-    {"id": "p-007", "type": "paragraph", "text": "Questa distinzione apparentemente tecnica era anche un argomento politico. Come molti suoi contemporanei della tarda dinastia Ming, Dong guardava alla dinastia Song come a un'età dell'oro della cultura e della società, e alla sua arte come al modello classico da seguire per gli artisti contemporanei. Le categorie storico-artistiche di Dong celebravano inoltre l'ascesa dei <em>letterati</em>, artisti gentiluomini di etnia Han come lui, a scapito dei pittori di corte, che a posteriori vennero associati al servizio professionale presso la successiva dinastia Yuan (mongola). Questa narrazione faceva da contrappunto ai tempi turbolenti di Dong, quando la dinastia Ming era sotto una pressione crescente sia da parte di un'altra potenza straniera, i Manciù, che avrebbero infine invaso la Cina a partire dal 1644, sia per le inefficienze della stessa amministrazione Ming, di cui Dong faceva parte. Il suo racconto di un'età precedente di splendore artistico oscurata da un crollo imminente era dunque un modello per il proprio tempo, e non solo in senso estetico."},
-    {"id": "p-008", "type": "paragraph", "text": "Per cogliere la consapevolezza di Dong di vivere in un periodo «tardo» dell'arte e della storia, contrapposto all'età «alta» della pittura classica, dobbiamo quindi comprendere che lo spazio pittorico di quell'età classica era per lui più un concetto filosofico che un dispositivo geometrico. La raffigurazione dello spazio nei dipinti di paesaggio era il cuore della definizione delle scuole pittoriche del Nord e del Sud data da Dong. Di conseguenza, Dong caratterizzava la scuola del Nord come quella che rappresentava lo spazio con un graduale accumulo di strati dal primo piano al piano intermedio e allo sfondo, come nel rotolo verticale di Juran (attivo ca. 960–980) <em>Alla ricerca del Tao nei monti d'autunno</em> (Fig. 3). Ciò ricordava il paesaggio ondulato della Cina centro-settentrionale ma, cosa più importante, l'approccio graduale della scuola Chan del Nord al raggiungimento dell'illuminazione buddhista. I dipinti della scuola del Sud, come <em>Inizio di primavera</em> di Guo Xi (ca. 1020–ca. 1090) (Fig. 4), sono invece caratterizzati da un salto improvviso da un piccolo primo piano a montagne torreggianti sullo sfondo, separando i due piani con un vuoto colmo di nebbia. La somiglianza con le cime erose tipiche di alcuni paesaggi della Cina meridionale conta meno dell'analogia con l'approccio intuitivo all'illuminazione della scuola Chan del Sud, che si diceva provenire da un risveglio improvviso più che da una comprensione graduale."},
-    {"id": "f-03", "type": "figure", "ref": "fig-3"},
-    {"id": "f-04", "type": "figure", "ref": "fig-4"},
-    {"id": "p-009", "type": "paragraph", "text": "Dong riteneva superiore la scuola del Sud, poiché la somiglianza che vi scorgeva con l'illuminazione intuitiva offriva un comodo parallelo al suo ideale dell'artista gentiluomo che raggiunge la perfezione estetica attraverso una sensibilità coltivata più che con lo sforzo tecnico. In ogni caso, i dipinti di entrambe le scuole prendevano il nome dagli oggetti fisici che vi comparivano: montagne, corsi d'acqua e così via. Eppure il loro tratto più distintivo, quello con cui Dong separava le due scuole, non era la raffigurazione delle cose, ma il carattere dello spazio vuoto tra le cose. Inoltre, quando l'ordine della dinastia Song si dissolse e la dinastia Yuan emarginò la classe dirigente di etnia Han, gli studiosi Han si ritirarono in attività intellettuali e artistiche. <em>Letterato disteso che osserva le nuvole che salgono</em> di Ma Lin (c. 1185–dopo il 1260) (Fig. 5) esemplifica quella che secondo Lee &amp; Ho (1964) fu la risposta lirica e introspettiva alla progressiva dissoluzione della società cinese classica."},
-    {"id": "f-05", "type": "figure", "ref": "fig-5"},
-    {"id": "p-010", "type": "paragraph", "text": "La contemplazione dello spazio vuoto attraverso la pittura acquistò così un prestigio ancora maggiore come espressione di menti colte e libere, sostenuta dalla crescente popolarità del buddhismo Chan (Ortiz, 1999, p. 7). È difficile non notare il parallelo tra l'ideale di Dong Qichang dell'intuizione apparentemente senza sforzo dell'artista gentiluomo che contempla ed esprime lo spazio e l'ideale della <em>sprezzatura</em> del gentiluomo proposto da Baldassare Castiglione, il celebre cortigiano del Rinascimento, amico e collaboratore di Raffaello. L'equivalente artistico della <em>sprezzatura</em> nel contegno era l'idea di equilibrio statico che Wölfflin (1888) vedeva nella pittura del pieno Rinascimento, anche quando il soggetto poteva sembrare in contrasto con l'equilibrio o la quiete. Evans (1995) ha sostenuto che, nello spazio pittorico dell'affresco di Raffaello <em>Disputa del Sacramento</em>, completato nel 1510 (Fig. 6), l'apparenza di una stabilità pittorica senza sforzo nel conciliare costruzioni prospettiche contraddittorie e centri d'interesse in competizione era la chiave della strategia compositiva dell'affresco."},
-    {"id": "f-06", "type": "figure", "ref": "fig-6"},
-    {"id": "p-011", "type": "paragraph", "text": "L'artista del Rinascimento italiano cercava di raggiungere un carattere signorile di quiete senza sforzo attraverso lo studiato artificio di punti di vista contraddittori nello spazio pittorico. Allo stesso modo, il gentiluomo cinese rivendicava il più alto status artistico affermando che l'apparenza di un'intuizione senza sforzo era la massima conquista della pittura. Inoltre, in entrambi i casi il concetto intellettuale di spazio riguardava un mutamento dello stato spirituale dell'osservatore attraverso la contemplazione del dipinto: dalla realtà materiale all'introspezione immateriale o alla contemplazione spirituale."},
-    {"id": "h-03", "type": "heading", "level": 2, "text": "2. Spazio geometrico"},
-    {"id": "p-012", "type": "paragraph", "text": "Lo sviluppo di tecniche geometriche per raffigurare lo spazio sul piano pittorico comportò, in Cina come in Italia, compromessi tra possibilità rappresentative acquisite e perdute. La comparsa di uno spazio articolato nella pittura cinese risale ai rilievi rupestri e alle pitture delle tombe della dinastia Han (206 a.C.–220 d.C.) (Soullière, 2018) (le pitture precedenti erano spesso realizzate su supporti deperibili, come i dipinti a inchiostro su tessuto o legno, oppure erano pitture murali in palazzi poi distrutti, e quindi non sono sopravvissute)."},
-    {"id": "p-013", "type": "paragraph", "text": "In queste scene antiche (X. Liu, 2002, p. 48) l'architettura aveva un ruolo di primo piano come mezzo per organizzare la collocazione e l'importanza di personaggi ed episodi entro una scena narrativa più ampia. Sviluppi successivi chiarirono la struttura spaziale. Pittori di corte della dinastia Tang (618–907) come Zhou Wenju (917–975) (Fig. 7) usarono l'architettura, ora rappresentata in proiezione cavaliera, come struttura spaziale e simbolica per separare con maggiore efficacia gruppi di personaggi ed episodi narrativi. In questi racconti pittorici lo spazio vuoto acquistò una forma sempre più definita, delimitata da edifici e gruppi di figure."},
-    {"id": "f-07", "type": "figure", "ref": "fig-7"},
-    {"id": "p-014", "type": "paragraph", "text": "Il quadro teorico coevo in cui si sviluppò questa tecnica geometrica è uno dei temi più spinosi degli studi sull'arte cinese (per una rassegna della letteratura su questa controversia si veda Bush, 2012b). Ciò che interessa qui è notare, seguendo Bush (2012b, p. 10), che «gli aspetti non formali e persino non tecnici di quest'arte» ebbero presto la precedenza sulla costruzione geometrica dei disegni. Gli edifici furono così liquidati sbrigativamente in un antico trattato, il <em>Saggio sulla pittura</em> di Gu Kaizhi della fine del IV secolo, come compiti poco impegnativi che richiedevano soltanto tempo per essere portati a termine (citato in Bush, 2012a, p. 24)."},
-    {"id": "p-015", "type": "paragraph", "text": "Questa precedenza dell'espressione non geometrica sulla forma geometrica continuò a pesare sulla successiva interpretazione della pittura cinese da parte di Dong, e aiuta a spiegare perché non ci siano pervenuti scritti che discutano la prospettiva cavaliera, a fronte dell'ampio corpus di testi europei sulla prospettiva lineare."},
-    {"id": "p-016", "type": "paragraph", "text": "Fu dunque nel corso dello sviluppo della pittura cinese di paesaggio sotto le dinastie Song e Yuan, e della sua rinascita sotto i Ming, che la teoria non formale dell'arte divenne canonica. Lungo questi periodi l'abilità artistica si fondava sulla manipolazione raffinata dello spazio lasciato come distesa bianca di nebbia sul rotolo, mentre la perizia geometrica dimostrata dai pittori di corte professionisti, capaci di costruire proiezioni cavaliere di grande complessità e chiarezza, finì per essere considerata un'abilità minore."},
-    {"id": "p-017", "type": "paragraph", "text": "Nella pittura italiana dal Trecento al Cinquecento emerse invece progressivamente un corpus di tecniche per ritrarre la geometria dello spazio da un dato punto di vista, e questo venne considerato una delle più alte conquiste dell'arte. Gli autori italiani da Alberti a Vasari sembrano però non essersi accorti che era lo spazio stesso ciò che la prospettiva lineare consentiva agli artisti di rappresentare, e insistettero piuttosto sulla struttura geometrica degli oggetti fisici contemplati singolarmente (Elkins, 1992)."},
-    {"id": "p-018", "type": "paragraph", "text": "Soprattutto nel caso dell'affresco, l'incongruenza geometrica tra lo spazio architettonico in cui la posizione dell'osservatore cambia di continuo e le molteplici costruzioni prospettiche del dipinto crea una tensione che le tecniche di proiezione geometrica allora in via di sviluppo cercarono di risolvere, ad esempio nella <em>Trinità</em> di Masaccio (1401–1428) (Fig. 8)."},
-    {"id": "f-08", "type": "figure", "ref": "fig-8"},
-    {"id": "p-019", "type": "paragraph", "text": "Questa tensione è spesso mascherata dalla chiarezza con cui gli artisti del Rinascimento manipolavano lo spazio architettonico e pittorico, conferendogli un'apparenza imperiosa di unità. Ciò fu in parte il risultato di scelte tecniche che imponevano una separazione sempre più rigorosa tra punti di vista incompatibili."},
-    {"id": "p-020", "type": "paragraph", "text": "L'elaborazione, nella generazione di Raffaello, di una teoria di piante, alzati e prospettive architettoniche non fu dunque una lettura incidentale di Vitruvio, ma una necessità tecnica per dotare ogni tipo di disegno di una propria coerenza geometrica, sottraendo allo sguardo diretto problemi come dove si trovi il centro effettivo di una chiesa a pianta centrale (Evans, 1995). Questa articolazione concettuale imperfetta travestita da perfezione formale è, come Scott (1914) intuì, la natura dell'architettura umanistica, più che una corsa verso un traguardo definito di perfezione classica. Eppure nella necessaria incompiutezza di questo sistema risiede la natura dello spazio così come lo intendevano gli artisti del Rinascimento."},
-    {"id": "p-021", "type": "paragraph", "text": "La nostra concezione idealistica dello spazio architettonico come coscienza che si sviluppa gradualmente nel corso della storia, ereditata da Schmarsow e ancor più esplicitamente da Zevi, è in contrasto con essa, ed è per questo che fatichiamo a percepire la tensione originaria. Il nostro concetto moderno di spazio (Pérez-Gómez, 1983) è infatti l'estensione infinita e omeotropa ereditata dalla <em>res extensa</em> cartesiana. In questo tipo di spazio il compito dell'architettura è disporre oggetti – la griglia strutturale, le partizioni, gli arredi – per organizzare la realtà preesistente dell'estensione spaziale. Più esplicitamente, le teorie e i progetti dell'architettura moderna hanno sottolineato che lo scopo dell'architettura moderna è accrescere la percezione di questa continuità spaziale ed evitare di turbarla con forme geometriche precostituite, come affermava Argan (1961/1973). Lo spazio rinascimentale ha invece la natura di un luogo eterotropo portato all'esistenza dall'atto del <em>disegno</em> architettonico. L'architetto e teorico Krier (1988) è giunto ad affermare che avere una forma definita, che la distingue dal vuoto informe, è la ragion d'essere stessa dell'architettura."},
-    {"id": "h-04", "type": "heading", "level": 2, "text": "4. Forma e assenza di forma"},
-    {"id": "p-022", "type": "paragraph", "text": "Dopo la dinastia Tang, la pittura narrativa di corte come impresa tecnica perse gradualmente favore in Cina a vantaggio della pittura di paesaggio come attività da letterati (J. Liu, 2003). Fu tuttavia la successiva dinastia Song a produrre il capolavoro della pittura narrativa cinese, <em>Lungo il fiume durante la festa di Qingming</em> di Zhang Zeduan (1085–1145) (Fig. 9). Il dipinto era così celebre che ne furono commissionate copie sotto le successive dinastie Ming e Qing (1644–1912)."},
-    {"id": "f-09", "type": "figure", "ref": "fig-9"},
-    {"id": "p-023", "type": "paragraph", "text": "Qui la pittura di corte si presentava sotto una nuova veste: quella del sovrano virtuoso ritratto non direttamente, ma attraverso la rappresentazione della società nel suo insieme, che funziona in modo ordinato (la parola <em>Qingming</em> può indicare una festività specifica, la sua stagione in generale, oppure i concetti di purezza e chiarezza, tenuti in gran conto dai sovrani cinesi), con il nuovo gusto per i vasti paesaggi come sfondo. È utile tracciare un parallelo tra il rotolo del <em>Qingming</em> e le allegorie del buono e del cattivo governo di Ambrogio Lorenzetti (attivo 1317–1348) nel Palazzo Pubblico di Siena (Fig. 10). Anche negli affreschi senesi lo spazio è messo al servizio della narrazione e, come nel rotolo del <em>Qingming</em>, deve organizzare una miriade di episodi distinti in una sequenza visiva ininterrotta. La pittura gotica offre una lettura del significato spaziale diversa da quella di Panofsky, che vedeva la prospettiva lineare come «forma simbolica». L'articolazione spaziale di un dipinto narrativo gotico si discosta anche dalla sua tesi secondo cui l'architettura gotica sarebbe parallela all'organizzazione del discorso scolastico."},
-    {"id": "f-10", "type": "figure", "ref": "fig-10"},
-    {"id": "p-024", "type": "paragraph", "text": "Trachtenberg (2010) ha mostrato come questa architettura possa essere interpretata non tanto come un argomento retorico chiuso, composto di parti definite, quanto come un'operazione formale aperta regolata da un metodo proporzionale."},
-    {"id": "p-025", "type": "paragraph", "text": "Allo stesso modo, i grandi dipinti narrativi come gli affreschi senesi erano strutturati in modo da consentire un flusso narrativo aperto. Ciò che teneva insieme questo tipo di composizione era dunque la sua flessibile struttura spaziale. A differenza della pittura di corte cinese, che unificava una composizione episodica mediante la regolarità geometrica della proiezione cavaliera, la pittura gotica italiana rinunciava a qualsiasi geometria spaziale evidente e deterministica. Lo sviluppo graduale della prospettiva a punto di fuga nel corso del Quattrocento ottenne però una rappresentazione unitaria dello spazio e degli oggetti al suo interno. Lo fece, tuttavia, al prezzo di rinunciare alla possibilità di una pittura narrativa composta di episodi concatenati. Per superare questo limite, artisti come Beato Angelico (Fig. 11) e Piero della Francesca (Fig. 12) inventarono un dispositivo pittorico per separare momenti o scene all'interno delle loro composizioni, che Schumacher (1987) ha chiamato divisione tra spazio profondo e spazio poco profondo."},
-    {"id": "f-11", "type": "figure", "ref": "fig-11"},
-    {"id": "f-12", "type": "figure", "ref": "fig-12"},
-    {"id": "p-026", "type": "paragraph", "text": "Le sperimentazioni sull'articolazione spaziale nella pittura cinese si allontanarono invece dal rigore di una proiezione geometrica, benché la proiezione cavaliera offrisse una flessibilità narrativa maggiore della prospettiva lineare. Nel corso del Duecento e del Trecento i grandi dipinti verticali di paesaggio che mostravano scenari monumentali lasciarono il posto a piccoli dipinti all'incirca quadrati che offrivano scorci di luoghi o, più precisamente, suggerivano esperienze estetiche, in parte o persino in gran parte velate dalla nebbia. Questa tendenza procedeva di pari passo con la crescente importanza attribuita all'esperienza unitaria di guardare il paesaggio, dipingerlo, guardare i dipinti e scrivere (poesie) sui dipinti, come massima manifestazione di cultura e sensibilità da parte dei <em>letterati</em> agiati."},
-    {"id": "h-05", "type": "heading", "level": 2, "text": "Conclusioni"},
-    {"id": "p-027", "type": "paragraph", "text": "Nelle culture artistiche della Cina e dell'Italia il concetto di spazio restò implicito negli scritti teorici e critici. Abbiamo visto tuttavia come i modi mutevoli di mostrare lo spazio nelle composizioni pittoriche illuminino le preoccupazioni esplicite dei critici successivi, Dong Qichang e Giorgio Vasari. Abbiamo esplorato due linee principali di questo mutamento. Da un lato, una comprensione intellettuale dello spazio privilegiava, in Cina come in Italia, l'uso delle opere d'arte come supporti per la contemplazione di realtà immateriali: una comprensione filosofica o spirituale della Natura al di là degli oggetti materiali che occupano lo spazio. Dall'altro, la capacità geometrica di collocare le cose nello spazio era un dispositivo narrativo che finì per trasformarsi, a partire dall'Italia del Quattrocento, in una concezione della Natura stessa come creata attraverso la geometria. Questa concezione, filtrata dalla dottrina teologica di un Universo dotato di un centro geometrico, influenzò lo sforzo di conciliare il punto di vista individuale della prospettiva lineare con il centro stabilito da Dio. Dal gotico al Rinascimento, la teoria e la pratica architettonica in Italia si confrontarono così con le implicazioni della nuova attenzione, frutto di artificio, per la centralità negli edifici religiosi, in modo analogo a come la pittura del Rinascimento cercò sempre più di mostrare il controllo geometrico di un unico punto di vista mediante la prospettiva a punto di fuga. Nella Cina Song, Yuan e Ming, invece, il punto di vista individuale non era una costruzione geometrica ma una reazione personale al paesaggio e alla sua rappresentazione. Il suo modello pittorico non era la perfezione artificiosa dell'interno architettonico, ma le visuali sapientemente controllate attraverso il giardino classico delle ville dei gentiluomini. Il concetto di spazio che la pittura cinese elaborò dalle dottrine buddhiste e taoiste della realtà non riguardava dunque la geometria esteriore, ma era un argomento politico secondo cui la massima conquista consisteva nel cogliere intuitivamente l'essenza della Natura attraverso la sua espressione nell'arte. In Italia come in Cina, la storia di come l'arte giunse a rappresentare lo spazio era parte integrante della critica delle opere contemporanee. Rivolgendosi alla nascita della rappresentazione spaziale in pittura, Vasari e Dong non si limitarono a tracciare la storia di questa impresa attraverso l'opera dei loro predecessori. Inquadrarono anche questa storia come una narrazione che si chiudeva su se stessa nella loro epoca, quando l'imitazione reciproca delle maniere da parte degli artisti divenne il tema dominante dell'arte. Questo modo di raccontare la storia dello spazio pittorico metteva in luce paralleli sociali e culturali tra il punto di partenza e il punto d'arrivo della narrazione. Tuttavia lo sviluppo dello spazio pittorico è più di una costruzione delle narrazioni degli storici dell'arte. Dalla pittura gotica alla prospettiva rinascimentale in Italia, e dai racconti illustrati della vita di corte ai paesaggi introspettivi in Cina, gli artisti cercarono metodi per rappresentare lo spazio tra gli oggetti. Questi sforzi non furono movimenti concertati verso obiettivi prestabiliti, ma esplorazioni individuali che si trovarono a mostrare esperienze comuni tra artisti. Eppure i risultati di queste esplorazioni hanno lasciato lezioni diverse di tecnica e di visione del mondo ad artisti e architetti di ogni epoca. Mostrano inoltre modi di fare i conti con un passato culturale percepito come ideale in tempi di sconvolgimento politico e sociale."}
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduzione"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "Lo studio comparato dell'arte e dell'architettura aiuta a chiarire i tratti particolari che distinguono culture e periodi storici. Benché negli ultimi decenni gran parte degli studi si sia specializzata nell'analisi dettagliata entro confini culturali specifici o, al più, negli scambi culturali documentati da fonti testuali, il confronto interculturale dei metodi artistici può accrescere la nostra consapevolezza delle preferenze e delle tecniche adottate in contesti diversi. È il caso dello studio di come l'arte cinese e quella italiana del Trecento e del Quattrocento affrontarono il problema di rappresentare lo spazio tridimensionale sulla superficie bidimensionale di disegni e dipinti figurativi. I dialoghi su <em>Raffaello e Zhang Zeduan</em> promossi dalla Pinacoteca di Brera nel 2020 (Bradburne, 2020) costituiscono un precedente prezioso per un simile approccio."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Questo studio esplora la costruzione dello spazio nella pittura cinese e italiana a partire dagli scritti di due artisti, critici e storici successivi: Dong Qichang e Giorgio Vasari (Vasari, 1568/1991; per Dong si veda Cahill, 1978). Indaga i diversi dispositivi rappresentativi che, all'epoca di questi critici, vennero considerati i tratti distintivi delle due culture artistiche: la manipolazione dello spazio vuoto sul piano pittorico cinese e la costruzione della prospettiva geometrica nelle scene italiane. L'impiego di questi dispositivi in pittura comportava tuttavia contraddizioni pittoriche e concettuali insite nei loro stessi principi. Il modo in cui artisti e critici in Cina e in Italia riconobbero queste contraddizioni e lavorarono con esse illumina la crescente considerazione dell'arte come attività intellettuale e del mestiere dell'artista come corpo di sapere teorico nel Cinquecento e nel Seicento."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "La raffigurazione dello spazio in pittura e nel disegno fu una preoccupazione centrale delle scuole formaliste della storiografia artistica. Benché approcci (più o meno) deterministici come quello di Wölfflin (1950) siano stati screditati o resi superati, alcuni testi della prima metà del Novecento continuano a pesare, sia pure in modo sotterraneo, sulla nostra comprensione dello spazio architettonico e del suo significato per la storia dell'arte. Tra questi vi sono l'interpretazione di Panofsky (1997) della rappresentazione dello spazio in prospettiva lineare come portatrice di significato simbolico e, soprattutto, la teoria di Schmarsow (Schwarzer &amp; Schmarsow, 1991), poi sviluppata da Bruno Zevi e da Argan (1961/1973), secondo cui l'evoluzione della coscienza spaziale è l'indicatore del mutamento storico in architettura."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "Questo studio procede, secondo la definizione di Kita (1999), per antologia o, nei termini di Gombrich (1996), raccogliendo i sintomi di una sindrome culturale anziché cercare un rapporto deterministico di causa ed effetto. Ciò perché l'argomentazione dell'articolo si fonda su sperimentazioni con metodi di rappresentazione dello spazio che, come Scott (1914) avvertiva a proposito delle interpretazioni dell'architettura del Rinascimento, non possono essere pensate come una ricerca teleologica di una soluzione prestabilita. Inoltre, Evans (1995) ci ricorda che l'apparente unità delle composizioni classiche è un risultato brillante ma artificioso, fatto di applicazioni contraddittorie di un principio di fondo. È questa tensione – da un lato tra ricerche intellettuali diffuse in un dato periodo storico e contesto culturale, dall'altro tra la necessità di rendere conto delle difficoltà tecniche o concettuali che sorgono dalla loro attuazione – a dare il proprio carattere distintivo alle rappresentazioni cinesi e italiane dello spazio dal Trecento al Cinquecento."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Spazio intellettuale"
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "Lo sviluppo di metodi distinti per raffigurare o proiettare lo spazio sul piano pittorico, e persino l'ascesa e il declino dell'interesse per la ricerca di tali metodi, restano rilevanti nello studio comparato della storia dell'arte. Ancor più, l'influenza reciproca dell'articolazione spaziale nell'arte pittorica e nell'architettura (compreso il disegno del paesaggio) rende visibili attraverso le opere sfide tecniche e interessi intellettuali. Questa rilevanza fu costruita dallo sguardo retrospettivo di autori di storia e teoria dell'arte in periodi successivi dell'arte cinese e italiana: il pittore della tarda dinastia Ming (1368–1644) Dong Qichang (1555–1636, Fig. 1) e il pittore e architetto fiorentino Giorgio Vasari (1511–1574, fig. 2), che fissarono entrambi un canone di interessi per soggetti e metodi di raffigurazione. La storia e la teoria della pittura di paesaggio di Dong, attente al ruolo dell'intuizione nell'apprezzamento e nella rappresentazione del paesaggio a partire dalla dinastia Song (960–1279), sono divenute note ai lettori occidentali in parte grazie a Cahill (1978). Vasari, a sua volta, si interessava all'evoluzione della tecnica artistica in Italia dal periodo gotico (fine del Duecento) fino al proprio tempo, la metà del Cinquecento."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "Negli scritti di Vasari, come in quelli di Dong, l'interesse per le opere degli artisti precedenti era legato alla preoccupazione per lo stato dell'arte al tempo presente. Fu con questo intento che Dong raggruppò la pittura di paesaggio della dinastia Song in due «scuole», quella del Nord e quella del Sud. La distinzione non era geografica, ma si basava su modi diversi di rappresentare la profondità spaziale nel paesaggio. Essa si basava su un'analogia con le scuole filosofiche Chan (Zen) del Nord e del Sud."
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "Questa distinzione, apparentemente tecnica, era anche un argomento politico. Come molti suoi contemporanei della tarda dinastia Ming, Dong vedeva la dinastia Song come un'età dell'oro della cultura e della società, e la sua arte come modello classico da seguire per gli artisti contemporanei. Le categorie storico-artistiche di Dong celebravano inoltre l'ascesa dei <em>letterati</em>, artisti gentiluomini di etnia Han come lui, a scapito dei pittori di corte, che, a posteriori, vennero associati al servizio professionale presso la successiva dinastia Yuan (mongola). Questa narrazione faceva da contrappunto ai tempi turbolenti di Dong, quando la dinastia Ming era sotto una pressione crescente sia da parte di un'altra potenza straniera, i Manciù, che avrebbero infine invaso la Cina a partire dal 1644, sia per le inefficienze della stessa amministrazione Ming, di cui Dong faceva parte. Il suo racconto di un'età precedente di splendore artistico, oscurata da un crollo imminente, era dunque un modello per il proprio tempo, e non solo in senso estetico."
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "Per cogliere la consapevolezza di Dong di vivere in un periodo «tardo» dell'arte e della storia, contrapposto all'età «alta» della pittura classica, dobbiamo quindi comprendere che lo spazio pittorico di quell'età classica era per lui più un concetto filosofico che un dispositivo geometrico. La raffigurazione dello spazio nei dipinti di paesaggio era il cuore della definizione, formulata da Dong, delle scuole pittoriche del Nord e del Sud. Di conseguenza, Dong caratterizzava la scuola del Nord come quella che rappresentava lo spazio con un graduale accumulo di strati dal primo piano al piano intermedio e allo sfondo, come nel rotolo verticale di Juran (attivo ca. 960–980) <em>Alla ricerca del Tao nei monti d'autunno</em> (Fig. 3). Ciò ricordava il paesaggio ondulato della Cina centro-settentrionale ma, cosa più importante, l'approccio graduale della scuola Chan del Nord al raggiungimento dell'illuminazione buddhista. I dipinti della scuola del Sud, come <em>Inizio di primavera</em> di Guo Xi (ca. 1020–ca. 1090) (Fig. 4), sono invece caratterizzati da un salto improvviso da un piccolo primo piano a montagne torreggianti sullo sfondo, separando i due piani con un vuoto colmato dalla nebbia. La somiglianza con le cime erose tipiche di alcuni paesaggi della Cina meridionale conta meno dell'analogia con l'approccio intuitivo all'illuminazione della scuola Chan del Sud, che si diceva provenisse da un risveglio improvviso più che da una comprensione graduale."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "Dong riteneva superiore la scuola del Sud, poiché la somiglianza che vi scorgeva con l'illuminazione intuitiva offriva un comodo parallelo al suo ideale dell'artista gentiluomo che raggiunge la perfezione estetica attraverso una sensibilità coltivata più che attraverso lo sforzo tecnico. In ogni caso, i dipinti di entrambe le scuole prendevano il nome dagli oggetti fisici che vi comparivano: montagne, corsi d'acqua e così via. Eppure il loro tratto più distintivo, quello con cui Dong separava le due scuole, non era la raffigurazione delle cose, ma il carattere dello spazio vuoto tra esse. Inoltre, quando l'ordine della dinastia Song si dissolse e la dinastia Yuan emarginò la classe dirigente di etnia Han, gli studiosi Han si ritirarono in attività intellettuali e artistiche. <em>Letterato disteso che osserva le nuvole che salgono</em> di Ma Lin (c. 1185–dopo il 1260) (Fig. 5) esemplifica quella che secondo Lee &amp; Ho (1964) fu la risposta lirica e introspettiva alla progressiva dissoluzione della società cinese classica."
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "La contemplazione dello spazio vuoto attraverso la pittura acquistò così un prestigio ancora maggiore come espressione di menti colte e libere, sostenuta dalla crescente popolarità del buddhismo Chan (Ortiz, 1999, p. 7). È difficile non notare il parallelo tra l'ideale di Dong Qichang dell'intuizione apparentemente senza sforzo dell'artista gentiluomo che contempla ed esprime lo spazio e l'ideale della <em>sprezzatura</em> del gentiluomo proposto da Baldassare Castiglione, il celebre cortigiano del Rinascimento, amico e collaboratore di Raffaello. L'equivalente artistico della <em>sprezzatura</em> nel contegno era l'idea di equilibrio statico che Wölfflin (1888) vedeva nella pittura del pieno Rinascimento, anche quando il soggetto poteva sembrare in contrasto con l'equilibrio o la quiete. Evans (1995) ha sostenuto che, nello spazio pittorico dell'affresco di Raffaello <em>Disputa del Sacramento</em>, completato nel 1510 (Fig. 6), l'apparenza di una stabilità pittorica senza sforzo nel conciliare costruzioni prospettiche contraddittorie e centri d'interesse in competizione era la chiave della strategia compositiva dell'affresco."
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "L'artista del Rinascimento italiano cercava di raggiungere un carattere signorile di quiete senza sforzo attraverso lo studiato artificio di punti di vista contraddittori nello spazio pittorico. Allo stesso modo, il gentiluomo cinese rivendicava il più alto status artistico affermando che l'apparenza di un'intuizione senza sforzo era la massima conquista della pittura. Inoltre, in entrambi i casi il concetto intellettuale di spazio riguardava un mutamento dello stato spirituale dell'osservatore attraverso la contemplazione del dipinto: dalla realtà materiale all'introspezione immateriale o alla contemplazione spirituale."
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "2. Spazio geometrico"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Lo sviluppo di tecniche geometriche per raffigurare lo spazio sul piano pittorico comportò, in Cina come in Italia, compromessi tra le possibilità rappresentative acquisite e quelle perdute. La comparsa di uno spazio articolato nella pittura cinese risale ai rilievi rupestri e alle pitture delle tombe della dinastia Han (206 a.C.–220 d.C.) (Soullière, 2018) (le pitture precedenti erano spesso realizzate su supporti deperibili, come i dipinti a inchiostro su tessuto o legno, oppure erano pitture murali in palazzi poi distrutti, e quindi non sono sopravvissute)."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "In queste scene antiche (X. Liu, 2002, p. 48), l'architettura aveva un ruolo di primo piano come mezzo per organizzare la collocazione e l'importanza di personaggi ed episodi all'interno di una scena narrativa più ampia. Sviluppi successivi chiarirono la struttura spaziale. Pittori di corte della dinastia Tang (618–907), come Zhou Wenju (917–975) (Fig. 7), usarono l'architettura, qui rappresentata in proiezione cavaliera, come struttura spaziale e simbolica per separare con maggiore efficacia gruppi di personaggi ed episodi narrativi. In questi racconti pittorici, lo spazio vuoto acquistò una forma sempre più definita, delimitata da edifici e da gruppi di figure."
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "Il quadro teorico coevo in cui si sviluppò questa tecnica geometrica è uno dei temi più spinosi degli studi sull'arte cinese (per una rassegna della letteratura su questa controversia si veda Bush, 2012b). Ciò che interessa qui è notare, seguendo Bush (2012b, p. 10), che «gli aspetti non formali e persino non tecnici di quest'arte» ebbero presto la precedenza sulla costruzione geometrica dei disegni. Gli edifici furono così liquidati sbrigativamente in un antico trattato, il <em>Saggio sulla pittura</em> di Gu Kaizhi della fine del IV secolo, come compiti poco impegnativi che richiedevano soltanto tempo per essere portati a termine (citato in Bush, 2012a, p. 24)."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "Questa precedenza dell'espressione non geometrica sulla forma geometrica continuò a pesare sulla successiva interpretazione della pittura cinese da parte di Dong, e aiuta a spiegare perché non ci siano pervenuti scritti che discutano la prospettiva cavaliera, a fronte dell'ampio corpus di testi europei sulla prospettiva lineare."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "Fu dunque nel corso dello sviluppo della pittura di paesaggio cinese sotto le dinastie Song e Yuan, e della sua rinascita sotto i Ming, che la teoria non formale dell'arte divenne canonica. Lungo questi periodi, l'abilità artistica si fondava sulla manipolazione raffinata dello spazio, lasciato come distesa bianca di nebbia sul rotolo, mentre la perizia geometrica dimostrata dai pittori di corte professionisti, capaci di costruire proiezioni cavaliere di grande complessità e chiarezza, finì per essere considerata un'abilità minore."
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "Nella pittura italiana, dal Trecento al Cinquecento, emerse invece progressivamente un corpus di tecniche per rappresentare la geometria dello spazio da un dato punto di vista, che venne considerato una delle più alte conquiste dell'arte. Gli autori italiani da Alberti a Vasari sembrano però non essersi accorti che era lo spazio stesso ciò che la prospettiva lineare consentiva agli artisti di rappresentare, e insistettero piuttosto sulla struttura geometrica degli oggetti fisici contemplati singolarmente (Elkins, 1992)."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "Soprattutto nel caso dell'affresco, l'incongruenza geometrica tra lo spazio architettonico, in cui la posizione dell'osservatore cambia di continuo, e le molteplici costruzioni prospettiche del dipinto crea una tensione che le tecniche di proiezione geometrica, allora in via di sviluppo, cercarono di risolvere, ad esempio nella <em>Trinità</em> di Masaccio (1401–1428) (Fig. 8)."
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "Questa tensione è spesso mascherata dalla chiarezza con cui gli artisti del Rinascimento manipolavano lo spazio architettonico e pittorico, conferendogli un'apparenza imperiosa di unità. Ciò fu in parte il risultato di scelte tecniche che imponevano una separazione sempre più rigorosa tra punti di vista incompatibili."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "L'elaborazione, nella generazione di Raffaello, di una teoria delle piante, degli alzati e delle prospettive architettoniche non fu dunque una lettura incidentale di Vitruvio, ma una necessità tecnica per dotare ogni tipo di disegno di una propria coerenza geometrica, sottraendo allo sguardo diretto problemi come dove si trovi il centro effettivo di una chiesa a pianta centrale (Evans, 1995). Questa articolazione concettuale imperfetta, travestita da perfezione formale, è, come intuì Scott (1914), la natura dell'architettura umanistica, più che una corsa verso un traguardo definito di perfezione classica. Eppure, nella necessaria incompiutezza di questo sistema risiede la natura dello spazio, così come lo intendevano gli artisti del Rinascimento."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "La nostra concezione idealistica dello spazio architettonico come coscienza che si sviluppa gradualmente nel corso della storia, ereditata da Schmarsow e ancor più esplicitata da Zevi, è in contrasto con essa, e per questo fatichiamo a percepire la tensione originaria. Il nostro concetto moderno di spazio (Pérez-Gómez, 1983) è infatti l'estensione infinita e omeotropa ereditata dalla <em>res extensa</em> cartesiana. In questo tipo di spazio, il compito dell'architettura è disporre gli oggetti – la griglia strutturale, le partizioni, gli arredi – per organizzare la realtà preesistente dell'estensione spaziale. Più esplicitamente, le teorie e i progetti dell'architettura moderna hanno sottolineato che lo scopo dell'architettura moderna è accrescere la percezione di questa continuità spaziale ed evitare di turbarla con forme geometriche predefinite, come affermava Argan (1961/1973). Lo spazio rinascimentale, invece, ha la natura di un luogo eterotropo, portato all'esistenza dall'atto del <em>disegno</em> architettonico. L'architetto e teorico Krier (1988) è giunto a sostenere che avere una forma definita, che la distingua dal vuoto informe, è la ragion d'essere stessa dell'architettura."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "4. Forma e assenza di forma"
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "Dopo la dinastia Tang, la pittura narrativa di corte, come impresa tecnica, perse gradualmente favore in Cina a favore della pittura di paesaggio come attività dei letterati (J. Liu, 2003). Fu tuttavia la successiva dinastia Song a produrre il capolavoro della pittura narrativa cinese, <em>Lungo il fiume durante la festa di Qingming</em> di Zhang Zeduan (1085–1145) (Fig. 9). Il dipinto era così celebre che ne furono commissionate copie sotto le successive dinastie Ming e Qing (1644–1912)."
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "Qui la pittura di corte si presentava sotto una nuova veste: quella del sovrano virtuoso ritratto non direttamente, ma attraverso la rappresentazione della società nel suo insieme, che funziona in modo ordinato (la parola <em>Qingming</em> può indicare una festività specifica, la sua stagione in generale, oppure i concetti di purezza e chiarezza, tenuti in gran conto dai sovrani cinesi), con il nuovo gusto per i vasti paesaggi come sfondo. È utile tracciare un parallelo tra il rotolo del <em>Qingming</em> e le allegorie del buono e del cattivo governo di Ambrogio Lorenzetti (attivo 1317–1348) nel Palazzo Pubblico di Siena (Fig. 10). Anche negli affreschi senesi lo spazio è messo al servizio della narrazione e, come nel rotolo del <em>Qingming</em>, deve organizzare una miriade di episodi distinti in una sequenza visiva ininterrotta. La pittura gotica offre una lettura del significato spaziale diversa da quella di Panofsky, che vedeva la prospettiva lineare come «forma simbolica». L'articolazione spaziale di un dipinto narrativo gotico si discosta anche dalla tesi secondo cui l'architettura gotica sarebbe parallela all'organizzazione del discorso scolastico."
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "Trachtenberg (2010) ha mostrato come questa architettura possa essere interpretata non tanto come un argomento retorico chiuso, composto da parti definite, quanto come un'operazione formale aperta, regolata da un metodo proporzionale."
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "Allo stesso modo, i grandi dipinti narrativi, come gli affreschi senesi, erano strutturati per favorire un flusso narrativo aperto. Ciò che teneva insieme questo tipo di composizione era, dunque, la sua flessibile struttura spaziale. A differenza della pittura di corte cinese, che unificava una composizione episodica mediante la regolarità geometrica della proiezione cavaliera, la pittura gotica italiana rinunciava a qualsiasi geometria spaziale evidente e deterministica. Lo sviluppo graduale della prospettiva a punto di fuga nel corso del Quattrocento portò però a una rappresentazione unitaria dello spazio e degli oggetti al suo interno. Lo fece, tuttavia, al prezzo di rinunciare alla possibilità di una pittura narrativa composta di episodi concatenati. Per superare questo limite, artisti come Beato Angelico (Fig. 11) e Piero della Francesca (Fig. 12) inventarono un dispositivo pittorico per separare momenti o scene all'interno delle loro composizioni, che Schumacher (1987) ha chiamato divisione tra spazio profondo e spazio poco profondo."
+    },
+    {
+      "id": "f-11",
+      "type": "figure",
+      "ref": "fig-11"
+    },
+    {
+      "id": "f-12",
+      "type": "figure",
+      "ref": "fig-12"
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "Le sperimentazioni sull'articolazione spaziale nella pittura cinese si allontanarono invece dal rigore di una proiezione geometrica, benché la proiezione cavaliera offrisse una flessibilità narrativa maggiore della prospettiva lineare. Nel corso del Duecento e del Trecento i grandi dipinti verticali di paesaggio che mostravano scenari monumentali lasciarono il posto a piccoli dipinti all'incirca quadrati che offrivano scorci di luoghi o, più precisamente, suggerivano esperienze estetiche, in parte o persino in gran parte velate dalla nebbia. Questa tendenza procedeva di pari passo con la crescente importanza attribuita all'esperienza unitaria di guardare il paesaggio, dipingerlo, guardare i dipinti e scrivere (poesie) sui dipinti, come massima espressione di cultura e sensibilità dei <em>letterati</em> agiati."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusioni"
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "Nelle culture artistiche della Cina e dell'Italia il concetto di spazio restò implicito negli scritti teorici e critici. Abbiamo visto tuttavia come i modi mutevoli di mostrare lo spazio nelle composizioni pittoriche illuminino le preoccupazioni esplicite dei critici successivi, Dong Qichang e Giorgio Vasari. Abbiamo esplorato due linee principali di questo mutamento. Da un lato, una comprensione intellettuale dello spazio privilegiava, in Cina come in Italia, l'uso delle opere d'arte come supporti per la contemplazione di realtà immateriali: una comprensione filosofica o spirituale della Natura al di là degli oggetti materiali che occupano lo spazio. Dall'altro, la capacità geometrica di collocare le cose nello spazio era un dispositivo narrativo che, a partire dall'Italia del Quattrocento, finì per trasformarsi in una concezione della Natura stessa come creata attraverso la geometria. Questa concezione, filtrata dalla dottrina teologica di un Universo dotato di un centro geometrico, influenzò lo sforzo di conciliare il punto di vista individuale della prospettiva lineare con il centro stabilito da Dio. Dal gotico al Rinascimento, la teoria e la pratica architettonica in Italia si confrontarono così con le implicazioni della nuova attenzione, frutto di artificio, alla centralità negli edifici religiosi, in modo analogo a come la pittura del Rinascimento cercò sempre più di mostrare il controllo geometrico di un unico punto di vista mediante la prospettiva a punto di fuga. Nella Cina Song, Yuan e Ming, invece, il punto di vista individuale non era una costruzione geometrica ma una reazione personale al paesaggio e alla sua rappresentazione. Il suo modello pittorico non era la perfezione artificiosa dell'architettura d'interni, ma le visuali sapientemente controllate attraverso il giardino classico delle ville dei gentiluomini. Il concetto di spazio che la pittura cinese elaborò dalle dottrine buddhiste e taoiste della realtà non riguardava dunque la geometria esteriore, ma era un argomento politico secondo cui la massima conquista consisteva nel cogliere intuitivamente l'essenza della Natura attraverso la sua espressione nell'arte. In Italia come in Cina, la storia di come l'arte giunse a rappresentare lo spazio era parte integrante della critica delle opere contemporanee. Rivolgendosi alla nascita della rappresentazione spaziale in pittura, Vasari e Dong non si limitarono a tracciare la storia di questa impresa attraverso le opere dei loro predecessori. Inquadrarono anche questa storia come una narrazione che si chiudeva su se stessa nella loro epoca, quando l'imitazione reciproca delle maniere da parte degli artisti divenne il tema dominante dell'arte. Questo modo di raccontare la storia dello spazio pittorico metteva in luce paralleli sociali e culturali tra il punto di partenza e quello d'arrivo della narrazione. Tuttavia, lo sviluppo dello spazio pittorico è più di una costruzione delle narrazioni degli storici dell'arte. Dalla pittura gotica alla prospettiva rinascimentale in Italia, e dai racconti illustrati della vita di corte ai paesaggi introspettivi in Cina, gli artisti cercarono metodi per rappresentare lo spazio tra gli oggetti. Questi sforzi non furono movimenti concertati verso obiettivi prestabiliti, ma esplorazioni individuali che si rivelarono comuni tra gli artisti. Eppure i risultati di queste esplorazioni hanno lasciato lezioni diverse di tecnica e di visione del mondo agli artisti e agli architetti di ogni epoca. Mostrano inoltre modi di fare i conti con un passato culturale percepito come ideale in tempi di sconvolgimento politico e sociale."
+    }
   ],
   "notes": [],
   "figures": {
-    "fig-1": {"caption": "Fig. 1. Attribuito a Jacopo Zucchi, <em>Ritratto di Giorgio Vasari</em> (già ritenuto un autoritratto), 1571–74, olio su tela. Firenze, Gallerie degli Uffizi, [inv. 00021975]. Su concessione del Ministero della Cultura – Gallerie degli Uffizi.", "alt": "Ritratto dipinto di Giorgio Vasari: un uomo con la barba, in abiti scuri e catena d'oro, su fondo scuro."},
-    "fig-2": {"caption": "Fig. 2. Xu Zhang (1694–1749), ritratto postumo di Dong Qichang, dall'album <em>Songjiang bangyan huaxiang (Ritratti di uomini illustri di Songjiang)</em>, XVIII secolo, inchiostro e colori su carta. Nanchino, Museo di Nanchino.", "alt": "Ritratto dipinto a figura intera di Dong Qichang, in piedi con una lunga veste e il copricapo da letterato."},
-    "fig-3": {"caption": "Fig. 3. Attribuito a Juran, <em>Alla ricerca del Tao nei monti d'autunno</em>, Cinque Dinastie–Song settentrionali, fine del X secolo, rotolo verticale, inchiostro su seta, 156,2 × 77,2 cm. Taipei, National Palace Museum, inv. Guhua 000021. Open Data, CC BY 4.0.", "alt": "Rotolo verticale cinese a inchiostro su seta con alte montagne arrotondate, foreste e un sentiero tortuoso."},
-    "fig-4": {"caption": "Fig. 4. Guo Xi, <em>Inizio di primavera</em>, 1072, rotolo verticale, inchiostro e colori leggeri su seta, 158,3 × 108,1 cm. Taipei, National Palace Museum, inv. Guhua 000053. Open Data, CC BY 4.0.", "alt": "Rotolo verticale cinese Inizio di primavera di Guo Xi: montagne rocciose torreggianti con alberi contorti e nebbia."},
-    "fig-5": {"caption": "Fig. 5. Ma Lin, <em>Letterato disteso che osserva le nuvole che salgono</em> (poesia di Wang Wei), c. 1256, foglio d'album, inchiostro su seta, 25,1 × 25,3 cm. Cleveland Museum of Art, 1961.421, John L. Severance Fund. Pubblico dominio (CC0).", "alt": "Foglio d'album cinese rotondo a inchiostro su seta: un letterato sulla riva di un fiume osserva le nuvole salire sulle colline lontane."},
-    "fig-6": {"caption": "Fig. 6. Raffaello, <em>Disputa del Sacramento</em>, 1509–10, affresco. Città del Vaticano, Palazzo Apostolico, Stanza della Segnatura. Foto © Governatorato SCV – Direzione dei Musei.", "alt": "Affresco di Raffaello Disputa del Sacramento: figure celesti sulle nuvole sopra un'assemblea di teologi riuniti intorno a un altare."},
-    "fig-7": {"caption": "Fig. 7. Attribuito a Zhou Wenju, <em>Uniti dalla musica</em>, dinastia Ming (XV–XVI secolo). Art Institute of Chicago, 1950.1370 (CC0). Sotto, dettaglio.", "alt": "Rotolo orizzontale cinese con gruppi di donne che suonano in un giardino di palazzo, seguito da un dettaglio ingrandito della stessa scena."},
-    "fig-8": {"caption": "Fig. 8. Masaccio, <em>Trinità</em>, c. 1425–1427. Affresco, 667 × 317 cm. Firenze, Santa Maria Novella. Pubblico dominio, via Wikimedia Commons.", "alt": "Affresco della Trinità di Masaccio: Cristo in croce sotto una volta a botte cassettonata, con figure inginocchiate in primo piano."},
-    "fig-9": {"caption": "Fig. 9. Zhang Zeduan, <em>Lungo il fiume durante la festa di Qingming</em>, dinastia Song settentrionale, inizio del XII secolo, dettaglio. Rotolo orizzontale, inchiostro e colori su seta, 24,8 × 528,7 cm. Pechino, Museo del Palazzo. Pubblico dominio (PD-Art), via Wikimedia Commons.", "alt": "Dettaglio del rotolo cinese Lungo il fiume durante la festa di Qingming: un ponte ad arco affollato di persone e barche."},
-    "fig-10": {"caption": "Fig. 10. Ambrogio Lorenzetti, <em>Effetti del Buon Governo in città e in campagna</em>, 1338–1339, dettaglio della città. Affresco. Siena, Palazzo Pubblico, Sala dei Nove. Su concessione del Comune di Siena – Museo Civico. Pubblico dominio (Google Art Project, via Wikimedia Commons).", "alt": "Dettaglio dell'affresco del Buon Governo di Lorenzetti: una città animata con torri, case e persone nelle strade."},
-    "fig-11": {"caption": "Fig. 11. Beato Angelico, <em>Annunciazione</em>, c. 1440–1445. Affresco, 230 × 321 cm. Firenze, Museo di San Marco, corridoio nord. Su concessione del Ministero della Cultura – Direzione regionale Musei nazionali Toscana. Pubblico dominio, via Wikimedia Commons.", "alt": "Annunciazione di Beato Angelico: l'angelo e la Vergine uno di fronte all'altra sotto una loggia voltata con colonne sottili."},
-    "fig-12": {"caption": "Fig. 12. Piero della Francesca, <em>Flagellazione di Cristo</em>, c. 1459–1460. Tempera su tavola di pioppo, 58,4 × 81,5 cm. Urbino, Galleria Nazionale delle Marche (Palazzo Ducale), inv. DE 229. Su concessione del Ministero della Cultura – Galleria Nazionale delle Marche. Pubblico dominio, via Wikimedia Commons.", "alt": "Flagellazione di Cristo di Piero della Francesca: a sinistra la scena in una sala classica, a destra tre uomini in piedi in primo piano."}
+    "fig-1": {
+      "caption": "Fig. 1. Attribuito a Jacopo Zucchi, <em>Ritratto di Giorgio Vasari</em> (già ritenuto un autoritratto), 1571–74, olio su tela. Firenze, Gallerie degli Uffizi, [inv. 00021975]. Su concessione del Ministero della Cultura – Gallerie degli Uffizi.",
+      "alt": "Ritratto dipinto di Giorgio Vasari: un uomo barbuto, in abiti scuri e con una catena d'oro, su fondo scuro."
+    },
+    "fig-2": {
+      "caption": "Fig. 2. Xu Zhang (1694–1749), ritratto postumo di Dong Qichang, dall'album <em>Songjiang bangyan huaxiang (Ritratti di uomini illustri di Songjiang)</em>, XVIII secolo, inchiostro e colori su carta. Nanchino, Museo di Nanchino.",
+      "alt": "Ritratto a figura intera di Dong Qichang, dipinto, in piedi con una lunga veste e il copricapo da letterato."
+    },
+    "fig-3": {
+      "caption": "Fig. 3. Attribuito a Juran, <em>Alla ricerca del Tao nei monti d'autunno</em>, Cinque Dinastie–Song settentrionali, fine del X secolo, rotolo verticale, inchiostro su seta, 156,2 × 77,2 cm. Taipei, National Palace Museum, inv. Guhua 000021. Open Data, CC BY 4.0.",
+      "alt": "Rotolo verticale cinese a inchiostro su seta con alte montagne arrotondate, foreste e un sentiero tortuoso."
+    },
+    "fig-4": {
+      "caption": "Fig. 4. Guo Xi, <em>Inizio di primavera</em>, 1072, rotolo verticale, inchiostro e colori leggeri su seta, 158,3 × 108,1 cm. Taipei, National Palace Museum, inv. Guhua 000053. Open Data, CC BY 4.0.",
+      "alt": "Rotolo verticale cinese Inizio di primavera di Guo Xi: montagne rocciose torreggianti con alberi contorti e nebbia."
+    },
+    "fig-5": {
+      "caption": "Fig. 5. Ma Lin, <em>Letterato disteso che osserva le nuvole che salgono</em> (poesia di Wang Wei), c. 1256, foglio d'album, inchiostro su seta, 25,1 × 25,3 cm. Cleveland Museum of Art, 1961.421, John L. Severance Fund. Pubblico dominio (CC0).",
+      "alt": "Foglio d'album cinese rotondo a inchiostro su seta: un letterato sulla riva di un fiume osserva le nuvole salire sulle colline lontane."
+    },
+    "fig-6": {
+      "caption": "Fig. 6. Raffaello, <em>Disputa del Sacramento</em>, 1509–10, affresco. Città del Vaticano, Palazzo Apostolico, Stanza della Segnatura. Foto © Governatorato SCV – Direzione dei Musei.",
+      "alt": "Affresco di Raffaello Disputa del Sacramento: figure celesti sulle nuvole sopra un'assemblea di teologi riuniti intorno a un altare."
+    },
+    "fig-7": {
+      "caption": "Fig. 7. Attribuito a Zhou Wenju, <em>Uniti dalla musica</em>, dinastia Ming (XV–XVI secolo). Art Institute of Chicago, 1950.1370 (CC0). Sotto, dettaglio.",
+      "alt": "Rotolo orizzontale cinese con gruppi di donne che suonano in un giardino di palazzo, seguito da un dettaglio ingrandito della stessa scena."
+    },
+    "fig-8": {
+      "caption": "Fig. 8. Masaccio, <em>Trinità</em>, c. 1425–1427. Affresco, 667 × 317 cm. Firenze, Santa Maria Novella. Pubblico dominio, via Wikimedia Commons.",
+      "alt": "Affresco della Trinità di Masaccio: Cristo in croce sotto una volta a botte cassettonata, con figure inginocchiate in primo piano."
+    },
+    "fig-9": {
+      "caption": "Fig. 9. Zhang Zeduan, <em>Lungo il fiume durante la festa di Qingming</em>, dinastia Song settentrionale, inizio del XII secolo, dettaglio. Rotolo orizzontale, inchiostro e colori su seta, 24,8 × 528,7 cm. Pechino, Museo del Palazzo. Pubblico dominio (PD-Art), via Wikimedia Commons.",
+      "alt": "Dettaglio del rotolo cinese Lungo il fiume durante la festa di Qingming: un ponte ad arco affollato di persone e barche."
+    },
+    "fig-10": {
+      "caption": "Fig. 10. Ambrogio Lorenzetti, <em>Effetti del Buon Governo in città e in campagna</em>, 1338–1339, dettaglio della città. Affresco. Siena, Palazzo Pubblico, Sala dei Nove. Su concessione del Comune di Siena – Museo Civico. Pubblico dominio (Google Art Project, via Wikimedia Commons).",
+      "alt": "Dettaglio dell'affresco del Buon Governo di Lorenzetti: una città animata con torri, case e persone nelle strade."
+    },
+    "fig-11": {
+      "caption": "Fig. 11. Beato Angelico, <em>Annunciazione</em>, c. 1440–1445. Affresco, 230 × 321 cm. Firenze, Museo di San Marco, corridoio nord. Su concessione del Ministero della Cultura – Direzione regionale Musei nazionali Toscana. Pubblico dominio, via Wikimedia Commons.",
+      "alt": "Annunciazione di Beato Angelico: l'angelo e la Vergine, uno di fronte all'altra, sotto una loggia voltata a colonne sottili."
+    },
+    "fig-12": {
+      "caption": "Fig. 12. Piero della Francesca, <em>Flagellazione di Cristo</em>, c. 1459–1460. Tempera su tavola di pioppo, 58,4 × 81,5 cm. Urbino, Galleria Nazionale delle Marche (Palazzo Ducale), inv. DE 229. Su concessione del Ministero della Cultura – Galleria Nazionale delle Marche. Pubblico dominio, via Wikimedia Commons.",
+      "alt": "Flagellazione di Cristo di Piero della Francesca: a sinistra la scena in una sala classica, a destra tre uomini in piedi in primo piano."
+    }
   }
 }

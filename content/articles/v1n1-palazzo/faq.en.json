@@ -1,16 +1,81 @@
 {
   "articleId": "v1n1-palazzo",
   "lang": "en",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "What does the article compare?", "a": "How Chinese and Italian painting of the fourteenth and fifteenth centuries showed three-dimensional space on a two-dimensional surface, read through two later critics: Dong Qichang and Giorgio Vasari.", "refs": ["p-001", "p-002"]},
-    {"q": "Why avoid a teleological history of space?", "a": "Because theories from Schmarsow to Zevi treated spatial awareness as progressing towards Modernism. The article instead collects 'symptoms of a cultural syndrome', treating explorations of space as individual experiments rather than a search for a preordained solution.", "refs": ["p-003", "p-004", "p-021"]},
-    {"q": "What were Dong Qichang's Northern and Southern schools?", "a": "Not geographic categories but two ways of depicting depth: the Northern builds space gradually in layers (Juran), the Southern jumps from a small foreground to towering mountains across a mist-filled gap (Guo Xi), by analogy with gradual and sudden enlightenment in Chan Buddhism.", "refs": ["p-006", "p-008"]},
-    {"q": "Why was this distinction political?", "a": "Dong saw the Song as a classical golden age and celebrated the Han literati over court painters associated with the Mongol Yuan, a narrative that mirrored the pressures on the late Ming dynasty in his own time.", "refs": ["p-007", "p-009"]},
-    {"q": "What links Chinese painting to Castiglione's sprezzatura?", "a": "Both prize the appearance of effortlessness: the Chinese gentleman artist's intuitive grasp of space and the Renaissance ideal of effortless repose, as in Raphael's Disputation, which reconciles contradictory perspective constructions.", "refs": ["p-010", "p-011"]},
-    {"q": "Why did China not theorise cavalier perspective?", "a": "Because non-formal, non-technical aspects of art were given precedence early on; geometric skill became associated with professional court painters and was considered minor, while the manipulation of empty space became the mark of mastery.", "refs": ["p-014", "p-015", "p-016"]},
-    {"q": "What tension lies within Renaissance perspective?", "a": "Frescoes combine a viewer who moves through architectural space with multiple perspective constructions. Renaissance artists masked this with an appearance of unity and by separating incompatible viewpoints, as in Masaccio's Holy Trinity.", "refs": ["p-018", "p-019", "p-020"]},
-    {"q": "How do the Qingming scroll and Lorenzetti's frescoes compare?", "a": "Both use space narratively to organise many separate episodes in an unbroken visual sequence. Vanishing-point perspective later unified space but sacrificed chained episodes, leading Fra Angelico and Piero della Francesca to a deep space–shallow space division.", "refs": ["p-023", "p-025"]},
-    {"q": "What is the article's conclusion?", "a": "In both cultures the history of pictorial space was integral to criticism of contemporary art. Italy came to see Nature as created through geometry, while China treated the point of view as a personal, intuitive response to landscape. Both reckoned with an idealised past in times of upheaval.", "refs": ["p-027"]}
+    {
+      "q": "What does the article compare?",
+      "a": "How Chinese and Italian painting of the fourteenth and fifteenth centuries showed three-dimensional space on a two-dimensional surface, read through two later critics: Dong Qichang and Giorgio Vasari.",
+      "refs": [
+        "p-001",
+        "p-002"
+      ]
+    },
+    {
+      "q": "Why avoid a teleological history of space?",
+      "a": "Because theories from Schmarsow to Zevi treated spatial awareness as progressing towards Modernism. The article instead collects 'symptoms of a cultural syndrome', treating explorations of space as individual experiments rather than a search for a preordained solution.",
+      "refs": [
+        "p-003",
+        "p-004",
+        "p-021"
+      ]
+    },
+    {
+      "q": "What were Dong Qichang's Northern and Southern schools?",
+      "a": "Not geographic categories but two ways of depicting depth: the Northern builds space gradually in layers (Juran), the Southern jumps from a small foreground to towering mountains across a mist-filled gap (Guo Xi), by analogy with gradual and sudden enlightenment in Chan Buddhism.",
+      "refs": [
+        "p-006",
+        "p-008"
+      ]
+    },
+    {
+      "q": "Why was this distinction political?",
+      "a": "Dong saw the Song as a classical golden age and celebrated the Han literati over court painters associated with the Mongol Yuan, a narrative that mirrored the pressures on the late Ming dynasty in his own time.",
+      "refs": [
+        "p-007",
+        "p-009"
+      ]
+    },
+    {
+      "q": "What links Chinese painting to Castiglione's sprezzatura?",
+      "a": "Both prize the appearance of effortlessness: the Chinese gentleman artist's intuitive grasp of space and the Renaissance ideal of effortless repose, as in Raphael's Disputation, which reconciles contradictory perspective constructions.",
+      "refs": [
+        "p-010",
+        "p-011"
+      ]
+    },
+    {
+      "q": "Why did China not theorise cavalier perspective?",
+      "a": "Because non-formal, non-technical aspects of art were given precedence early on; geometric skill became associated with professional court painters and was considered minor, while the manipulation of empty space became the mark of mastery.",
+      "refs": [
+        "p-014",
+        "p-015",
+        "p-016"
+      ]
+    },
+    {
+      "q": "What tension lies within Renaissance perspective?",
+      "a": "Frescoes combine a viewer who moves through architectural space with multiple perspective constructions. Renaissance artists masked this with an appearance of unity and by separating incompatible viewpoints, as in Masaccio's Holy Trinity.",
+      "refs": [
+        "p-018",
+        "p-019",
+        "p-020"
+      ]
+    },
+    {
+      "q": "How do the Qingming scroll and Lorenzetti's frescoes compare?",
+      "a": "Both use space narratively to organise many separate episodes in an unbroken visual sequence. Vanishing-point perspective later unified space but sacrificed chained episodes, leading Fra Angelico and Piero della Francesca to a deep space–shallow space division.",
+      "refs": [
+        "p-023",
+        "p-025"
+      ]
+    },
+    {
+      "q": "What is the article's conclusion?",
+      "a": "In both cultures the history of pictorial space was integral to criticism of contemporary art. Italy came to see Nature as created through geometry, while China treated the point of view as a personal, intuitive response to landscape. Both reckoned with an idealised past in times of upheaval.",
+      "refs": [
+        "p-027"
+      ]
+    }
   ]
 }

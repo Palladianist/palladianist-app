@@ -1,16 +1,81 @@
 {
   "articleId": "v1n1-palazzo",
   "lang": "it",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "Che cosa confronta l'articolo?", "a": "Il modo in cui la pittura cinese e quella italiana del Trecento e del Quattrocento mostrarono lo spazio tridimensionale su una superficie bidimensionale, letto attraverso due critici successivi: Dong Qichang e Giorgio Vasari.", "refs": ["p-001", "p-002"]},
-    {"q": "Perché evitare una storia teleologica dello spazio?", "a": "Perché le teorie da Schmarsow a Zevi hanno trattato la coscienza spaziale come un progresso verso il Moderno. L'articolo raccoglie invece i «sintomi di una sindrome culturale», considerando le ricerche sullo spazio come sperimentazioni individuali e non come ricerca di una soluzione prestabilita.", "refs": ["p-003", "p-004", "p-021"]},
-    {"q": "Che cosa erano le scuole del Nord e del Sud di Dong Qichang?", "a": "Non categorie geografiche ma due modi di rappresentare la profondità: la scuola del Nord costruisce lo spazio gradualmente per strati (Juran), quella del Sud salta da un piccolo primo piano a montagne torreggianti attraverso un vuoto di nebbia (Guo Xi), per analogia con l'illuminazione graduale e improvvisa del buddhismo Chan.", "refs": ["p-006", "p-008"]},
-    {"q": "Perché questa distinzione era politica?", "a": "Dong vedeva nei Song un'età dell'oro classica e celebrava i letterati Han rispetto ai pittori di corte associati alla dinastia mongola Yuan, una narrazione che rispecchiava le pressioni sulla tarda dinastia Ming del suo tempo.", "refs": ["p-007", "p-009"]},
-    {"q": "Che cosa lega la pittura cinese alla sprezzatura di Castiglione?", "a": "Entrambe danno valore all'apparenza di assenza di sforzo: l'intuizione dello spazio dell'artista gentiluomo cinese e l'ideale rinascimentale di quiete senza sforzo, come nella Disputa di Raffaello, che concilia costruzioni prospettiche contraddittorie.", "refs": ["p-010", "p-011"]},
-    {"q": "Perché in Cina non si teorizzò la prospettiva cavaliera?", "a": "Perché gli aspetti non formali e non tecnici dell'arte ebbero presto la precedenza; la perizia geometrica fu associata ai pittori di corte professionisti e considerata minore, mentre la manipolazione dello spazio vuoto divenne il segno della maestria.", "refs": ["p-014", "p-015", "p-016"]},
-    {"q": "Quale tensione si nasconde nella prospettiva rinascimentale?", "a": "Gli affreschi combinano un osservatore che si muove nello spazio architettonico con molteplici costruzioni prospettiche. Gli artisti del Rinascimento la mascherarono con un'apparenza di unità e separando i punti di vista incompatibili, come nella Trinità di Masaccio.", "refs": ["p-018", "p-019", "p-020"]},
-    {"q": "Come si confrontano il rotolo del Qingming e gli affreschi di Lorenzetti?", "a": "Entrambi usano lo spazio in chiave narrativa per organizzare molti episodi distinti in una sequenza visiva ininterrotta. La prospettiva a punto di fuga unificò poi lo spazio ma sacrificò gli episodi concatenati, portando Beato Angelico e Piero della Francesca alla divisione tra spazio profondo e spazio poco profondo.", "refs": ["p-023", "p-025"]},
-    {"q": "Qual è la conclusione dell'articolo?", "a": "In entrambe le culture la storia dello spazio pittorico era parte integrante della critica dell'arte contemporanea. L'Italia giunse a vedere la Natura come creata attraverso la geometria, la Cina trattò il punto di vista come reazione personale e intuitiva al paesaggio. Entrambe fecero i conti con un passato idealizzato in tempi di sconvolgimento.", "refs": ["p-027"]}
+    {
+      "q": "Che cosa confronta l'articolo?",
+      "a": "Il modo in cui la pittura cinese e quella italiana del Trecento e del Quattrocento rappresentarono lo spazio tridimensionale su una superficie bidimensionale, analizzato attraverso due critici successivi: Dong Qichang e Giorgio Vasari.",
+      "refs": [
+        "p-001",
+        "p-002"
+      ]
+    },
+    {
+      "q": "Perché evitare una storia teleologica dello spazio?",
+      "a": "Perché le teorie da Schmarsow a Zevi hanno trattato la coscienza spaziale come un progresso verso il Moderno. L'articolo raccoglie invece i «sintomi di una sindrome culturale», considerando le ricerche sullo spazio come sperimentazioni individuali e non come ricerca di una soluzione prestabilita.",
+      "refs": [
+        "p-003",
+        "p-004",
+        "p-021"
+      ]
+    },
+    {
+      "q": "Che cosa erano le scuole del Nord e del Sud di Dong Qichang?",
+      "a": "Non categorie geografiche ma due modi di rappresentare la profondità: la scuola del Nord costruisce lo spazio gradualmente per strati (Juran), quella del Sud salta da un piccolo primo piano a montagne torreggianti attraverso un vuoto di nebbia (Guo Xi), per analogia con l'illuminazione graduale e improvvisa del buddhismo Chan.",
+      "refs": [
+        "p-006",
+        "p-008"
+      ]
+    },
+    {
+      "q": "Perché questa distinzione era politica?",
+      "a": "Dong vedeva nei Song un'età dell'oro classica e celebrava i letterati Han rispetto ai pittori di corte associati alla dinastia mongola Yuan, una narrazione che rispecchiava le pressioni sulla tarda dinastia Ming del suo tempo.",
+      "refs": [
+        "p-007",
+        "p-009"
+      ]
+    },
+    {
+      "q": "Che cosa lega la pittura cinese alla sprezzatura di Castiglione?",
+      "a": "Entrambe danno valore all'apparenza di assenza di sforzo: l'intuizione dello spazio dell'artista gentiluomo cinese e l'ideale rinascimentale di quiete senza sforzo, come nella Disputa di Raffaello, che concilia costruzioni prospettiche contraddittorie.",
+      "refs": [
+        "p-010",
+        "p-011"
+      ]
+    },
+    {
+      "q": "Perché in Cina non si teorizzò la prospettiva cavaliera?",
+      "a": "Perché gli aspetti non formali e non tecnici dell'arte ebbero presto la precedenza; la perizia geometrica fu associata ai pittori di corte professionisti e considerata di minore importanza, mentre la manipolazione dello spazio vuoto divenne il segno della maestria.",
+      "refs": [
+        "p-014",
+        "p-015",
+        "p-016"
+      ]
+    },
+    {
+      "q": "Quale tensione si nasconde nella prospettiva rinascimentale?",
+      "a": "Gli affreschi combinano un osservatore che si muove nello spazio architettonico con molteplici costruzioni prospettiche. Gli artisti del Rinascimento la mascherarono con un'apparenza di unità e separando i punti di vista incompatibili, come nella Trinità di Masaccio.",
+      "refs": [
+        "p-018",
+        "p-019",
+        "p-020"
+      ]
+    },
+    {
+      "q": "Come si confrontano il rotolo del Qingming e gli affreschi di Lorenzetti?",
+      "a": "Entrambi usano lo spazio in chiave narrativa per organizzare molti episodi distinti in una sequenza visiva ininterrotta. La prospettiva a punto di fuga unificò lo spazio, ma sacrificò gli episodi concatenati, portando Beato Angelico e Piero della Francesca a una divisione tra spazio profondo e spazio poco profondo.",
+      "refs": [
+        "p-023",
+        "p-025"
+      ]
+    },
+    {
+      "q": "Qual è la conclusione dell'articolo?",
+      "a": "In entrambe le culture la storia dello spazio pittorico era parte integrante della critica dell'arte contemporanea. L'Italia giunse a vedere la Natura come creata attraverso la geometria, la Cina trattò il punto di vista come reazione personale e intuitiva al paesaggio. Entrambe fecero i conti con un passato idealizzato in tempi di sconvolgimento.",
+      "refs": [
+        "p-027"
+      ]
+    }
   ]
 }
