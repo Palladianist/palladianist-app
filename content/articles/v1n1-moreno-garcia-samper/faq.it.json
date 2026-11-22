@@ -1,16 +1,77 @@
 {
   "articleId": "v1n1-moreno-garcia-samper",
   "lang": "it",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "Che cosa confronta l'articolo?", "a": "La documentazione architettonica tradizionale – piante e sezioni storiche – con i rilievi mediante scansione laser terrestre (TLS) di cinque cattedrali gotiche: Girona, Maiorca, Narbonne, Laon e Chartres.", "refs": ["p-006", "p-010"]},
-    {"q": "Perché i disegni storici differiscono dalle cattedrali costruite?", "a": "Perché si basano su geometrie idealizzate: tendono a correggere le deviazioni, regolarizzare gli assi e semplificare le irregolarità prodotte da lunghi processi costruttivi, e avevano finalità rappresentative e interpretative più che strettamente metriche.", "refs": ["p-003", "p-017"]},
-    {"q": "Che cosa aggiunge la scansione laser terrestre?", "a": "Nuvole di punti 3D di elevata accuratezza che registrano deformazioni, asimmetrie, tolleranze costruttive e variazioni geometriche che il rilievo tradizionale raramente coglie.", "refs": ["p-005", "p-021"]},
-    {"q": "Come è stato condotto il confronto?", "a": "I documenti storici sono stati ridisegnati in CAD; dalle nuvole di punti sono state estratte e vettorializzate piante, sezioni e ortoimmagini; i due insiemi sono stati poi allineati e sovrapposti in un sistema di riferimento comune, usando in pianta gli assi dei pilastri e della navata e in sezione linee di pavimento, imposte e chiavi di volta.", "refs": ["p-013", "p-014"]},
-    {"q": "Quali strumenti e campagne sono stati impiegati?", "a": "Leica RTC360 per Girona (2019), Maiorca (2021) e Narbonne (2023), e Leica BLK per Chartres e Laon (2026), con errori di registrazione di pochi millimetri e, in alcuni casi, fotogrammetria.", "refs": ["p-014", "t-01"]},
-    {"q": "Quanto corrispondono i disegni alle scansioni?", "a": "In pianta la concordanza complessiva è elevata: le discrepanze sono soprattutto lievi deviazioni nell'allineamento dei pilastri, piccole variazioni nell'interasse delle campate e differenze minori in murature e cappelle laterali, compatibili con le tolleranze costruttive medievali.", "refs": ["p-018"]},
-    {"q": "Dove sono le discrepanze maggiori?", "a": "In sezione, nei parametri più difficili da misurare a mano: altezze delle navate, posizione esatta delle chiavi di volta e curvatura effettiva di alcuni archi.", "refs": ["p-020"]},
-    {"q": "Quale cattedrale diverge di più?", "a": "Narbonne, sia in pianta sia in sezione, in particolare in alcuni elementi della navata centrale e del coro.", "refs": ["p-019", "p-020"]},
-    {"q": "L'articolo contrappone rilievo digitale e disegno storico?", "a": "No. Li considera complementari: i disegni tradizionali spiegano la logica progettuale dell'architettura gotica, mentre il TLS verifica quelle geometrie rispetto all'edificio così come è stato costruito.", "refs": ["p-008", "p-022"]}
+    {
+      "q": "Che cosa confronta l'articolo?",
+      "a": "La documentazione architettonica tradizionale – piante e sezioni storiche – con i rilievi mediante scansione laser terrestre (TLS) di cinque cattedrali gotiche: Girona, Maiorca, Narbonne, Laon e Chartres.",
+      "refs": [
+        "p-006",
+        "p-010"
+      ]
+    },
+    {
+      "q": "Perché i disegni storici differiscono dalle cattedrali costruite?",
+      "a": "Perché si basano su geometrie idealizzate: tendono a correggere le deviazioni, a regolarizzare gli assi e a semplificare le irregolarità prodotte da lunghi processi costruttivi, e hanno finalità rappresentative e interpretative più che strettamente metriche.",
+      "refs": [
+        "p-003",
+        "p-017"
+      ]
+    },
+    {
+      "q": "Che cosa aggiunge la scansione laser terrestre?",
+      "a": "Nuvole di punti 3D ad alta precisione che registrano deformazioni, asimmetrie, tolleranze costruttive e variazioni geometriche che il rilievo tradizionale raramente coglie.",
+      "refs": [
+        "p-005",
+        "p-021"
+      ]
+    },
+    {
+      "q": "Come è stato condotto il confronto?",
+      "a": "I documenti storici sono stati ridisegnati in CAD; dalle nuvole di punti sono state estratte e vettorializzate piante, sezioni e ortofoto; i due insiemi sono stati poi allineati e sovrapposti in un sistema di riferimento comune, usando in pianta gli assi dei pilastri e della navata e in sezione le linee di pavimento, le imposte e le chiavi di volta.",
+      "refs": [
+        "p-013",
+        "p-014"
+      ]
+    },
+    {
+      "q": "Quali strumenti e campagne sono stati impiegati?",
+      "a": "Leica RTC360 per Girona (2019), Maiorca (2021) e Narbonne (2023), e Leica BLK per Chartres e Laon (2026), con errori di registrazione di pochi millimetri e, in alcuni casi, fotogrammetria.",
+      "refs": [
+        "p-014",
+        "t-01"
+      ]
+    },
+    {
+      "q": "Quanto corrispondono i disegni alle scansioni?",
+      "a": "In pianta, la concordanza complessiva è elevata: le discrepanze riguardano soprattutto lievi deviazioni nell'allineamento dei pilastri, piccole variazioni nell'interasse delle campate e differenze minori nelle murature e nelle cappelle laterali, compatibili con le tolleranze costruttive medievali.",
+      "refs": [
+        "p-018"
+      ]
+    },
+    {
+      "q": "Dove sono le discrepanze maggiori?",
+      "a": "In sezione, nei parametri più difficili da misurare a mano: altezze delle navate, posizione esatta delle chiavi di volta e curvatura effettiva di alcuni archi.",
+      "refs": [
+        "p-020"
+      ]
+    },
+    {
+      "q": "Quale cattedrale si discosta di più?",
+      "a": "Narbonne, sia in pianta sia in sezione, in particolare in alcuni elementi della navata centrale e del coro.",
+      "refs": [
+        "p-019",
+        "p-020"
+      ]
+    },
+    {
+      "q": "L'articolo contrappone il rilievo digitale al disegno storico?",
+      "a": "No. Li considera complementari: i disegni tradizionali spiegano la logica progettuale dell'architettura gotica, mentre il TLS verifica quelle geometrie rispetto all'edificio così come è stato costruito.",
+      "refs": [
+        "p-008",
+        "p-022"
+      ]
+    }
   ]
 }

@@ -2,65 +2,316 @@
   "articleId": "v1n1-moreno-garcia-samper",
   "lang": "it",
   "source": "text.en.json",
-  "translation": {"method": "AI-assisted (Claude) con glossario disciplinare", "status": "draft", "reviewedBy": null, "reviewedOn": null},
+  "translation": {
+    "method": "AI-assisted (Claude) con glossario disciplinare",
+    "status": "reviewed",
+    "reviewedBy": "Giuseppe Amoruso",
+    "reviewedOn": "2026-11-22"
+  },
   "translationNotes": "Nel paragrafo p-011 l'originale ripete «1996, 1996» nella citazione di Bonjour & Petitdemange: da verificare con gli autori. «Terrestrial laser scanning (TLS)» è reso con «scansione laser terrestre (TLS)».",
   "title": "Geometria ideale e realtà costruita nelle cattedrali gotiche. Un'analisi comparativa mediante scansione laser terrestre",
   "abstract": [
     "L'articolo analizza le differenze geometriche tra la documentazione architettonica tradizionale e i rilievi con scansione laser terrestre (TLS) di cinque cattedrali gotiche europee: Girona, Maiorca, Narbonne, Laon e Chartres. Mentre i disegni storici si basano su geometrie idealizzate che sintetizzano la logica spaziale e costruttiva dell'edificio, il TLS registra deformazioni, irregolarità e tolleranze costruttive che i metodi tradizionali raramente colgono. La ricerca combina campagne TLS, ridisegno CAD della documentazione storica e procedure di allineamento e sovrapposizione per confrontare piante e sezioni storiche con modelli da nuvola di punti. I risultati rivelano un elevato grado di concordanza complessiva tra i due approcci, sebbene si individuino discrepanze significative in alcuni parametri geometrici, in particolare le altezze delle navate, le posizioni delle chiavi di volta e specifiche irregolarità derivanti dai processi costruttivi medievali. La cattedrale di Narbonne presenta le maggiori divergenze rispetto alla documentazione storica, soprattutto in alcuni elementi della navata centrale, e lo studio dimostra che le tecnologie di documentazione digitale non solo migliorano l'accuratezza metrica della documentazione del patrimonio architettonico, ma costituiscono anche strumenti critici per reinterpretare il rapporto tra rappresentazione ideale e realtà costruita nell'architettura gotica."
   ],
-  "keywords": ["Architettura gotica", "Scansione laser terrestre (TLS)", "Rilievo architettonico", "Patrimonio digitale", "Analisi geometrica"],
+  "keywords": [
+    "Architettura gotica",
+    "Scansione laser terrestre (TLS)",
+    "Rilievo architettonico",
+    "Patrimonio digitale",
+    "Analisi geometrica"
+  ],
   "blocks": [
-    {"id": "h-01", "type": "heading", "level": 2, "text": "Introduzione"},
-    {"id": "p-001", "type": "paragraph", "text": "Fin dal Medioevo le cattedrali gotiche sono state interpretate attraverso la geometria e la rappresentazione grafica, dai disegni di Villard de Honnecourt agli studi storiografici moderni (Barnes, 2009; Ruskin, 1880). Il disegno di architettura è stato storicamente uno strumento fondamentale per documentare, analizzare e comunicare la conoscenza del modo in cui questi edifici furono costruiti, offrendo una sintesi spaziale dei principi geometrici, strutturali e compositivi."},
-    {"id": "p-002", "type": "paragraph", "text": "Studi successivi hanno esplorato sia le qualità espressive dell'architettura gotica sia le caratteristiche geometriche del gotico catalano e francese (Cirici Pellicer, 1968; Sureda, 2005; Adams, 1980; Berry, 1975; Bouxin, 1890; Plouvier, 1997)."},
-    {"id": "p-003", "type": "paragraph", "text": "La rappresentazione architettonica tradizionale mediante piante, sezioni e prospetti ha offerto una lettura coerente e ordinata delle cattedrali, sebbene spesso fondata su geometrie idealizzate. I rilievi storici tendono a correggere le deviazioni, regolarizzare gli assi e semplificare le irregolarità derivanti da processi costruttivi lunghi e complessi (San José Alonso, 2018). Ricerche recenti sulla cattedrale di Girona hanno dimostrato come l'intervento successivo di diversi capomastri e i lunghi periodi di costruzione abbiano generato variazioni geometriche difficili da ricondurre a un unico schema ideale (Rabasa Díaz &amp; Alonso Rodríguez, 2017; Moreno-García, 2024)."},
-    {"id": "p-004", "type": "paragraph", "text": "Analogamente, studi specifici su Chartres e Narbonne hanno messo in luce la complessità formale e simbolica di particolari elementi architettonici, come i trifori e i sistemi spaziali delle navate gotiche (Bonjour &amp; Petitdemange, 1996; Bunjes, 1943; Laurent, 1887; Paul, 1991)."},
-    {"id": "p-005", "type": "paragraph", "text": "Negli ultimi decenni lo sviluppo della scansione laser terrestre (TLS) e delle tecniche di documentazione digitale ha trasformato profondamente il rilievo architettonico e lo studio del patrimonio storico. Questi metodi consentono di generare nuvole di punti tridimensionali di elevata accuratezza, in grado di registrare deformazioni, tolleranze costruttive e variazioni geometriche difficili da individuare con i metodi di rilievo tradizionali (Mataix Sanjuán et al., 2013; San José Alonso, 2018)."},
-    {"id": "p-006", "type": "paragraph", "text": "Diversi studi hanno inoltre dimostrato le potenzialità del TLS per l'analisi geometrica e strutturale dell'architettura gotica, in particolare nello studio di volte, archi, contrafforti e sistemi spaziali complessi (Moreno-García et al., 2022; Samper et al., 2022). Nonostante questi progressi, il rapporto tra le geometrie idealizzate trasmesse dalla documentazione storica e la realtà costruita registrata con il TLS resta poco esplorato. In questo contesto, l'articolo analizza le differenze geometriche tra la documentazione architettonica tradizionale e i rilievi contemporanei con scansione laser terrestre delle cattedrali di Girona, Maiorca, Narbonne, Laon e Chartres (Fig. 1)."},
-    {"id": "f-01", "type": "figure", "ref": "fig-1"},
-    {"id": "p-007", "type": "paragraph", "text": "Confrontando piante e sezioni storiche vettorializzate con modelli derivati da nuvole di punti, lo studio esamina come le tecnologie digitali consentano di verificare le geometrie ideali trasmesse dalla storiografia architettonica rispetto alla realtà costruita registrata digitalmente."},
-    {"id": "p-008", "type": "paragraph", "text": "L'obiettivo non è stabilire un'opposizione tra rappresentazione storica e documentazione digitale, ma analizzare come i due approcci possano completarsi a vicenda."},
-    {"id": "p-009", "type": "paragraph", "text": "Mentre i disegni tradizionali restano fondamentali per comprendere la logica progettuale e compositiva dell'architettura gotica, il TLS consente di registrare con precisione deviazioni, irregolarità e trasformazioni accumulate durante i processi costruttivi. La combinazione dei due approcci offre così una lettura più articolata e accurata del patrimonio architettonico storico."},
-    {"id": "h-02", "type": "heading", "level": 2, "text": "1. Metodologia"},
-    {"id": "h-03", "type": "heading", "level": 3, "text": "<em>1.1. Selezione e analisi della documentazione architettonica tradizionale</em>"},
-    {"id": "p-010", "type": "paragraph", "text": "Lo studio si basa su una selezione di documentazione architettonica tradizionale tratta dalla letteratura specialistica e da archivi storici. Per ciascuna delle cinque cattedrali analizzate – Girona, Maiorca, Narbonne, Laon e Chartres – sono state selezionate una pianta rappresentativa dell'intero edificio e una sezione o un prospetto di una delle campate principali della navata centrale. Questi documenti costituiscono la base per ricostruire le geometrie idealizzate trasmesse dalla storiografia e dalla tradizione del rilievo architettonico."},
-    {"id": "p-011", "type": "paragraph", "text": "Per la cattedrale di Chartres le fonti consultate comprendono studi incentrati sull'interpretazione spaziale e simbolica dell'edificio e ricerche su specifici elementi architettonici (Adams, 1980; Bonjour &amp; Petitdemange, 1996, 1996; Bunjes, 1943). Per la cattedrale di Laon sono state utilizzate pubblicazioni storiche e architettoniche dedicate sia all'edificio sia al suo contesto urbano (Berry, 1975; Bouxin, 1890; Plouvier, 1997). Per Narbonne la selezione documentaria si è basata su studi sulla costruzione del coro e sull'analisi formale del triforio aggettante (Laurent, 1887; Paul, 1991), insieme all'acquisizione di un disegno originale di Viollet-le-Duc (Fig. 2)."},
-    {"id": "f-02", "type": "figure", "ref": "fig-2"},
-    {"id": "p-012", "type": "paragraph", "text": "Per la cattedrale di Girona sono state utilizzate ricerche recenti incentrate sull'analisi geometrica e costruttiva dell'edificio (Rabasa Díaz &amp; Alonso Rodríguez, 2017; Moreno-García, 2024), mentre lo studio della cattedrale di Maiorca si è basato sulla documentazione storica e sui rilievi architettonici comunemente impiegati nelle ricerche sul gotico mediterraneo (Cram, 2015; Sureda, 2005)."},
-    {"id": "p-013", "type": "paragraph", "text": "Tutti i documenti selezionati sono stati ridisegnati in formato vettoriale CAD per uniformare scale, convenzioni grafiche e livelli di precisione (Fig. 3). Questo processo ha fornito una base documentaria coerente per il confronto con i modelli derivati dalle nuvole di punti acquisite mediante scansione laser terrestre."},
-    {"id": "f-03", "type": "figure", "ref": "fig-3"},
-    {"id": "h-04", "type": "heading", "level": 3, "text": "<em>1.2. Campagne di digitalizzazione e procedura comparativa</em>"},
-    {"id": "p-014", "type": "paragraph", "text": "La base metrica dello studio è costituita dalle campagne di scansione laser terrestre (TLS) condotte nelle cattedrali di Girona, Maiorca, Narbonne, Chartres e Laon tra il 2019 e il 2026 (Tabella 1). In queste campagne sono stati impiegati scanner Leica RTC360 e Leica BLK per acquisire nuvole di punti dense degli interni e delle aree esterne accessibili, garantendo un livello di accuratezza geometrica adeguato all'analisi architettonica. La cattedrale di Girona è stata digitalizzata nel 2019, Maiorca nel 2021 e Narbonne nel 2023 con uno scanner Leica RTC360, mentre le campagne di Chartres e Laon sono state condotte nel 2026 con uno scanner Leica BLK. I rilievi hanno privilegiato la documentazione di navate, transetti, absidi e altre aree di particolare complessità geometrica, come le volte e i nodi strutturali. Le scansioni acquisite dalle diverse stazioni sono state registrate per generare modelli tridimensionali unificati, con errori di registrazione di pochi millimetri. In alcuni casi la documentazione TLS è stata integrata con la fotogrammetria per facilitare l'interpretazione di specifici elementi architettonici (Mataix Sanjuán et al., 2013; San José Alonso, 2018). Dai modelli tridimensionali registrati sono state estratte sezioni orizzontali e verticali per ottenere piante, sezioni e ortoimmagini corrispondenti alla documentazione architettonica tradizionale. Questi elaborati sono stati poi vettorializzati in formato CAD per uniformare scale, convenzioni grafiche e livelli di precisione (Figg. 4–7). La documentazione storica e i modelli derivati dal TLS sono stati confrontati mediante procedure di allineamento geometrico e sovrapposizione in un sistema di riferimento comune. In pianta l'allineamento si è basato sugli assi principali dei pilastri e sull'asse longitudinale della navata, mentre in sezione sono stati usati come riferimento le linee di pavimento, le imposte, le linee d'imposta degli archi e le chiavi di volta. Questa procedura ha permesso di verificare le geometrie idealizzate trasmesse dai disegni storici rispetto alla realtà costruita registrata con il TLS, rivelando deviazioni negli allineamenti, variazioni nell'interasse delle campate e differenze geometriche accumulate durante i processi costruttivi medievali."},
-    {"id": "f-04", "type": "figure", "ref": "fig-4"},
-    {"id": "f-05", "type": "figure", "ref": "fig-5"},
-    {"id": "f-06", "type": "figure", "ref": "fig-6"},
-    {"id": "f-07", "type": "figure", "ref": "fig-7"},
-    {"id": "t-01", "type": "table", "rows": [["Cattedrale", "Girona", "Maiorca", "Narbonne", "Laon", "Chartres"], ["Giorni di scansione", "3", "7", "3", "1", "1"], ["Stazioni di scansione", "838", "1250", "613", "236", "260"], ["Collegamenti di registrazione", "891", "1491", "734", "278", "327"], ["Numero di punti", "18M", "21M", "12M", "32M", "22M"], ["Errore medio", "2 mm", "4 mm", "3 mm", "4 mm", "5 mm"]]},
-    {"id": "p-015", "type": "paragraph", "text": "Tabella 1. Parametri delle campagne di digitalizzazione delle cinque cattedrali."},
-    {"id": "h-05", "type": "heading", "level": 2, "text": "Risultati e conclusioni"},
-    {"id": "p-016", "type": "paragraph", "text": "Applicando la metodologia descritta e sovrapponendo la documentazione storica vettorializzata ai modelli ottenuti mediante scansione laser terrestre (TLS), si osservano discrepanze geometriche sottili ma significative tra le rappresentazioni tradizionali e la realtà costruita registrata nelle nuvole di punti (Figg. 8–10)."},
-    {"id": "f-08", "type": "figure", "ref": "fig-8"},
-    {"id": "f-09", "type": "figure", "ref": "fig-9"},
-    {"id": "f-10", "type": "figure", "ref": "fig-10"},
-    {"id": "p-017", "type": "paragraph", "text": "Le differenze individuate erano in parte prevedibili, poiché i rilievi storici furono eseguiti con metodi manuali e avevano finalità prevalentemente rappresentative e interpretative più che strettamente metriche. Tuttavia l'analisi comparativa rivela variazioni geometriche che diventano particolarmente rilevanti se verificate rispetto a modelli digitali di elevata accuratezza. Per garantire la confrontabilità tra i documenti, allineamento e scalatura sono stati eseguiti usando come riferimento elementi architettonici chiave di ciascun edificio. In pianta l'allineamento si è basato sulla larghezza della navata centrale e sugli assi principali dei pilastri, mentre in sezione si sono usati l'interasse delle campate e la posizione dei principali elementi portanti. Questa procedura ha ridotto al minimo le differenze dovute ai metodi di rappresentazione e ha concentrato l'analisi sulle variazioni geometriche effettive."},
-    {"id": "p-018", "type": "paragraph", "text": "I risultati dei confronti in pianta mostrano un elevato grado di concordanza complessiva tra la documentazione storica e i modelli derivati dal TLS (Figg. 8–9). Le discrepanze individuate riguardano soprattutto lievi deviazioni nell'allineamento dei pilastri, piccole variazioni nell'interasse di alcune campate e differenze minori nella geometria di alcune murature perimetrali e cappelle laterali. Nella maggior parte dei casi queste variazioni possono considerarsi compatibili sia con le tolleranze proprie dei processi costruttivi medievali sia con i limiti dei metodi tradizionali di rilievo architettonico."},
-    {"id": "p-019", "type": "paragraph", "text": "La cattedrale di Narbonne presenta le divergenze più evidenti. In questo caso le differenze geometriche osservate sia in pianta sia in sezione sono maggiori di quelle individuate negli altri edifici analizzati, in particolare in alcuni elementi della navata centrale e del coro."},
-    {"id": "p-020", "type": "paragraph", "text": "Le differenze sono ancora più evidenti nei confronti in sezione (Fig. 10). Le discrepanze maggiori si concentrano proprio nei parametri più difficili da determinare con le tecniche tradizionali, come le altezze delle navate, la posizione esatta delle chiavi di volta e la curvatura effettiva di alcuni archi. Anche sotto questo aspetto Narbonne è il caso più significativo, con alcune delle maggiori discrepanze geometriche tra le cattedrali analizzate. Al di là del confronto metrico, lo studio invita a riflettere sulla natura stessa della rappresentazione architettonica. I documenti storici vanno intesi non solo come riproduzioni esatte della realtà costruita, ma anche come interpretazioni grafiche volte a sintetizzare principi compositivi, spaziali e geometrici."},
-    {"id": "p-021", "type": "paragraph", "text": "La scansione laser terrestre introduce invece una forma di rappresentazione basata sull'acquisizione precisa di grandi volumi di dati, capace di registrare deformazioni, asimmetrie e deviazioni accumulate durante il processo costruttivo."},
-    {"id": "p-022", "type": "paragraph", "text": "I risultati mostrano che i due approcci vanno considerati complementari più che contrapposti. Mentre la rappresentazione tradizionale resta fondamentale per comprendere la logica progettuale dell'architettura gotica, le tecnologie TLS permettono di verificare queste geometrie rispetto alla realtà fisica dell'edificio così come è stato costruito."},
-    {"id": "p-023", "type": "paragraph", "text": "La combinazione dei due approcci offre così una lettura più articolata e accurata del patrimonio architettonico storico e apre nuove linee di ricerca sulla geometria e sulla costruzione dell'architettura gotica."}
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduzione"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "Fin dal Medioevo le cattedrali gotiche sono state interpretate attraverso la geometria e la rappresentazione grafica, dai disegni di Villard de Honnecourt agli studi storiografici moderni (Barnes, 2009; Ruskin, 1880). Il disegno di architettura è stato storicamente uno strumento fondamentale per documentare, analizzare e comunicare la conoscenza del modo in cui questi edifici furono costruiti, offrendo una sintesi spaziale dei principi geometrici, strutturali e compositivi."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Studi successivi hanno esplorato sia le qualità espressive dell'architettura gotica sia le caratteristiche geometriche del gotico catalano e francese (Cirici Pellicer, 1968; Sureda, 2005; Adams, 1980; Berry, 1975; Bouxin, 1890; Plouvier, 1997)."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "La rappresentazione architettonica tradizionale mediante piante, sezioni e prospetti ha offerto una lettura coerente e ordinata delle cattedrali, sebbene spesso fondata su geometrie idealizzate. I rilievi storici tendono a correggere le deviazioni, regolarizzare gli assi e semplificare le irregolarità derivanti da processi costruttivi lunghi e complessi (San José Alonso, 2018). Ricerche recenti sulla cattedrale di Girona hanno dimostrato come l'intervento successivo di diversi capomastri e i lunghi periodi di costruzione abbiano generato variazioni geometriche difficili da ricondurre a un unico schema ideale (Rabasa Díaz &amp; Alonso Rodríguez, 2017; Moreno-García, 2024)."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "Analogamente, studi specifici su Chartres e Narbonne hanno messo in luce la complessità formale e simbolica di particolari elementi architettonici, come i trifori e i sistemi spaziali delle navate gotiche (Bonjour &amp; Petitdemange, 1996; Bunjes, 1943; Laurent, 1887; Paul, 1991)."
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "Negli ultimi decenni lo sviluppo della scansione laser terrestre (TLS) e delle tecniche di documentazione digitale ha trasformato profondamente il rilievo architettonico e lo studio del patrimonio storico. Questi metodi consentono di generare nuvole di punti tridimensionali di elevata accuratezza, in grado di registrare deformazioni, tolleranze costruttive e variazioni geometriche difficili da individuare con i metodi di rilievo tradizionali (Mataix Sanjuán et al., 2013; San José Alonso, 2018)."
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "Diversi studi hanno inoltre dimostrato le potenzialità del TLS per l'analisi geometrica e strutturale dell'architettura gotica, in particolare nello studio di volte, archi, contrafforti e sistemi spaziali complessi (Moreno-García et al., 2022; Samper et al., 2022). Nonostante questi progressi, il rapporto tra le geometrie idealizzate trasmesse dalla documentazione storica e la realtà costruita registrata con il TLS resta poco esplorato. In questo contesto, l'articolo analizza le differenze geometriche tra la documentazione architettonica tradizionale e i rilievi contemporanei con scansione laser terrestre delle cattedrali di Girona, Maiorca, Narbonne, Laon e Chartres (Fig. 1)."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "Confrontando piante e sezioni storiche vettorializzate con modelli derivati da nuvole di punti, lo studio esamina in che modo le tecnologie digitali consentano di verificare le geometrie ideali trasmesse dalla storiografia architettonica rispetto alla realtà costruita registrata digitalmente."
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "L'obiettivo non è stabilire un'opposizione tra la rappresentazione storica e la documentazione digitale, ma analizzare come i due approcci possano completarsi a vicenda."
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "Mentre i disegni tradizionali restano fondamentali per comprendere la logica progettuale e compositiva dell'architettura gotica, il TLS consente di registrare con precisione le deviazioni, le irregolarità e le trasformazioni accumulate durante i processi costruttivi. La combinazione dei due approcci offre così una lettura più articolata e accurata del patrimonio architettonico storico."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Metodologia"
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 3,
+      "text": "<em>1.1. Selezione e analisi della documentazione architettonica tradizionale</em>"
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "Lo studio si basa su una selezione di documentazione architettonica tradizionale tratta dalla letteratura specialistica e da archivi storici. Per ciascuna delle cinque cattedrali analizzate – Girona, Maiorca, Narbonne, Laon e Chartres – sono state selezionate una pianta rappresentativa dell'intero edificio e una sezione o un prospetto di una delle campate principali della navata centrale. Questi documenti costituiscono la base per ricostruire le geometrie idealizzate trasmesse dalla storiografia e dalla tradizione del rilievo architettonico."
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "Per la cattedrale di Chartres le fonti consultate comprendono studi incentrati sull'interpretazione spaziale e simbolica dell'edificio e ricerche su specifici elementi architettonici (Adams, 1980; Bonjour &amp; Petitdemange, 1996, 1996; Bunjes, 1943). Per la cattedrale di Laon sono state utilizzate pubblicazioni storiche e architettoniche dedicate sia all'edificio sia al suo contesto urbano (Berry, 1975; Bouxin, 1890; Plouvier, 1997). Per Narbonne, la selezione documentaria si è basata su studi sulla costruzione del coro e sull'analisi formale del triforio aggettante (Laurent, 1887; Paul, 1991), nonché sull'acquisizione di un disegno originale di Viollet-le-Duc (Fig. 2)."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Per la cattedrale di Girona sono state utilizzate ricerche recenti incentrate sull'analisi geometrica e costruttiva dell'edificio (Rabasa Díaz &amp; Alonso Rodríguez, 2017; Moreno-García, 2024), mentre lo studio della cattedrale di Maiorca si è basato sulla documentazione storica e sui rilievi architettonici comunemente impiegati nelle ricerche sul gotico mediterraneo (Cram, 2015; Sureda, 2005)."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "Tutti i documenti selezionati sono stati ridisegnati in formato vettoriale CAD per uniformare le scale, le convenzioni grafiche e i livelli di precisione (Fig. 3). Questo processo ha fornito una base documentaria coerente per il confronto con i modelli derivati dalle nuvole di punti acquisite mediante scansione laser terrestre."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 3,
+      "text": "<em>1.2. Campagne di digitalizzazione e procedura comparativa</em>"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "La base metrica dello studio è costituita dalle campagne di scansione laser terrestre (TLS) condotte nelle cattedrali di Girona, Maiorca, Narbonne, Chartres e Laon tra il 2019 e il 2026 (Tabella 1). In queste campagne sono stati impiegati scanner Leica RTC360 e Leica BLK per acquisire nuvole di punti dense degli interni e delle aree esterne accessibili, garantendo un livello di accuratezza geometrica adeguato all'analisi architettonica. La cattedrale di Girona è stata digitalizzata nel 2019, Maiorca nel 2021 e Narbonne nel 2023 con uno scanner Leica RTC360, mentre le campagne di Chartres e Laon sono state condotte nel 2026 con uno scanner Leica BLK. I rilievi hanno privilegiato la documentazione di navate, transetti, absidi e altre aree di particolare complessità geometrica, come le volte e i nodi strutturali. Le scansioni acquisite dalle diverse stazioni sono state registrate per generare modelli tridimensionali unificati, con errori di registrazione nell'ordine di pochi millimetri. In alcuni casi la documentazione TLS è stata integrata con la fotogrammetria per facilitare l'interpretazione di specifici elementi architettonici (Mataix Sanjuán et al., 2013; San José Alonso, 2018). Dai modelli tridimensionali registrati sono state estratte sezioni orizzontali e verticali per ottenere piante, sezioni e ortofoto conformi alla documentazione architettonica tradizionale. Questi elaborati sono stati successivamente vettorializzati in formato CAD per uniformare le scale, le convenzioni grafiche e i livelli di precisione (Figg. 4–7). La documentazione storica e i modelli derivati dal TLS sono stati confrontati mediante procedure di allineamento geometrico e sovrapposizione in un sistema di riferimento comune. In pianta l'allineamento si è basato sugli assi principali dei pilastri e sull'asse longitudinale della navata, mentre in sezione come riferimento sono state utilizzate le linee di pavimento, le imposte, le linee d'imposta degli archi e le chiavi di volta. Questa procedura ha permesso di confrontare le geometrie idealizzate trasmesse dai disegni storici con la realtà costruita, registrata tramite TLS, rivelando deviazioni negli allineamenti, variazioni nell'interasse delle campate e differenze geometriche accumulate durante i processi costruttivi medievali."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "t-01",
+      "type": "table",
+      "rows": [
+        [
+          "Cattedrale",
+          "Girona",
+          "Maiorca",
+          "Narbonne",
+          "Laon",
+          "Chartres"
+        ],
+        [
+          "Giorni di scansione",
+          "3",
+          "7",
+          "3",
+          "1",
+          "1"
+        ],
+        [
+          "Stazioni di scansione",
+          "838",
+          "1250",
+          "613",
+          "236",
+          "260"
+        ],
+        [
+          "Collegamenti di registrazione",
+          "891",
+          "1491",
+          "734",
+          "278",
+          "327"
+        ],
+        [
+          "Numero di punti",
+          "18M",
+          "21M",
+          "12M",
+          "32M",
+          "22M"
+        ],
+        [
+          "Errore medio",
+          "2 mm",
+          "4 mm",
+          "3 mm",
+          "4 mm",
+          "5 mm"
+        ]
+      ]
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "Tabella 1. Parametri delle campagne di digitalizzazione delle cinque cattedrali."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "Risultati e conclusioni"
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "Applicando la metodologia descritta e sovrapponendo la documentazione storica vettorializzata ai modelli ottenuti mediante scansione laser terrestre (TLS), si osservano discrepanze geometriche sottili ma significative tra le rappresentazioni tradizionali e la realtà costruita registrata nelle nuvole di punti (Figg. 8–10)."
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "Le differenze individuate erano in parte prevedibili, poiché i rilievi storici furono eseguiti con metodi manuali e avevano finalità prevalentemente rappresentative e interpretative più che strettamente metriche. Tuttavia, l'analisi comparativa rivela variazioni geometriche che diventano particolarmente rilevanti se verificate rispetto a modelli digitali di elevata accuratezza. Per garantire la confrontabilità tra i documenti, l'allineamento e la scalatura sono stati eseguiti utilizzando come riferimento gli elementi architettonici chiave di ciascun edificio. In pianta, l'allineamento si è basato sulla larghezza della navata centrale e sugli assi principali dei pilastri, mentre in sezione si sono basati sull'interasse delle campate e sulla posizione dei principali elementi portanti. Questa procedura ha ridotto al minimo le differenze dovute ai metodi di rappresentazione e ha concentrato l'analisi sulle variazioni geometriche effettive."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "I risultati dei confronti in pianta mostrano un elevato grado di concordanza complessiva tra la documentazione storica e i modelli derivati dal TLS (Figg. 8–9). Le discrepanze individuate riguardano soprattutto lievi deviazioni nell'allineamento dei pilastri, piccole variazioni nell'interasse di alcune campate e differenze minori nella geometria di alcune murature perimetrali e cappelle laterali. Nella maggior parte dei casi, queste variazioni possono essere considerate compatibili sia con le tolleranze proprie dei processi costruttivi medievali sia con i limiti dei metodi tradizionali di rilievo architettonico."
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "La cattedrale di Narbonne presenta le divergenze più evidenti. In questo caso le differenze geometriche osservate sia in pianta sia in sezione sono maggiori di quelle individuate negli altri edifici analizzati, in particolare in alcuni elementi della navata centrale e del coro."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "Le differenze sono ancora più evidenti nei confronti in sezione (Fig. 10). Le discrepanze maggiori si concentrano proprio nei parametri più difficili da determinare con le tecniche tradizionali, come le altezze delle navate, la posizione esatta delle chiavi di volta e la curvatura effettiva di alcuni archi. Anche sotto questo aspetto Narbonne è il caso più significativo, con alcune delle maggiori discrepanze geometriche tra le cattedrali analizzate. Al di là del confronto metrico, lo studio invita a riflettere sulla natura stessa della rappresentazione architettonica. I documenti storici vanno intesi non solo come riproduzioni fedeli della realtà costruita, ma anche come interpretazioni grafiche volte a sintetizzare principi compositivi, spaziali e geometrici."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "La scansione laser terrestre introduce invece una forma di rappresentazione basata sull'acquisizione precisa di ampi volumi di dati, capace di registrare deformazioni, asimmetrie e deviazioni accumulate durante il processo costruttivo."
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "I risultati mostrano che i due approcci vanno considerati complementari più che contrapposti. Mentre la rappresentazione tradizionale resta fondamentale per comprendere la logica progettuale dell'architettura gotica, le tecnologie TLS permettono di verificare queste geometrie rispetto alla realtà fisica dell'edificio così come è stato costruito."
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "La combinazione dei due approcci offre così una lettura più articolata e accurata del patrimonio architettonico storico e apre nuove linee di ricerca sulla geometria e sulla costruzione dell'architettura gotica."
+    }
   ],
   "notes": [],
   "figures": {
-    "fig-1": {"caption": "Fig. 1. Modelli generati dalla digitalizzazione delle cinque cattedrali esaminate in questo studio: 1) cattedrale di Girona, 2) cattedrale di Maiorca, 3) cattedrale di Narbonne, 4) cattedrale di Laon e 5) cattedrale di Chartres. Immagine degli autori.", "alt": "Cinque modelli da nuvola di punti di cattedrali gotiche visti in prospettiva, numerati da 1 a 5."},
-    "fig-2": {"caption": "Fig. 2. In alto, un disegno originale di Viollet-le-Duc con i principali elaborati architettonici della cattedrale di Narbonne. In basso, la riproduzione vettoriale CAD elaborata a partire da questa documentazione storica. Immagine degli autori.", "alt": "Disegno storico di Viollet-le-Duc della cattedrale di Narbonne in pianta e alzato, sopra i ridisegni vettoriali e i dettagli delle volte."},
-    "fig-3": {"caption": "Fig. 3. Piante e sezioni risultanti dalle riproduzioni vettoriali CAD della documentazione storica delle cinque cattedrali analizzate. Immagine degli autori.", "alt": "Piante e sezioni trasversali delle cinque cattedrali ridisegnate in formato vettoriale, affiancate alla stessa scala."},
-    "fig-4": {"caption": "Fig. 4. Sezione longitudinale della cattedrale di Narbonne in formato vettoriale e ortoimmagine generata dalla nuvola di punti acquisita mediante scansione laser terrestre (TLS). Immagine degli autori.", "alt": "Sezione longitudinale della cattedrale di Narbonne come disegno vettoriale a confronto con un'ortoimmagine dalla scansione laser."},
-    "fig-5": {"caption": "Fig. 5. Pianta della cattedrale di Girona in formato vettoriale e ortoimmagine generata dalla nuvola di punti acquisita mediante scansione laser terrestre (TLS). Immagine degli autori.", "alt": "Pianta della cattedrale di Girona come disegno vettoriale a confronto con un'ortoimmagine dalla scansione laser."},
-    "fig-6": {"caption": "Fig. 6. Pianta della cattedrale di Narbonne in formato vettoriale e ortoimmagine generata dalla nuvola di punti acquisita mediante TLS. Immagine degli autori.", "alt": "Pianta della cattedrale di Narbonne come disegno vettoriale a confronto con un'ortoimmagine dalla scansione laser."},
-    "fig-7": {"caption": "Fig. 7. Sezione della cattedrale di Maiorca in formato vettoriale e ortoimmagine generata dalla nuvola di punti acquisita mediante scansione laser terrestre (TLS). Immagine degli autori.", "alt": "Sezione della cattedrale di Maiorca come disegno vettoriale a confronto con un'ortoimmagine dalla scansione laser."},
-    "fig-8": {"caption": "Fig. 8. Sovrapposizioni in pianta dei documenti storici vettorializzati (in arancione) e dei modelli ottenuti mediante scansione laser terrestre (TLS), in blu, per le cattedrali di Girona, Maiorca e Narbonne. Immagine degli autori.", "alt": "Piante sovrapposte di tre cattedrali: disegni storici in arancione sopra i modelli da scansione laser in blu."},
-    "fig-9": {"caption": "Fig. 9. Sovrapposizioni in pianta dei documenti storici vettorializzati (in arancione) e dei modelli ottenuti mediante scansione laser terrestre (TLS), in blu, per le cattedrali di Laon e Chartres. Immagine degli autori.", "alt": "Piante sovrapposte di altre due cattedrali: disegni storici in arancione sopra i modelli da scansione laser in blu."},
-    "fig-10": {"caption": "Fig. 10. Confronti in sezione tra i documenti storici vettorializzati (in arancione) e i modelli ottenuti mediante scansione laser terrestre (TLS), in blu. Immagine degli autori.", "alt": "Sezioni trasversali delle cinque cattedrali a confronto, disegni storici in arancione accanto alle sezioni da scansione laser in blu."}
+    "fig-1": {
+      "caption": "Fig. 1. Modelli generati dalla digitalizzazione delle cinque cattedrali esaminate in questo studio: 1) cattedrale di Girona, 2) cattedrale di Maiorca, 3) cattedrale di Narbonne, 4) cattedrale di Laon e 5) cattedrale di Chartres. Immagine degli autori.",
+      "alt": "Cinque modelli di nuvole di punti di cattedrali gotiche, visti in prospettiva, numerati da 1 a 5."
+    },
+    "fig-2": {
+      "caption": "Fig. 2. In alto, un disegno originale di Viollet-le-Duc raffigurante i principali elaborati architettonici della cattedrale di Narbonne. In basso, la riproduzione vettoriale CAD elaborata a partire da questa documentazione storica. Immagine degli autori.",
+      "alt": "Disegno storico di Viollet-le-Duc della cattedrale di Narbonne, in pianta e in alzato, sopra i ridisegni vettoriali e i dettagli delle volte."
+    },
+    "fig-3": {
+      "caption": "Fig. 3. Piante e sezioni derivate dalle riproduzioni vettoriali CAD della documentazione storica delle cinque cattedrali analizzate. Immagine degli autori.",
+      "alt": "Piante e sezioni trasversali delle cinque cattedrali, ridisegnate in formato vettoriale e affiancate alla stessa scala."
+    },
+    "fig-4": {
+      "caption": "Fig. 4. Sezione longitudinale della cattedrale di Narbonne in formato vettoriale e ortofoto generata dalla nuvola di punti acquisita mediante scansione laser terrestre (TLS). Immagine degli autori.",
+      "alt": "Sezione longitudinale della cattedrale di Narbonne, in formato vettoriale, a confronto con un'ortofoto derivata da scansione laser."
+    },
+    "fig-5": {
+      "caption": "Fig. 5. Pianta della cattedrale di Girona in formato vettoriale e ortofoto generata dalla nuvola di punti acquisita mediante scansione laser terrestre (TLS). Immagine degli autori.",
+      "alt": "Pianta della cattedrale di Girona come disegno vettoriale, a confronto con un'ortofoto derivata da scansione laser."
+    },
+    "fig-6": {
+      "caption": "Fig. 6. Pianta della cattedrale di Narbonne in formato vettoriale e ortofoto generata dalla nuvola di punti acquisita mediante TLS. Immagine degli autori.",
+      "alt": "Pianta della cattedrale di Narbonne come disegno vettoriale, a confronto con un'ortofoto derivata da scansione laser."
+    },
+    "fig-7": {
+      "caption": "Fig. 7. Sezione della cattedrale di Maiorca in formato vettoriale e ortofoto generata dalla nuvola di punti acquisita mediante scansione laser terrestre (TLS). Immagine degli autori.",
+      "alt": "Sezione della cattedrale di Maiorca come disegno vettoriale, a confronto con un'ortofoto derivata da scansione laser."
+    },
+    "fig-8": {
+      "caption": "Fig. 8. Sovrapposizioni in pianta dei documenti storici vettorializzati (in arancione) e dei modelli ottenuti mediante scansione laser terrestre (TLS), in blu, per le cattedrali di Girona, Maiorca e Narbonne. Immagine degli autori.",
+      "alt": "Piante sovrapposte di tre cattedrali: disegni storici in arancione sopra i modelli da scansione laser in blu."
+    },
+    "fig-9": {
+      "caption": "Fig. 9. Sovrapposizioni in pianta dei documenti storici vettorializzati (in arancione) e dei modelli ottenuti mediante scansione laser terrestre (TLS), in blu, per le cattedrali di Laon e Chartres. Immagine degli autori.",
+      "alt": "Piante sovrapposte di altre due cattedrali: disegni storici in arancione sopra i modelli da scansione laser in blu."
+    },
+    "fig-10": {
+      "caption": "Fig. 10. Confronti in sezione tra i documenti storici vettorializzati (in arancione) e i modelli ottenuti mediante scansione laser terrestre (TLS) (in blu). Immagine degli autori.",
+      "alt": "Sezioni trasversali delle cinque cattedrali a confronto, disegni storici in arancione accanto alle sezioni da scansione laser in blu."
+    }
   }
 }

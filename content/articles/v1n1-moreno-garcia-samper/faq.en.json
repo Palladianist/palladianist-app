@@ -1,16 +1,77 @@
 {
   "articleId": "v1n1-moreno-garcia-samper",
   "lang": "en",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "What does the article compare?", "a": "Traditional architectural documentation — historical plans and sections — with terrestrial laser scanning (TLS) surveys of five Gothic cathedrals: Girona, Mallorca, Narbonne, Laon and Chartres.", "refs": ["p-006", "p-010"]},
-    {"q": "Why do historical drawings differ from the built cathedrals?", "a": "Because they rely on idealised geometries: they tend to correct deviations, regularise axes and simplify irregularities produced by long construction processes, and they served representational and interpretative rather than strictly metric purposes.", "refs": ["p-003", "p-017"]},
-    {"q": "What does terrestrial laser scanning add?", "a": "Highly accurate 3D point clouds that record deformations, asymmetries, construction tolerances and geometric variations that traditional surveying rarely captures.", "refs": ["p-005", "p-021"]},
-    {"q": "How was the comparison carried out?", "a": "The historical documents were redrawn in CAD; plans, sections and orthoimages were extracted from the point clouds and vectorised; the two were then aligned and overlaid in a common reference system, using pier axes and the nave axis in plan, and floor lines, imposts, arch springing and keystones in section.", "refs": ["p-013", "p-014"]},
-    {"q": "Which instruments and campaigns were used?", "a": "Leica RTC360 for Girona (2019), Mallorca (2021) and Narbonne (2023), and Leica BLK for Chartres and Laon (2026), with registration errors of a few millimetres and photogrammetry in some cases.", "refs": ["p-014", "t-01"]},
-    {"q": "How closely do the drawings match the scans?", "a": "In plan there is a high degree of overall agreement: discrepancies are mostly slight deviations in pier alignment, small variations in bay spacing and minor differences in walls and side chapels, consistent with medieval construction tolerances.", "refs": ["p-018"]},
-    {"q": "Where are the largest discrepancies?", "a": "In section, in the parameters hardest to measure by hand: nave heights, the exact positions of vault keystones and the actual curvature of some arches.", "refs": ["p-020"]},
-    {"q": "Which cathedral diverges most?", "a": "Narbonne, both in plan and in section, particularly in elements of the central nave and the east end.", "refs": ["p-019", "p-020"]},
-    {"q": "Does the article set digital survey against historical drawing?", "a": "No. It treats them as complementary: traditional drawings explain the design logic of Gothic architecture, while TLS tests those geometries against the building as constructed.", "refs": ["p-008", "p-022"]}
+    {
+      "q": "What does the article compare?",
+      "a": "Traditional architectural documentation — historical plans and sections — with terrestrial laser scanning (TLS) surveys of five Gothic cathedrals: Girona, Mallorca, Narbonne, Laon and Chartres.",
+      "refs": [
+        "p-006",
+        "p-010"
+      ]
+    },
+    {
+      "q": "Why do historical drawings differ from the built cathedrals?",
+      "a": "Because they rely on idealised geometries: they tend to correct deviations, regularise axes and simplify irregularities produced by long construction processes, and they served representational and interpretative rather than strictly metric purposes.",
+      "refs": [
+        "p-003",
+        "p-017"
+      ]
+    },
+    {
+      "q": "What does terrestrial laser scanning add?",
+      "a": "Highly accurate 3D point clouds that record deformations, asymmetries, construction tolerances and geometric variations that traditional surveying rarely captures.",
+      "refs": [
+        "p-005",
+        "p-021"
+      ]
+    },
+    {
+      "q": "How was the comparison carried out?",
+      "a": "The historical documents were redrawn in CAD; plans, sections and orthoimages were extracted from the point clouds and vectorised; the two were then aligned and overlaid in a common reference system, using pier axes and the nave axis in plan, and floor lines, imposts, arch springing and keystones in section.",
+      "refs": [
+        "p-013",
+        "p-014"
+      ]
+    },
+    {
+      "q": "Which instruments and campaigns were used?",
+      "a": "Leica RTC360 for Girona (2019), Mallorca (2021) and Narbonne (2023), and Leica BLK for Chartres and Laon (2026), with registration errors of a few millimetres and photogrammetry in some cases.",
+      "refs": [
+        "p-014",
+        "t-01"
+      ]
+    },
+    {
+      "q": "How closely do the drawings match the scans?",
+      "a": "In plan there is a high degree of overall agreement: discrepancies are mostly slight deviations in pier alignment, small variations in bay spacing and minor differences in walls and side chapels, consistent with medieval construction tolerances.",
+      "refs": [
+        "p-018"
+      ]
+    },
+    {
+      "q": "Where are the largest discrepancies?",
+      "a": "In section, in the parameters hardest to measure by hand: nave heights, the exact positions of vault keystones and the actual curvature of some arches.",
+      "refs": [
+        "p-020"
+      ]
+    },
+    {
+      "q": "Which cathedral diverges most?",
+      "a": "Narbonne, both in plan and in section, particularly in elements of the central nave and the east end.",
+      "refs": [
+        "p-019",
+        "p-020"
+      ]
+    },
+    {
+      "q": "Does the article set digital survey against historical drawing?",
+      "a": "No. It treats them as complementary: traditional drawings explain the design logic of Gothic architecture, while TLS tests those geometries against the building as constructed.",
+      "refs": [
+        "p-008",
+        "p-022"
+      ]
+    }
   ]
 }
