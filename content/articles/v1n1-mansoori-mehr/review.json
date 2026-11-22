@@ -3,10 +3,14 @@
     "status": "imported"
   },
   "translation_it": {
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "Giuseppe Amoruso",
+    "reviewedOn": "2026-11-22"
   },
   "faq": {
-    "status": "draft"
+    "status": "reviewed",
+    "reviewedBy": "Giuseppe Amoruso",
+    "reviewedOn": "2026-11-22"
   },
   "audio_en": {
     "status": "todo"

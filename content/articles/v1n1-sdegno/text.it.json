@@ -4,9 +4,9 @@
   "source": "text.en.json",
   "translation": {
     "method": "AI-assisted (Claude) con glossario disciplinare",
-    "status": "draft",
-    "reviewedBy": null,
-    "reviewedOn": null
+    "status": "reviewed",
+    "reviewedBy": "Giuseppe Amoruso",
+    "reviewedOn": "2026-11-22"
   },
   "title": "Palladio e Canaletto a Venezia. Tra realtà e immaginazione",
   "abstract": [
@@ -126,7 +126,7 @@
     {
       "id": "p-010",
       "type": "paragraph",
-      "text": "L'intelligenza artificiale generativa è stata impiegata in una fase successiva per produrre immagini interpretative della configurazione spaziale ricostruita (Fig. 10). L'operazione è servita a esaminare gli effetti visivi della composizione, dell'aspetto dei materiali e dell'illuminazione, non a ricavare dimensioni o a verificare la prospettiva. L'architettura specifica del modello generativo non è documentata, per cui il procedimento non viene qualificato come elaborazione mediante reti neurali convoluzionali. L'immagine generata dall'IA è dunque testimonianza di un esperimento di visualizzazione, non un'evidenza indipendente sul progetto di Palladio o sulle intenzioni di Canaletto."
+      "text": "L'intelligenza artificiale generativa è stata impiegata in una fase successiva per produrre immagini interpretative della configurazione spaziale ricostruita (Fig. 10). L'operazione è servita a esaminare gli effetti visivi della composizione, dell'aspetto dei materiali e dell'illuminazione, non a ricavare dimensioni o a verificare la prospettiva. L'architettura specifica del modello generativo non è documentata, per cui il procedimento non viene qualificato come elaborazione mediante reti neurali convoluzionali. L'immagine generata dall'IA è dunque la testimonianza di un esperimento di visualizzazione, non un'evidenza indipendente sul progetto di Palladio o sulle intenzioni di Canaletto."
     },
     {
       "id": "f-10",
@@ -142,7 +142,7 @@
     {
       "id": "p-011",
       "type": "paragraph",
-      "text": "Il Convento della Carità fu costruito in parte per i Canonici Lateranensi nel Cinquecento (Bassi, 1971; Modesti, 2005). Palladio ne collocò la descrizione tra gli esempi di disposizioni domestiche antiche trattati nel secondo libro del suo trattato. L'ambizione guida era di «assimigliar questa casa à quelle de gli Antichi» (Palladio, 1570, libro II, p. 29). Il progetto adatta così il vocabolario della <em>domus</em> romana a un'istituzione religiosa veneziana, trasformando un modello archeologico e teorico in una proposta architettonica."
+      "text": "Il Convento della Carità fu costruito in parte per i Canonici Lateranensi nel Cinquecento (Bassi, 1971; Modesti, 2005). Palladio ne collocò la descrizione tra gli esempi di antiche disposizioni domestiche trattate nel secondo libro del suo trattato. L'ambizione guida era di «assimigliar questa casa à quelle de gli Antichi» (Palladio, 1570, libro II, p. 29). Il progetto adatta così il vocabolario della <em>domus</em> romana a un'istituzione religiosa veneziana, trasformando un modello archeologico e teorico in una proposta architettonica."
     },
     {
       "id": "p-012",

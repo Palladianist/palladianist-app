@@ -1,16 +1,82 @@
 {
   "articleId": "v1n1-mansoori-mehr",
   "lang": "it",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "L'articolo sostiene che l'architettura iraniana abbia imitato Palladio?", "a": "No. Afferma che nessuna evidenza mostra l'architettura iraniana del Novecento imitare le ville di Palladio. Il palladianesimo è esaminato come problema di traduzione del sapere architettonico, non di influenza diretta o somiglianza stilistica.", "refs": ["p-001", "p-025"]},
-    {"q": "Perché allora Palladio conta in questa storia?", "a": "Perché i Quattro libri offrirono un modello influente per misurare, confrontare e comunicare l'architettura attraverso il disegno: pianta e prospetto coordinati con quote e testo, così che le relazioni tra parti e tutto potessero essere studiate lontano dagli edifici.", "refs": ["p-001", "p-007"]},
-    {"q": "Come fu recepito Palladio nella cultura accademica francese?", "a": "In modo selettivo. Blondel trasformò le proporzioni palladiane in una tavola comparativa degli ordini; il corso di Le Roy poneva Palladio accanto a Vitruvio, Scamozzi e Vignola; Guadet usò la Basilica di Vicenza come precedente analitico, pur rifiutando l'architettura come scienza dei numeri.", "refs": ["p-002", "p-009", "p-010", "p-011"]},
-    {"q": "Che cos'era il sistema Beaux-Arts?", "a": "Una didattica fondata su programma, concours, esquisse, atelier e giuria: il progetto come sequenza di interpretazione, disegno e valutazione, in cui comporre significava combinare stanze, vestiboli, circolazione e scale in un tutto.", "refs": ["p-010", "p-013"]},
-    {"q": "Che cosa significa «Tra Palladio e Persepoli»?", "a": "Due poli storici: Palladio come modo di codificare l'architettura attraverso la stampa e il disegno, e Persepoli come passato achemenide reso nuovamente operante nel primo periodo Pahlavi (1925–1941) da archeologia, storiografia, istituzioni e istruzione.", "refs": ["p-005", "p-028"]},
-    {"q": "Come fu adattata la didattica Beaux-Arts all'Università di Teheran?", "a": "Non fu copiata. I temi di progetto furono tradotti in persiano da Sadeq Hedayat, ammissione e cicli di studio seguirono i regolamenti universitari e l'esquisse en loge fu eliminata, mentre gli studenti disegnavano capitelli achemenidi e rilevavano monumenti iraniani.", "refs": ["p-015", "p-016", "p-017"]},
-    {"q": "Chi era Mohsen Foroughi?", "a": "Il primo diplomato iraniano dell'École des Beaux-Arts, che si mosse tra Parigi e Teheran. I suoi progetti da studente e i suoi edifici mostrano come iwan, corte, giardino, portico e rivestimenti ceramici siano stati rielaborati attraverso disegno, programma e composizione.", "refs": ["p-019", "p-024"]},
-    {"q": "Come tratta Foroughi l'iwan?", "a": "Non come emblema identitario applicato, ma come elemento ordinatore. Nel progetto del 1935 concentra ingresso e direzione; nella Facoltà di Giurisprudenza l'iwan scompare, ma il suo lavoro spaziale – incasso, soglia, profondità, orientamento assiale – è ridistribuito nel portico e nelle grandi cornici monumentali.", "refs": ["p-020", "p-022"]},
-    {"q": "Qual è la conclusione dell'articolo?", "a": "Il disegno dopo la traduzione non è la sopravvivenza di un modello originario, ma il mezzo attraverso cui il sapere architettonico viene selezionato, messo alla prova, modificato e reso operante altrove. Le procedure grafiche persistono, l'architettura che producono cambia.", "refs": ["p-026", "p-028"]}
+    {
+      "q": "L'articolo sostiene che l'architettura iraniana abbia imitato Palladio?",
+      "a": "No. Afferma che nessuna evidenza dimostra che l'architettura iraniana del Novecento imiti le ville di Palladio. Il palladianesimo è esaminato come un problema di traduzione del sapere architettonico, non come influenza diretta o somiglianza stilistica.",
+      "refs": [
+        "p-001",
+        "p-025"
+      ]
+    },
+    {
+      "q": "Perché allora Palladio conta in questa storia?",
+      "a": "Perché i Quattro libri offrirono un modello influente per misurare, confrontare e comunicare l'architettura attraverso il disegno: pianta e prospetto coordinati con quote e testo, così che le relazioni tra le parti e il tutto potessero essere studiate lontano dagli edifici.",
+      "refs": [
+        "p-001",
+        "p-007"
+      ]
+    },
+    {
+      "q": "Come fu accolto Palladio nella cultura accademica francese?",
+      "a": "In modo selettivo. Blondel trasformò le proporzioni palladiane in una tavola comparativa degli ordini; il corso di Le Roy poneva Palladio accanto a Vitruvio, Scamozzi e Vignola; Guadet usò la Basilica di Vicenza come precedente analitico, pur rifiutando l'architettura come scienza dei numeri.",
+      "refs": [
+        "p-002",
+        "p-009",
+        "p-010",
+        "p-011"
+      ]
+    },
+    {
+      "q": "Che cos'era il sistema Beaux-Arts?",
+      "a": "Una didattica fondata su programma, concours, esquisse, atelier e giuria: il progetto come sequenza di interpretazione, disegno e valutazione, in cui comporre significava combinare stanze, vestiboli, circolazione e scale in un tutto.",
+      "refs": [
+        "p-010",
+        "p-013"
+      ]
+    },
+    {
+      "q": "Che cosa significa «Tra Palladio e Persepoli»?",
+      "a": "Due poli storici: Palladio come modo di codificare l'architettura attraverso la stampa e il disegno, e Persepoli come passato achemenide reso nuovamente operante nel primo periodo Pahlavi (1925–1941) da archeologia, storiografia, istituzioni e istruzione.",
+      "refs": [
+        "p-005",
+        "p-028"
+      ]
+    },
+    {
+      "q": "Come fu adattata la didattica Beaux-Arts all'Università di Teheran?",
+      "a": "Non fu copiata. I temi del progetto furono tradotti in persiano da Sadeq Hedayat; l'ammissione e i cicli di studio seguirono i regolamenti universitari e l'esquisse en loge fu eliminata, mentre gli studenti disegnavano capitelli achemenidi e rilevavano monumenti iraniani.",
+      "refs": [
+        "p-015",
+        "p-016",
+        "p-017"
+      ]
+    },
+    {
+      "q": "Chi era Mohsen Foroughi?",
+      "a": "Il primo diplomato iraniano dell'École des Beaux-Arts, che si mosse tra Parigi e Teheran. I suoi progetti da studente e i suoi edifici mostrano come iwan, corte, giardino, portico e rivestimenti ceramici siano stati rielaborati attraverso il disegno, il programma e la composizione.",
+      "refs": [
+        "p-019",
+        "p-024"
+      ]
+    },
+    {
+      "q": "Come tratta Foroughi l'iwan?",
+      "a": "Non come emblema identitario applicato, ma come elemento ordinatore. Nel progetto del 1935, concentra ingresso e direzione; nella Facoltà di Giurisprudenza, l'iwan scompare, ma il suo lavoro spaziale – incasso, soglia, profondità, orientamento assiale – è ridistribuito nel portico e nelle grandi cornici monumentali.",
+      "refs": [
+        "p-020",
+        "p-022"
+      ]
+    },
+    {
+      "q": "Qual è la conclusione dell'articolo?",
+      "a": "Il disegno, dopo la traduzione, non è la sopravvivenza di un modello originario, ma il mezzo attraverso cui il sapere architettonico viene selezionato, messo alla prova, modificato e reso operante altrove. Le procedure grafiche persistono, l'architettura che producono cambia.",
+      "refs": [
+        "p-026",
+        "p-028"
+      ]
+    }
   ]
 }

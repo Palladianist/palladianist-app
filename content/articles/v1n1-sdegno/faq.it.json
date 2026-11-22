@@ -1,16 +1,87 @@
 {
   "articleId": "v1n1-sdegno",
   "lang": "it",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "Che cosa mette a confronto l'articolo?", "a": "Tre configurazioni del chiostro (peristilio) del Convento della Carità a Venezia: il progetto di Palladio pubblicato nei Quattro libri (1570), l'edificio effettivamente costruito e il dipinto che ne fece Canaletto nel 1744.", "refs": ["p-003", "p-005", "p-024"]},
-    {"q": "Perché il Convento della Carità è speciale nell'opera di Palladio?", "a": "È l'unica opera veneziana inclusa nei Quattro libri. Palladio voleva «assimigliar questa casa à quelle de gli Antichi», adattando la domus romana – atrio, tablino e peristilio – a un convento dei Canonici Lateranensi.", "refs": ["p-001", "p-011", "p-012"]},
-    {"q": "In che cosa il chiostro costruito differisce dal progetto pubblicato?", "a": "Il trattato mostra un chiostro di sei per cinque campate con una terrazza su un lato, che crea un'asimmetria. L'unica facciata lunga superstite ha sette arcate con campate terminali a nicchia e tende alla simmetria.", "refs": ["p-014", "p-015", "p-016"]},
-    {"q": "Il dipinto di Canaletto è una veduta fedele?", "a": "No. È un capriccio: Canaletto aggiunge due terrazze invece di una, cambia la distribuzione delle campate e allunga il prospetto. Il risultato è riconoscibilmente palladiano, ma non corrisponde né al progetto né al chiostro costruito.", "refs": ["p-018", "p-019", "p-022", "p-023"]},
-    {"q": "Con quale metodo è stato analizzato il dipinto?", "a": "Con la geometria descrittiva applicata alla prospettiva inversa: individuazione di orizzonte, punto principale e campate ripetute, poi trasferimento degli elementi su un piano di riferimento con il ribaltamento omologico. I risultati sono ipotesi geometricamente argomentate, non misure.", "refs": ["p-007", "p-008", "p-020"]},
-    {"q": "Che cosa aggiunge il modello digitale?", "a": "Costruito con operazioni booleane, estrusioni, superfici rigate e di rivoluzione, rende intelligibili le conseguenze spaziali del progetto e aiuta a separare le differenze di organizzazione dagli effetti del punto di vista. È una ricostruzione analitica, non un documento archeologico.", "refs": ["p-006", "p-025"]},
-    {"q": "Come è stata usata l'IA?", "a": "Solo per produrre immagini interpretative dello spazio ricostruito, esplorando composizione, materiali e luce. Non è servita a ricavare dimensioni né a verificare la prospettiva, e l'immagine IA non è un'evidenza sul progetto di Palladio o sulle intenzioni di Canaletto.", "refs": ["p-010", "p-025"]},
-    {"q": "Quali limiti dichiara l'autore?", "a": "Non sono documentati una campagna di rilievo specifica, un sistema di riferimento, punti di controllo né una stima dell'errore, quindi non si dichiara alcuna accuratezza assoluta. L'analisi è comparativa e proporzionale, ma le sue ipotesi geometriche restano verificabili.", "refs": ["p-009", "p-027", "p-028"]},
-    {"q": "Qual è la lezione generale dello studio?", "a": "Ogni rappresentazione è anche un'interpretazione. Le configurazioni progettata, costruita e dipinta vanno tenute distinte, perché un realismo apparente può coesistere con un'invenzione architettonica sistematica.", "refs": ["p-026", "p-028", "p-030"]}
+    {
+      "q": "Che cosa mette a confronto l'articolo?",
+      "a": "Tre configurazioni del chiostro (peristilio) del Convento della Carità a Venezia: il progetto di Palladio pubblicato nei Quattro libri (1570), l'edificio effettivamente costruito e il dipinto che ne fece Canaletto nel 1744.",
+      "refs": [
+        "p-003",
+        "p-005",
+        "p-024"
+      ]
+    },
+    {
+      "q": "Perché il Convento della Carità è speciale nell'opera di Palladio?",
+      "a": "È l'unica opera veneziana inclusa nei Quattro libri. Palladio voleva «assimigliar questa casa à quelle de gli Antichi», adattando la domus romana – atrio, tablino e peristilio – a un convento dei Canonici Lateranensi.",
+      "refs": [
+        "p-001",
+        "p-011",
+        "p-012"
+      ]
+    },
+    {
+      "q": "In che cosa il chiostro costruito differisce dal progetto pubblicato?",
+      "a": "Il trattato mostra un chiostro di sei per cinque campate con una terrazza su un lato, che crea un'asimmetria. L'unica facciata lunga superstite presenta sette arcate, con campate terminali a nicchia, e tende alla simmetria.",
+      "refs": [
+        "p-014",
+        "p-015",
+        "p-016"
+      ]
+    },
+    {
+      "q": "Il dipinto di Canaletto è una veduta fedele?",
+      "a": "No. È un capriccio: Canaletto aggiunge due terrazze invece di una, modifica la distribuzione delle campate e allunga il prospetto. Il risultato è riconoscibilmente palladiano, ma non corrisponde né al progetto né al chiostro costruito.",
+      "refs": [
+        "p-018",
+        "p-019",
+        "p-022",
+        "p-023"
+      ]
+    },
+    {
+      "q": "Con quale metodo è stato analizzato il dipinto?",
+      "a": "Con la geometria descrittiva applicata alla prospettiva inversa: individuazione dell'orizzonte, del punto principale e delle campate ripetute, poi trasferimento degli elementi su un piano di riferimento mediante ribaltamento omologico. I risultati sono ipotesi geometricamente argomentate, non misure.",
+      "refs": [
+        "p-007",
+        "p-008",
+        "p-020"
+      ]
+    },
+    {
+      "q": "Che cosa aggiunge il modello digitale?",
+      "a": "Costruito con operazioni booleane, estrusioni, superfici rigate e di rivoluzione, rende intelligibili le conseguenze spaziali del progetto e aiuta a separare le differenze di organizzazione dagli effetti del punto di vista. È una ricostruzione analitica, non un documento archeologico.",
+      "refs": [
+        "p-006",
+        "p-025"
+      ]
+    },
+    {
+      "q": "Come è stata usata l'IA?",
+      "a": "Solo per produrre immagini interpretative dello spazio ricostruito, esplorando la composizione, i materiali e la luce. Non è servita a ricavare dimensioni né a verificare la prospettiva, e l'immagine IA non è una prova sul progetto di Palladio o sulle intenzioni di Canaletto.",
+      "refs": [
+        "p-010",
+        "p-025"
+      ]
+    },
+    {
+      "q": "Quali limiti dichiara l'autore?",
+      "a": "Non sono documentati una campagna di rilievo specifica, un sistema di riferimento, punti di controllo né una stima dell'errore; pertanto non si dichiara alcuna accuratezza assoluta. L'analisi è comparativa e proporzionale, ma le sue ipotesi geometriche restano verificabili.",
+      "refs": [
+        "p-009",
+        "p-027",
+        "p-028"
+      ]
+    },
+    {
+      "q": "Qual è la lezione generale dello studio?",
+      "a": "Ogni rappresentazione è anche un'interpretazione. Le configurazioni progettate, costruite e dipinte vanno tenute distinte, perché un realismo apparente può coesistere con un'invenzione architettonica sistematica.",
+      "refs": [
+        "p-026",
+        "p-028",
+        "p-030"
+      ]
+    }
   ]
 }

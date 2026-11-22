@@ -30,6 +30,11 @@ for r in d.tables[0].rows[1:]:
             for s in sup:  # re-attach note markers by number
                 n = plain(s); new = re.sub(rf'(?<![\d<]){re.escape(n)}(?=[\s.,;:)]|$)', s, new, count=1) if s not in new else new
             idx[i]['text'] = new; changed.append(i)
+    elif i in idx and idx[i].get('type') == 'table':
+        m = re.match(r'TABELLA:\s*(.*)$', plain(new), re.S)
+        if m:
+            rows = [[c.strip() for c in r.split(' | ')] for r in m.group(1).split(' || ')]
+            if rows != idx[i]['rows']: idx[i]['rows'] = rows; changed.append(i)
     elif i in nidx:
         if plain(new) != plain(nidx[i]['text']): nidx[i]['text'] = new; changed.append(i)
     elif i.startswith('f-'):
