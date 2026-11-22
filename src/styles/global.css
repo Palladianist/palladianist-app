@@ -68,3 +68,8 @@ footer.site { font-size:13px; color:var(--muted); padding:32px 0 120px; }
 sup.noteref { color:var(--red); font-family:var(--font-meta); font-size:.7em; font-weight:600; cursor:pointer; padding:0 2px; }
 ol.notes { font-size:16px; line-height:1.45; padding-left:1.4em; }
 ol.notes li { margin-bottom:.6em; }
+
+.brand-block { display:flex; flex-direction:column; gap:1px; text-decoration:none; padding:8px 0; }
+.brand-block .brand { line-height:1; }
+.brand-block .tagline { font-family:var(--font-display); font-style:italic; font-size:15px; color:#D9BF85; line-height:1.2; }
+.brand-block .issn { font-family:var(--font-ui); font-size:11.5px; letter-spacing:1px; color:#A9B1C4; }

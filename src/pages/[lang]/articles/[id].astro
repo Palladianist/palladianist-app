@@ -41,7 +41,7 @@ const canonical = m.ojsUrl || undefined;
 <Base title={`${strip(title)} — Palladianist`} lang={lang} description={strip(abstract[0] || '')} canonical={canonical}
       alternates={Object.fromEntries(Object.keys(a.text).map((l) => [l, `https://read.palladianist.org/${l}/articles/${id}/`]))}>
   <header class="topbar"><div class="wrap">
-    <a class="brand" href={`/${lang}/`} aria-label={t.home}><span>P</span>alladianist</a>
+    <a class="brand-block" href={`/${lang}/`} aria-label={t.home}><span class="brand"><span>P</span>alladianist</span><span class="tagline">The Future of Drawing</span><span class="issn">ISSN 2845-7129</span></a>
     <nav class="lang" aria-label="Language">
       {Object.keys(a.text).map((l) => l === lang
         ? <span aria-current="true">{l.toUpperCase()}</span>
@@ -125,7 +125,7 @@ const canonical = m.ojsUrl || undefined;
     </section>
   </main>
 
-  <footer class="site wrap">Palladianist. The Future of Drawing · INTBAU Italia APS</footer>
+  <footer class="site wrap">Palladianist. The Future of Drawing · ISSN 2845-7129 · INTBAU Italia APS</footer>
 
   {ep && <div class="player" id="player" hidden>
     <div class="row"><audio id="audio" controls preload="none" src={ep.file}></audio></div>
