@@ -41,3 +41,11 @@ export function loadIssue(id) { return read(path.join(ROOT, 'issues', `${id}.jso
 export function listIssues() {
   return fs.readdirSync(path.join(ROOT, 'issues')).filter((f) => f.endsWith('.json')).map((f) => read(path.join(ROOT, 'issues', f)));
 }
+
+export function listCalls() {
+  const dir = path.join(ROOT, 'calls');
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter((f) => f.endsWith('.json'))
+    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf-8')))
+    .filter((c) => c.status === 'published');
+}

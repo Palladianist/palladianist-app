@@ -1,12 +1,15 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { LANGS, listIssues, loadArticle } from '../../lib/content.js';
+import { LANGS, listIssues, loadArticle, listCalls } from '../../lib/content.js';
 import { T } from '../../lib/i18n.js';
 export function getStaticPaths() { return LANGS.map((lang) => ({ params: { lang } })); }
 const { lang } = Astro.params; const t = T[lang];
 const issues = listIssues().sort((a, b) => (b.year - a.year) || (b.number - a.number));
 const issue = issues[0];
 const arts = issue.articles.map((id) => loadArticle(id));
+const today = new Date().toISOString().slice(0, 10);
+const calls = listCalls().filter((c) => (c.dates.find((d) => d.key)?.date || '') >= today);
+const fmt = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString(lang === 'it' ? 'it-IT' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 const titleOf = (a) => (lang === 'it' && a.text.it?.title) || a.meta?.title || a.id;
 ---
 <Base title={`Palladianist — ${t.latest}`} lang={lang}>
@@ -15,7 +18,14 @@ const titleOf = (a) => (lang === 'it' && a.text.it?.title) || a.meta?.title || a
     <nav class="lang">{LANGS.map((l) => l === lang ? <span aria-current="true">{l.toUpperCase()}</span> : <a href={`/${l}/`}>{l.toUpperCase()}</a>)}</nav>
   </div></header>
   <main class="wrap" style="padding-top:24px">
-    <div class="kicker">{t.latest}</div>
+    {calls.map((c) => (
+      <a class="cfp-banner" href={`/${lang}/call-for-papers/${c.id}/`}>
+        <div class="kicker">{t.cfpOpen} · Vol. {c.volume} ({c.year})</div>
+        <div class="t">{c.title}. {c.subtitle}</div>
+        <div class="meta">{t.deadline}: {fmt(c.dates.find((d) => d.key).date)} →</div>
+      </a>
+    ))}
+    <div class="kicker" style="margin-top:24px">{t.latest}</div>
     <div class="card" style="margin-top:10px">
       <div class="issue-head">
         {issue.cover && <a href={issue.cover.large} class="cover"><img src={issue.cover.small} alt={`Palladianist, Vol. ${issue.volume} n. ${issue.number}`} width="425" height="600" /></a>}

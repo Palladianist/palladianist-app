@@ -1,0 +1,45 @@
+{
+  "id": "vol3-intelligence",
+  "status": "published",
+  "lang": "en",
+  "volume": 3,
+  "year": 2027,
+  "title": "INTELLIGENCE",
+  "subtitle": "Design Knowledge Between Human and AI",
+  "editors": [{"name": "Joaquín Ángel Martínez Moya", "affiliation": "Universitat Jaume I, Castelló de la Plana"}],
+  "intro": [
+    "Palladianist Vol. 3 explores how technology and artificial intelligence can disseminate scientific knowledge and support design and creative methods.",
+    "The issue looks at digital museology and at the role architectural representation can play within it, and at how multimedia languages can support design. It asks whether new tools remove barriers to knowledge or create new ones."
+  ],
+  "topics": [
+    "Drawing as an accessible design language, from Palladio's treatise to diagrams and easy-to-read formats",
+    "Multisensory translations of heritage: tactile drawings, 3D-printed models, haptic, sound and olfactory devices",
+    "Survey and digital modelling for the accessibility of historic places: HBIM, digital twins, wayfinding",
+    "Digital museology and Extended Reality: virtual and phygital museums",
+    "AI for the interpretation and mediation of heritage: image description, sign language, simplified and multilingual content",
+    "Intangible heritage, local identities and participatory knowledge, including co-design with communities and people with disabilities",
+    "Inclusive education and learning through drawing"
+  ],
+  "contributionTypes": [
+    "Original scientific articles",
+    "Historical and archival research",
+    "Studies in representation and survey",
+    "Methodological reflections on design, teaching and emerging technologies"
+  ],
+  "review": "All contributions undergo double-blind peer review.",
+  "languages": "Papers may be submitted for review in English, Italian or Spanish. Accepted papers are published in English.",
+  "formats": [
+    {"name": "Full paper", "items": ["Title and subtitle", "Authors, with a biography of up to 80 words each", "Abstract of up to 300 words and 5 keywords", "Text of up to 3,000 words, including notes and bibliography", "Up to 10 images plus 1 cover image (17 cm base)"]},
+    {"name": "Short paper / visual essay (drawings and projects)", "items": ["Title", "Authors, with a biography of up to 80 words each", "Text of up to 1,000 words, including 5 keywords", "Bibliography", "Up to 10 images plus 1 cover image (17 cm base)"]}
+  ],
+  "dates": [
+    {"date": "2026-11-23", "label": "Call launched"},
+    {"date": "2027-02-13", "label": "Full paper submission", "key": true},
+    {"date": "2027-04-05", "label": "Notification of acceptance"},
+    {"date": "2027-04-26", "label": "Revised full paper"},
+    {"date": "2027-06-30", "label": "Publication"}
+  ],
+  "submission": {"email": "journal@palladianist.org", "how": "Send your paper as a single compressed file by email.", "guidelines": "https://journal.palladianist.org/index.php/palladianist/about/submissions"},
+  "pdf": "https://journal.palladianist.org/index.php/palladianist/libraryFiles/downloadPublic/2",
+  "ojsUrl": "https://journal.palladianist.org/index.php/palladianist/announcement/view/1"
+}

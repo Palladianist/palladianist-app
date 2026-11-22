@@ -1,0 +1,44 @@
+---
+import Base from '../../../layouts/Base.astro';
+import { LANGS, listCalls } from '../../../lib/content.js';
+import { T } from '../../../lib/i18n.js';
+export function getStaticPaths() {
+  return LANGS.flatMap((lang) => listCalls().map((c) => ({ params: { lang, id: c.id }, props: { c } })));
+}
+const { lang } = Astro.params; const { c } = Astro.props; const t = T[lang];
+const fmt = (d) => new Date(d + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+const key = c.dates.find((d) => d.key);
+---
+<Base title={`${t.cfp} — Palladianist Vol. ${c.volume}: ${c.title}`} lang={lang} description={`${c.title}. ${c.subtitle}. ${t.deadline}: ${fmt(key.date)}.`} canonical={c.ojsUrl}>
+  <header class="topbar"><div class="wrap">
+    <a class="brand-block" href={`/${lang}/`}><span class="brand"><span>P</span>alladianist</span><span class="tagline">The Future of Drawing</span><span class="issn">ISSN 2845-7129</span></a>
+    <nav class="lang">{LANGS.map((l) => l === lang ? <span aria-current="true">{l.toUpperCase()}</span> : <a href={`/${l}/call-for-papers/${c.id}/`}>{l.toUpperCase()}</a>)}</nav>
+  </div></header>
+  <main class="wrap cfp" style="padding-top:24px" lang="en">
+    <a class="meta" href={`/${lang}/`} lang={lang}>← {t.home}</a>
+    <div class="kicker" style="margin-top:14px">{t.cfp} · Vol. {c.volume} ({c.year})</div>
+    <h1 class="title cfp-title">{c.title}</h1>
+    <p class="cfp-sub">{c.subtitle}</p>
+    <p class="meta">{t.editedBy} {c.editors.map((e) => `${e.name} (${e.affiliation})`).join(', ')}</p>
+    {t.cfpLangNote && <p class="cfp-note" lang={lang}>{t.cfpLangNote}</p>}
+    <div class="cfp-deadline"><span class="kicker">{t.deadline}</span><strong>{fmt(key.date)}</strong><span class="meta">{key.label}</span></div>
+    {c.intro.map((p) => <p>{p}</p>)}
+    <h2>{t.topics}</h2>
+    <ol class="cfp-list">{c.topics.map((x) => <li>{x}</li>)}</ol>
+    <h2>{t.types}</h2>
+    <ul class="cfp-list">{c.contributionTypes.map((x) => <li>{x}</li>)}</ul>
+    <p>{c.review} {c.languages}</p>
+    <h2>{t.formats}</h2>
+    <div class="cfp-formats">{c.formats.map((f) => <div class="card"><h3>{f.name}</h3><ul class="cfp-list">{f.items.map((x) => <li>{x}</li>)}</ul></div>)}</div>
+    <h2>{t.dates}</h2>
+    <dl class="cfp-dates">{c.dates.map((d) => <div class={d.key ? 'key' : ''}><dt>{fmt(d.date)}</dt><dd>{d.label}</dd></div>)}</dl>
+    <h2>{t.submit}</h2>
+    <p>{c.submission.how} <a href={`mailto:${c.submission.email}`}>{c.submission.email}</a></p>
+    <div class="cfp-actions">
+      <a class="btn" href={`mailto:${c.submission.email}?subject=${encodeURIComponent(`Palladianist Vol. ${c.volume} – Submission`)}`}>{t.sendPaper}</a>
+      <a class="btn secondary" href={c.pdf}>{t.fullCall}</a>
+      <a class="btn secondary" href={c.submission.guidelines}>{t.guidelines}</a>
+    </div>
+  </main>
+  <footer class="site wrap">Palladianist. The Future of Drawing · ISSN 2845-7129 · INTBAU Italia APS · Open Access</footer>
+</Base>
