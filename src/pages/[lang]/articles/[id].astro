@@ -35,7 +35,8 @@ const bib = `@article{${(m.authors?.[0]?.family || 'x').toLowerCase()}${m.year}$
   volume  = {${m.volume}}, number = {${m.number}}, year = {${m.year}},
   pages   = {${(m.pages || '').replace('–', '--')}}${m.doi ? `,\n  doi     = {${m.doi}}` : ''}
 }`;
-const notice = lang !== 'en' ? t.aiNotice.replace('{date}', new Date(a.review.translation_it?.reviewedOn || Date.now()).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })) : '';
+const byAuthor = (m.authors || []).some((x) => (a.review.translation_it?.reviewedBy || '').includes(x.family));
+const notice = lang !== 'en' ? t.aiNotice.replace('{by}', byAuthor ? "dall'autore" : 'dalla redazione').replace('{date}', new Date(a.review.translation_it?.reviewedOn || Date.now()).toLocaleDateString('it-IT', { day: 'numeric', month: 'long', year: 'numeric' })) : '';
 const canonical = m.ojsUrl || undefined;
 ---
 <Base title={`${strip(title)} — Palladianist`} lang={lang} description={strip(abstract[0] || '')} canonical={canonical}

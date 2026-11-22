@@ -4,9 +4,9 @@
   "source": "text.en.json",
   "translation": {
     "method": "AI-assisted (Claude) con glossario disciplinare",
-    "status": "draft",
-    "reviewedBy": null,
-    "reviewedOn": null
+    "status": "reviewed",
+    "reviewedBy": "Giuseppe Amoruso",
+    "reviewedOn": "2026-11-22"
   },
   "title": "Palladio nel tempo. Passati fittizi e futuri immaginati",
   "abstract": [

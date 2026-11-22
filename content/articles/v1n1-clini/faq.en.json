@@ -1,16 +1,76 @@
 {
   "articleId": "v1n1-clini",
   "lang": "en",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "What was discovered in Fano in 2026?", "a": "On 19 January 2026 the Ministry of Culture announced that the building excavated in Piazza Andrea Costa is the basilica described by Vitruvius in De architectura: the only building that can be attributed with certainty to the Roman architect. A test trench revealing the fifth corner column confirmed its position and orientation.", "refs": ["p-001", "p-006"]},
-    {"q": "Why is Vitruvius's passage on the Fano basilica exceptional?", "a": "Because Vitruvius describes a building he himself sited and built, and because the building does not simply follow the basilican type but transforms it: precise dimensions, columns 50 feet high, two central columns omitted to keep the view of the Temple of Augustus, a curved tribunal and a T-shaped roof.", "refs": ["p-004"]},
-    {"q": "Why were there so many different reconstructions over the centuries?", "a": "Vitruvius's original diagrams were lost and the text reached the Renaissance in an uncertain state. Fra Giocondo, Sangallo, Barbaro, Palladio, Perrault and others each took a position on how to read Vitruvius: every reconstruction is also a theory of antiquity, of the text and of design.", "refs": ["p-004"]},
-    {"q": "How was the site located before the excavation?", "a": "Through a convergence of disciplines begun in the author's 1997 doctoral thesis: text, local memory, archaeological remains, measurement, typological compatibility and survey. In 2013 a planimetric reconstruction placed the basilica precisely where the structures have now emerged.", "refs": ["p-005", "p-006"]},
-    {"q": "What is the giant order and why does Fano matter for it?", "a": "A column that rises through more than one storey, uniting lower and upper levels. Vitruvius adopted it to save labour and cost, removing the upper order, yet it increased the magnificence of the building: 'economy becomes vision'. Fano is a rare case of non-monolithic giant structural columns in Roman architecture.", "refs": ["p-008", "p-009"]},
-    {"q": "How does the line lead from Fano to Palladio?", "a": "Palladio drew almost all the illustrations for Daniele Barbaro's edition of Vitruvius, and his reconstruction of the basilica fixed the motif of free-standing giant columns spanning two storeys. The giant Ionic columns of the courtyard of Villa Sarego echo this lesson.", "refs": ["p-010", "p-011"]},
-    {"q": "What does the White House have to do with it?", "a": "Its porticoes with monumental columns translate into modern political form the idea of classical authority founded on the column that dominates several levels. The author stresses it is a deep genealogy, not a direct line from Fano to Washington.", "refs": ["p-011"]},
-    {"q": "What method did the research follow?", "a": "Four integrated levels: philological reading of the text and its editions; analysis of historical drawings; metric survey, modelling and structural verification; and tools that make the reasoning behind a reconstruction explicit, such as a hypertext archive of drawings from over 500 editions of De architectura.", "refs": ["p-014", "p-015"]},
-    {"q": "What role can digital models and AI play?", "a": "Only a critical one: a model is an environment for verification, not a seductive image. Digital methods should make alternatives legible, declare uncertainties and show the dependency between source and model, so that reconstruction becomes knowledge rather than illustration.", "refs": ["p-015", "p-018"]}
+    {
+      "q": "What was discovered in Fano in 2026?",
+      "a": "On 19 January 2026 the Ministry of Culture announced that the building excavated in Piazza Andrea Costa is the basilica described by Vitruvius in De architectura: the only building that can be attributed with certainty to the Roman architect. A test trench revealing the fifth corner column confirmed its position and orientation.",
+      "refs": [
+        "p-001",
+        "p-006"
+      ]
+    },
+    {
+      "q": "Why is Vitruvius's passage on the Fano basilica exceptional?",
+      "a": "Because Vitruvius describes a building he himself sited and built, and because the building does not simply follow the basilican type but transforms it: precise dimensions, columns 50 feet high, two central columns omitted to keep the view of the Temple of Augustus, a curved tribunal and a T-shaped roof.",
+      "refs": [
+        "p-004"
+      ]
+    },
+    {
+      "q": "Why were there so many different reconstructions over the centuries?",
+      "a": "Vitruvius's original diagrams were lost and the text reached the Renaissance in an uncertain state. Fra Giocondo, Sangallo, Barbaro, Palladio, Perrault and others each took a position on how to read Vitruvius: every reconstruction is also a theory of antiquity, of the text and of design.",
+      "refs": [
+        "p-004"
+      ]
+    },
+    {
+      "q": "How was the site located before the excavation?",
+      "a": "Through a convergence of disciplines begun in the author's 1997 doctoral thesis: text, local memory, archaeological remains, measurement, typological compatibility and survey. In 2013 a planimetric reconstruction placed the basilica precisely where the structures have now emerged.",
+      "refs": [
+        "p-005",
+        "p-006"
+      ]
+    },
+    {
+      "q": "What is the giant order and why does Fano matter for it?",
+      "a": "A column that rises through more than one storey, uniting lower and upper levels. Vitruvius adopted it to save labour and cost, removing the upper order, yet it increased the magnificence of the building: 'economy becomes vision'. Fano is a rare case of non-monolithic giant structural columns in Roman architecture.",
+      "refs": [
+        "p-008",
+        "p-009"
+      ]
+    },
+    {
+      "q": "How does the line lead from Fano to Palladio?",
+      "a": "Palladio drew almost all the illustrations for Daniele Barbaro's edition of Vitruvius, and his reconstruction of the basilica fixed the motif of free-standing giant columns spanning two storeys. The giant Ionic columns of the courtyard of Villa Sarego echo this lesson.",
+      "refs": [
+        "p-010",
+        "p-011"
+      ]
+    },
+    {
+      "q": "What does the White House have to do with it?",
+      "a": "Its porticoes with monumental columns translate into modern political form the idea of classical authority founded on the column that dominates several levels. The author stresses it is a deep genealogy, not a direct line from Fano to Washington.",
+      "refs": [
+        "p-011"
+      ]
+    },
+    {
+      "q": "What method did the research follow?",
+      "a": "Four integrated levels: philological reading of the text and its editions; analysis of historical drawings; metric survey, modelling and structural verification; and tools that make the reasoning behind a reconstruction explicit, such as a hypertext archive of drawings from over 500 editions of De architectura.",
+      "refs": [
+        "p-014",
+        "p-015"
+      ]
+    },
+    {
+      "q": "What role can digital models and AI play?",
+      "a": "Only a critical one: a model is an environment for verification, not a seductive image. Digital methods should make alternatives legible, declare uncertainties and show the dependency between source and model, so that reconstruction becomes knowledge rather than illustration.",
+      "refs": [
+        "p-015",
+        "p-018"
+      ]
+    }
   ]
 }

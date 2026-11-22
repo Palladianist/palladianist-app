@@ -1,16 +1,76 @@
 {
   "articleId": "v1n1-clini",
   "lang": "it",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "Che cosa è stato scoperto a Fano nel 2026?", "a": "Il 19 gennaio 2026 il Ministero della Cultura ha annunciato che l'edificio scavato in piazza Andrea Costa è la basilica descritta da Vitruvio nel De architectura: l'unico edificio attribuibile con certezza all'architetto romano. Il saggio di scavo che ha rivelato la quinta colonna d'angolo ne ha confermato posizione e orientamento.", "refs": ["p-001", "p-006"]},
-    {"q": "Perché il passo di Vitruvio sulla basilica di Fano è eccezionale?", "a": "Perché Vitruvio descrive un edificio che lui stesso ha collocato e costruito, e perché l'edificio non segue semplicemente il tipo basilicale ma lo trasforma: dimensioni precise, colonne alte 50 piedi, due colonne centrali omesse per lasciare libera la vista del tempio di Augusto, un tribunale curvo e una copertura a T.", "refs": ["p-004"]},
-    {"q": "Perché nei secoli ci sono state tante ricostruzioni diverse?", "a": "I disegni originali di Vitruvio erano perduti e il testo giunse al Rinascimento in condizioni incerte. Fra Giocondo, Sangallo, Barbaro, Palladio, Perrault e altri presero ciascuno posizione su come leggere Vitruvio: ogni ricostruzione è anche una teoria dell'antico, del testo e del progetto.", "refs": ["p-004"]},
-    {"q": "Come era stato individuato il sito prima dello scavo?", "a": "Attraverso una convergenza disciplinare avviata nella tesi di dottorato dell'autore del 1997: testo, memoria locale, resti archeologici, misura, compatibilità tipologica e rilievo. Nel 2013 una ricostruzione planimetrica collocava la basilica proprio dove oggi sono emerse le strutture.", "refs": ["p-005", "p-006"]},
-    {"q": "Che cos'è l'ordine gigante e perché Fano è importante?", "a": "Una colonna che sale oltre un piano, unendo il livello inferiore e quello superiore. Vitruvio la adottò per risparmiare fatica e spesa, eliminando l'ordine superiore, eppure accrebbe la magnificenza dell'edificio: «l'economia diventa visione». Fano è un raro caso di colonne strutturali giganti non monolitiche nell'architettura romana.", "refs": ["p-008", "p-009"]},
-    {"q": "Come si arriva da Fano a Palladio?", "a": "Palladio disegnò quasi tutte le illustrazioni dell'edizione di Vitruvio di Daniele Barbaro, e la sua ricostruzione della basilica fissò il motivo delle colonne giganti libere su due piani. Le colonne ioniche giganti della corte di Villa Sarego riprendono questa lezione.", "refs": ["p-010", "p-011"]},
-    {"q": "Che cosa c'entra la Casa Bianca?", "a": "I suoi portici a colonne monumentali traducono in forma politica moderna l'idea di autorità classica fondata sulla colonna che domina più livelli. L'autore sottolinea che si tratta di una genealogia profonda, non di una linea diretta da Fano a Washington.", "refs": ["p-011"]},
-    {"q": "Quale metodo ha seguito la ricerca?", "a": "Quattro livelli integrati: lettura filologica del testo e delle sue edizioni; analisi dei disegni storici; rilievo metrico, modellazione e verifica strutturale; strumenti che esplicitano il ragionamento dietro una ricostruzione, come un archivio ipertestuale di disegni tratti da oltre 500 edizioni del De architectura.", "refs": ["p-014", "p-015"]},
-    {"q": "Che ruolo possono avere i modelli digitali e l'IA?", "a": "Solo un ruolo critico: il modello è un ambiente di verifica, non un'immagine seducente. I metodi digitali devono rendere leggibili le alternative, dichiarare le incertezze e mostrare la dipendenza tra fonte e modello, perché la ricostruzione diventi conoscenza e non illustrazione.", "refs": ["p-015", "p-018"]}
+    {
+      "q": "Che cosa è stato scoperto a Fano nel 2026?",
+      "a": "Il 19 gennaio 2026 il Ministero della Cultura ha annunciato che l'edificio scavato in piazza Andrea Costa è la basilica descritta da Vitruvio nel De architectura: l'unico edificio attribuibile con certezza all'architetto romano. Il saggio di scavo che ha rivelato la quinta colonna d'angolo ne ha confermato posizione e orientamento.",
+      "refs": [
+        "p-001",
+        "p-006"
+      ]
+    },
+    {
+      "q": "Perché il passo di Vitruvio sulla basilica di Fano è eccezionale?",
+      "a": "Perché Vitruvio descrive un edificio che lui stesso ha collocato e costruito, e perché l'edificio non segue semplicemente il tipo basilicale ma lo trasforma: dimensioni precise, colonne alte 50 piedi, due colonne centrali omesse per lasciare libera la vista del tempio di Augusto, un tribunale curvo e una copertura a T.",
+      "refs": [
+        "p-004"
+      ]
+    },
+    {
+      "q": "Perché nei secoli ci sono state tante ricostruzioni diverse?",
+      "a": "I disegni originali di Vitruvio erano perduti e il testo giunse al Rinascimento in condizioni incerte. Fra Giocondo, Sangallo, Barbaro, Palladio, Perrault e altri presero ciascuno posizione su come leggere Vitruvio: ogni ricostruzione è anche una teoria dell'antico, del testo e del progetto.",
+      "refs": [
+        "p-004"
+      ]
+    },
+    {
+      "q": "Come era stato individuato il sito prima dello scavo?",
+      "a": "Attraverso una convergenza disciplinare avviata nella tesi di dottorato dell'autore del 1997: testo, memoria locale, resti archeologici, misura, compatibilità tipologica e rilievo. Nel 2013 una ricostruzione planimetrica collocava la basilica proprio dove oggi sono emerse le strutture.",
+      "refs": [
+        "p-005",
+        "p-006"
+      ]
+    },
+    {
+      "q": "Che cos'è l'ordine gigante e perché Fano è importante?",
+      "a": "Una colonna che sale oltre un piano, unendo il livello inferiore e quello superiore. Vitruvio la adottò per risparmiare fatica e spesa, eliminando l'ordine superiore, eppure accrebbe la magnificenza dell'edificio: «l'economia diventa visione». Fano è un raro caso di colonne strutturali giganti non monolitiche nell'architettura romana.",
+      "refs": [
+        "p-008",
+        "p-009"
+      ]
+    },
+    {
+      "q": "Come si arriva da Fano a Palladio?",
+      "a": "Palladio disegnò quasi tutte le illustrazioni dell'edizione di Vitruvio di Daniele Barbaro, e la sua ricostruzione della basilica fissò il motivo delle colonne giganti libere su due piani. Le colonne ioniche giganti della corte di Villa Sarego riprendono questa lezione.",
+      "refs": [
+        "p-010",
+        "p-011"
+      ]
+    },
+    {
+      "q": "Che cosa c'entra la Casa Bianca?",
+      "a": "I suoi portici a colonne monumentali traducono in forma politica moderna l'idea di autorità classica fondata sulla colonna che domina più livelli. L'autore sottolinea che si tratta di una genealogia profonda, non di una linea diretta da Fano a Washington.",
+      "refs": [
+        "p-011"
+      ]
+    },
+    {
+      "q": "Quale metodo ha seguito la ricerca?",
+      "a": "Quattro livelli integrati: lettura filologica del testo e delle sue edizioni; analisi dei disegni storici; rilievo metrico, modellazione e verifica strutturale; strumenti che esplicitano il ragionamento dietro una ricostruzione, come un archivio ipertestuale di disegni tratti da oltre 500 edizioni del De architectura.",
+      "refs": [
+        "p-014",
+        "p-015"
+      ]
+    },
+    {
+      "q": "Che ruolo possono avere i modelli digitali e l'IA?",
+      "a": "Solo un ruolo critico: il modello è un ambiente di verifica, non un'immagine seducente. I metodi digitali devono rendere leggibili le alternative, dichiarare le incertezze e mostrare la dipendenza tra fonte e modello, perché la ricostruzione diventi conoscenza e non illustrazione.",
+      "refs": [
+        "p-015",
+        "p-018"
+      ]
+    }
   ]
 }

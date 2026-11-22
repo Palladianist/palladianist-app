@@ -1,16 +1,79 @@
 {
   "articleId": "v1n1-hemsoll",
   "lang": "en",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "What is the article's main argument?", "a": "That the vast literature on Palladio has not produced a complete, unified understanding of his architecture, and that over time a 'mythic' Palladio, detached from his own era and invoked as a model for the present and future, has come to overshadow the historical architect.", "refs": ["p-002", "p-019", "p-020"]},
-    {"q": "Which aspects of Palladio does mainstream scholarship neglect?", "a": "Above all his conception of the architectural orders, so prominent in the Quattro libri, and his distinctive approach to dimensions and proportions in the treatise illustrations. Scholarship has also portrayed him as unchanging, rather than placing him within the development of the architecture of his time.", "refs": ["p-004"]},
-    {"q": "How did Palladio's architecture change during his career?", "a": "It went through distinct phases: an early manner close to Raphael, Sansovino and Sanmicheli (Palazzo Porto); from about 1550 a Vitruvian approach with freestanding columns for villas of Venetian patrons (Villa Cornaro, Villa Badoer); and from about 1560 an ever more assertive use of the orders to make buildings comparable to antiquity (San Giorgio Maggiore).", "refs": ["p-005", "p-006"]},
-    {"q": "What were the two messages of the Quattro libri?", "a": "That Palladio's buildings, especially the domestic designs of Book II, were closely comparable with the antique; and that this comparability depended on the exemplary use of the architectural orders, which is why Book I presents them so commandingly.", "refs": ["p-006"]},
-    {"q": "Why does the author call the treatise misleading?", "a": "Because it presented Palladio's late view of architecture as if it applied to his whole career, so that even early works such as Palazzo Porto appeared to rest on the same principles of comparability with the antique and exemplary use of the orders.", "refs": ["p-011"]},
-    {"q": "How did later 'Palladian' architects use the treatise?", "a": "Inigo Jones, Lord Burlington and Thomas Jefferson saw in it an architecture rooted in antiquity, rational and historically validated, suited to their own societies. Once Palladianism was established, however, the treatise became more and more a mere repertory of design prototypes.", "refs": ["p-012"]},
-    {"q": "What role did Wittkower and Rowe play?", "a": "Wittkower read the dimensions in Palladio's plans as a harmonic, musical sequence; Hemsoll argues this has little basis but was liberating. Rowe's 1947 essay compared Villa Foscari with Le Corbusier's Villa Stein and the Rotonda with Villa Savoye, detaching Palladio from his historical practice.", "refs": ["p-012", "p-013", "p-014"]},
-    {"q": "What is wrong with the proportional and geometric theories about Palladio?", "a": "Hypotheses such as ratios of 1 to √3, the golden section or geometric diagrams of the Rotonda correspond to the buildings only partly and do not match the design methods and objectives Palladio actually had: the historical Palladio is adapted to present-day speculations.", "refs": ["p-014", "p-015"]},
-    {"q": "What is the 'mythic Palladio'?", "a": "A figure who has transcended his time and is seen as an archetype for any architect, even those who reject classical tradition, as with buildings by Peter Märkli. The myth still rests on the historical Palladio's ambition to gain lasting fame through his treatise.", "refs": ["p-016", "p-017", "p-019", "p-020"]}
+    {
+      "q": "What is the article's main argument?",
+      "a": "That the vast literature on Palladio has not produced a complete, unified understanding of his architecture, and that over time a 'mythic' Palladio, detached from his own era and invoked as a model for the present and future, has come to overshadow the historical architect.",
+      "refs": [
+        "p-002",
+        "p-019",
+        "p-020"
+      ]
+    },
+    {
+      "q": "Which aspects of Palladio does mainstream scholarship neglect?",
+      "a": "Above all his conception of the architectural orders, so prominent in the Quattro libri, and his distinctive approach to dimensions and proportions in the treatise illustrations. Scholarship has also portrayed him as unchanging, rather than placing him within the development of the architecture of his time.",
+      "refs": [
+        "p-004"
+      ]
+    },
+    {
+      "q": "How did Palladio's architecture change during his career?",
+      "a": "It went through distinct phases: an early manner close to Raphael, Sansovino and Sanmicheli (Palazzo Porto); from about 1550 a Vitruvian approach with freestanding columns for villas of Venetian patrons (Villa Cornaro, Villa Badoer); and from about 1560 an ever more assertive use of the orders to make buildings comparable to antiquity (San Giorgio Maggiore).",
+      "refs": [
+        "p-005",
+        "p-006"
+      ]
+    },
+    {
+      "q": "What were the two messages of the Quattro libri?",
+      "a": "That Palladio's buildings, especially the domestic designs of Book II, were closely comparable with the antique; and that this comparability depended on the exemplary use of the architectural orders, which is why Book I presents them so commandingly.",
+      "refs": [
+        "p-006"
+      ]
+    },
+    {
+      "q": "Why does the author call the treatise misleading?",
+      "a": "Because it presented Palladio's late view of architecture as if it applied to his whole career, so that even early works such as Palazzo Porto appeared to rest on the same principles of comparability with the antique and exemplary use of the orders.",
+      "refs": [
+        "p-011"
+      ]
+    },
+    {
+      "q": "How did later 'Palladian' architects use the treatise?",
+      "a": "Inigo Jones, Lord Burlington and Thomas Jefferson saw in it an architecture rooted in antiquity, rational and historically validated, suited to their own societies. Once Palladianism was established, however, the treatise became more and more a mere repertory of design prototypes.",
+      "refs": [
+        "p-012"
+      ]
+    },
+    {
+      "q": "What role did Wittkower and Rowe play?",
+      "a": "Wittkower read the dimensions in Palladio's plans as a harmonic, musical sequence; Hemsoll argues this has little basis but was liberating. Rowe's 1947 essay compared Villa Foscari with Le Corbusier's Villa Stein and the Rotonda with Villa Savoye, detaching Palladio from his historical practice.",
+      "refs": [
+        "p-012",
+        "p-013",
+        "p-014"
+      ]
+    },
+    {
+      "q": "What is wrong with the proportional and geometric theories about Palladio?",
+      "a": "Hypotheses such as ratios of 1 to √3, the golden section or geometric diagrams of the Rotonda correspond to the buildings only partly and do not match the design methods and objectives Palladio actually had: the historical Palladio is adapted to present-day speculations.",
+      "refs": [
+        "p-014",
+        "p-015"
+      ]
+    },
+    {
+      "q": "What is the 'mythic Palladio'?",
+      "a": "A figure who has transcended his time and is seen as an archetype for any architect, even those who reject classical tradition, as with buildings by Peter Märkli. The myth still rests on the historical Palladio's ambition to gain lasting fame through his treatise.",
+      "refs": [
+        "p-016",
+        "p-017",
+        "p-019",
+        "p-020"
+      ]
+    }
   ]
 }
