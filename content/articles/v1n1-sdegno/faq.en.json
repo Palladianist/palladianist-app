@@ -1,0 +1,16 @@
+{
+  "articleId": "v1n1-sdegno",
+  "lang": "en",
+  "status": "draft",
+  "items": [
+    {"q": "What does the article compare?", "a": "Three configurations of the cloister (peristyle) of the Convento della Carità in Venice: Palladio's project published in the Quattro libri (1570), the building as actually constructed, and Canaletto's 1744 painting of it.", "refs": ["p-003", "p-005", "p-024"]},
+    {"q": "Why is the Convento della Carità special in Palladio's work?", "a": "It is the only Venetian work included in the Quattro libri. Palladio wanted to make the house 'resemble those of the Ancients', adapting the Roman domus — atrium, tablinum and peristyle — to a convent of the Lateran Canons.", "refs": ["p-001", "p-011", "p-012"]},
+    {"q": "How does the built cloister differ from Palladio's published design?", "a": "The treatise shows a six-by-five-bay cloister with a terrace on one side, producing an asymmetrical condition. The single surviving long façade has seven arches with niche-bearing end bays and tends toward symmetry.", "refs": ["p-014", "p-015", "p-016"]},
+    {"q": "Is Canaletto's painting a faithful view?", "a": "No. It is a capriccio: Canaletto adds two terraces instead of one, changes the distribution of bays and stretches the elevation. The result is recognisably Palladian but matches neither the project nor the built cloister.", "refs": ["p-018", "p-019", "p-022", "p-023"]},
+    {"q": "What method was used to analyse the painting?", "a": "Descriptive geometry applied to inverse perspective: identifying horizon, principal point and repeated bays, then transferring elements to a reference plane by homological rotation. The results are geometrically reasoned hypotheses, not measurements.", "refs": ["p-007", "p-008", "p-020"]},
+    {"q": "What does the digital model contribute?", "a": "Built with Boolean operations, extrusions, ruled surfaces and surfaces of revolution, it makes the spatial consequences of the design intelligible and helps separate differences of organisation from effects of viewpoint. It is an analytical reconstruction, not an archaeological record.", "refs": ["p-006", "p-025"]},
+    {"q": "How was AI used?", "a": "Only to produce interpretative images of the reconstructed space, exploring composition, materials and light. It was not used to derive dimensions or check perspective, and the AI image is not evidence about Palladio's design or Canaletto's intentions.", "refs": ["p-010", "p-025"]},
+    {"q": "What limits does the author declare?", "a": "No dedicated survey campaign, reference system, control points or error budget are documented, so no absolute accuracy is claimed. The analysis is comparative and proportional, though its geometric assumptions remain open to examination.", "refs": ["p-009", "p-027", "p-028"]},
+    {"q": "What is the general lesson of the study?", "a": "Every representation is also an interpretation. Designed, built and painted configurations must be kept distinct, because apparent realism can coexist with systematic architectural invention.", "refs": ["p-026", "p-028", "p-030"]}
+  ]
+}

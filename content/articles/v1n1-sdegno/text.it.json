@@ -1,0 +1,304 @@
+{
+  "articleId": "v1n1-sdegno",
+  "lang": "it",
+  "source": "text.en.json",
+  "translation": {
+    "method": "AI-assisted (Claude) con glossario disciplinare",
+    "status": "draft",
+    "reviewedBy": null,
+    "reviewedOn": null
+  },
+  "title": "Palladio e Canaletto a Venezia. Tra realtà e immaginazione",
+  "abstract": [
+    "Il saggio esamina il rapporto tra architettura, rappresentazione e percezione attraverso il peristilio del Convento della Carità a Venezia, progettato da Andrea Palladio e in seguito raffigurato da Antonio Canal, detto Canaletto. Mette a confronto tre livelli di interpretazione: il progetto pubblicato nei <em>Quattro libri dell'architettura</em> (1570), l'edificio costruito e la sua trasposizione nel dipinto di Canaletto. La Carità occupa un posto particolare nell'opera veneziana di Palladio, perché reinterpreta l'atrio corinzio vitruviano e trasferisce in laguna modelli dell'antichità classica, anche se già la fase costruttiva si discostò in modo significativo dal progetto originario.",
+    "Attraverso l'analisi geometrica e prospettica del dipinto, sostenuta da rilievi e ricostruzioni digitali, lo studio individua numerose discrepanze tra dipinto, progetto ed edificio esistente. La veduta di Canaletto occupa una posizione intermedia tra la veduta topografica e il capriccio architettonico, presentando un'architettura che appare plausibile ma non esiste. Il confronto tra progetto, costruzione e rappresentazione apre così una riflessione più ampia sulla natura interpretativa di ogni immagine architettonica e sul dialogo tra verità e invenzione che attraversa l'opera di entrambi, Palladio e Canaletto."
+  ],
+  "keywords": [
+    "Venezia",
+    "Andrea Palladio",
+    "Canaletto",
+    "Convento della Carità",
+    "modellazione digitale"
+  ],
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduzione e stato dell'arte"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "Le opere veneziane di Andrea Palladio occupano una posizione particolare nella sua produzione architettonica, soprattutto nel campo dell'architettura religiosa. Le chiese del Redentore e di San Giorgio Maggiore (Fig. 1), insieme alla facciata di San Francesco della Vigna, mostrano il ruolo centrale del fronte architettonico nella sua interpretazione della città. Il Convento della Carità si distingue da questi esempi: è un complesso religioso privo di una facciata monumentale paragonabile, eppure è l'unica opera veneziana inclusa nei suoi <em>Quattro Libri dell'Architettura</em> (Palladio, 1570, libro II, pp. 29-30). Il suo significato risiede quindi non solo nella fabbrica superstite, ma anche nel rapporto tra l'ideale pubblicato e la sua realizzazione incompleta."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Antonio Canal, detto Canaletto, trasformò in seguito l'architettura veneziana in soggetto pittorico. La sua produzione spazia da vedute apparentemente fedeli a luoghi riconoscibili (Fig. 2) a capricci che combinano elementi architettonici in contesti inventati (Fig. 3). La distinzione tra vedute «prese da i luoghi» e vedute «ideate» compare nel titolo delle sue acqueforti (Canal, 1740-1744). Tuttavia, un aspetto preciso non può essere automaticamente equiparato a una rappresentazione metricamente fedele. Corboz ha messo in discussione questo presupposto, interpretando le immagini di Canaletto attraverso l'interazione tra osservazione e invenzione (Corboz, 1974, 1985). Anche gli studi sui disegni del pittore e sui suoi procedimenti ottici hanno sottolineato la complessità della sua pratica rappresentativa (Gioseffi, 1959; Pignatti, 1970; Steadman, 2025)."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "Il rapporto tra Palladio e Canaletto può quindi essere esaminato su tre livelli: concezione architettonica, realtà costruita e immagine dipinta. Il confronto non è, di per sé, nuovo (Sdegno, 2005). Il presente studio non rivendica la prima restituzione prospettica né la prima ricostruzione digitale della Carità. Il suo scopo specifico è ordinare le discrepanze geometriche in una lettura comparativa trasparente, distinguendo le modifiche introdotte in fase costruttiva da quelle attribuibili alla composizione pittorica, e chiarire il ruolo integrativo, non metrico, della visualizzazione assistita dall'IA."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "La questione storica è di conseguenza inseparabile da una questione di rappresentazione. Un disegno di architettura può prescrivere un edificio possibile, un frammento superstite può attestare soltanto ciò che è stato eseguito, e un dipinto può combinare dettagli osservati con relazioni deliberatamente trasformate. Tenere distinte queste funzioni probatorie impedisce che la somiglianza visiva delle tre fonti venga scambiata per equivalenza documentaria. Spiega anche perché la Carità, dove un ambizioso progetto pubblicato sopravvive accanto a una costruzione frammentaria e a una veduta pittorica molto articolata, sia un caso particolarmente utile per l'analisi comparativa."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Obiettivi e metodologia della ricerca"
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "L'indagine affronta tre domande connesse. Primo: quali caratteri del progetto pubblicato da Palladio differiscono dal chiostro superstite? Secondo: quali caratteri del dipinto di Canaletto del 1744 corrispondono all'una o all'altra configurazione, e quali sono invenzioni autonome? Terzo: in che modo la geometria descrittiva e la modellazione digitale possono rendere intelligibili queste trasformazioni senza confondere evidenza storica, inferenza geometrica e simulazione visiva? I materiali messi a confronto sono la pianta e la sezione di Palladio nel trattato, la facciata esistente e la veduta frontale di Canaletto (Figg. 4, 5, 6)."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "La ricostruzione tridimensionale è stata sviluppata mediante operazioni di modellazione geometrica: addizione e sottrazione booleana, estrusione lineare, superfici rigate e superfici di rivoluzione. Le estrusioni definiscono i componenti lineari e prismatici ripetuti; le costruzioni per rotazione descrivono elementi come fusti e modanature; superfici rigate e operazioni booleane consentono l'articolazione dei profili architettonici e delle aperture. I disegni pubblicati stabiliscono l'organizzazione del progetto ideale, mentre il prospetto superstite fornisce un riferimento distinto per la configurazione costruita. Il modello è una ricostruzione analitica e non un documento archeologico completo: le ipotesi sulle parti non costruite non vanno scambiate per evidenze rilevate (Fig. 7)."
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "Il dipinto è stato indagato con la geometria descrittiva tradizionale applicata alla prospettiva inversa. Il procedimento parte dall'individuazione degli allineamenti orizzontali, delle campate ripetute, del punto principale e della linea d'orizzonte. La configurazione frontale consente di confrontare il prospetto rappresentato con il progetto e con la facciata superstite. Le relazioni proiettive sono poi usate per dedurre le disposizioni planimetriche e altimetriche, compresa la profondità relativa del portico. Il procedimento del ribaltamento omologico permette di trasferire elementi selezionati dall'immagine prospettica a un piano di riferimento (Fig. 8). Poiché l'immagine dipinta è una costruzione artistica, le restituzioni ottenute vanno interpretate come ipotesi geometricamente argomentate e non come misure dirette di un oggetto fisico."
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "La lettura geometrica procede dai caratteri osservabili dell'immagine verso le relazioni spaziali dedotte, e non il contrario. Le verticali e le orizzontali ripetute stabiliscono gli assi architettonici principali; le aperture corrispondenti forniscono un modulo di confronto; lo sfondamento visibile della loggia orienta le ipotesi sulla profondità. Il prospetto e la pianta ricostruiti sono confrontati con lo schema del trattato solo dopo averne individuato il diverso statuto probatorio, fino a ottenere un risultato finale in forma di immagine renderizzata (Fig. 9). Quest'ordine delle operazioni è essenziale: la concordanza tra due disegni non prova, da sola, che l'architettura dipinta sia mai esistita in quella configurazione. Allo stesso modo, irregolarità locali nel quadro possono derivare da aggiustamenti intenzionali, dall'esecuzione pittorica o dai limiti della riproduzione disponibile."
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "L'analisi è comparativa e soprattutto proporzionale. La documentazione attuale non stabilisce date e strumenti di una specifica campagna di rilievo, un sistema di riferimento metrico, coordinate numeriche dei punti di controllo, versioni dei software o una stima quantificata dell'errore. Non si dichiara quindi alcuna accuratezza assoluta né alcuna incertezza statistica. Questi limiti impediscono anche di presentare la restituzione come un rilievo metrico pienamente riproducibile; le ipotesi geometriche e i confronti grafici restano tuttavia aperti alla verifica."
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "L'intelligenza artificiale generativa è stata impiegata in una fase successiva per produrre immagini interpretative della configurazione spaziale ricostruita (Fig. 10). L'operazione è servita a esaminare gli effetti visivi della composizione, dell'aspetto dei materiali e dell'illuminazione, non a ricavare dimensioni o a verificare la prospettiva. L'architettura specifica del modello generativo non è documentata, per cui il procedimento non viene qualificato come elaborazione mediante reti neurali convoluzionali. L'immagine generata dall'IA è dunque testimonianza di un esperimento di visualizzazione, non un'evidenza indipendente sul progetto di Palladio o sulle intenzioni di Canaletto."
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "2. Il progetto di Palladio e il peristilio costruito"
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "Il Convento della Carità fu costruito in parte per i Canonici Lateranensi nel Cinquecento (Bassi, 1971; Modesti, 2005). Palladio ne collocò la descrizione tra gli esempi di disposizioni domestiche antiche trattati nel secondo libro del suo trattato. L'ambizione guida era di «assimigliar questa casa à quelle de gli Antichi» (Palladio, 1570, libro II, p. 29). Il progetto adatta così il vocabolario della <em>domus</em> romana a un'istituzione religiosa veneziana, trasformando un modello archeologico e teorico in una proposta architettonica."
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Tre spazi principali organizzano il complesso pubblicato: l'Atrio, che dà accesso; il Tablino, collocato lateralmente e non sull'asse centrale; e il Peristilio, la più ampia area scoperta, rappresentata pavimentata e non a giardino (Fig. 4). Il riferimento all'atrio corinzio vitruviano aiuta a spiegare il dialogo deliberato con l'antico. Lo schema, però, non va letto come la ricostruzione letterale di una casa romana: Palladio riordinò selettivamente componenti antichi per rispondere a un diverso tipo edilizio e a un diverso contesto."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "Il Peristilio presenta tre ordini sovrapposti. I registri dorico al piano terra e ionico al primo piano sono costituiti da logge ad arco scandite da semicolonne addossate. Il registro superiore è organizzato da paraste corinzie che inquadrano le finestre. Il laterizio a vista caratterizza sia le murature sia gran parte dell'articolazione architettonica; la pietra è riservata ad alcuni elementi, tra cui capitelli, basi e cornici delle finestre (Fig. 6). Queste scelte materiche sono importanti per la percezione della facciata, perché il ritmo degli ordini si esprime insieme attraverso il rilievo e la superficie."
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "Il disegno del trattato, stampato in controparte, rappresenta un chiostro rettangolare con sei campate sui lati lunghi e cinque sui lati corti. Su uno dei lati corti, opposto all'atrio corinzio, compare una terrazza, visibile in sezione e non in pianta. La sua presenza produce una campata e una nicchia aggiuntive al livello superiore lungo il lato lungo adiacente, determinando una condizione asimmetrica. La fabbrica costruita è sostanzialmente diversa. Sopravvive come fronte architettonico compiuto soltanto una facciata lunga, con sette arcate e campate terminali con nicchia ai due livelli inferiori e sette finestre corrispondenti sopra. Il prospetto costruito tende quindi alla simmetria, mentre la disposizione pubblicata mantiene la condizione asimmetrica della terrazza."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "Questa divergenza è fondamentale. Prima ancora dell'intervento pittorico di Canaletto, l'architettura era già passata da una configurazione teorica a una configurazione costruita modificata. La facciata superstite non può essere usata acriticamente come illustrazione trasparente del trattato, così come il trattato non può essere considerato un documento esatto dell'opera eseguita."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "Il rapporto tra pianta e sezione è particolarmente istruttivo. Nella rappresentazione pubblicata la terrazza non è leggibile allo stesso modo in tutti i disegni, e le sue conseguenze sul prospetto adiacente diventano chiare solo leggendo insieme le fonti grafiche. L'asimmetria non è quindi una semplice questione di conteggio delle aperture: riguarda l'articolazione tra parti del chiostro a tutta altezza e parti ad altezza ridotta. Nel prospetto costruito, al contrario, il ritmo ripetuto di arco e nicchia impone una lettura più uniforme del fronte lungo. Il confronto mostra come una modifica relativamente limitata nella disposizione delle campate possa alterare l'equilibrio percepito di un'intera corte."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "3. L'interpretazione di Canaletto e la restituzione prospettica"
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "Il <em>Capriccio con il chiostro del Convento della Carità</em> di Canaletto (1744) adotta una composizione marcatamente frontale (Fig. 6). A differenza delle vedute più ampie spesso associate al pittore, questa immagine concentra l'attenzione sulla geometria ripetitiva di un unico prospetto architettonico. Il punto di fuga principale si trova sull'asse verticale della colonna centrale e l'orizzonte cade vicino all'intradosso inferiore della trabeazione. Questa configurazione rafforza la stabilità e la simmetria apparenti della scena, rendendo al tempo stesso particolarmente leggibili le sue trasformazioni architettoniche."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "A prima vista il dipinto sembra documentare un plausibile cortile palladiano. Un confronto più attento rivela un'organizzazione diversa. Canaletto introduce due terrazze laterali sopra il portico del piano terra, mentre la sezione pubblicata da Palladio ne indica una su un solo lato. La facciata dipinta a tutta altezza comprende sei arcate centrali, con un'arcata in più a ciascuna estremità e nicchie laterali disposte simmetricamente. L'ordine superiore segue la stessa logica compositiva con finestre, paraste e nicchie. Due porte rettangolari compaiono alle estremità del prospetto inferiore. Questi caratteri non si spiegano come semplice trascrizione né del progetto pubblicato né della facciata esistente."
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "Il dipinto sembra piuttosto combinare aspetti scelti di entrambi. Il motivo della terrazza richiama il progetto di Palladio, ma il suo raddoppio trasforma l'asimmetria originaria in una disposizione bilaterale. La simmetria in sé riecheggia il prospetto costruito, ma numero e disposizione delle campate sono diversi. Il risultato non è una fantasia architettonica arbitraria: è una riorganizzazione di elementi palladiani riconoscibili in un insieme nuovo e visivamente coerente."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "L'analisi in prospettiva inversa offre un modo per verificare questa interpretazione al di là dell'osservazione stilistica. La prima fase stabilisce l'impianto proiettivo del quadro a partire dalle linee architettoniche e dagli elementi ripetuti. In una prospettiva frontale gli elementi paralleli al quadro possono essere confrontati in prospetto, mentre lo sfondamento del portico richiede una ricostruzione attraverso le direzioni convergenti. Il metodo del ribaltamento omologico consente di trasferire le relazioni proiettate in una pianta ricostruita. Lo schema geometrico ottenuto è poi confrontato con le dimensioni e le proporzioni dedotte dai disegni pubblicati da Palladio (Fig. 8). La restituzione è particolarmente preziosa perché separa la sintassi architettonica dalla proporzione spaziale. Ordini, archi, nicchie e trabeazioni possono restare riconoscibili anche quando cambiano le loro dimensioni relative. Uno spettatore può quindi accettare la scena come architettonicamente convincente senza accorgersi dello spostamento di una terrazza o dell'allungamento verticale di un registro."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "Questa distinzione limita anche l'interpretazione: le discrepanze geometriche dimostrano che l'immagine non è un prospetto misurato letterale, ma non rivelano da sole se in questo dipinto Canaletto si sia basato su un disegno, sull'osservazione diretta, su strumenti ottici o su una combinazione di procedimenti di lavoro."
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "Il confronto individua due categorie principali di differenze. In pianta il portico appare più stretto del suo corrispondente nello schema architettonico. Le semicolonne mostrano inoltre apparenti aggiustamenti vicino ai margini del campo dipinto; possono essere lette come correzioni ottico-percettive, anche se il procedimento esatto del pittore non è dimostrabile. In prospetto la facciata rappresentata è allungata in tutti e tre i registri, dall'arcata del piano terra alla cornice di coronamento. Poiché la veduta è frontale, queste variazioni verticali risultano particolarmente evidenti. Il loro effetto cumulativo produce un'architettura riconoscibilmente palladiana, ma non identica né al progetto di Palladio né alla costruzione superstite."
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "La classificazione del dipinto come capriccio è quindi sostenuta da considerazioni geometriche oltre che iconografiche. Il suo rapporto con il luogo reale resta tuttavia essenziale: la forza persuasiva dell'immagine dipende da una sintassi architettonica riconoscibile. L'invenzione di Canaletto opera entro i vincoli di un linguaggio architettonico esistente, non al di fuori di esso."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "4. Risultati e discussione"
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "Il confronto produce una sequenza di tre configurazioni, più che un'opposizione binaria tra vero e falso. Il progetto pubblicato stabilisce una disposizione teorica con una terrazza su un solo lato e un chiostro di sei per cinque campate. Il prospetto superstite documenta una costruzione modificata e più simmetrica, con sette arcate e campate terminali con nicchia. Il dipinto introduce un'ulteriore riconfigurazione, visibile soprattutto nella coppia di terrazze, nella diversa distribuzione delle campate e nell'allungamento del prospetto. Queste osservazioni possono essere verificate direttamente sui disegni di confronto e sulla restituzione prospettica (Figg. 4, 6-8)."
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "Il modello digitale rende più intelligibili le conseguenze spaziali dello schema architettonico originario (Fig. 9). Aiuta anche a distinguere le differenze di organizzazione architettonica da quelle dovute al punto di vista e alla proiezione. La visualizzazione assistita dall'IA offre un ulteriore livello, esplicitamente interpretativo: la minore altezza delle ali laterali nella composizione immaginata da Canaletto apre la corte a una diversa distribuzione della luce (Fig. 10). Questa osservazione riguarda la plausibilità visiva della scena ricostruita; non stabilisce le condizioni di illuminazione reali di un edificio perduto."
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "Il contributo dello studio consiste nel rendere espliciti i passaggi tra tipi diversi di evidenza. Il trattato di Palladio documenta una proposta architettonica; la fabbrica superstite documenta un'esecuzione parziale e modificata; il dipinto di Canaletto documenta una ricostruzione pittorica."
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "La geometria descrittiva permette di discutere le loro differenze compositive in termini proiettivi, mentre la modellazione fornisce un linguaggio spaziale comune. Questi procedimenti non stabiliscono, senza ulteriore documentazione metrica, nuove misure assolute o un modello di correzione statisticamente validato."
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "I limiti dell'evidenza disponibile fanno quindi parte dell'interpretazione. Scarti numerici, accuratezza del rilievo, provenienza di tutte le dimensioni di controllo e il dettaglio del flusso di lavoro delle immagini generative richiederebbero ulteriore documentazione prima di poter avanzare un'affermazione quantitativa o pienamente replicabile. L'argomentazione qui proposta è più circoscritta ma sostenibile: una distinzione rigorosa tra configurazioni progettata, costruita e dipinta rivela come un realismo apparente possa coesistere con un'invenzione architettonica sistematica. Le figure vanno lette come verifiche complementari e non intercambiabili. La fotografia documenta la condizione materiale del fronte esistente; l'immagine del trattato comunica un progetto; la restituzione prospettica espone un'inferenza grafica; la vista digitale visualizza un'ipotesi spaziale; l'immagine IA esplora l'aspetto. Nessuna singola illustrazione può sostenere da sola l'intera argomentazione."
+    },
+    {
+      "id": "h-06",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusioni"
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "Il Peristilio del Convento della Carità offre un esempio particolarmente rivelatore del rapporto tra teoria architettonica, realizzazione materiale e rappresentazione pittorica. Il progetto pubblicato da Palladio trasponeva un modello domestico antico in un convento veneziano, ma le parti completate si discostavano già dallo schema ideale. Canaletto trasformò poi quella realtà modificata in un'immagine architettonica equilibrata e convincente, conservando forme riconoscibili ma modificandone disposizione e proporzioni."
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "La lettura in prospettiva inversa e la ricostruzione digitale chiariscono la natura di queste trasformazioni. Il loro valore non sta nel presentare il dipinto come un sostituto misurabile dell'edificio, ma nell'individuare dove le tre configurazioni convergono e dove si separano. Le immagini assistite dall'IA ampliano la discussione visiva senza sostituire l'evidenza geometrica. Tra l'immaginazione architettonica di Palladio e l'invenzione pittorica di Canaletto, il chiostro dimostra che ogni rappresentazione è anche un'interpretazione, e che le sue affermazioni vanno valutate in base al tipo di evidenza su cui è costruita."
+    }
+  ],
+  "notes": [],
+  "figures": {
+    "fig-1": {
+      "caption": "Fig. 1. O. Bertotti Scamozzi, prospetto di San Giorgio Maggiore. Fonte: <em>Le fabbriche e i disegni di Andrea Palladio</em>, vol. IV, tav. VIII.",
+      "alt": "Incisione della facciata di San Giorgio Maggiore in prospetto, con frontone centrale su colonne giganti e ali laterali più basse."
+    },
+    "fig-2": {
+      "caption": "Fig. 2. Canaletto, <em>La chiesa di San Giorgio Maggiore, Venezia</em>, 1730–31 ca., olio su tela. Londra, collezione privata. Pubblico dominio.",
+      "alt": "Dipinto di Canaletto con la chiesa di San Giorgio Maggiore vista dall'acqua, con la facciata bianca, la cupola, il campanile e gondole in primo piano."
+    },
+    "fig-3": {
+      "caption": "Fig. 3. Canaletto, <em>Capriccio: il ponte di Rialto e la chiesa di San Giorgio Maggiore</em>, 1750 ca., olio su tela. Raleigh, North Carolina Museum of Art, 52.9.149. Pubblico dominio.",
+      "alt": "Capriccio di Canaletto che accosta il ponte di Rialto e la chiesa di San Giorgio Maggiore lungo un canale con barche."
+    },
+    "fig-4": {
+      "caption": "Fig. 4. Palladio, pianta e sezione del Convento della Carità. Fonte: Palladio, 1570, libro II, p. 30.",
+      "alt": "Xilografia dei Quattro Libri: pianta e sezione del Convento della Carità con l'atrio e il chiostro."
+    },
+    "fig-5": {
+      "caption": "Fig. 5. La facciata superstite del chiostro della Carità. Foto: l'autore.",
+      "alt": "Fotografia della facciata in laterizio superstite del chiostro della Carità a Venezia, con arcate su tre livelli."
+    },
+    "fig-6": {
+      "caption": "Fig. 6. Canaletto, <em>Venezia: capriccio con il monastero dei Canonici Lateranensi</em>, 1743–44 ca., olio su tela. Royal Collection, RCIN 406991 © Royal Collection Enterprises Limited 2026 | Royal Collection Trust.",
+      "alt": "Dipinto di Canaletto con la corte di un monastero, logge ad arco in laterizio su tre piani e piccole figure in primo piano."
+    },
+    "fig-7": {
+      "caption": "Fig. 7. Ricostruzione digitale del Convento della Carità di Palladio. Elaborazione dell'autore.",
+      "alt": "Modello digitale assonometrico del Convento della Carità in linee gialle su fondo nero, con la pianta."
+    },
+    "fig-8": {
+      "caption": "Fig. 8. Restituzione prospettica del dipinto di Canaletto e confronto con il progetto di Palladio. Elaborazione dell'autore.",
+      "alt": "Analisi prospettica del dipinto di Canaletto: linee di costruzione su fondo nero che collegano il dipinto alla pianta e ai prospetti del chiostro."
+    },
+    "fig-9": {
+      "caption": "Fig. 9. Vista prospettica del modello digitale del chiostro della Carità. Elaborazione dell'autore.",
+      "alt": "Vista renderizzata del modello digitale del chiostro della Carità: una corte in laterizio con arcate su tre livelli."
+    },
+    "fig-10": {
+      "caption": "Fig. 10. Visualizzazione interpretativa assistita dall'IA del capriccio di Canaletto. Elaborazione dell'autore.",
+      "alt": "Immagine generata con IA della corte del chiostro basata sul capriccio di Canaletto, con arcate in laterizio e una balaustra."
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "articleId": "v1n1-mansoori-mehr",
+  "lang": "en",
+  "status": "draft",
+  "items": [
+    {"q": "Does the article claim that Iranian architecture imitated Palladio?", "a": "No. It states that no evidence shows twentieth-century Iranian architecture imitating Palladio's villas. Palladianism is examined as a problem of translating architectural knowledge, not of direct influence or stylistic resemblance.", "refs": ["p-001", "p-025"]},
+    {"q": "Why does Palladio matter in this story, then?", "a": "Because the Quattro libri offered an influential model for measuring, comparing and communicating architecture through drawing: plan and elevation coordinated with dimensions and text, so that relations between parts and whole could be studied far from the buildings.", "refs": ["p-001", "p-007"]},
+    {"q": "How was Palladio received in French academic culture?", "a": "Selectively. Blondel turned Palladian proportions into a comparative table of the orders; Le Roy's course placed Palladio beside Vitruvius, Scamozzi and Vignola; Guadet used the Basilica at Vicenza as an analytical precedent while rejecting architecture as a science of numbers.", "refs": ["p-002", "p-009", "p-010", "p-011"]},
+    {"q": "What was the Beaux-Arts system?", "a": "A pedagogy built on programme, concours, esquisse, atelier and jury: design as a sequence of interpretation, drawing and evaluation, in which composition meant combining rooms, vestibules, circulation and stairs into a whole.", "refs": ["p-010", "p-013"]},
+    {"q": "What does 'Between Palladio and Persepolis' mean?", "a": "Two historical poles: Palladio as a way of codifying architecture through print and drawing, and Persepolis as the Achaemenid past made newly operative in the first Pahlavi period (1925–1941) through archaeology, historiography, institutions and education.", "refs": ["p-005", "p-028"]},
+    {"q": "How was Beaux-Arts teaching adapted at the University of Tehran?", "a": "It was not copied. Design briefs were translated into Persian by Sadeq Hedayat, admission and study cycles followed university rules and the esquisse en loge was dropped, while students drew Achaemenid capitals and surveyed Iranian monuments.", "refs": ["p-015", "p-016", "p-017"]},
+    {"q": "Who was Mohsen Foroughi?", "a": "The first Iranian graduate of the École des Beaux-Arts, who moved between Paris and Tehran. His student projects and buildings show how iwan, courtyard, garden, portico and tilework were reworked through drawing, programme and composition.", "refs": ["p-019", "p-024"]},
+    {"q": "How does Foroughi treat the iwan?", "a": "Not as an applied emblem of identity but as an organising element. In his 1935 project it concentrates entrance and direction; in the Faculty of Law the iwan disappears but its spatial work — recess, threshold, depth, axial address — is redistributed through the portico and monumental frames.", "refs": ["p-020", "p-022"]},
+    {"q": "What is the article's conclusion?", "a": "Drawing after translation is not the survival of an original model but the medium through which architectural knowledge is selected, tested, altered and made operative elsewhere. Graphic procedures persist while the architecture they produce changes.", "refs": ["p-026", "p-028"]}
+  ]
+}
