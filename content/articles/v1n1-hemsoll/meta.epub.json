@@ -1,0 +1,30 @@
+{
+  "articleId": "v1n1-hemsoll",
+  "issue": "v1n1",
+  "section": "article",
+  "chapterFile": "OEBPS/01_HEMSOLL.xhtml",
+  "title": [
+    "Palladio in time",
+    "Fictitious pasts and imagined futures"
+  ],
+  "author": {
+    "name": "David Hemsoll",
+    "affiliation": "University of Birmingham",
+    "email": "d.e.hemsoll@bham.ac.uk",
+    "bio": "David Hemsoll is Honorary Senior Research Fellow in the Department of Art History, Curating and Visual Studies at the University of Birmingham, and a Fellow of the Society of Antiquaries (FSA). His research covers Renaissance architecture, architectural theory and sixteenth-century design methods. He has written widely on Palladio, including “Palladio and the ‘Secrets’ of Architectural Proportion” (JSAH, 2025) and “Method and Meaning in the Architecture of Andrea Palladio” (Architectural History, 2025)."
+  },
+  "keywords": [
+    "ANDREA Palladio",
+    "palladian",
+    "theory",
+    "classicism",
+    "historiography"
+  ],
+  "abstract": [
+    "Andrea Palladio has attracted an unparalleled amount of scholarly attention and has provided, by way of his treatise the I Quattro libri dell’architettura, very many architectural practitioners with a fount of inspiration, and a pivotal point of reference between past accomplishments and future endeavours. This article examines the writing on Palladio to determine the extent to which it has arrived at a full and objective understanding of his architecture, and why certain aspects of it have remained underinvestigated. It also explores how it was that the treatise came to have such an influence on the architect’s ‘Palladian’ followers and what they would have understood from it about Palladio’s architecture and its relevance to their times. It considers, finally, how in recent writing Palladio has become ever further disconnected from his own time to become conceived as a mythic figure to whom modern architects and their buildings can be regarded as being connected. Throughout is an emphasis on time: on how perceptions of Palladio and his work have changed over time, on how Palladio and his followers saw the best kind of architecture as being rooted in the past but ever relevant to the present and future, and on how Palladio’s past architectural achievements are still perceived as providing a model for present and potentially future endeavours."
+  ],
+  "pages": "40–67",
+  "datesLine": "Received [06/03/2026] | Accepted [06/03/2026] | Published [10/30/2026]",
+  "source": "Palladianist_v1n1_numero_completo.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

@@ -1,0 +1,25 @@
+{
+  "text_en": {
+    "status": "imported"
+  },
+  "translation_it": {
+    "status": "draft",
+    "model": "Claude"
+  },
+  "faq": {
+    "status": "draft",
+    "langs": [
+      "en",
+      "it"
+    ]
+  },
+  "audio_en": {
+    "status": "todo"
+  },
+  "audio_it": {
+    "status": "todo"
+  },
+  "podcast_brief": {
+    "status": "draft"
+  }
+}

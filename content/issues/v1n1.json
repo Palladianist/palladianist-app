@@ -13,7 +13,8 @@
     "small": "/covers/v1n1-small.jpg"
   },
   "articles": [
-    "v1n1-editorial"
+    "v1n1-editorial",
+    "v1n1-hemsoll"
   ],
   "note": "Provvisorio: verrà sovrascritto dalla sincronizzazione OJS."
 }

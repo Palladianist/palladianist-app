@@ -1,0 +1,227 @@
+{
+  "articleId": "v1n1-hemsoll",
+  "lang": "it",
+  "source": "text.en.json",
+  "translation": {
+    "method": "AI-assisted (Claude) con glossario disciplinare",
+    "status": "draft",
+    "reviewedBy": null,
+    "reviewedOn": null
+  },
+  "title": "Palladio nel tempo. Passati fittizi e futuri immaginati",
+  "abstract": [
+    "Andrea Palladio ha attirato un'attenzione critica senza paragoni e, attraverso il suo trattato, <em>I quattro libri dell'architettura</em>, ha offerto a moltissimi architetti una fonte di ispirazione e un punto di riferimento cruciale tra i risultati del passato e le imprese future. L'articolo esamina la letteratura su Palladio per stabilire fino a che punto sia giunta a una comprensione piena e obiettiva della sua architettura, e perché alcuni suoi aspetti siano rimasti poco indagati. Esplora inoltre come il trattato abbia potuto esercitare una tale influenza sui seguaci «palladiani» dell'architetto e che cosa essi vi leggessero sull'architettura di Palladio e sulla sua attualità per il proprio tempo. Considera infine come, nella letteratura recente, Palladio si sia sempre più distaccato dalla propria epoca, fino a essere concepito come una figura mitica alla quale gli architetti moderni e i loro edifici possono essere ricondotti. Filo conduttore è il tempo: come la percezione di Palladio e della sua opera sia cambiata nel tempo; come Palladio e i suoi seguaci concepissero la migliore architettura come radicata nel passato ma sempre attuale per il presente e per il futuro; e come i risultati architettonici di Palladio siano ancora percepiti come un modello per le imprese presenti e, potenzialmente, future."
+  ],
+  "keywords": [
+    "Andrea Palladio",
+    "palladiano",
+    "teoria",
+    "classicismo",
+    "storiografia"
+  ],
+  "blocks": [
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "Andrea Palladio (1508-1580), il più eminente architetto del Rinascimento, continua ad attirare un'attenzione critica immensa e sempre crescente. Al tempo stesso ha offerto a molti architetti una fonte di ispirazione duratura e un punto di riferimento cruciale tra i risultati del passato e le imprese future. Come si vedrà, queste due questioni sono strettamente connesse, e le pagine che seguono indagheranno anche come e perché Palladio sia giunto a occupare una posizione così importante nell'immaginario architettonico."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Ne emerge che la letteratura su Palladio non offre, in definitiva, una comprensione dell'architetto e della sua architettura così completa ed esauriente come ci si potrebbe aspettare. Ha stabilito, senza dubbio, che egli fece più di qualunque suo contemporaneo per concepire un'architettura direttamente paragonabile a quella antica, un'architettura che si sarebbe rivelata irresistibile per gli architetti delle epoche successive; ma, essendo così legata al passare del tempo e al sedimentarsi di nuove prospettive, ha anche generato modi di pensare a lui e alla sua architettura che egli stesso non avrebbe mai potuto prevedere. Quasi mezzo secolo fa si osservava che, probabilmente, si era scritto «su Palladio più che su qualsiasi altro grande architetto» (Howard, 1980, p. 224). Questa letteratura fu inaugurata dallo stesso Palladio con la pubblicazione, nel 1570, del suo trattato <em>I quattro libri dell'architettura</em>, ristampato in varie edizioni successive prima di essere tradotto in parte in spagnolo (1625), in olandese (parzialmente nel 1646), in francese (parzialmente nel 1645 e integralmente nel 1650), in parte in tedesco (1698) e, infine, in inglese (parzialmente nel 1663 e integralmente nel 1715/1720 e nel 1738) (Howard, 1980). Lo studio critico di Palladio e della sua architettura nacque con la sua crescente fama e prese avvio nel Settecento, quando Tommaso Temanza ne compilò un'ampia biografia fondata sulla documentazione allora disponibile (Temanza, 1762) e quando i suoi edifici cominciarono a essere esaminati, nelle opere di Francesco Muttoni e poi di Ottavio Bertotti Scamozzi, che rilevarono le differenze tra le fabbriche e le loro illustrazioni nei <em>Quattro libri</em> (Muttoni, 1740; Bertotti Scamozzi, 1776-1783)."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "Dopo una serie di monografie sull'architetto a partire dalla metà dell'Ottocento, e ulteriori studi sui suoi edifici (Burger, 1909), gli studi palladiani raggiunsero il loro culmine intorno alla metà del secolo successivo. In quegli anni apparvero le opere fondamentali di Giangiorgio Zorzi (Zorzi, 1958; 1964; 1966; 1969) e di Lionello Puppi (Puppi, 1973) sui suoi edifici, ora datati con maggiore sicurezza, sui suoi disegni e sulla sua carriera documentata, insieme alle pubblicazioni nate dalle prime grandi mostre dedicate all'architetto (Cevese, 1973; Burns, 1975) e alle monografie su singoli edifici, a cominciare dalla celebre Villa Rotonda (1566) presso Vicenza (Fig. 1) (Semenzato, 1968). Altri studi sperimentarono nuovi approcci, concentrandosi sulle ragioni teoriche delle sue opere e sui loro contesti socio-politici (Forssman, 1965; Ackerman, 1966), mentre altri ancora riesaminarono la peculiare visione architettonica di Palladio, le sue fonti progettuali e le affinità delle sue opere con l'antico, in particolare lo studio di Rudolf Wittkower, che indagò anche la sua concezione delle dimensioni e delle proporzioni (Wittkower, 1973). Da allora le nuove pubblicazioni sull'architetto sono proseguite a ritmo serrato e senza alcun segno di rallentamento. Comprendono studi ampi e dettagliati sugli edifici veneziani di Palladio e sui suoi committenti (Cooper, 2005; Howard, 2011), imprese collettive legate a grandi mostre (Beltramini &amp; Burns, 2008) e moltissime ricerche specialistiche su numerosi aspetti della sua vita, dei suoi risultati e delle sue opere (Mitrović, 2004; Paternò, 2015). È significativo, tuttavia, che l'ultima trattazione estesa dell'architetto e della sua carriera, intesa a offrire un quadro completo e coerente della sua architettura, sia stata pubblicata ormai più di trent'anni fa (Boucher, 1994). Era la prima da quasi mezzo secolo (Dalla Pozza, 1943; Pane, 1948), e da allora nessuno ci ha più provato."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "Benché un quadro complessivo dell'architetto resti piuttosto sfuggente, è proprio il peso di tutta questa produzione critica ad aver dato origine all'odierna visione condivisa di Palladio. Questa visione prevalente si è occupata di molti aspetti della sua architettura, con particolare rilievo, di recente, per i materiali e le tecniche costruttive, ma ha prestato un'attenzione curiosamente scarsa ad altre sue priorità fondamentali. Le omissioni forse più rilevanti e sorprendenti riguardano la sua concezione degli ordini architettonici, trattati con tanto rilievo nei <em>Quattro libri</em> (Palladio, 1570, libro 1), e il suo approccio del tutto peculiare alle dimensioni e alle proporzioni, quale emerge dalle illustrazioni dei suoi progetti nel trattato: un approccio che, pur segnalato oltre ottant'anni fa, non è mai stato assimilato dal consenso prevalente (Wittkower, 1973). Per il resto, questo consenso è stato in larga misura generato dagli studi precedenti, divenendo nel contempo sempre più marginale, frammentato e specialistico, e piuttosto privo di una visione d'insieme, capace di dare unità, su quali fossero effettivamente gli obiettivi complessivi di Palladio come architetto. Ha anche prodotto un ritratto alquanto distorto di Palladio, come figura in qualche modo separata dal mondo architettonico che lo circondava e immutabile nei propri obiettivi. Ciò che non ha fatto è collocarlo nel flusso evolutivo dell'architettura del suo tempo e riconoscere che, sebbene egli fosse giunto a interessarsi soprattutto alla rinascita dell'antico, il suo approccio non fu affatto statico – come invece si è finito per considerarlo – ma conobbe un notevole processo di revisione e affinamento."
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "Un riesame della carriera di Palladio mostra che essa attraversò diverse fasi, facilmente distinguibili, e che la sua architettura mutò di carattere di conseguenza – benché la letteratura lo abbia appena notato.<sup class=\"noteref\" data-note=\"n-1\">1</sup> Dopo una prima formazione nell'edilizia e nell'architettura, Palladio iniziò la propria carriera seguendo un approccio simile a quello adottato da molti dei suoi principali contemporanei, tra cui Raffaello, Jacopo Sansovino e soprattutto Michele Sanmicheli, che forse conobbe da vicino. Questo approccio è alla base della facciata del suo giovanile Palazzo Porto a Vicenza (1547 ca.), con il basamento bugnato e il piano nobile scandito da semicolonne ioniche (Fig. 2). Intorno al 1550 Palladio abbandonò poi questa impostazione e ne adottò una fondata su un uso più esteso di colonne libere e su principi di intercolumnio derivati dal trattato antico di Vitruvio."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "Questo modo di progettare sarebbe stato impiegato nelle ville che Palladio progettò per committenti veneziani, come Villa Cornaro a Piombino Dese (1552), con la sua facciata a doppio portico sormontato da frontone (Fig. 3), e Villa Badoer a Fratta Polesine (1555 ca.), con l'imponente loggia frontale e le ali laterali colonnate. Più tardi ancora, a partire dal 1560 circa e per gli ultimi due decenni della sua vita, Palladio giunse a considerare l'architettura sempre più come paragonabile all'antico in senso generale, segnalando questa equivalenza attraverso un uso sempre più deciso degli ordini. Tale approccio si manifestò dapprima nei progetti per chiese veneziane, come la facciata di San Francesco della Vigna (1563/64) e la ricostruzione (dal 1566) di San Giorgio Maggiore (Fig. 4), entrambe con ordini giganti e ordini minori al livello inferiore, ma fu poi esteso anche a edifici di altro genere. Si trattava ormai di un approccio assai diverso da quelli sostenuti da contemporanei di primo piano come Michelangelo e Jacopo Barozzi da Vignola, molto meno interessati all'imitazione dell'antico. Era però coerente con la visione dell'architettura esposta nei <em>Quattro libri</em>, che Palladio completò e pubblicò nel 1570 e che dovevano servire da giustificazione teorica dei suoi edifici (in contrasto con quelli di molti suoi contemporanei) – e di quelli che avrebbero progettato architetti affini in futuro. Per i loro lettori, i <em>Quattro libri</em> fornivano una base teorica essenziale per un'architettura del genere più pregevole. Lo facevano, come i lettori erano indotti a intendere, diffondendo due messaggi fondamentali (Hemsoll, 2025b). Il primo era che gli edifici di Palladio, in particolare i numerosi progetti residenziali illustrati nel secondo dei quattro libri, erano strettamente paragonabili all'antico; il secondo, che questa comparabilità dipendeva dall'impiego esemplare degli ordini architettonici, ed è per questo che nel primo libro del trattato gli ordini erano raffigurati in modo così imponente (Fig. 5) (Palladio, 1570, libro 1, pp. 15-50)."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "Inoltre, poiché erano fondati – come Palladio si preoccupava di sottolineare – sulle pratiche e sulle conquiste di tempi lontani, erano soprattutto gli ordini a poter evocare associazioni potenti, tanto per gli edifici del suo tempo quanto per quelli dei tempi a venire. Che egli avesse ben presente il futuro lo lasciavano intendere chiaramente le sue osservazioni secondo cui «quelli che verranno» dopo di lui avrebbero seguito il suo «esempio», volgendo il proprio ingegno ad aggiungere alla magnificenza dei loro edifici «la vera bellezza ed eleganza degli antichi» (Palladio, 1570, libro 1, p. 3), e la sua affermazione di pubblicare ora, a beneficio comune, ciò che egli stesso aveva messo in opera (Palladio, 1570, libro 1, p. 5)."
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "La sua visione complessiva era dunque che la «bellissima architettura», come la chiamava (Palladio, 1570, libro 4, p. 3), fosse nata nell'antichità prima di essere riportata alla luce nel suo tempo (Palladio, 1570, libro 4, p. 64), così che, su questa base e soprattutto grazie ai suoi sforzi e al suo «esempio», tale architettura potesse essere perpetuata dagli architetti successivi. In questo modo egli poté costruire e promuovere un mito persuasivo della «bellissima architettura», che poteva essere considerata radicata in una remota antichità, razionale, autorevolmente fondata e storicamente convalidata e, grazie ai suoi sforzi, di comprovata validità tanto per il presente quanto per il futuro prevedibile."
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "Palladio stesso, pur avendo infine abbracciato una simile concezione dell'architettura, non era sempre stato di questo avviso, ma vi era piuttosto approdato in seguito alle vicissitudini e al mutare delle circostanze della sua carriera (Hemsoll, 2025b)."
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "All'inizio si era del tutto accontentato di conformarsi all'approccio stabilito dai suoi principali contemporanei e di ideare opere come il Palazzo Porto a Vicenza (Fig. 2), risolutamente moderne nel loro essere concepite in un vocabolario <em>all'antica</em> sapientemente calibrato, ma fondate su opere moderne di riconosciuto valore, come quelle di Bramante e di Raffaello. In seguito, però, abbandonò questa posizione in buona parte per attrarre commissioni di ville da parte di committenti veneziani. Si può supporre che egli potesse indurre i veneziani a diventare suoi committenti facendo leva sulla loro radicata convinzione di essere simili agli antichi romani, o addirittura di discenderne direttamente, come nel caso della famiglia Cornaro, committente di Villa Cornaro a Piombino Dese (Fig. 3), che si riteneva discendente degli antichi Cornelii e quindi imparentata con il celebre generale romano Scipione l'Africano. Le ville che progettò per questi committenti veneziani erano di conseguenza opportunamente romane, saldamente ancorate alla teoria vitruviana con le loro colonne libere e i loro frontoni, che, come spiegato nei <em>Quattro libri</em>, non solo si vedevano nei «resti dei templi e di altri edifici pubblici», ma erano stati probabilmente impiegati dagli antichi anche nelle loro abitazioni (Palladio, 1570, libro 2, p. 69). Un simile approccio, come si osservava all'epoca, permetteva all'architettura di «vedersi nella sua forma antica» (Barbaro, 1556, p. 279). Più tardi ancora, quando Palladio spostò ulteriormente la propria posizione, sembra che fosse giunto a ritenere che un'architettura più generalmente paragonabile all'antico fosse particolarmente adatta a Venezia, in virtù della presunta fondazione romana della città e della sua storia ininterrotta, e dato che nei <em>Quattro libri</em> Venezia è descritta come l'«unico esempio rimasto della grandezza e della magnificenza» degli antichi romani, e come il luogo in cui si tornavano a realizzare «edifici di pregio» (Palladio, 1570, libro 1, p. 5)."
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "Ai suoi occhi, dunque, gli edifici concepiti per questa città dovevano essere particolarmente romani, come accade nel progetto per la ricostruzione della chiesa di San Giorgio Maggiore, dove egli assunse come riferimento ultimo il <em>frigidarium</em> delle Terme di Diocleziano a Roma, che aveva anch'esso un interno voltato a crociera con aperture ad arco su entrambi i lati, due ordini di finestre e ordini architettonici di due diverse dimensioni (Fig. 6). Nei <em>Quattro libri</em>, tuttavia, questa visione dell'architettura sarebbe stata forzata, presentandola – deliberatamente e in modo fuorviante – come se valesse per i progetti dell'intera sua carriera. Era come se non solo le opere tarde, ma anche quelle giovanili – compreso Palazzo Porto (Fig. 2) – fossero tutte fondate sugli stessi principi, ossia la stretta comparabilità con l'antico e l'impiego esemplare degli ordini architettonici."
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Se Palladio si aspettava che i <em>Quattro libri</em> avessero un impatto sull'architettura futura, doveva sperare che i loro messaggi fossero accolti e che le circostanze future consentissero di ricreare un'architettura radicata negli stessi principi. Così, naturalmente, avvenne. Gli architetti successivi come Inigo Jones (1573–1652) e, più tardi, Richard Lord Burlington (1694–1753), che dedicarono grande attenzione sia all'architettura di Palladio sia ai suoi <em>Quattro libri</em>, così come molti altri, tra cui Thomas Jefferson (1743–1826), che definì Palladio la sua «Bibbia» (Beltramini, 2015, p. 23), trovarono tutti la sua architettura e le idee diffuse dai <em>Quattro libri</em> – cioè un'architettura radicata in una remota antichità, razionale, autorevolmente fondata e storicamente convalidata – straordinariamente adatte ai mondi in cui vivevano. Per loro un'architettura di questo genere poteva dunque segnalare il ripristino di principi fondamentali, in sintonia con le visioni fondamentaliste delle loro nazioni e società. Edifici come la Banqueting House di Whitehall di Jones (1619), la Chiswick House di Burlington (1725/26) e il Monticello di Jefferson (iniziato nel 1768) non solo avrebbero assomigliato per molti aspetti alle opere di Palladio e ad altre illustrate nel suo trattato, ma si sarebbero anche fondati sulla visione e sui risultati architettonici da lui divulgati. I loro progetti sarebbero stati quindi debitori a Palladio, più che a chiunque altro, per aver formulato regole ideali per gli ordini e per aver mostrato come gli ordini fossero stati sapientemente impiegati negli edifici antichi, dimostrando al contempo come potessero essere applicati con altrettanto giudizio a quelli moderni. Avrebbero così abbracciato la sua visione architettonica e testimoniato il suo ruolo di iniziatore del miglior genere di architettura immaginabile – proprio come, probabilmente, Palladio stesso aveva desiderato. Una volta affermatasi questa architettura, tuttavia, come avvenne soprattutto in Gran Bretagna nel Settecento (Worsley, 1995; Brindle, 2023), gli edifici che oggi chiamiamo «palladiani» divennero sempre meno sintonizzati con i messaggi dei <em>Quattro libri</em> e sempre più il risultato di un uso del trattato come semplice repertorio di prototipi progettuali. Molto più tardi, nel Novecento e ben dopo il declino del palladianesimo, i <em>Quattro libri</em> offrirono lo spunto per un modo assai diverso di pensare l'architettura. Esso nacque dall'indagine condotta da Wittkower, nel suo studio più volte ripubblicato, sulle dimensioni proporzionalmente correlate presenti nelle piante degli edifici di Palladio illustrati nel trattato, e dalla sua conclusione che esse fossero affini all'armonia musicale e appartenessero persino a una sequenza armonica prestabilita (Wittkower, 1973; Hemsoll, 2025a)."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "Una simile deduzione – pur rivelandosi assai poco fondata – fu liberatoria, non da ultimo perché consentiva di esaminare e analizzare i progetti di Palladio senza alcun riferimento agli ordini architettonici o alla tradizione «classica», e in un modo che li rendeva confrontabili con gli edifici moderni: è ciò che accadde, e ciò che conferì a Palladio una nuova attualità per una nuova epoca (Millon, 1972; Payne, 1994)."
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "Il passo decisivo fu compiuto nel 1947 in un celebratissimo saggio del teorico Colin Rowe (Rowe, 1947), incentrato principalmente su un presunto confronto proporzionale tra Villa Foscari presso Venezia (1555 ca.), quale è illustrata nei <em>Quattro libri</em> (Palladio, 1570, libro 2, p. 50), e la Villa Stein di Le Corbusier a Garches (1926–28), immaginando (erroneamente) che l'edificio palladiano fosse progettato sulla base di una griglia proporzionata del tipo ipotizzato in precedenza (Wittkower, 1973). Lo stesso saggio accostava la Villa Rotonda di Palladio (Fig. 1) alla Villa Savoye di Le Corbusier a Poissy (1928) (Marcomini, 2024). Un pensiero di questo tipo, ormai sganciato dalle realtà storiche della pratica palladiana, scatenò poi numerose ipotesi sui possibili metodi progettuali che Palladio avrebbe potuto seguire (per quanto inverosimili), considerati prerequisiti per una comprensione più piena della sua architettura. Tra queste, il presunto uso del rapporto 1 a √3 e di altri rapporti incommensurabili (Mitrović, 1990, 2004) e l'ipotizzato impiego della «sezione aurea»;<sup class=\"noteref\" data-note=\"n-2\">2</sup> e, soprattutto per Villa Rotonda e la sua raffigurazione nei <em>Quattro libri</em> (Fig. 7) (Palladio, 1570, libro 2, p. 19), l'idea di una dipendenza teorica da diagrammi geometrici (Fig. 8) (Streitz, 1973; García-Salgado, 2009), che possono sembrare corrispondere all'edificio entro certi limiti – ma solo entro certi limiti, e senza coincidere con le dimensioni indicate per il progetto."
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "In alcune indagini, tra cui una su Villa Cornaro e Villa Emo (Mitrović &amp; Wassell, 2006; Fletcher, 2000), si sostiene che siano le dimensioni effettive dell'edificio, e non quelle riportate nei <em>Quattro libri</em>, a racchiudere le intenzioni progettuali di Palladio. Un altro studio, dell'architetto contemporaneo Peter Eisenman, avrebbe analizzato le ville palladiane come costrutti volumetrici, ridefinendo così Villa Rotonda come portatrice di una «instabilità» concettuale e di una «disarticolazione» rispetto a un ideale (Eisenman con Roman, 2015; Marcomini, 2024). Il problema di fondo di tutte queste teorie e posizioni, tuttavia, è che non corrispondono ai metodi progettuali che Palladio verosimilmente seguì né agli obiettivi progettuali che si era posto (Hemsoll, 2025a). Le realtà passate del Palladio storico vengono così manipolate per adattarle alle inclinazioni e alle speculazioni del presente e di un futuro immaginato."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "Al tempo stesso, Palladio è giunto a essere considerato non solo attuale per il presente, ma sempre più come l'architetto archetipico del presente. Alcuni progettisti del passato recente hanno guardato a Palladio o al palladianesimo come fondamento o giustificazione dei propri progetti e delle proprie posizioni revivaliste (Bak Mortensen, 2015)."
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "Talvolta questi progetti citano direttamente Palladio, come il Victoria Shopping Centre di Harrogate (Fig. 9), modellato sulla Basilica di Vicenza; oppure pretendono di citare gli edifici di Palladio o dei suoi successori palladiani. Spesso, però, hanno poco o nulla in comune con quelli di Palladio, sul piano visivo o formale, eppure sono ancora percepiti come in qualche modo ispirati a lui (come nel caso delle opere dell'architetto contemporaneo Peter Märkli) (Fig. 10); e alcuni autori e commentatori recenti sono stati inclini, in modo analogo, a istituire legami tra edifici moderni e Palladio, come se egli avesse fornito una pietra di paragone per modi di pensare tipicamente moderni (Ebert, 2024)."
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "Il motivo per cui è giunto a essere considerato con tanta reverenza dipende in parte dalla posizione dominante che ora occupa nel continuum della storia dell'architettura, e in parte da prospettive sull'architettura a lui attribuibili, o immaginate come tali – per esempio riguardo alle qualità geometriche della sua architettura o al suo presunto linguaggio universale – che possono essere ritenute pertinenti agli orientamenti attuali e futuri dell'architettura. Con una simile posizione nella storia dell'architettura, Palladio ha finito per assumere uno status mitico inattaccabile."
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "Questo Palladio mitico, tuttavia, non va confuso con l'architetto storico, i cui straordinari risultati erano saldamente ancorati – pur senza esserne subordinati – alle idee e alle attese del suo tempo; ma la figura mitica dipende pur sempre dalla spinta, senza precedenti e senza eguali, del Palladio storico a conquistare una fama duratura come autore di un trattato che avrebbe divulgato moltissimi dei suoi progetti e, insieme, promosso un genere di architettura – e un modo di progettare e di pensare – radicato in un passato remoto e (a parte l'uso degli ordini architettonici) fondato su principi incontrovertibili."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "Eppure nemmeno Palladio avrebbe potuto prevedere l'influenza che avrebbe esercitato sull'architettura successiva, né immaginare che sarebbe diventato un anello indispensabile tra tanti architetti futuri e il passato dell'architettura. Non avrebbe mai potuto prevedere di essere considerato una fonte di ispirazione persino da architetti che hanno rinnegato le tradizioni del passato e qualsiasi legame con l'architettura «classica» e le sue origini antiche. Il Palladio mitico ha così assorbito l'architetto storico. Ha oltrepassato i confini del tempo per diventare una figura che qualunque architetto, del presente o del futuro, può aspirare a emulare."
+    }
+  ],
+  "notes": [
+    {
+      "id": "n-1",
+      "text": "Hemsoll 2025b. Puppi ha rilevato le tre fasi distinte della carriera di Palladio (definendole <em>giovinezza, maturità e senilità</em>): Puppi 1973, pp. 27-38. Beltramini e Mitrović hanno richiamato l'attenzione sui mutamenti concettuali dell'architettura di Palladio: Beltramini &amp; Burns (a cura di) 2008, pp. 9-10; Mitrović 2004, pp. 112-127."
+    },
+    {
+      "id": "n-2",
+      "text": "Per es. Fletcher 2000; e, per una posizione contraria, March 2001."
+    }
+  ],
+  "figures": {
+    "fig-1": {
+      "caption": "Fig. 1. Villa Rotonda, presso Vicenza. Foto: l'autore.",
+      "alt": "Fotografia di Villa Rotonda vista dal prato: una villa a pianta quadrata con copertura a cupola e un pronao ionico di sei colonne con frontone sopra un'ampia scalinata, con statue sul frontone."
+    },
+    "fig-2": {
+      "caption": "Fig. 2. Vicenza, Palazzo Porto. Foto: l'autore.",
+      "alt": "Fotografia della facciata su strada di Palazzo Porto a Vicenza, vista di scorcio: piano terra bugnato e piano superiore con semicolonne ioniche, finestre con balconcini e timpani."
+    },
+    "fig-3": {
+      "caption": "Fig. 3. Piombino Dese, Villa Cornaro. Foto: l'autore.",
+      "alt": "Fotografia del fronte di Villa Cornaro: un portico a due ordini di colonne, ionico e corinzio, coronato da un frontone, tra ali laterali semplici, con un'ampia scalinata."
+    },
+    "fig-4": {
+      "caption": "Fig. 4. Venezia, San Giorgio Maggiore. Foto: l'autore.",
+      "alt": "Fotografia della navata di San Giorgio Maggiore verso l'altare: alte colonne e paraste bianche, archi e volte a botte, con un crocifisso e il coro sullo sfondo."
+    },
+    "fig-5": {
+      "caption": "Fig. 5. Gli ordini architettonici come presentati nei <em>Quattro libri</em>.",
+      "alt": "Tavola dei Quattro Libri con i cinque ordini in sequenza, come colonnati e come arcate, disegnati in prospetto con le piante delle basi delle colonne sotto."
+    },
+    "fig-6": {
+      "caption": "Fig. 6. In alto: sezione di San Giorgio Maggiore (da Cicognara, Diedo &amp; Selva 1815-1820); in basso: sezione longitudinale del <em>frigidarium</em> delle Terme di Diocleziano (da un disegno di Andrea Palladio: Londra, R.I.B.A., Palladio V, 2. Fonte: Londra, Courtauld Institute).",
+      "alt": "Due sezioni architettoniche a confronto: sopra, la sezione longitudinale di San Giorgio Maggiore con la cupola; sotto, la sezione del frigidarium delle Terme di Diocleziano con tre grandi archi."
+    },
+    "fig-7": {
+      "caption": "Fig. 7. Villa Rotonda come illustrata nei <em>Quattro libri</em>, libro II, p. 19.",
+      "alt": "Xilografia dei Quattro Libri: pianta di Villa Rotonda con sala centrale circolare e quattro pronai, e sotto metà prospetto e metà sezione con la cupola."
+    },
+    "fig-8": {
+      "caption": "Fig. 8. Diagramma analitico di Villa Rotonda di Robert Streitz.",
+      "alt": "Diagramma geometrico di Villa Rotonda: pianta e sezione sovrapposte a cerchi concentrici, diagonali e linee di costruzione."
+    },
+    "fig-9": {
+      "caption": "Fig. 9. Harrogate, Victoria Shopping Centre, progettato da Cullearn &amp; Phillips, completato nel 1991. Foto: Derek Harper, CC BY-SA 2.0, via Wikimedia Commons (ritagliata).",
+      "alt": "Fotografia del Victoria Shopping Centre di Harrogate: una facciata curva in pietra a due ordini di arcate con copertura vetrata, modellata sulla Basilica di Vicenza."
+    },
+    "fig-10": {
+      "caption": "Fig. 10. Zurigo, Schulhaus Im Birch, progettata da Peter Märkli, 2004. Foto: Tschubby, Wikimedia Commons, File: Schulhaus Im Birch 2019.",
+      "alt": "Fotografia della Schulhaus Im Birch a Zurigo: un edificio scolastico moderno di quattro piani con finestre a nastro e una piazza pavimentata con alberi."
+    }
+  },
+  "translationNotes": "Le citazioni dai Quattro libri (p-007, p-008, p-010) sono tradotte dall'inglese dell'autore: in revisione vanno sostituite con il testo originale dell'edizione 1570, se lo si desidera."
+}

@@ -86,8 +86,16 @@ const canonical = m.ojsUrl || undefined;
         }
         flush(); return out;
       })()}
+      {(doc.notes || en.notes || []).length > 0 && <>
+        <h2>{t.notes}</h2>
+        <ol class="notes">{(doc.notes || en.notes).map((n) => <li id={n.id} set:html={n.text} />)}</ol>
+      </>}
       <h2>{t.references}</h2>
       <div class="refs">{en.references.map((r) => <p set:html={r} />)}</div>
+      {(en.furtherReading || []).length > 0 && <>
+        <h2>{t.further}</h2>
+        <div class="refs">{en.furtherReading.map((r) => <p set:html={r} />)}</div>
+      </>}
     </section>
 
     <section id="tab-faq" class="panel faq" role="tabpanel" aria-labelledby="b-faq" hidden>
@@ -153,6 +161,13 @@ const canonical = m.ojsUrl || undefined;
       });
       document.addEventListener('scroll', close, { passive: true });
     }
+    // notes: tap a note number to read the note
+    document.querySelectorAll('sup.noteref').forEach((s) => {
+      s.setAttribute('role', 'button'); s.tabIndex = 0;
+      const open = () => { const n = document.getElementById(s.dataset.note); if (!n) return; const old = document.querySelector('.orig-pop'); if (old) old.remove(); const pop = document.createElement('div'); pop.className = 'orig-pop'; pop.innerHTML = '<div class="kicker">' + s.textContent + '</div>' + n.innerHTML; pop.addEventListener('click', () => pop.remove()); document.body.appendChild(pop); };
+      s.addEventListener('click', (e) => { e.stopPropagation(); open(); });
+      s.addEventListener('keydown', (e) => { if (e.key === 'Enter') open(); });
+    });
     // figures
     const dlg = document.getElementById('zoom');
     document.querySelectorAll('[data-zoom]').forEach((b) => b.addEventListener('click', () => { document.getElementById('zoomimg').src = b.dataset.zoom; dlg.showModal(); }));

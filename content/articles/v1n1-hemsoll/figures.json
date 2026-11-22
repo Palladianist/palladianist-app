@@ -1,0 +1,95 @@
+{
+  "articleId": "v1n1-hemsoll",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-hemsoll/1_Rotonda_view_DH.png",
+      "alt": "Photograph of Villa Rotonda seen from the lawn: a square villa with a domed roof and a pedimented Ionic portico of six columns above a wide flight of steps, with statues on the pediment.",
+      "caption": "Fig. 1. Villa Rotonda, near Vicenza. Photo: the author.",
+      "downloadable": true,
+      "credit": "Photo: David Hemsoll",
+      "excludedFromLicense": false
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-hemsoll/2_Palazzo_Porto_final.jpg",
+      "alt": "Photograph of the street façade of Palazzo Porto in Vicenza, seen at an angle: a rusticated ground floor and an upper floor with Ionic half-columns, balconied windows and pediments.",
+      "caption": "Fig. 2. Vicenza, Palazzo Porto. Photo: the author.",
+      "downloadable": true,
+      "credit": "Photo: David Hemsoll",
+      "excludedFromLicense": false
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-hemsoll/3_Cornaro_facade_NEW.jpg",
+      "alt": "Photograph of the front of Villa Cornaro: a two-storey portico of Ionic and Corinthian columns crowned by a pediment, between plain side wings, reached by a broad flight of steps.",
+      "caption": "Fig. 3. Piombino Dese, Villa Cornaro. Photo: the author.",
+      "downloadable": true,
+      "credit": "Photo: David Hemsoll",
+      "excludedFromLicense": false
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-hemsoll/4_Giorgio_adjusted.jpg",
+      "alt": "Photograph of the nave of San Giorgio Maggiore looking towards the altar: tall white columns and pilasters, arches and barrel vaults, with a crucifix and the choir beyond.",
+      "caption": "Fig. 4. Venice, San Giorgio Maggiore. Photo: the author.",
+      "downloadable": true,
+      "credit": "Photo: David Hemsoll",
+      "excludedFromLicense": false
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-hemsoll/5_QL_orders_final.jpg",
+      "alt": "Plate from the Quattro libri showing the five orders in sequence, as colonnades and as arcades, drawn in elevation with plans of the column bases below.",
+      "caption": "Fig. 5. The architectural orders as presented in the <em>Quattro libri</em>.",
+      "downloadable": true,
+      "credit": "A. Palladio, I quattro libri dell'architettura (1570), public domain",
+      "excludedFromLicense": false
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-hemsoll/6_Sections_composite.png",
+      "alt": "Two architectural sections compared: above, the longitudinal section of San Giorgio Maggiore with its dome; below, the section of the frigidarium of the Baths of Diocletian with three large arches.",
+      "caption": "Fig. 6. Top: Section of San Giorgio Maggiore (from Cicognara, Diedo &amp; Selva 1815-1820); and bottom: Longitudinal section of the frigidarium of the Baths of Diocletian (from a drawing by Andrea Palladio: London, R.I.B.A., Palladio V, 2. Source: London, Courtauld Institute).",
+      "downloadable": false,
+      "credit": "Cicognara, Diedo & Selva (1815–1820); A. Palladio drawing, RIBA, London (source: Courtauld Institute)",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-7",
+      "src": "/figures/v1n1-hemsoll/7_Rotonda_QL.png",
+      "alt": "Woodcut from the Quattro libri: plan of Villa Rotonda with a circular central hall and four porticoes, and below it a half elevation and half section showing the dome.",
+      "caption": "Fig. 7. Villa Rotonda as illustrated in the <em>Quattro libri, libro II, p. 19.</em>",
+      "downloadable": true,
+      "credit": "A. Palladio, I quattro libri dell'architettura (1570), public domain",
+      "excludedFromLicense": false
+    },
+    {
+      "id": "fig-8",
+      "src": "/figures/v1n1-hemsoll/8_Rotonda_diagram.png",
+      "alt": "Geometric diagram of Villa Rotonda: the plan and section overlaid with concentric circles, diagonals and construction lines.",
+      "caption": "Fig. 8. Analytical diagram of Villa Rotonda by Robert Streitz.",
+      "downloadable": false,
+      "credit": "R. Streitz (1973)",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-9",
+      "src": "/figures/v1n1-hemsoll/9_Harrogate_Shopping_Centre.jpg",
+      "alt": "Photograph of the Victoria Shopping Centre in Harrogate: a curved two-storey arcaded façade in stone with a glazed roof, modelled on the Basilica in Vicenza.",
+      "caption": "Fig. 9. Harrogate, Victoria Shopping Centre, designed by Cullearn &amp; Phillips, completed 1991. Photo: Derek Harper, CC BY-SA 2.0, via Wikimedia Commons (cropped).",
+      "downloadable": false,
+      "credit": "Photo: Derek Harper, CC BY-SA 2.0, via Wikimedia Commons (cropped)",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-10",
+      "src": "/figures/v1n1-hemsoll/10_Schulhaus_Im_Birch_2019.jpg",
+      "alt": "Photograph of Schulhaus Im Birch in Zürich: a four-storey modern school building with a grid of horizontal windows and a paved square with trees in front.",
+      "caption": "Fig. 10. Zürich, Schulhaus Im Birch, designed by Peter Märkli, 2004. Photo: Tschubby, Wikimedia Commons, File: Schulhaus Im Birch 2019.",
+      "downloadable": false,
+      "credit": "Photo: Tschubby, Wikimedia Commons",
+      "excludedFromLicense": true
+    }
+  ]
+}
