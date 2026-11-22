@@ -1,16 +1,86 @@
 {
   "articleId": "v1n1-matrangola",
   "lang": "it",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "Che cosa intende l'articolo per «limite»?", "a": "Non solo un vincolo giuridico o materiale, ma un valore etico, sociale e culturale: la misura entro cui il patrimonio può essere fruito, trasformato e trasmesso senza perdere autenticità. Dal latino limes, ha dimensioni materiali, giuridiche, etiche e sociali.", "refs": ["p-001", "p-006", "p-036"]},
-    {"q": "Il limite è un ostacolo alla valorizzazione?", "a": "No. L'autrice lo presenta come la condizione perché la valorizzazione sia sostenibile, inclusiva e consapevole, contrastando sovraesposizione, banalizzazione e mercificazione dei beni culturali. Significa cura e responsabilità collettiva, non immobilità.", "refs": ["p-005", "p-007", "p-009"]},
-    {"q": "Che cos'è una comunità di patrimonio secondo la Convenzione di Faro?", "a": "Un insieme di persone che attribuiscono valore ad aspetti specifici del patrimonio culturale e desiderano sostenerli e trasmetterli alle generazioni future (Council of Europe, 2005, art. 2). Sono soggetti attivi nella produzione di senso, non semplici destinatari delle politiche culturali.", "refs": ["p-010", "p-012"]},
-    {"q": "Perché il dialogo tra istituzioni e comunità è essenziale?", "a": "Perché la tutela non può più poggiare solo su modelli verticali e centralizzati. Il dialogo porta benefici culturali, sociali, economici, educativi e ambientali: letture plurali del patrimonio, coesione e fiducia, economie locali sostenibili, educazione civica e cura del territorio.", "refs": ["p-013", "p-014", "p-015", "p-019"]},
-    {"q": "Che cos'è la «poetica della meraviglia»?", "a": "Uno sguardo che vede nel patrimonio una realtà viva, relazionale e simbolica. Muovendo dall'idea classica che la conoscenza nasca dalla meraviglia, non è una fascinazione estetica superficiale ma un metodo di conoscenza e una pratica civica, che trasforma lo stupore in responsabilità.", "refs": ["p-002", "p-020", "p-023", "p-037"]},
-    {"q": "Perché la Puglia è presa come esempio?", "a": "I suoi paesaggi, i castelli federiciani, l'architettura rurale, le feste e i saperi artigiani formano un patrimonio diffuso e vivo. Le comunità di patrimonio, dal Gargano al Salento, lo reinterpretano con turismo lento, laboratori della memoria, itinerari culturali e arte partecipativa.", "refs": ["p-021", "p-022", "p-023"]},
-    {"q": "Che ruolo ha Federico II nel ragionamento?", "a": "Simboleggia una visione aperta e dialogica del patrimonio: il Mediterraneo come luogo d'incontro di culture, religioni e saperi. Le comunità di patrimonio possono raccoglierne l'eredità trasformando la diversità culturale in una risorsa condivisa.", "refs": ["p-024"]},
-    {"q": "Che cos'è il Coordinamento per la Cura dei Luoghi?", "a": "Il cuore del progetto strategico della Regione Puglia Cura dei Luoghi, delle Arti e dei Saperi identitari (DGR n. 655 del 21 maggio 2025): uno strumento permanente di dialogo tra soggetti pubblici e comunità locali, contro la riduzione dei luoghi della cultura a semplici «location».", "refs": ["p-030", "p-032"]},
-    {"q": "Come lega l'articolo il patrimonio alle generazioni future?", "a": "Ogni generazione riceve il patrimonio in custodia temporanea e deve trasmetterlo. Richiamando il principio responsabilità di Hans Jonas, ciò significa evitare trasformazioni irreversibili, promuovere l'educazione e coltivare una memoria condivisa.", "refs": ["p-028", "p-038", "p-039"]}
+    {
+      "q": "Che cosa intende l'articolo per «limite»?",
+      "a": "Non solo un vincolo giuridico o materiale, ma anche un valore etico, sociale e culturale: la misura entro cui il patrimonio può essere fruito, trasformato e trasmesso senza perdere la propria autenticità. Dal latino limes, ha dimensioni materiali, giuridiche, etiche e sociali.",
+      "refs": [
+        "p-001",
+        "p-006",
+        "p-036"
+      ]
+    },
+    {
+      "q": "Il limite è un ostacolo alla valorizzazione?",
+      "a": "No. L'autrice lo presenta come la condizione affinché la valorizzazione sia sostenibile, inclusiva e consapevole, contrastando la sovraesposizione, la banalizzazione e la mercificazione dei beni culturali. Significa cura e responsabilità collettiva, non immobilità.",
+      "refs": [
+        "p-005",
+        "p-007",
+        "p-009"
+      ]
+    },
+    {
+      "q": "Che cos'è una comunità patrimoniale secondo la Convenzione di Faro?",
+      "a": "Un insieme di persone che attribuiscono valore ad aspetti specifici del patrimonio culturale e desiderano sostenerli e trasmetterli alle generazioni future (Council of Europe, 2005, art. 2). Sono soggetti attivi nella produzione di senso, non semplici destinatari delle politiche culturali.",
+      "refs": [
+        "p-010",
+        "p-012"
+      ]
+    },
+    {
+      "q": "Perché il dialogo tra istituzioni e comunità è essenziale?",
+      "a": "Perché la tutela non può più basarsi solo su modelli verticali e centralizzati. Il dialogo porta benefici culturali, sociali, economici, educativi e ambientali: letture plurali del patrimonio, coesione e fiducia, economie locali sostenibili, educazione civica e cura del territorio.",
+      "refs": [
+        "p-013",
+        "p-014",
+        "p-015",
+        "p-019"
+      ]
+    },
+    {
+      "q": "Che cos'è la «poetica della meraviglia»?",
+      "a": "Uno sguardo che vede nel patrimonio una realtà viva, relazionale e simbolica. Muovendo dall'idea classica secondo cui la conoscenza nasca dalla meraviglia, non si tratta di una fascinazione estetica superficiale, ma di un metodo di conoscenza e di una pratica civica che trasforma lo stupore in responsabilità.",
+      "refs": [
+        "p-002",
+        "p-020",
+        "p-023",
+        "p-037"
+      ]
+    },
+    {
+      "q": "Perché la Puglia è presa come esempio?",
+      "a": "I suoi paesaggi, i castelli federiciani, l'architettura rurale, le feste e i saperi artigianali costituiscono un patrimonio diffuso e vivo. Le comunità patrimoniali, dal Gargano al Salento, lo reinterpretano attraverso il turismo lento, i laboratori della memoria, gli itinerari culturali e l'arte partecipativa.",
+      "refs": [
+        "p-021",
+        "p-022",
+        "p-023"
+      ]
+    },
+    {
+      "q": "Che ruolo ha Federico II nel ragionamento?",
+      "a": "Simboleggia una visione aperta e dialogica del patrimonio: il Mediterraneo come luogo d'incontro di culture, religioni e saperi. Le comunità patrimoniali possono raccoglierne l'eredità trasformando la diversità culturale in una risorsa condivisa.",
+      "refs": [
+        "p-024"
+      ]
+    },
+    {
+      "q": "Che cos'è il Coordinamento per la Cura dei Luoghi?",
+      "a": "Il cuore del progetto strategico della Regione Puglia Cura dei Luoghi, delle Arti e dei Saperi identitari (DGR n. 655 del 21 maggio 2025): uno strumento permanente di dialogo tra soggetti pubblici e comunità locali, contro la riduzione dei luoghi della cultura a semplici «location».",
+      "refs": [
+        "p-030",
+        "p-032"
+      ]
+    },
+    {
+      "q": "Come lega l'articolo il patrimonio alle generazioni future?",
+      "a": "Ogni generazione riceve il patrimonio in custodia temporanea e deve trasmetterlo. Richiamando il principio di responsabilità di Hans Jonas, ciò significa evitare trasformazioni irreversibili, promuovere l'educazione e coltivare una memoria condivisa.",
+      "refs": [
+        "p-028",
+        "p-038",
+        "p-039"
+      ]
+    }
   ]
 }

@@ -1,16 +1,86 @@
 {
   "articleId": "v1n1-matrangola",
   "lang": "en",
-  "status": "draft",
+  "status": "reviewed",
   "items": [
-    {"q": "What does the article mean by 'limit'?", "a": "Not just a legal or material constraint but an ethical, social and cultural value: the measure within which heritage can be used, transformed and handed on without losing authenticity. From the Latin limes, it has material, legal, ethical and social dimensions.", "refs": ["p-001", "p-006", "p-036"]},
-    {"q": "Is the limit an obstacle to enhancing heritage?", "a": "No. The author presents it as the condition for enhancement to be sustainable, inclusive and conscious, countering overexposure, trivialisation and the commodification of cultural assets. It means care and collective responsibility, not immobility.", "refs": ["p-005", "p-007", "p-009"]},
-    {"q": "What is a heritage community under the Faro Convention?", "a": "A group of people who value specific aspects of cultural heritage and wish to sustain and transmit them to future generations (Council of Europe, 2005, Art. 2). Such communities are active subjects in producing meaning, not mere recipients of cultural policies.", "refs": ["p-010", "p-012"]},
-    {"q": "Why is dialogue between institutions and communities essential?", "a": "Because heritage protection can no longer rest only on vertical, centralised models. Dialogue brings cultural, social, economic, educational and environmental benefits: plural readings of heritage, cohesion and trust, sustainable local economies, civic education and better care of the territory.", "refs": ["p-013", "p-014", "p-015", "p-019"]},
-    {"q": "What is the 'poetics of wonder'?", "a": "A way of seeing heritage as a living, relational and symbolic reality. Starting from the classical idea that knowledge originates from wonder, it is not superficial aesthetic fascination but a method of knowledge and a civic practice that turns amazement into responsibility.", "refs": ["p-002", "p-020", "p-023", "p-037"]},
-    {"q": "Why does Apulia serve as an example?", "a": "Its landscapes, Frederician castles, rural architecture, festivals and crafts form a widespread living heritage. Heritage communities from the Gargano to the Salento reinterpret it through slow tourism, memory workshops, cultural routes and participatory art.", "refs": ["p-021", "p-022", "p-023"]},
-    {"q": "What role does Frederick II play in the argument?", "a": "He symbolises an open, dialogic vision of heritage: the Mediterranean as a meeting place of cultures, religions and knowledge. Heritage communities can carry this legacy forward by turning cultural diversity into a shared resource.", "refs": ["p-024"]},
-    {"q": "What is the Coordination for the Care of Places?", "a": "The core of the Apulia Region's strategic project Care of Places, Arts and Identity-Based Knowledge (Regional Resolution No. 655 of 21 May 2025): a permanent instrument of dialogue between public bodies and local communities, against the reduction of cultural places to mere 'locations'.", "refs": ["p-030", "p-032"]},
-    {"q": "How does the article link heritage to future generations?", "a": "Each generation holds heritage in temporary custody and must hand it on. Drawing on Hans Jonas's principle of responsibility, this means avoiding irreversible transformations, promoting education and cultivating shared memory.", "refs": ["p-028", "p-038", "p-039"]}
+    {
+      "q": "What does the article mean by 'limit'?",
+      "a": "Not just a legal or material constraint but an ethical, social and cultural value: the measure within which heritage can be used, transformed and handed on without losing authenticity. From the Latin limes, it has material, legal, ethical and social dimensions.",
+      "refs": [
+        "p-001",
+        "p-006",
+        "p-036"
+      ]
+    },
+    {
+      "q": "Is the limit an obstacle to enhancing heritage?",
+      "a": "No. The author presents it as the condition for enhancement to be sustainable, inclusive and conscious, countering overexposure, trivialisation and the commodification of cultural assets. It means care and collective responsibility, not immobility.",
+      "refs": [
+        "p-005",
+        "p-007",
+        "p-009"
+      ]
+    },
+    {
+      "q": "What is a heritage community under the Faro Convention?",
+      "a": "A group of people who value specific aspects of cultural heritage and wish to sustain and transmit them to future generations (Council of Europe, 2005, Art. 2). Such communities are active subjects in producing meaning, not mere recipients of cultural policies.",
+      "refs": [
+        "p-010",
+        "p-012"
+      ]
+    },
+    {
+      "q": "Why is dialogue between institutions and communities essential?",
+      "a": "Because heritage protection can no longer rest only on vertical, centralised models. Dialogue brings cultural, social, economic, educational and environmental benefits: plural readings of heritage, cohesion and trust, sustainable local economies, civic education and better care of the territory.",
+      "refs": [
+        "p-013",
+        "p-014",
+        "p-015",
+        "p-019"
+      ]
+    },
+    {
+      "q": "What is the 'poetics of wonder'?",
+      "a": "A way of seeing heritage as a living, relational and symbolic reality. Starting from the classical idea that knowledge originates from wonder, it is not superficial aesthetic fascination but a method of knowledge and a civic practice that turns amazement into responsibility.",
+      "refs": [
+        "p-002",
+        "p-020",
+        "p-023",
+        "p-037"
+      ]
+    },
+    {
+      "q": "Why does Apulia serve as an example?",
+      "a": "Its landscapes, Frederician castles, rural architecture, festivals and crafts form a widespread living heritage. Heritage communities from the Gargano to the Salento reinterpret it through slow tourism, memory workshops, cultural routes and participatory art.",
+      "refs": [
+        "p-021",
+        "p-022",
+        "p-023"
+      ]
+    },
+    {
+      "q": "What role does Frederick II play in the argument?",
+      "a": "He symbolises an open, dialogic vision of heritage: the Mediterranean as a meeting place of cultures, religions and knowledge. Heritage communities can carry this legacy forward by turning cultural diversity into a shared resource.",
+      "refs": [
+        "p-024"
+      ]
+    },
+    {
+      "q": "What is the Coordination for the Care of Places?",
+      "a": "The core of the Apulia Region's strategic project Care of Places, Arts and Identity-Based Knowledge (Regional Resolution No. 655 of 21 May 2025): a permanent instrument of dialogue between public bodies and local communities, against the reduction of cultural places to mere 'locations'.",
+      "refs": [
+        "p-030",
+        "p-032"
+      ]
+    },
+    {
+      "q": "How does the article link heritage to future generations?",
+      "a": "Each generation holds heritage in temporary custody and must hand it on. Drawing on Hans Jonas's principle of responsibility, this means avoiding irreversible transformations, promoting education and cultivating shared memory.",
+      "refs": [
+        "p-028",
+        "p-038",
+        "p-039"
+      ]
+    }
   ]
 }

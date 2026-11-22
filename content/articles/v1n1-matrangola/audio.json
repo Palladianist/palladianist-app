@@ -1,0 +1,27 @@
+{
+  "articleId": "v1n1-matrangola",
+  "disclaimer": {
+    "en": "AI-generated audio overview of the article, reviewed by the editors. Synthetic voices.",
+    "it": "Sintesi audio generata con AI a partire dall'articolo e rivista dalla redazione. Voci sintetiche."
+  },
+  "episodes": [
+    {
+      "lang": "en",
+      "status": "reviewed",
+      "tool": "NotebookLM Audio Overview (Approfondimento, più breve)",
+      "file": "/audio/v1n1-matrangola/v1n1-matrangola_en.m4a",
+      "mime": "audio/mp4",
+      "durationSec": 335,
+      "chapters": []
+    },
+    {
+      "lang": "it",
+      "status": "reviewed",
+      "tool": "NotebookLM Audio Overview (Approfondimento, più breve)",
+      "file": "/audio/v1n1-matrangola/v1n1-matrangola_it.m4a",
+      "mime": "audio/mp4",
+      "durationSec": 350,
+      "chapters": []
+    }
+  ]
+}

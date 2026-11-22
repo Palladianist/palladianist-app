@@ -1,0 +1,17 @@
+{
+  "articleId": "v1n1-alvarez-diaz",
+  "lang": "en",
+  "status": "draft",
+  "items": [
+    {"q": "What is the article's main question?", "a": "Not whether AI can generate architecture, but whether it can help architects examine the organisational relationships embedded in architectural representation, without eroding the contextual knowledge that gives architecture meaning.", "refs": ["p-001", "p-003"]},
+    {"q": "Why Palladio?", "a": "Because the Quattro Libri integrate text with measured plans, sections, elevations, dimensions and construction into one body of work. The author reads Palladio's drawings as structured architectural knowledge, not as a style to imitate.", "refs": ["p-002", "p-004"]},
+    {"q": "What does 'Palladian methodology' mean here?", "a": "A way of reasoning organised around measurable proportion, spatial hierarchy, environmental considerations, circulation and sequence, and the adaptation of order to circumstances — not the reproduction of Palladian style or classical vocabulary.", "refs": ["p-004"]},
+    {"q": "What is Casa Andelani?", "a": "A house in San Juan, Puerto Rico, designed by the author before the research. Its completed documentation was used to test an AI-assisted analytical method; AI did not generate the design.", "refs": ["p-005", "p-025"]},
+    {"q": "How was AI used in the study?", "a": "ChatGPT and Microsoft Copilot (with Claude through Copilot) were given drawings and structured prompts on proportion, hierarchy, circulation and environment. Their outputs were treated as propositions and checked against sketches, measured drawings, BIM and Palladio's drawings; conflicting interpretations were revised or discarded.", "refs": ["p-008", "p-009"]},
+    {"q": "Does the comparison with Palazzo Chiericati prove a Palladian influence?", "a": "No. Since the analytical categories were introduced through the prompts, the results are not independent discoveries. The comparison only tests whether Palladian principles offer a useful interpretive lens for a contemporary Caribbean house.", "refs": ["p-008", "p-009"]},
+    {"q": "What role did environmental simulation play?", "a": "Airflow and seasonal solar studies, made by AD&V with Autodesk Forma, examined hypotheses about the courtyard, openings and roofs in a tropical climate. They are qualitative and comparative, not measured performance: AI neither performed nor verified them.", "refs": ["p-011", "p-012"]},
+    {"q": "What are the eight stages of the proposed workflow?", "a": "Observation and sketch; measured drawing; BIM; AI-assisted interpretation; environmental analysis; operational monitoring; human judgment; architecture. Computation informs every stage but cannot determine cultural meaning or ethical responsibility.", "refs": ["p-014", "p-020", "p-021"]},
+    {"q": "What are the limits the author acknowledges?", "a": "Palladio belongs to a specific Western tradition and is not a neutral universal standard; AI outputs depend on the documents, the prompts and platform biases. The method needs testing on other traditions, climates, building types and real use.", "refs": ["p-006", "p-024", "p-027"]},
+    {"q": "What does the article propose for architectural education?", "a": "Keep thinking through drawing: students start from observation and freehand sketching, move to measured drawing and BIM, then use AI and simulation, and synthesise everything through architectural judgment — learning to question where AI interpretations come from.", "refs": ["p-023", "p-024"]}
+  ]
+}
