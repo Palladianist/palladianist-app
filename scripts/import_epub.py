@@ -17,7 +17,8 @@ from html.parser import HTMLParser
 
 STYLE_MAP = {
     "Heading-1": "h2", "Heading-2": "h3",
-    "Normal": "p", "List-Paragraph": "li",
+    "Normal": "p", "Body-Text": "p", "First-Paragraph": "p", "No-Spacing": "p",
+    "Image-Caption": "p", "Caption": "p", "List-Paragraph": "li",
     "abstract": "abstract", "parole-chiave": "keyword", "didascalie": "caption",
     "References": "reference", "Endnote-text": "marker",
     "affiliazione-autore": "author", "titolo-sottoparagrafo": "front", "Paragrafo-base": "front",
@@ -29,8 +30,14 @@ class Doc(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.italic = italic_classes
         self.blocks, self.cur, self.stack, self.noteref = [], None, [], None
+        self.table = None
     def handle_starttag(self, tag, attrs):
         a = dict(attrs); cls = (a.get("class") or "").split()
+        if tag == "table": self.table = []; return
+        if self.table is not None:
+            if tag == "tr": self.table.append([])
+            elif tag in ("td", "th"): self.table[-1].append("")
+            return
         if tag in BLOCK:
             style = next((STYLE_MAP[c] for c in cls if c in STYLE_MAP), None)
             self.cur = {"style": style or "unknown", "raw": " ".join(cls), "html": ""}
@@ -46,6 +53,10 @@ class Doc(HTMLParser):
         elif tag == "br" and self.cur is not None:
             self.cur["html"] += " "
     def handle_endtag(self, tag):
+        if tag == "table" and self.table is not None:
+            rows = [[re.sub(r"\s+", " ", c).strip() for c in r] for r in self.table if r]
+            self.blocks.append({"style": "table", "rows": rows, "raw": "table", "html": ""}); self.table = None; return
+        if self.table is not None: return
         if tag == "a" and self.stack and self.stack[-1] == "a":
             self.stack.pop(); self.cur["html"] += "</sup>"; self.noteref = None
         elif tag == "span" and self.cur is not None and self.stack and self.stack[-1] != "a":
@@ -57,6 +68,9 @@ class Doc(HTMLParser):
                 self.cur["html"] = t; self.blocks.append(self.cur)
             self.cur = None; self.stack = []
     def handle_data(self, data):
+        if self.table is not None:
+            if self.table and self.table[-1]: self.table[-1][-1] += html.escape(data, quote=False)
+            return
         if self.cur is not None: self.cur["html"] += html.escape(data, quote=False)
 
 def italic_classes(css):
@@ -106,14 +120,20 @@ def main():
     for b in B:
         s = b["style"]
         if s == "img": imgs.append(b); continue
+        if s == "table":
+            if started: body.append(("table", b["rows"]))
+            continue
         t = b["html"]; pt = plain(t)
-        if s == "caption": captions.append(t); continue
+        if s == "caption":
+            if captions and not re.match(r"\s*Fig", pt): captions[-1] += " " + t   # caption continued on a new line
+            else: captions.append(t)
+            continue
         if not started and s in ("p", "h2"): started = True
         if not started:
             if s == "author" and any(x.upper() not in ("EDITORIAL", "ARTICLE", "ESSAY") for x in front): byline.append(pt); continue
             {"keyword": keywords, "abstract": abstract, "author": authors}.get(s, front).append(pt); continue
         if s == "caption": captions.append(t); continue
-        if s == "marker" or (s in ("li", "p", "h2") and pt.lower() in ("notes", "references", "further readings", "further reading", "bibliography")):
+        if s == "marker" or (s in ("li", "p", "h2", "reference") and pt.lower() in ("notes", "references", "further readings", "further reading", "bibliography")):
             zone = {"notes": "notes", "references": "refs", "bibliography": "refs"}.get(pt.lower(), "further"); continue
         if s == "reference" or zone != "body":
             {"notes": notes, "refs": refs, "further": further}.get(zone if zone != "body" else "refs").append(t); continue
@@ -148,10 +168,15 @@ def main():
         figs.append({"id": f"fig-{k}", "src": f"/figures/{a.id}/{fn}", "alt": alt,
                      "caption": capby.get(k, captions[k-1] if k-1 < len(captions) else ""), "downloadable": True, "credit": ""})
 
+    if not any(st in ("h2", "h3") for st, _ in body):
+        # no heading style used: short lines without final punctuation are section headings
+        body = [("h2" if st == "p" and isinstance(tx, str) and len(plain(tx).split()) <= 12 and not re.search(r"[.:;,]$", plain(tx)) and not re.match(r"\s*Fig", plain(tx)) else st, tx) for st, tx in body]
     blocks, placed, hn, pn, ln = [], set(), 0, 0, 0
     for s, t in body:
         if s in ("h2", "h3"):
             hn += 1; blocks.append({"id": f"h-{hn:02d}", "type": "heading", "level": 2 if s == "h2" else 3, "text": t})
+        elif s == "table":
+            blocks.append({"id": f"t-{sum(1 for x in blocks if x['type']=='table')+1:02d}", "type": "table", "rows": t})
         elif s == "li":
             ln += 1; blocks.append({"id": f"l-{ln:03d}", "type": "listitem", "text": t})
         else:
@@ -178,9 +203,10 @@ def main():
         w("review.json", {"text_en": {"status": "imported"}, "translation_it": {"status": "todo"},
                           "faq": {"status": "todo"}, "audio_en": {"status": "todo"}, "audio_it": {"status": "todo"}})
     words = sum(len(plain(b["text"]).split()) for b in blocks if "text" in b)
+    tables = sum(1 for b in blocks if b["type"] == "table")
     print(json.dumps({"title": title, "author": name, "affiliation": aff, "pages": pages, "headings": hn, "paragraphs": pn,
         "listItems": ln, "figures": len(figs), "figuresPlacedByReference": sorted(placed), "notes": len(notes_out),
-        "references": len(refs), "furtherReading": len(further), "bodyWords": words, "keywords": keywords,
+        "references": len(refs), "furtherReading": len(further), "tables": tables, "bodyWords": words, "keywords": keywords,
         "altMissing": sum(1 for f in figs if not f["alt"])}, ensure_ascii=False, indent=1))
     unknown = sorted({b["raw"] for b in B if b.get("style") == "unknown"})
     if unknown: print("WARNING unmapped styles:", unknown, file=sys.stderr)

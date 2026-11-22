@@ -1,0 +1,241 @@
+{
+  "articleId": "v1n1-alvarez-diaz",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "Artificial intelligence is increasingly influencing how architecture is conceived, represented, analyzed, and constructed (Leach, 2022; Li et al., 2025). While generative systems, machine learning, and computational workflows offer significant analytical capabilities, they also raise concerns about a new algorithmic universalism detached from cultural memory, local identity, human proportions, climatic specificity, and material intelligence. These concerns are compounded by biases embedded in training data, computational models, and the designer’s own prompting and selection processes (Kudless, 2023). Architecture therefore confronts a fundamental question: how can computational systems enhance design without eroding the contextual knowledge that gives architecture meaning?"
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Working within the intellectual and representational context of the Italian Renaissance, Andrea Palladio confronted questions about how architectural knowledge could be represented, transmitted, and adapted. Through <em>I Quattro Libri dell’Architettura</em> (1570), he organized architecture through systems of measured representation—plans, sections, elevations, dimensions, and proportion—that could be studied, compared, and adapted rather than merely copied (Palladio, 1570; Wittkower, 1971). His relevance here lies not in stylistic imitation but in method. Architectural representation has historically operated as more than illustration, participating in the development and interpretation of architectural ideas (Evans, 1995; Pérez-Gómez &amp; Pelletier, 1997). In this study, Palladio’s drawings are therefore interpreted as structured forms of architectural knowledge."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "Contemporary multimodal AI systems can process combinations of text, drawings, diagrams, and images and propose relationships among them (Caffagni et al., 2024). This paper proposes that the measured representations in <em>I Quattro Libri</em> can be digitized and used as a structured architectural knowledge base for computational analysis—not because Palladio anticipated artificial intelligence, but because their measurable and relational content allows them to be examined through contemporary digital tools. The central question is therefore not whether AI can generate architecture, but whether it can assist architects in examining organizational relationships embedded within architectural representation (Leach, 2022; Li et al., 2025)."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "For the purposes of this study, Palladian methodology does not refer to the reproduction of Palladian style or classical vocabulary. It refers instead to a mode of architectural reasoning organized around measurable proportion, spatial hierarchy, environmental considerations, circulation and sequence, and the adaptation of architectural order to particular circumstances. The focus is therefore on approaching Palladio’s work through a methodological lens rather than as a formal template. Among the major theorists of the classical tradition, Palladio is particularly productive here: compared with the predominantly textual presentation of Vitruvius and Alberti, Palladio’s treatise places unusual emphasis on the integration of text with measured plans, elevations, dimensions, and constructional descriptions (Vitruvius, ca. 15 B.C.E./1914; Alberti, 1485/1991). Palladio integrated plans, sections, elevations, proportion, and construction into a unified graphical and textual body of work (Palladio, 1570; Wittkower, 1971). It is this informational character, rather than Palladio’s stylistic influence, that this paper examines. The comparison with contemporary digital representation is methodological rather than literal: a BIM model and a Palladian drawing are different artifacts produced under different conditions, yet both communicate architectural relationships through measurable representation (Sacks et al., 2018)."
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "The argument is examined through Casa Andelani, a residence in San Juan, Puerto Rico, designed by the author before the AI-assisted phase of this research. Artificial intelligence did not generate the design; instead, the completed documentation became the basis for exploring an AI-assisted analytical methodology. OpenAI ChatGPT and Microsoft Copilot, with Anthropic Claude also accessed through the Copilot environment, were employed as interpretive rather than generative tools."
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "This framework also requires acknowledging its limits. Palladio belongs to a particular Western Renaissance tradition and should not be treated as a culturally neutral or universal system. A methodology privileging only canonical Western precedents risks reinforcing rather than challenging established cultural hierarchies (Kudless, 2023). Palladio is therefore used as one test case for the methodology, not as the standard against which all architectural knowledge should be evaluated. Future research should examine whether similar methods can engage other architectural traditions, climates, and material cultures."
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "This paper contributes in three ways: it interprets <em>I Quattro Libri</em> as structured architectural knowledge rather than solely as a stylistic precedent; through Casa Andelani, it documents an AI-assisted methodology integrating hand drawing, BIM, multimodal AI, environmental simulation, and human judgment; and it proposes that AI’s value in architecture may lie less in generating new forms than in expanding the architect’s capacity to interrogate, compare, interpret, and adapt architectural knowledge to changing cultural, climatic, and technological conditions."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Experimental Workflow: Human Sketch, Artificial Intelligence, and Palladian Intelligence"
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "Casa Andelani in San Juan, Puerto Rico, serves as the experimental case study for the framework proposed above. The research examines whether selected Palladian organizational principles can be computationally interpreted and cross-checked through an integrated workflow combining hand sketching, measured drawing, Building Information Modeling (BIM), multimodal AI, environmental simulation, and human judgment. The methodology does not aim to reproduce Palladian architecture stylistically; rather, it investigates whether relationships of proportion, hierarchy, processional order, and environmental organization can be identified and examined within a contemporary computational workflow. The architect’s hand sketches (Figs. 1–2) record the initial development of spatial hierarchy, proportion, circulation, and environmental organization, functioning as a primary record of architectural intention rather than merely as preliminary illustration (Evans, 1995; Pérez-Gómez &amp; Pelletier, 1997). These sketches were translated into measured drawings and an information-rich BIM model, exported as plans, sections, elevations, and diagrams that served as the principal inputs for AI-assisted analysis. Artificial intelligence was used to analyze the project rather than generate it. Commercially available multimodal platforms—OpenAI ChatGPT and Microsoft Copilot, with Anthropic Claude accessed through the Copilot environment—were directed through structured prompts toward specific analytical categories: proportion, hierarchy, circulation, spatial organization, and environmental relationships. Representative prompts included: “Analyze the attached floor plan and identify potential relationships involving spatial hierarchy, circulation, proportion, and environmental organization,” and “Compare the organizational logic of Casa Andelani with Palladio’s Palazzo Chiericati, examining potential correspondences in proportional systems, spatial hierarchy, processional sequence, and courtyard organization.” Because these categories were deliberately introduced through the prompts, the resulting outputs are not presented as independent discoveries of Palladian influence. They are treated as analytical propositions produced through a defined interpretive framework and subsequently cross-checked against project documentation, Palladio’s published drawings (Palladio, 1570; Wittkower, 1971), and environmental analysis. No AI-generated architectural form was incorporated into the project; the design had been completed prior to the AI-assisted phase. Unlike generative AI workflows aimed at producing design alternatives, this methodology introduces AI after the design has been developed, using it to examine architectural knowledge already embedded in existing representation. The experiment does not establish that AI independently understands Palladian architecture or that Palladian principles are universally transferable. Rather, it tests whether multimodal AI can function as an additional interpretive instrument when an explicit historical framework is applied to architectural documentation and its interpretations are cross-checked against geometry, historical sources, environmental analysis, and human judgment. These outputs remain subject to the limitations of the supplied documentation, the categories embedded in the prompts, and the potential biases of the platforms themselves."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "The resulting outputs—bubble diagrams, circulation and hierarchy analyses (Figs. 3–4), and a comparative analysis with Palazzo Chiericati (Fig. 5)—were reviewed against the original sketches, drawings, and BIM documentation; interpretations conflicting with measurable architectural information were revised or discarded. The comparison does not establish that Casa Andelani was derived from Palazzo Chiericati or that identified correspondences resulted from direct Palladian influence. Instead, it examines whether Palladian organizational principles provide a productive interpretive lens for a contemporary Caribbean residence outside their original stylistic and historical context."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "Taken together, these figures document the workflow’s principal stages: observation and hand sketching establish intention; measured drawings and BIM translate intention into coordinated information; AI-assisted analysis proposes relationships for examination; comparative analysis considers those relationships against Palladian precedent; and the resulting interpretations establish hypotheses that can be examined through environmental simulation. The figures therefore function as part of the evidentiary apparatus of the study, not merely as illustration."
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "2. Environmental Intelligence: Climate, Infrastructure, and AI-Assisted Simulation"
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "Environmental analysis constitutes a distinct stage within the methodological framework, employing computational simulations to examine how architectural decisions related to orientation, spatial organization, openings, and envelope design interact with the environmental conditions of Puerto Rico’s tropical climate. These analyses investigate environmental hypotheses emerging from the architectural and AI-assisted interpretation phases; they do not independently validate Palladian principles nor establish causal relationships between historical precedents and environmental performance. The design incorporates a central courtyard, double-height living hall, aligned and opposing openings, balconies, and sectional voids intended to promote cross-ventilation and vertical air movement (Fig. 6). Deep roof overhangs, pitched roofs, and solar-control strategies respond to seasonal solar exposure while preserving opportunities for daylighting and natural ventilation. These features represent architectural intentions and environmental hypotheses that were subsequently examined through computational analysis; they should not be interpreted as measured post-occupancy performance outcomes. Complementary systems, including rainwater-management strategies, photovoltaic roof tiles, insulation, and waterproofing, are integrated as part of a coordinated environmental approach in which the building envelope, water management, and building systems operate as interconnected components rather than isolated technical elements. Artificial intelligence neither performed nor independently verified the environmental analyses. Computational environmental studies were conducted by AD&amp;V using Autodesk Forma and evaluated qualitatively as comparative analytical tools rather than predictive performance models. Airflow simulations (Fig. 7) examined patterns of air movement associated with the courtyard, building openings, and interior-exterior spatial relationships. AI-assisted interpretation was subsequently employed to relate observed airflow patterns to architectural features previously identified through the design and comparative analyses. Seasonal solar exposure was examined using the same methodology (Fig. 8), comparing summer-solstice (June 21) and winter-solstice (December 21) conditions between 7:00 a.m. and 7:00 p.m. These studies should be understood as comparative environmental analyses rather than quantitative verification of thermal performance."
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "They visualize patterns of seasonal solar exposure and support the evaluation of design strategies but do not establish numerical reductions in heat gain, energy consumption, thermal comfort, or overall building performance within the scope of this study. The environmental analyses extend the experimental sequence from observation, measured drawing, BIM, AI-assisted interpretation, and historical comparison into the computational examination of selected environmental relationships. The results do not establish that Palladian principles produce measurable environmental benefits under contemporary tropical conditions. Rather, they suggest that a framework concerned with proportion, hierarchy, spatial organization, and environmental response can provide a productive basis for examining relationships between architectural order and climatic conditions."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "3. Experimental Methodology: From Observation to Architectural Knowledge"
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "The experimental workflow developed through Casa Andelani proposes a broader framework for architectural knowledge, illustrating how understanding evolves through successive stages of observation, representation, interpretation, analysis, and judgment (Fig. 9). Where implemented, connected systems such as sensors, real-time data, and digital-twin platforms can extend evaluation into a building’s operational life."
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "1. Observation and Sketch — freehand sketching establishes spatial hierarchy, proportion, and conceptual order as an instrument of inquiry."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "2. Measured Drawing — the sketch is translated into dimensioned documentation, transforming intention into spatial information."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "3. Building Information Modeling — measured drawings are integrated into a coordinated digital model capable of multidisciplinary analysis."
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "4. AI-Assisted Interpretation — artificial intelligence identifies potential proportional, circulation, and organizational relationships without altering design authorship."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "5. Environmental Analysis — computational simulation examines airflow and solar exposure as an additional analytical layer, not independent verification of performance."
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "6. Operational Monitoring — connected systems, including sensors, real-time data, and a digital twin, extend evaluation into the building’s operational life."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "7. Human Judgment — computational analysis informs but cannot determine cultural meaning, experiential quality, or ethical responsibility."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "8. Architecture — the synthesis of the preceding stages within a built work integrating environmental performance, cultural context, and human experience."
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "This sequence extends beyond Casa Andelani as a framework through which architectural knowledge can be interpreted, tested, and refined within AI-assisted practice. Palladio offers a historical point of comparison through his integration of proportion, construction, site, and inhabitation within a broader architectural order (Palladio, 1570). Contemporary computation expands the capacity to examine these relationships but does not replace the architectural reasoning through which they acquire meaning. Palladio’s legacy is therefore treated not as a formal language to be replicated, but as a methodological lens through which architecture can continue to integrate knowledge, technology, and place."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "Discussion and Conclusion: Between Measure and Machine"
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "These findings carry implications for architectural education as well as practice. As artificial intelligence increasingly influences how architecture is represented, analyzed, and communicated, it also requires a reconsideration of how architects are trained. Historically, drawing functioned as a form of architectural thinking: through sketching, measured drawing, and section, architects developed spatial reasoning and tested relationships among structure, climate, light, and inhabitation rather than merely communicating them (Evans, 1995; Pérez-Gómez &amp; Pelletier, 1997). Contemporary generative systems can produce sophisticated visual results rapidly, potentially bypassing the slower cycles of observation and reflection that have shaped architectural thinking (Leach, 2022; Li et al., 2025). The risk is not simply that architects will draw less, but that they may lose opportunities to think through drawing. The methodology developed here suggests an alternative educational model, integrating AI within the broader process through which architectural knowledge is generated rather than treating it as an isolated digital skill. Students might begin with observation and freehand sketching, translate ideas into measured drawings and BIM, employ AI to examine proportional and spatial relationships, use environmental simulation to study climatic conditions, and synthesize these forms of knowledge through architectural judgment."
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "Computation, in this model, has the potential to reinforce rather than replace critical thinking. <em>I Quattro Libri</em> offers a useful pedagogical precedent in this respect: Palladio’s treatise communicated architecture through relationships among proportion, hierarchy, sequence, and construction rather than through images alone, suggesting the continuing importance of balancing technological literacy with disciplinary knowledge (Palladio, 1570; Wittkower, 1971). This educational challenge also requires critical evaluation of the computational systems themselves. As these systems assume greater analytical capabilities, architects must strengthen their ability to recognize algorithmic bias and interpret computational results critically. Bias can enter through training data, computational models, and human prompting and selection, potentially reproducing existing cultural assumptions rather than challenging them (Kudless, 2023). Using Palladio as a computational reference therefore requires recognizing that his work belongs to a particular Western architectural tradition rather than treating it as a culturally neutral or universal standard. Addressing this limitation requires testing the methodology against a broader range of architectural traditions, climates, and material cultures, while training architects to question whether AI-generated interpretations arise from the evidence being examined, the analytical framework supplied by the architect, or biases embedded within the computational system."
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "The title of this paper, <em>Between Measure and Machine</em>, reflects its central tension. Measure represents proportion, observation, historical continuity, and critical judgment; machine represents computation, automation, and accelerated representation. Their relationship need not be understood as a choice between the two, but as an opportunity for computation to extend—rather than replace—the architect’s capacity to interpret, adapt, and create. Casa Andelani provides a built case (Fig. 10) through which this relationship can be examined: hand sketching, measured drawing, BIM, AI-assisted interpretation, and environmental simulation contribute different forms of architectural information, with artificial intelligence entering the analytical process only after the design had been developed."
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "The contribution of this research is therefore methodological rather than stylistic. It proposes a framework through which historical knowledge, computational analysis, environmental examination, and human judgment operate together within a continuous process of architectural inquiry."
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "The case study does not establish the universal applicability of this framework, nor does it demonstrate that artificial intelligence independently understands Palladian architecture. Further research across other architectural traditions, climates, building types, and post-occupancy conditions is needed to evaluate its broader relevance."
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "The future relationship between architecture and artificial intelligence will depend not only on what computational systems can produce, but also on the frameworks architects develop for questioning, interpreting, and judging their outputs. Between measure and machine lies not a choice, but a continuing architectural inquiry."
+    }
+  ],
+  "notes": [],
+  "references": [
+    "Alberti, L. B. (1991). <em>On the art of building in ten books</em> (J. Rykwert, N. Leach, &amp; R. Tavernor, Trans.). MIT Press. (Original work published 1485)",
+    "Caffagni, D., Cocchi, F., Barsellotti, L., Moratelli, N., Sarto, S., Baraldi, L., Cornia, M., &amp; Cucchiara, R. (2024). The revolution of multimodal large language models: A survey. In <em>Findings of the Association for Computational Linguistics: ACL 2024</em> (pp. 13590–13618). Association for Computational Linguistics. https://doi.org/10.18653/v1/2024.findings-acl.807",
+    "Evans, R. (1995). <em>The projective cast: Architecture and its three geometries</em>. MIT Press.",
+    "Kudless, A. (2023). Hierarchies of bias in artificial intelligence architecture: Collective, computational, and cognitive. <em>International Journal of Architectural Computing, 21</em>(2), 256–279. https://doi.org/10.1177/14780771231170272",
+    "Leach, N. (2022). <em>Architecture in the age of artificial intelligence: An introduction to AI for architects</em>. Bloomsbury Visual Arts.",
+    "Li, C., Zhang, T., Du, X., Zhang, Y., &amp; Xie, H. (2025). Generative AI models for different steps in architectural design: A literature review. <em>Frontiers of Architectural Research, 14</em>(3), 759–783. https://doi.org/10.1016/j.foar.2024.10.001",
+    "Palladio, A. (1570). <em>I quattro libri dell’architettura</em> [The four books on architecture]. Dominico de’ Franceschi.",
+    "Pérez-Gómez, A., &amp; Pelletier, L. (1997). <em>Architectural representation and the perspective hinge</em>. MIT Press.",
+    "Sacks, R., Eastman, C., Lee, G., &amp; Teicholz, P. (2018). <em>BIM handbook: A guide to building information modeling for owners, designers, engineers, contractors, and facility managers</em> (3rd ed.). Wiley. https://doi.org/10.1002/9781119287568",
+    "Vitruvius. (1914). <em>The ten books on architecture</em> (M. H. Morgan, Trans.). Harvard University Press. (Original work published ca. 15 B.C.E.)",
+    "Wittkower, R. (1971). <em>Architectural principles in the age of humanism</em>. W. W. Norton &amp; Company. (Original work published 1949)"
+  ],
+  "furtherReading": []
+}

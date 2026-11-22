@@ -1,0 +1,232 @@
+{
+  "articleId": "v1n1-mansoori-mehr",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "The question of Palladianism in modern Iran becomes meaningful only when distinguished from formal resemblance and direct influence. No evidence indicates that twentieth-century Iranian architecture developed through the imitation of Palladio’s villas. Palladio matters here because <em>I quattro libri dell’architettura</em> offered an influential model for measuring, comparing, and communicating architecture through drawing. By coordinating plans and elevations with dimensions and text, the treatise made relations between parts and whole available for study beyond their original sites (Palladio, 1738, Book II, p. 40, plate 1; Marcorin, 2024, pp. 100-101, 115-116)."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "The historical claim is deliberately limited: Palladio did not originate Beaux-Arts pedagogy, nor did his work reach the École through an unbroken line. French academic culture received him selectively. Blondel recast aspects of Palladian doctrine as comparative measures and tables; Julien-David Le Roy’s annual programme placed Palladio beside Vitruvius, Scamozzi, and Vignola; and Guadet treated the Basilica at Vicenza as a compositional and proportional precedent (Blondel, 1698, pp. 792-793; Chafee, 1977, p. 74; Guadet, 1909, Vol. 1, pp. 97-98, 428)."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "These cases establish a history of critical reception, while the École’s system of programme, <em>esquisse</em>, <em>atelier</em>, project, and jury followed its own institutional development (Chafee, 1977, pp. 83-89)."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "Methodologically, the article combines textual and iconographic analysis. Treatise plates, academic texts and teaching programmes, student drawings, and built projects are examined through common questions: how plan, elevation, and section are coordinated; how axis, proportion, circulation, and hierarchy organise composition; and how historical elements are abstracted and recombined. Formal recurrence is not treated as proof of influence. Here, “translation” means the selective reworking of architectural knowledge as it enters new representational, pedagogical, professional, and institutional conditions."
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "“Between Palladio and Persepolis” defines the two historical poles of this inquiry. Persepolis condenses the authority acquired by Iran’s Achaemenid past during the first Pahlavi period (1925-1941), when archaeology, architectural historiography, state institutions, and university education made antiquity newly operative. At the Faculty of Fine Arts, students drew Achaemenid capitals and produced measured drawings of Iranian monuments (Akhgar &amp; Moulis, 2025, pp. 40-41; Akhgar, 2024, pp. 1120-1122). Mohsen Foroughi stands at the centre of the inquiry."
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "His student projects and later buildings show how the <em>iwan</em>, courtyard, garden, portico, and tilework were reread through drawing, programme, and composition (Marefat, 1988, pp. 110-111; Akhgar &amp; Moulis, 2021, pp. 948-950). The question is how architectural knowledge was selected, recoded, and given new authority as it moved between treatise, school, and institution."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "Palladio, Drawing, and the Codification of Architectural Knowledge"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "<em>I quattro libri dell’architettura</em> made architectural design available through a close relation between brief description, measurement, and drawing. At the end of Book II, Chapter II, Palladio tells the reader that the plans and elevations to follow will clarify the principles already discussed; Palazzo Antonini opens the next chapter. In its plate, plan and elevation occupy the same representational field (Fig. 1). The plan reduces rooms, passages, walls, and the central axis to a measured order, while the elevation organises the rusticated base, superimposed orders, central bay, and pediment. Read together, they form a graphic argument in which distribution, façade hierarchy, and relations between parts and whole can be examined without visiting the building (Palladio, 1738, Book II, pp. 39-40 and plate 1; Marcorin, 2024, pp. 100-101)."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "This abstraction should not be mistaken for a neutral record. Palladio’s plates often preserve design intentions rather than the final condition of buildings altered during execution; nor can their dimensions be reduced to a single universal formula. The orders instead offered a systematic but selective reworking of Vitruvian and Renaissance authorities (Mitrović, 1999, pp. 110-113; Hemsoll, 2025, pp. 5-6, 9, 18). What became transferable was therefore less a finished style than a means of making architectural decisions explicit and comparable."
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "This capacity becomes historically visible in François Blondel’s <em>Cours d’architecture</em>. Blondel first examined proportional relations in individual buildings by Palladio and then reorganised the five orders as a synoptic table (Fig. 2). Unlike the plate of Palazzo Antonini, the table suppresses the site and the individual building. Its rows and columns compare the heights and diameters of columns, pedestals, entablatures, intercolumniations, and arcades across the Tuscan, Doric, Ionic, Corinthian, and Composite orders (Blondel, 1698, pp. 738-741, 792-793). Palladio thus appears beside Vitruvius, Vignola, and Scamozzi as one authority among several. Blondel’s operation was one of selection, abstraction, and criticism. It provides a specific historical link to French academic culture: Palladian material entered it not through a continuous genealogy, but as architectural knowledge that could be compared, corrected, and taught."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "Beaux-Arts Pedagogy: Drawing, Programme, and Composition"
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "The historical bridge from earlier academic reception to the École was not one of doctrinal descent. In the <em>École spéciale</em> that preceded the École des Beaux-Arts established in 1819, Julien-David Le Roy’s annual programme described a weekly course on architectural history and theory, the orders, ancient buildings, and the works of Vitruvius, Palladio, Scamozzi, and Vignola. Students submitted designs for monthly judgement, while instruction in design remained within the <em>atelier</em> (Chafee, 1977, p. 74). During the nineteenth century, programme, <em>concours</em>, <em>esquisse</em>, <em>atelier</em>, and jury organised design as a sequence of interpretation, drawing, and evaluation. The preliminary sketch constrained the developed project, and the jury compared the final drawings both with that sketch and with one another (Chafee, 1977, pp. 83-89)."
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "Julien Guadet’s lectures show how Palladio was read within this later pedagogical culture. Guadet placed him among the Renaissance authors who had followed the Vitruvian path of <em>architecture chiffrée</em>, but rejected the reduction of architecture to rigid formula: architecture was not a science of numbers, and proportion demanded perception and judgement (Guadet, 1909, Vol. 1, pp. 97-98). Yet this criticism did not remove Palladio from teaching. In a discussion of arcaded porticoes, Guadet presented the Basilica at Vicenza as an example of a subordinate order serving as the pier of an arcade within a <em>grande ordonnance</em> (Fig. 3) (Guadet, 1909, Vol. 1, p. 428)."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Compared with Palladio’s Palazzo Antonini plate, Guadet’s image performs a different operation. The plan disappears; the façade is extracted from Palladio’s account and inserted among other examples. Attention shifts to the relation between bay, arcade, pier, and the two orders. The Basilica becomes an analytical precedent rather than a model for reproduction. What persists is neither the format of Palladio’s plate nor an intact Palladian method, but the practice of abstracting historical examples and submitting them to comparison and judgement."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "Guadet’s second volume clarifies the larger pedagogical shift. Composition meant combining parts into a whole; its elements included rooms, vestibules, circulation spaces, and stairs. A programme was necessarily incomplete and had to be read, interpreted, and supplemented by architectural knowledge (Guadet, 1910, Vol. 2, pp. 3-4, 15-17). Drawing was the medium in which programme, precedent, and judgement were brought into relation. This historically layered system, rather than Palladio as a direct source, was later reworked at the Faculty of Fine Arts in Tehran (Akhgar, 2024, pp. 1116-1120)."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "Pahlavi Iran and the Institutional Translation of Architecture"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "The translation of Beaux-Arts pedagogy to Iran took shape as the state, university, profession, and historical imagination were being reconfigured together. During the first Pahlavi period (1925–1941), public building transformed both Tehran and the social position of the architect. This transformation did not erase earlier practices: the <em>usta-meʿmar</em> retained knowledge acquired through apprenticeship, construction, material experience, and geometry. What shifted was the distribution of architectural authority, as academic credentials, technical drawings, public commissions, and institutional judgement acquired increasing importance (Marefat, 1988, pp. 108–111; Akhgar, 2024, pp. 1115–1117)."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "The University of Tehran, founded in 1934, and its Faculty of Fine Arts, established in 1940, gave this reorganisation a durable institutional form. André Godard, Maxime Siroux, Roland Dubrulle, and Mohsen Foroughi worked through the Ministry of Education and the university rather than as autonomous transmitters of a foreign model."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "The programme resembled that of the École but was not an exact reproduction: design briefs were translated from French into Persian by Sadeq Hedayat; the entrance examination and cycles of study were adjusted to university regulations; and the Parisian <em>esquisse en loge</em> was omitted (Akhgar, 2024, pp. 1114–1120). Translation can therefore be located in specific institutional operations of retention, omission, and reorganisation."
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "At the same time, Iran’s architectural past was being made newly visible through archaeology, preservation, museums, publications, and state commissions. Persepolis acquired particular authority within this field, not simply as a repertoire of forms but as material evidence in modern accounts of nation and architecture. At the Faculty, students drew Achaemenid capitals, made measured drawings of Iranian mosques and mausoleums, and responded to programmes for bazaars, shrines, and Iranian houses (Akhgar and Moulis, 2025, pp. 40–41; Akhgar, 2024, pp. 1120–1122). Grigor’s reconstruction of the earlier “Orient oder Rom?” debate further shows that the historiography of Iranian antiquity had itself been shaped through transnational dispute, rather than formed as a self-contained counterpart to Europe (Grigor, 2007, pp. 562–564)."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "Beaux-Arts pedagogy did not introduce geometry, proportion, spatial hierarchy, or historical consciousness into an architectural culture that lacked them. It supplied a new institutional procedure through which Iranian knowledge and selected European precedents could be redrawn, compared, evaluated, and incorporated into modern programmes. Mohsen Foroughi’s work makes this process visible."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "Mohsen Foroughi: Drawing Iranian Architecture through Beaux-Arts Pedagogy"
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "With Mohsen Foroughi, the argument becomes both historical and architectural. As the first Iranian graduate of the École des Beaux-Arts, he moved between Paris, Tehran University, Iranian architectural memory, and public building. His drawings are read not as the final link in an uninterrupted line from Palladio to Iran, but as evidence of how Beaux-Arts conventions were adjusted to Iranian forms and changing programmes (Akhgar and Moulis, 2021, pp. 948–950)."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "In <em>Une École des langues orientales</em> of 1935, plan, section, and principal elevation share a single sheet (Fig. 4). Together they test the correspondence between circulation, spatial hierarchy, and façade. Palladio’s Palazzo Antonini plate coordinates plan and elevation; Guadet extracts the Basilica’s façade as an analytical precedent; Foroughi places coordinated views at the service of the <em>concours</em>. This is a methodological resemblance, not evidence of direct Palladian transmission. Although asymmetrical as a whole, the project is ordered through local axes. The elongated court, pools, vegetation, and repeated openings establish movement and depth, while the tiled <em>iwan</em> concentrates entrance, scale, ornament, and direction. It is therefore not merely an applied emblem of Iranian identity, but an organising element (École nationale supérieure des beaux-arts, 1935, pl. 108; Akhgar and Moulis, 2021, pp. 949–951)."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "The 1937 diploma project, <em>Une Résidence d’été en Perse</em>, carries the experiment further (Fig. 5). Iranian architectural memory is no longer concentrated at the entrance. Courtyards, pools, gardens, <em>ravaqs</em>, and rooms are arranged through related but displaced axes. Perspectives present low volumes fitted to the mountain edge, while elevations and sections translate the sequence into differences of height, enclosure, and threshold. Whereas Palladio largely isolates a building as a measured object, Foroughi uses landscape, perspective, and implied movement to qualify the orthogonal drawings. In both cases, coordinated representation makes architectural relations available for examination, but the knowledge organised by the drawings and the setting in which it operates have changed (École nationale supérieure des beaux-arts, 1937, plates 108-109; Akhgar and Moulis, 2021, pp. 949-953)."
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "After Foroughi’s return to Iran in 1937, these procedures were tested against public programmes and construction. The Faculty of Law belonged to a university campus whose general disposition, materials, and restrained architectural language had been established under André Godard. Foroughi thus worked within an institutional framework rather than making an unrestricted personal statement. The published plan and exterior view reveal a more emphatic bilateral order than his Paris projects (Fig. 6). Two elongated wings frame the central composition; a U-shaped portico mediates between court and interior; and the amphitheatre occupies the dominant axis. Tilework and the pointed arch disappear, while the operations earlier concentrated in the <em>iwan</em>, including recess, threshold, depth, and axial address, are redistributed through the portico and monumental rectangular frames. This is not the survival of a form, but the recoding of its spatial work (Architecte, 1948, pp. 213–214; Akhgar and Moulis, 2021, pp. 956–958)."
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "Foroughi’s Bank Melli branches and the Saʿdi Mausoleum extended this procedure across civic and commemorative programmes. Axiality, shade, columned thresholds, and controlled tilework were recombined in relation to use, climate, and public representation (Akhgar and Moulis, 2021, pp. 958–960)."
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "Foroughi was not simply a product of Beaux-Arts pedagogy. He used its representational and compositional procedures to make Iranian architectural knowledge operative within modern institutions. The comparison with Palladio rests here: not on shared forms, but on drawing’s capacity to select, order, and reformulate architecture."
+    },
+    {
+      "id": "h-06",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusions: Drawing after Translation"
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "This article has treated Palladianism not as direct influence or formal resemblance, but through the changing transferability of architectural knowledge. Its historical claim is limited but specific: Blondel compared Palladian proportions, Le Roy placed Palladio among several authorities, and Guadet treated his architecture as material for compositional analysis. Together, these cases demonstrate selective reception rather than an uninterrupted genealogy from <em>I quattro libri</em> to the École des Beaux-Arts and Iran. The relationship proposed here is a historically documented methodological comparison."
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "The images reveal the consequences of that distinction. Palladio coordinates plan and elevation as a measured whole; Blondel converts proportion into a comparative table; Guadet isolates a façade as an analytical precedent. Foroughi uses related operations, including coordinated views, hierarchy, axial ordering, and abstraction, but redirects them towards different programmes, landscapes, and traditions. Graphic procedures persist, while the architecture they produce changes."
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "In Iran, Beaux-Arts pedagogy entered an existing architectural culture. At Tehran University, its procedures were modified through institutional regulations, Persian translation, Iranian historical study, and local building concerns. Foroughi’s student projects and the Faculty of Law make this process visible: the <em>iwan</em>, courtyard, garden, and portico were neither preserved unchanged nor applied as signs of identity. Their spatial work was reconsidered through sequence, enclosure, shade, landscape, and public programme."
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "“Between Palladio and Persepolis” therefore names neither an opposition between West and East nor a stylistic passage from one monument to another. Palladio marks one mode of codifying architecture through print and drawing; Persepolis marks an ancient past made newly operative through archaeology, historiography, institutions, and education. Drawing after translation is therefore not the survival of an original model, but the medium through which architectural knowledge is selected, tested, altered, and made operative elsewhere."
+    }
+  ],
+  "notes": [],
+  "references": [
+    "Akhgar, P. (2024). Beaux-Arts system and professionalisation of architectural education in twentieth-century Iran. <em>The Journal of Architecture</em>, Vol. 29, Nos. 7-8, pp. 1110-1136. https://doi.org/10.1080/13602365.2025.2485101",
+    "Akhgar, P., Moulis, A. (2021). The legacy of the École des Beaux-Arts in twentieth-century Iran: The architecture of Mohsen Foroughi. <em>The Journal of Architecture</em>, Vol. 26, No. 7, pp. 945-968. https://doi.org/ 10.1080/13602365.2021.1976247",
+    "Akhgar, P., Moulis, A. (2025). The Beaux-Arts system and the construction of Iranian architectural modernism in the twentieth century. <em>Journal of the Society of Architectural Historians</em>, Vol. 84, No. 1, pp. 39-63. https://doi.org/10.1525/jsah.2025.84.1.39",
+    "Architecte. (1948). Ārshitekt-hā-ye mā rā beshenāsid: Mohsen Foroughi [Meet our architects: Mohsen Foroughi]. <em>Architecte: Arts, architecture, urbanisme</em>, No. 6, pp. 213-214.",
+    "Blondel, F. (1698). <em>Cours d’architecture enseigné dans l’Académie royale d’architecture: Quatrième, cinquième et dernière partie</em> (2nd ed., revised and expanded). Paris: Chez l’auteur; Pierre Mortier. https://archive.org/details/gri_33125011257710",
+    "Chafee, R. (1977). The teaching of architecture at the École des Beaux-Arts. In A. Drexler (Ed.), <em>The architecture of the École des Beaux-Arts</em> (pp. 61–109). Museum of Modern Art.",
+    "École nationale supérieure des beaux-arts. (۱۹۳۵). <em>Les concours d’architecture de l’année scolaire 1934-1935: Vingt-sixième année</em>. Vincent, Fréal et Cie. https://docnum.unistra.fr/digital/collection/coll20/id/3286/rec/1",
+    "École nationale supérieure des beaux-arts. (۱۹۳۷). <em>Les concours d’architecture de l’année scolaire 1936-1937: Vingt-huitième année</em>. Vincent, Fréal et Cie. https://docnum.unistra.fr/digital/collection/coll20/id/3912/rec/1",
+    "Grigor, T. (2007). “Orient oder Rom?” Qajar “Aryan” architecture and Strzygowski’s art history. <em>The Art Bulletin</em>, Vol. 89, No. 3, pp. 562-590. https://doi.org/10.1080/00043079.2007.10786361.",
+    "Guadet, J. (1909). <em>Éléments et théorie de l’architecture: Cours professé à l’École nationale et spéciale des beaux-arts</em>, Vol. 1. Librairie de la Construction Moderne. https://archive.org/details/lmentsetthoriede01guad",
+    "Guadet, J. (1910). <em>Éléments et théorie de l’architecture: Cours professé à l’École nationale et spéciale des beaux-arts</em>, Vol. 2. Librairie de la Construction Moderne. https://archive.org/details/lmentsetth02guaduoft",
+    "Hemsoll, D. (2025). Palladio and the “secrets” of architectural proportion. <em>Journal of the Society of Architectural Historians</em>, Vol. 84, No. 1, pp. 4-38. https://doi.org/10.1525/jsah.2025.84.1.4",
+    "Marcorin, F. (2024). Palladio’s drawings as a means of knowledge: Looking at the past through modern eyes. In T. Bürklin &amp; M. Ebert (Eds.), <em>The Palladio method</em> (pp. 90–121). transcript Verlag. https://doi.org/10.14361/9783839466728-007",
+    "Marefat, M. (1988). <em>Building to power: Architecture of Tehran 1921–1941 [Doctoral dissertation, Massachusetts Institute of Technology]. DSpace@MIT.</em> https://dspace.mit.edu/entities/publication/1bb61a3e-0479-44dd-8928-d83aa0f150d0",
+    "Mitrović, B. (1999). Palladio’s theory of the classical orders in the first book of <em>I quattro libri dell’architettura</em>. In <em>Architectural History</em>, Vol. 42, pp. 110-140. https://doi.org/10.2307/1568707",
+    "Palladio, A. (1738). <em>The four books of architecture</em> (I. Ware, Trans.). London: R. Ware. https://archive.org/details/gri_33125011569684"
+  ],
+  "furtherReading": []
+}

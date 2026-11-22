@@ -73,3 +73,9 @@ ol.notes li { margin-bottom:.6em; }
 .brand-block .brand { line-height:1; }
 .brand-block .tagline { font-family:var(--font-display); font-style:italic; font-size:15px; color:#D9BF85; line-height:1.2; }
 .brand-block .issn { font-family:var(--font-ui); font-size:11.5px; letter-spacing:1px; color:#A9B1C4; }
+
+.prose h3 { font-family:var(--font-display); font-weight:400; font-size:19px; margin:1.3em 0 .3em; }
+.table-wrap { overflow-x:auto; margin:1.2em 0; }
+.table-wrap table { border-collapse:collapse; font-family:var(--font-meta); font-size:14px; min-width:100%; }
+.table-wrap th, .table-wrap td { border-bottom:1px solid var(--rule); padding:6px 10px; text-align:left; white-space:nowrap; }
+.table-wrap th { font-family:var(--font-ui); letter-spacing:.6px; color:var(--red); }

@@ -1,0 +1,85 @@
+{
+  "articleId": "v1n1-alvarez-diaz",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-alvarez-diaz/figure1.png",
+      "alt": "Freehand marker sketch of the ground-floor plan of Casa Andelani, with a curved staircase and rooms around a central space.",
+      "caption": "Fig. 1. Casa Andelani—Original Floor Plan Sketch, marker on trace paper. Drawing by Ricardo Álvarez-Díaz.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-alvarez-diaz/figure2.png",
+      "alt": "Freehand marker sketch of the elevation of Casa Andelani, with pitched roofs and a central volume.",
+      "caption": "Fig. 2. Casa Andelani—Original Elevation Sketch, marker on trace paper. Drawing by Ricardo Álvarez-Díaz.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-alvarez-diaz/figure3.png",
+      "alt": "Colour-coded bubble diagram of the rooms of Casa Andelani on two floors, with proportional ratios for each space.",
+      "caption": "Fig. 3. Casa Andelani—AI-Assisted Bubble Diagram with Proportional Key by Space. AI-assisted analysis using OpenAI ChatGPT and Microsoft Copilot, including Anthropic Claude through the Copilot environment; prompted by Ricardo Álvarez-Díaz.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-alvarez-diaz/figure4.png",
+      "alt": "Sheet of plans and sections of Casa Andelani with coloured zones showing circulation, primary spaces and axes.",
+      "caption": "Fig. 4. Casa Andelani—AI-Assisted Circulation and Hierarchy Analysis. AI-assisted analysis using ChatGPT and Microsoft Copilot, including Claude through the Copilot environment; prompted by Ricardo Álvarez-Díaz; diagrams by AD&amp;V®.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-alvarez-diaz/figure5.png",
+      "alt": "Side-by-side comparison of the plans and elevations of Casa Andelani and Palladio's Palazzo Chiericati, with proportional grids and axes.",
+      "caption": "Fig. 5. Comparative Analysis of Casa Andelani and Palladio’s Palazzo Chiericati. AI-assisted analysis using OpenAI ChatGPT and Microsoft Copilot, including Anthropic Claude through the Copilot environment; prompted by Ricardo Álvarez-Díaz; diagrams by AD&amp;V®.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-alvarez-diaz/Figura_6_slide1.png",
+      "alt": "Sectional diagram of Casa Andelani with blue arrows showing cross-ventilation through the courtyard, pitched roofs and double-height spaces.",
+      "caption": "Fig. 6. Casa Andelani—BIM/AI-Assisted Passive Environmental and Cross-Ventilation Diagram. Diagram by AD&amp;V®.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-7",
+      "src": "/figures/v1n1-alvarez-diaz/Figura_7_slide2.png",
+      "alt": "Screenshots of a computational airflow simulation around Casa Andelani, with blue streamlines over the site.",
+      "caption": "Fig. 7. Casa Andelani—Computational Airflow Simulation and AI-Assisted Interpretation. Environmental analysis by AD&amp;V®.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-8",
+      "src": "/figures/v1n1-alvarez-diaz/Figura_8_slide3.png",
+      "alt": "Solar exposure analysis of Casa Andelani at the summer and winter solstices, with the house coloured by sunlight intensity.",
+      "caption": "Fig. 8. Casa Andelani—Seasonal Solar Exposure Analysis: Summer and Winter Solstice Conditions. Environmental analysis by AD&amp;V®.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-9",
+      "src": "/figures/v1n1-alvarez-diaz/figure9.png",
+      "alt": "Workflow diagram in eight numbered steps, from sketch, measured drawing and BIM model to AI interpretation, simulation, monitoring, human judgement and architecture.",
+      "caption": "Fig. 9. Casa Andelani—AI-Assisted Workflow: From Observation to Architectural Knowledge. Diagram by AD&amp;V®.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-10",
+      "src": "/figures/v1n1-alvarez-diaz/figure10.jpg",
+      "alt": "Aerial photograph of the completed Casa Andelani: a two-storey house with dark hipped roofs, white walls and abundant planting.",
+      "caption": "Fig. 10. Completed Casa Andelani, the built work examined through the methodological framework developed in this study. Aerial photograph by Carlos López.",
+      "downloadable": true,
+      "credit": ""
+    }
+  ]
+}

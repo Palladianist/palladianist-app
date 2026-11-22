@@ -1,0 +1,30 @@
+{
+  "articleId": "v1n1-moreno-garcia-samper",
+  "issue": "v1n1",
+  "section": "article",
+  "chapterFile": "OEBPS/07_SAMPER.xhtml",
+  "title": [
+    "Ideal geometry and built reality in Gothic cathedrals",
+    "A comparative analysis through terrestrial laser scanning"
+  ],
+  "author": {
+    "name": "David Moreno-García, Albert Samper",
+    "affiliation": "Universitat Rovira i Virgili",
+    "email": "david.moreno@urv.cat",
+    "bio": "David Moreno-García is an assistant professor at Universitat Rovira i Virgili, and researcher in architectural representation, heritage, and digital technologies applied to historic architecture. His work focuses on terrestrial laser scanning, heritage documentation, and digital fabrication. He co-founded Scandraw, a spin-off company dedicated to architectural digitisation. Albert Samper is an Associate Professor at Universitat Rovira i Virgili, and a researcher specialising in architectural representation, heritage, and digital technologies applied to historic architecture. His work focuses on terrestrial laser scanning, advanced heritage documentation, and the study of geometry in Gothic and Catalan Art Nouveau architecture. He is a co-founder of Scandraw."
+  },
+  "keywords": [
+    "Gothic architecture",
+    "Terrestrial laser scanning (TLS)",
+    "Architectural surveying",
+    "Digital heritage",
+    "Geometric analysis"
+  ],
+  "abstract": [
+    "This paper analyses the geometric differences between traditional architectural documentation and terrestrial laser scanning (TLS) surveys of five European Gothic cathedrals: Girona, Mallorca, Narbonne, Laon and Chartres. Whereas historical drawings rely on idealised geometries that synthesise a building’s spatial and constructional logic, TLS records deformations, irregularities and construction tolerances that traditional methods rarely capture. The research combines TLS campaigns, CAD redrawing of historical documentation, and alignment and overlay procedures to compare historical plans and sections with point-cloud models. The results reveal a high degree of overall agreement between the two approaches, although significant discrepancies are identified in certain geometric parameters, particularly nave heights, the positions of vault keystones, and specific irregularities arising from medieval construction processes. Narbonne Cathedral exhibits the greatest divergences from the historical documentation, particularly in certain elements of the central nave and the study demonstrates that digital documentation technologies not only improve the metric accuracy of architectural heritage records but also serve as critical tools for reinterpreting the relationship between ideal representation and built reality in Gothic architecture."
+  ],
+  "pages": "176–195",
+  "datesLine": "Received [05/18/2026] | Accepted [09/01/2026] | Published [10/30/2026]",
+  "source": "Palladianist_v1n1_numero_completo.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

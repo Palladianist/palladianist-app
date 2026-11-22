@@ -1,0 +1,278 @@
+{
+  "articleId": "v1n1-moreno-garcia-samper",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "Since the Middle Ages, Gothic cathedrals have been interpreted through geometry and graphic representation, from the drawings of Villard de Honnecourt to modern historiographical studies (Barnes, 2009; Ruskin, 1880). Architectural drawing has historically been a fundamental tool for documenting, analyzing, and communicating knowledge of how these buildings were constructed, providing a spatial synthesis of geometric, structural, and compositional principles."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Subsequent studies have explored both the expressive qualities of Gothic architecture and the geometric characteristics of Catalan and French Gothic architecture (Cirici Pellicer, 1968; Sureda, 2005; Adams, 1980; Berry, 1975; Bouxin, 1890; Plouvier, 1997)."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "Traditional architectural representation through plans, sections, and elevations has provided a coherent and ordered reading of cathedrals, although often based on idealized geometries. Historical surveys tend to correct deviations, regularize axes, and simplify irregularities resulting from prolonged and complex construction processes (San José Alonso, 2018). Recent research on Girona Cathedral has demonstrated how the successive involvement of different master builders and extended construction periods generated geometric variations that are difficult to accommodate within a single ideal scheme (Rabasa Díaz &amp; Alonso Rodríguez, 2017; Moreno-García, 2024)."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "Similarly, specific studies of Chartres and Narbonne have highlighted the formal and symbolic complexity of particular architectural elements, such as triforia and the spatial systems of Gothic naves (Bonjour &amp; Petitdemange, 1996; Bunjes, 1943; Laurent, 1887; Paul, 1991)."
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "In recent decades, the development of terrestrial laser scanning (TLS) and digital documentation techniques has profoundly transformed architectural surveying and the study of historic heritage. These methods enable the generation of highly accurate three-dimensional point clouds capable of recording deformations, construction tolerances, and geometric variations that are difficult to identify using traditional surveying methods (Mataix Sanjuán et al., 2013; San José Alonso, 2018)."
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "Several studies have also demonstrated the potential of TLS for the geometric and structural analysis of Gothic architecture, particularly in the study of vaults, arches, buttresses, and complex spatial systems (Moreno-García et al., 2022; Samper et al., 2022). Despite these advances, the relationship between the idealized geometries conveyed by historical documentation and the built reality recorded using TLS remains underexplored. In this context, this paper analyses the geometric differences between traditional architectural documentation and contemporary terrestrial laser scanning surveys of the cathedrals of Girona, Mallorca, Narbonne, Laon, and Chartres (Fig. 1)."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "By comparing vectorized historical plans and sections with models derived from point clouds, the study examines how digital technologies enable the ideal geometries conveyed by architectural historiography to be assessed against the digitally recorded built reality."
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "The aim is not to establish an opposition between historical representation and digital documentation, but to analyze how the two approaches can complement one another."
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "While traditional drawings remain fundamental to understanding the design and compositional logic of Gothic architecture, TLS enables the precise recording of deviations, irregularities, and transformations accumulated during construction processes. Combining the two approaches thus provides a more nuanced and accurate reading of historic architectural heritage."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Methodology"
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 3,
+      "text": "<em>1.1. Selection and analysis of traditional architectural documentation</em>"
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "The study draws on a selection of traditional architectural documentation from specialist literature and historical archives. For each of the five cathedrals analyzed—Girona, Mallorca, Narbonne, Laon, and Chartres—a representative plan of the entire building and a section or elevation of one of the main bays of the central nave were selected. These documents provide the basis for reconstructing the idealized geometries conveyed by historiography and the tradition of architectural surveying."
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "For Chartres Cathedral, the sources consulted included studies focusing on the spatial and symbolic interpretation of the building, as well as research on specific architectural elements (Adams, 1980; Bonjour &amp; Petitdemange, 1996, 1996; Bunjes, 1943). For Laon Cathedral, historical and architectural publications addressing both the building and its urban context were used (Berry, 1975; Bouxin, 1890; Plouvier, 1997). For Narbonne, the documentary selection drew on studies of the construction of the east end and the formal analysis of the projecting triforium (Laurent, 1887; Paul, 1991), together with the acquisition of an original drawing by Viollet-le-Duc (Fig. 2)."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "For Girona Cathedral, recent research focusing on the geometric and constructional analysis of the building was used (Rabasa Díaz &amp; Alonso Rodríguez, 2017; Moreno-García, 2024), while the study of Mallorca Cathedral drew on historical documentation and architectural surveys commonly used in research on Mediterranean Gothic architecture (Cram, 2015; Sureda, 2005)."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "All selected documents were redrawn in CAD vector format to standardize scales, graphic conventions, and levels of precision (Fig. 3). This process provided a consistent documentary basis for comparison with the models derived from point clouds acquired through terrestrial laser scanning."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 3,
+      "text": "<em>1.2. Digitization campaigns and comparative procedure</em>"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "The metric basis of the study consists of terrestrial laser scanning (TLS) campaigns carried out at the cathedrals of Girona, Mallorca, Narbonne, Chartres, and Laon between 2019 and 2026 (Table 1). Leica RTC360 and Leica BLK scanners were used across these campaigns to acquire dense point clouds of the interiors and accessible exterior areas, ensuring a level of geometric accuracy suitable for architectural analysis. Girona Cathedral was digitized in 2019, Mallorca in 2021, and Narbonne in 2023 using a Leica RTC360 scanner, while the campaigns at Chartres and Laon were conducted in 2026 using a Leica BLK scanner. The surveys prioritized the documentation of naves, transepts, apses, and other areas of particular geometric complexity, such as vaults and structural junctions. Scans acquired from the different positions were registered to generate unified three-dimensional models, with registration errors of a few millimeters. In some cases, the TLS documentation was supplemented by photogrammetry to facilitate the interpretation of specific architectural elements (Mataix Sanjuán et al., 2013; San José Alonso, 2018). Horizontal and vertical slices were extracted from the registered three-dimensional point cloud models to obtain plans, sections, and orthoimages corresponding to the traditional architectural documentation. These documents were subsequently vectorized in CAD format to standardize scales, graphic conventions, and levels of precision (Figs. 4–7). The historical documentation and the TLS-derived models were compared through geometric alignment and overlay procedures within a common reference system. In plan, alignment was based on the principal axes of the piers and the longitudinal axis of the nave, while floor lines, imposts, arch springing, and vault keystones were used as references in section. This procedure enabled the idealized geometries conveyed by historical drawings to be assessed against the built reality recorded using TLS, revealing deviations in alignment, variations in structural bay spacing, and geometric differences accumulated during medieval construction processes."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "t-01",
+      "type": "table",
+      "rows": [
+        [
+          "Cathedral",
+          "Girona",
+          "Mallorca",
+          "Narbonne",
+          "Laon",
+          "Chartres"
+        ],
+        [
+          "Scanning days",
+          "3",
+          "7",
+          "3",
+          "1",
+          "1"
+        ],
+        [
+          "Scan positions",
+          "838",
+          "1250",
+          "613",
+          "236",
+          "260"
+        ],
+        [
+          "Registration links",
+          "891",
+          "1491",
+          "734",
+          "278",
+          "327"
+        ],
+        [
+          "Number of points",
+          "18M",
+          "21M",
+          "12M",
+          "32M",
+          "22M"
+        ],
+        [
+          "Mean error",
+          "2 mm",
+          "4 mm",
+          "3 mm",
+          "4 mm",
+          "5 mm"
+        ]
+      ]
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "Table 1. Parameters of the digitization campaigns for the five cathedrals."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "Results and conclusions"
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "Following the application of the methodology described above and the overlay of the vectorized historical documentation and the models obtained through terrestrial laser scanning (TLS), subtle but significant geometric discrepancies can be observed between traditional representations and the built reality recorded in the point clouds (Figs. 8–10)."
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "The differences identified were partly foreseeable, since the historical surveys were carried out using manual methods and served primarily representational and interpretative purposes rather than strictly metric ones. Nevertheless, the comparative analysis reveals geometric variations that become particularly relevant when assessed against highly accurate digital models. To ensure comparability between documents, alignment and scaling were performed using key architectural elements of each building as references. In plan, alignment was based on the width of the central nave and the principal axes of the piers, while in section, the structural bay spacing and the positions of the main load-bearing elements were used. This procedure minimized differences arising from the methods of representation and focused the analysis on actual geometric variations."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "The results of the plan comparisons show a high degree of overall agreement between the historical documentation and the TLS-derived models (Figs. 8–9). The discrepancies identified primarily involve slight deviations in pier alignment, small variations in the spacing of certain bays, and minor differences in the geometry of some enclosing walls and side chapels. In most cases, these variations can be considered consistent with both the tolerances inherent in medieval construction processes and the limitations of traditional architectural surveying methods."
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "Narbonne Cathedral exhibits the most evident divergences. In this case, the geometric differences observed in both plan and section are greater than those identified in the other buildings analyzed, particularly in certain elements of the central nave and the east end."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "The differences are even more evident in the section comparisons (Fig. 10). The greatest discrepancies occur precisely in those parameters that are most difficult to determine using traditional techniques, such as nave heights, the exact positions of vault keystones, and the actual curvature of certain arches. In this respect, Narbonne is again the most significant case, exhibiting some of the greatest geometric discrepancies among the cathedrals analyzed. Beyond the metric comparison, the study invites reflection on the nature of architectural representation itself. Historical documents should be understood not only as exact reproductions of built reality, but also as graphic interpretations intended to synthesize compositional, spatial, and geometric principles."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "By contrast, terrestrial laser scanning introduces a form of representation based on the precise capture of large volumes of data, capable of recording deformations, asymmetries, and deviations accumulated during the construction process."
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "The results show that the two approaches should be regarded as complementary rather than opposing. While traditional representation remains fundamental to understanding the design logic of Gothic architecture, TLS technologies allow these geometries to be assessed against the physical reality of the building as constructed."
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "Combining the two approaches thus provides a more nuanced and accurate reading of historic architectural heritage and opens new avenues of research into the geometry and construction of Gothic architecture."
+    }
+  ],
+  "notes": [],
+  "references": [
+    "Adams, H. (1980). <em>Mont-Saint-Michel and Chartres</em>. Putnam. (Original work published 1904)",
+    "Barnes, C. F., Jr. (2009). <em>The portfolio of Villard de Honnecourt (Paris, Bibliothèque nationale de France, MS Fr 19093): A new critical edition and color facsimile</em>. Ashgate.",
+    "Berry, M. (1975). La cathédrale de Laon et son environnement [Laon Cathedral and its surroundings]. <em>Monuments historiques de la France</em>, (4), 8–15.",
+    "Bonjour, A., &amp; Petitdemange, A. (1996). <em>Les traces de la musique dans la cathédrale de Chartres</em> [Traces of music in Chartres Cathedral]. Société archéologique d’Eure-et-Loir.",
+    "Bouxin, A. (1890). <em>La cathédrale Notre-Dame de Laon: Histoire et description</em> [Notre-Dame Cathedral in Laon: History and description]. Imprimerie Cortilliot.",
+    "Bunjes, H. (1943). Der gotische Lettner der Kathedrale von Chartres [The Gothic rood screen of Chartres Cathedral]. <em>Wallraf-Richartz-Jahrbuch</em>, <em>12–13</em>, 70–77.",
+    "Cirici Pellicer, A. (1968). <em>Arquitectura gótica catalana</em> [Catalan Gothic architecture]. Lumen.",
+    "Cram, R. A. (2015). <em>La catedral de Mallorca</em> [The cathedral of Mallorca]. José J. de Olañeta. (Original work published 1932)",
+    "Laurent, P. (1887). <em>Documents inédits sur la cathédrale Saint-Just de Narbonne</em> [Unpublished documents on Saint-Just Cathedral in Narbonne]. P. Labau.",
+    "Mataix Sanjuán, J., León Robles, C., &amp; Montes Tubío, F. de P. (2013). Fortalezas y debilidades de la técnica de levantamiento gráfico con escáner láser para la catalogación del patrimonio cultural: Aplicación a la iglesia de San Francisco (Priego de Córdoba) [Strengths and weaknesses of laser-scanner surveying for cataloguing cultural heritage: Application to the church of San Francisco (Priego de Córdoba)]. <em>EGA. Revista de Expresión Gráfica Arquitectónica, 18</em>(21), 216–225.",
+    "Moreno-García, D. (2024). <em>De la realidad al diseño medieval: Proyección y construcción de la Catedral de Santa María de Girona mediante técnicas digitales</em> [From reality to medieval design: The design and construction of Girona Cathedral through digital techniques] [Doctoral dissertation, Universitat Rovira i Virgili].",
+    "Moreno-García, D., Coll-Pla, S., Costa-Jover, A., &amp; Samper-Sosa, A. (2022). 3D surveying and formal analysis of a structural bay of a Gothic apse. <em>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XLVI-2/W1-2022</em>, 381–387. https://doi.org/10.5194/isprs-archives-XLVI-2-W1-2022-381-2022",
+    "Paul, V. (1991). The projecting triforium at Narbonne Cathedral: Meaning, structure, or form? <em>Gesta, 30</em>(1), 27–40.",
+    "Plouvier, M. (1997). <em>La cathédrale Notre-Dame de Laon: Aisne</em> [Notre-Dame Cathedral in Laon: Aisne] (Itinéraires du patrimoine No. 140). AGIR-Pic; Inventaire général des monuments et des richesses artistiques de la France, Commission régionale Picardie.",
+    "Rabasa Díaz, E., &amp; Alonso Rodríguez, M. Á. (2017). Basas en la catedral de Girona [Column bases in Girona Cathedral]. In E. Rabasa Díaz, A. López Mozo, &amp; M. Á. Alonso Rodríguez (Eds.), <em>Obra congrua: Estudios sobre la construcción gótica peninsular y europea</em> [Obra congrua: Studies on Iberian and European Gothic construction] (pp. 309–318). Instituto Juan de Herrera.",
+    "Ruskin, J. (1880). <em>The seven lamps of architecture</em>. George Allen. (Original work published 1849)",
+    "Samper, A., Martín-Sáiz, R., &amp; Herrera, B. (2022). On the inclination of a flying buttress arch. <em>Nexus Network Journal, 24</em>, 897–911. https://doi.org/10.1007/s00004-022-00619-7",
+    "San José Alonso, J. I. (2018). Levantamiento, tecnología y documentación de la arquitectura [Survey, technology and architectural documentation]. <em>EGA. Revista de Expresión Gráfica Arquitectónica, 23</em>(34), 240–251.",
+    "Sureda, M. (2005). <em>Catedral de Girona</em> [Girona Cathedral]. Aldeasa."
+  ],
+  "furtherReading": []
+}

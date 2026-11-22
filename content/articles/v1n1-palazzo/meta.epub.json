@@ -1,0 +1,30 @@
+{
+  "articleId": "v1n1-palazzo",
+  "issue": "v1n1",
+  "section": "article",
+  "chapterFile": "OEBPS/08_PALAZZO.xhtml",
+  "title": [
+    "Space in classical Chinese and Italian painting",
+    "Late Renaissance conceptual and geometric devices"
+  ],
+  "author": {
+    "name": "Pedro P. Palazzo",
+    "affiliation": "University of Brasília",
+    "email": "palazzo@unb.br",
+    "bio": "Pedro P. Palazzo is Associate Professor at the School of Architecture and Urbanism of the University of Brasília. He holds a PhD (2010) and an MA (2006) from the University of Brasília, and a BS in Architecture with a Certificate in East Asian Studies from the University of Maryland (2003). An architectural historian and preservationist, he studies the relationship between learned classical architecture and vernacular building, and between traditional and modern construction, focusing on the western Mediterranean and the Portuguese-speaking world. He has directed historic preservation surveys for Brazil’s National Institute for Artistic and Historical Heritage (IPHAN)."
+  },
+  "keywords": [
+    "Architectural space",
+    "perspective",
+    "cultural history",
+    "China",
+    "Italy"
+  ],
+  "abstract": [
+    "This article offers a comparative view of the development of representations of architectural and open spaces in Chinese and Italian paintings and drawings. Architectural historians have long discussed the concept of space within theories of aesthetic perception and cognition. Their works, however, have bound the study of spatial conception to extraneous notions such as artistic freedom, and to a teleological view of Modernism as the end(s) of all spatial development in architecture and its artistic representation. Examining the representation of space in premodern art makes it possible to understand spatial articulation in architecture, urban and landscape design in terms of the cultures that produced it, free from the assumptions of modern theory. Chinese and Italian art of the fourteenth and fifteenth centuries, as seen through the eyes of sixteenth-century critics, is particularly relevant to such a study: both traditions reckoned with their past in light of contemporary efforts to assert new systems of territorial governance and to define the relationship between technical and gentlemanly approaches to art and architecture. Through a study of a few canonical works of two-dimensional spatial representation, the article explores concepts such as void and form, depth and shallowness, and their political and cultural significance in both societies."
+  ],
+  "pages": "196–221",
+  "datesLine": "Received [04/27/2026] | Accepted [09/01/2026] | Published [10/30/2026]",
+  "source": "Palladianist_v1n1_numero_completo.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

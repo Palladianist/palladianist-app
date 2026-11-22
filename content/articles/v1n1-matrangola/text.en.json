@@ -1,0 +1,397 @@
+{
+  "articleId": "v1n1-matrangola",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "In the contemporary debate on protecting and enhancing cultural heritage, the concept of the limit has gained relevance, not merely as a legal or material constraint, but as an authentic ethical, social, and cultural value. In a society shaped by globalisation, the digitisation of knowledge, and the progressive commodification of cultural assets (Montanari, 2022), the limit emerges as a regulatory principle that can ensure balance among conservation, public enjoyment, and the intergenerational transmission of cultural heritage."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "At the same time, a new cultural awareness is emerging, grounded in community participation and in the rediscovery of heritage as a shared experience of belonging and memory. Within this perspective, a poetics of wonder takes shape: a way of seeing that recognises heritage not only as an object to be preserved, but as a living, relational, and symbolic reality, able to generate knowledge, responsibility, and social cohesion."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "The evolution of European cultural policy, particularly through the Council of Europe and the Faro Convention (Council of Europe, 2005), has placed heritage communities at the centre of reflection, recognising citizens as active bearers of responsibility for safeguarding heritage."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "This perspective moves beyond the traditional understanding of heritage as a mere object of state conservation, instead assigning it a participatory, identity-forming, and relational dimension."
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "Within this framework, the limit does not deny enhancement; rather, it serves as a necessary condition for enhancement to occur in a sustainable, inclusive, and conscious manner. The poetics of wonder thus becomes the cultural language through which heritage communities reinterpret heritage as a common good and as a living legacy."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. The Concept of Limit in Cultural Heritage"
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "The term <em>limit</em> derives from the Latin <em>limes</em>, indicating a boundary, threshold, or margin that defines a space of belonging and responsibility. Applied to cultural heritage, it takes different meanings: a material limit tied to the physical fragility of assets; a legal limit expressed through protective regulations; an ethical limit connected to respect for authenticity and cultural identity; and a social limit concerned with the balanced use of cultural resources (Fig. 1)."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "The contemporary culture of enhancement often risks transforming heritage into a tourist or economic product, subordinating it to the logic of consumption (Choay, 1992/1995). From this perspective, the limit becomes a principle of balance that can counter overexposure, trivialisation, and the loss of meaning in cultural assets."
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "Cultural heritage is not an unlimited resource. Using it requires awareness of the vulnerability of historical, artistic, and landscape contexts."
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "Protection therefore takes the form of a practice of limitation: limiting invasive intervention, limiting improper use, limiting irreversible transformation. Nevertheless, the limit does not imply immobility or closure. It can be reinterpreted as care and collective responsibility, necessary for heritage to continue serving as a space of relationship and shared memory."
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "2. The Faro Convention and the Dialogue Between Institutions and Heritage Communities"
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "A fundamental milestone in the theoretical evolution of cultural heritage is the Faro Convention, adopted in 2005 by the Council of Europe. It introduced the concept of the <em>heritage community</em>, defined as a group of people who value specific aspects of cultural heritage and wish to sustain and transmit them to future generations (Council of Europe, 2005, Art. 2)."
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "The Convention highlights several core principles (Council of Europe, 2005, Arts. 1, 4, 12):"
+    },
+    {
+      "id": "l-001",
+      "type": "listitem",
+      "text": "citizens’ right to participate in cultural life;"
+    },
+    {
+      "id": "l-002",
+      "type": "listitem",
+      "text": "shared responsibility in the protection of heritage;"
+    },
+    {
+      "id": "l-003",
+      "type": "listitem",
+      "text": "the value of heritage as an instrument of democracy and social cohesion;"
+    },
+    {
+      "id": "l-004",
+      "type": "listitem",
+      "text": "intergenerational transmission as a collective duty."
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Heritage communities are not mere recipients of cultural policies, but active subjects in the production of meaning and in the construction of collective identity. They become places of shared memory, in which heritage is continuously reinterpreted through participatory practices."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "However, fully implementing the principles of the Faro Convention requires an essential element: ongoing dialogue between public institutions and heritage communities. Heritage protection can no longer rest solely on vertical, centralised models; it requires dialogic processes in which public administrations, citizens, associations, universities, cultural operators, and local communities cooperate to define cultural policies."
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "Dialogue between institutions and heritage communities has fundamental consequences at several levels (Fig. 2)."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "a) Cultural consequences"
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "Dialogue encourages a plural reading of heritage that can include local memories, popular traditions, and intangible heritage often excluded from official narratives. Communities help restore lived meaning to cultural assets, preventing them from becoming mere museum objects or instruments of tourist consumption."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "b) Social consequences"
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "Active participation strengthens belonging and social cohesion. When communities participate in decision-making, heritage becomes a space for active citizenship, inclusion, and shared responsibility. This builds trust in institutions and strengthens the bond between the territory and its residents."
+    },
+    {
+      "id": "h-06",
+      "type": "heading",
+      "level": 2,
+      "text": "c) Economic consequences"
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "Dialogue between institutions and communities encourages sustainable development models based on local economies, slow tourism, and stronger territorial identities. Conversely, low participation risks economic exploitation of heritage, gentrification, and the loss of places’ cultural authenticity."
+    },
+    {
+      "id": "h-07",
+      "type": "heading",
+      "level": 2,
+      "text": "d) Educational consequences"
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "Institutional collaboration with heritage communities enables permanent educational practices that engage schools, young people, and associations in transmitting collective memory. Heritage thus becomes a tool for civic education and democratic awareness."
+    },
+    {
+      "id": "h-08",
+      "type": "heading",
+      "level": 2,
+      "text": "e) Environmental and territorial consequences"
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "Local communities possess direct knowledge of territories and landscape fragilities. Their involvement in management processes allows more effective strategies of environmental protection and cultural sustainability to be adopted, countering phenomena of indiscriminate consumption of land and territory. From this perspective, the limit takes on an educational and political dimension: the community is called upon to recognise that heritage does not belong exclusively to the present, but is a legacy received and passed on to the future."
+    },
+    {
+      "id": "h-09",
+      "type": "heading",
+      "level": 2,
+      "text": "3. The Poetics of Wonder as a Practice of Cultural Citizenship"
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "“Knowledge originates from wonder” (Plato, ca. 369 B.C.E./1921, 155d; Aristotle, ca. 350 B.C.E./1933, 982b). This intuition remains relevant today as we reflect on cultural heritage."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "Apulia, a land of cultural stratification and encounters between peoples, offers an emblematic example of this dimension. Its landscapes of stone and light, Frederician castles, rural architecture, popular festivals (Fig. 3), and artisanal knowledge form a widespread heritage that continues to live through local communities’ practices."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "Here, heritage enhancement is not reduced to mere monumental conservation, but becomes shared experience, civic participation, and collective care. Apulian heritage communities reinterpret the territory as a living space of relationships, where citizens, associations, administrations, and cultural operators collaborate to build new forms of belonging."
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "Experiences such as those of the Heritage Community of the Gargano, the Valle d’Itria, Alberobello, Monte Sant’Angelo, Altamura, Gravina in Puglia, Andria, Brindisi, Taranto, and the Salento, show how heritage can be reinterpreted through practices of slow tourism, memory workshops, cultural routes, participatory art, and sustainable enhancement of the landscape. In these experiences, wonder does not coincide with superficial aesthetic fascination, but becomes a method of knowledge and a civic practice. It lets one see the ancient with new eyes, recognising in the memory of places a possibility for the future."
+    },
+    {
+      "id": "h-10",
+      "type": "heading",
+      "level": 2,
+      "text": "4. Frederick II and the Culture of Complexity"
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "Frederick II’s figure symbolically represents this open, dialogic vision of cultural heritage (Fig. 4). The Hohenstaufen emperor saw the Mediterranean as a space where different cultures, religions, and forms of knowledge met, promoting a conception of knowledge grounded in curiosity, plurality, and dialogue. His historical experience shows how cultural heritage can become a place of coexistence and a laboratory of intercultural dialogue. In the contemporary world, heritage communities can carry this legacy forward by developing practices that transform cultural diversity into a shared resource. In this sense, the poetics of wonder is intertwined with the principle of limit: recognising the value of the other, the landscape, and memory also means accepting their fragility and need for protection."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "h-11",
+      "type": "heading",
+      "level": 2,
+      "text": "5. Limit, Sustainability, and Intergenerational Responsibility"
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "In the contemporary context, marked by overtourism and economic pressure on cultural sites, the limit emerges as a fundamental principle of cultural sustainability (UNESCO, 2019). Sustainability implies:"
+    },
+    {
+      "id": "l-005",
+      "type": "listitem",
+      "text": "a balance between accessibility and conservation;"
+    },
+    {
+      "id": "l-006",
+      "type": "listitem",
+      "text": "protection of the authenticity of places;"
+    },
+    {
+      "id": "l-007",
+      "type": "listitem",
+      "text": "respect for local identities;"
+    },
+    {
+      "id": "l-008",
+      "type": "listitem",
+      "text": "participation of resident communities in decision-making processes."
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "Many European cultural sites today show the consequences of lacking limits on heritage enhancement: overcrowding, the loss of the social function of historic centres, and the transformation of traditions into commercial spectacle (Fig. 5)."
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "Heritage communities, by contrast, can play a decisive role in defining sustainable practices for heritage use and management. Through active participation, they promote cultural models based on care, responsibility, and the conscious transmission of cultural legacy."
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "Cultural heritage is a form of collective legacy that connects generations through memory and identity. Each generation receives heritage in temporary custody and has a moral duty to transmit it to future generations. This dimension recalls Hans Jonas’s principle of responsibility (Jonas, 1979/1990) which holds that human action must account for its long-term consequences. Applied to cultural heritage, this means avoiding irreversible transformations, promoting education, and fostering a culture of shared memory."
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "6. The Coordination for the Care of Places as a Model of Participatory Governance"
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "A significant example of the concrete application of the principles expressed by the Faro Convention is the strategy promoted by the Apulia Region through Regional Government Resolution No. 655 of 21 May 2025 (Regione Puglia, 2025), concerning the strategic and systemic project <em>Care of Places, Arts and Identity-Based Knowledge in Apulia</em>. This initiative introduces an innovative territorial governance model based on coordination among public institutions, cultural bodies, heritage communities, associations, and Third Sector organisations."
+    },
+    {
+      "id": "p-031",
+      "type": "paragraph",
+      "text": "The regional strategy explicitly recognises that institutions alone cannot drive cultural heritage enhancement; it must develop through participatory, shared planning that makes resident communities protagonists in identifying, safeguarding, and transmitting their own cultural legacies."
+    },
+    {
+      "id": "p-032",
+      "type": "paragraph",
+      "text": "The project’s central element is the Coordination for the Care of Places (<em>Coordinamento per la Cura dei Luoghi, CCL</em>) (Fig. 6), a permanent instrument for dialogue and cooperation between public actors and local communities. The Coordination aims to overcome the fragmentation of cultural practices and the disconnect between heritage and citizens, countering the reduction of cultural places to mere “locations” for events or tourist consumption."
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-033",
+      "type": "paragraph",
+      "text": "The regional resolution also highlights the significant social, cultural, and territorial consequences of structured dialogue between institutions and heritage communities. In particular, it:"
+    },
+    {
+      "id": "l-009",
+      "type": "listitem",
+      "text": "strengthens social cohesion and the sense of community belonging;"
+    },
+    {
+      "id": "l-010",
+      "type": "listitem",
+      "text": "encourages practices of active cultural citizenship;"
+    },
+    {
+      "id": "l-011",
+      "type": "listitem",
+      "text": "contributes to the regeneration of fragile territories and inland areas;"
+    },
+    {
+      "id": "l-012",
+      "type": "listitem",
+      "text": "promotes sustainable forms of tourism and local development;"
+    },
+    {
+      "id": "l-013",
+      "type": "listitem",
+      "text": "counters processes of depopulation and marginalisation;"
+    },
+    {
+      "id": "l-014",
+      "type": "listitem",
+      "text": "fosters the intergenerational transmission of identity-based knowledge;"
+    },
+    {
+      "id": "l-015",
+      "type": "listitem",
+      "text": "improves the managerial sustainability of cultural sites through co-planning processes."
+    },
+    {
+      "id": "p-034",
+      "type": "paragraph",
+      "text": "The Apulia Region thus proposes a vision of cultural heritage consistent with the principle of the limit understood as care and shared responsibility. Heritage is not a resource to be exploited without restraint, but a fragile cultural ecosystem that requires collaborative relationships, sustainable planning, and broad participation."
+    },
+    {
+      "id": "p-035",
+      "type": "paragraph",
+      "text": "From this perspective, the <em>Care of Places</em> represents not only a cultural policy, but a civic paradigm founded on the awareness that protecting heritage coincides with protecting the communities that inhabit it and recognise it as part of their collective identity."
+    },
+    {
+      "id": "h-12",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusions"
+    },
+    {
+      "id": "p-036",
+      "type": "paragraph",
+      "text": "We might therefore conclude that the limit, far from being perceived as an obstacle, is essential to protecting and enhancing cultural heritage. It defines the measure within which heritage may be used, transformed, and transmitted without losing authenticity and meaning."
+    },
+    {
+      "id": "p-037",
+      "type": "paragraph",
+      "text": "The poetics of wonder completes this perspective, restoring heritage’s experiential, symbolic, and relational dimension. Wonder thus becomes a civic and pedagogical force, capable of transforming amazement into responsibility and beauty into a common good."
+    },
+    {
+      "id": "p-038",
+      "type": "paragraph",
+      "text": "Heritage communities, recognised by the Faro Convention as protagonists of cultural life (Council of Europe, 2005), are called upon to assume a new awareness: that of being temporary custodians of a shared legacy. However, such responsibility can be fully realised only through continuous dialogue with institutions, grounded in mutual listening, democratic participation, and the co-design of cultural policy."
+    },
+    {
+      "id": "p-039",
+      "type": "paragraph",
+      "text": "Only through a culture of the limit, participation, and wonder can we preserve cultural heritage as living memory, a space of dialogue, and the foundation of future generations’ collective identity."
+    }
+  ],
+  "notes": [],
+  "references": [
+    "Aristotle. (1933). <em>Metaphysics: Books 1–9</em> (H. Tredennick, Trans.). Harvard University Press. (Original work published ca. 350 B.C.E.)",
+    "Choay, F. (1995). <em>L’allegoria del patrimonio</em> [The allegory of heritage] (E. d’Alfonso &amp; I. Valente, Trans.). Officina Edizioni. (Original work published 1992)",
+    "Council of Europe. (2005). <em>Council of Europe Framework Convention on the Value of Cultural Heritage for Society</em> (Council of Europe Treaty Series No. 199). Council of Europe.",
+    "Jonas, H. (1990). <em>Il principio responsabilità: Un’etica per la civiltà tecnologica</em> [The imperative of responsibility: In search of an ethics for the technological age] (P. P. Portinaro, Ed.). Einaudi. (Original work published 1979)",
+    "Montanari, T. (2022). <em>Le pietre e il popolo: Restituire ai cittadini l’arte e la storia delle città italiane</em> [Stones and the people: Giving the art and history of Italian cities back to their citizens]. minimum fax.",
+    "Plato. (1921). <em>Theaetetus. Sophist</em> (H. N. Fowler, Trans.). Harvard University Press. (Original work published ca. 369 B.C.E.)",
+    "Regione Puglia. (2025). <em>Deliberazione della Giunta Regionale n. 655 del 21 maggio 2025: Progetto strategico e di sistema “Cura dei Luoghi, delle Arti e dei Saperi identitari della Puglia”</em> [Regional Government Resolution No. 655 of 21 May 2025: Strategic and systemic project “Care of Places, Arts and Identity-Based Knowledge in Apulia”]. Regione Puglia.",
+    "UNESCO. (2019). <em>Culture|2030 indicators</em>. UNESCO.",
+    "Image credits",
+    "Fig. 1: Bernard Gagnon, “Basilica of Santa Croce, Lecce 05”, CC0. https://commons.wikimedia.org/wiki/File:Basilica_of_Santa_Croce,_Lecce_05.jpg",
+    "Fig. 3: Dbuccarella, “La Focara – Di mano in mano”, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:La_Focara_-_Di_mano_in_mano.jpg",
+    "Fig. 4: ParisTaras, “Castel del Monte – Andria”, CC BY-SA 4.0. https://commons.wikimedia.org/wiki/File:Castel_del_Monte_-_Andria.jpg",
+    "Fig. 5: AXP Photography, “Traditional Trulli Houses in Alberobello, Italy”, Pexels License. https://www.pexels.com/photo/traditional-trulli-houses-in-alberobello-italy-30099425/.",
+    "Figs. 2 and 6: author’s elaboration.",
+    "CC BY-SA 4.0 licence: https://creativecommons.org/licenses/by-sa/4.0/"
+  ],
+  "furtherReading": []
+}

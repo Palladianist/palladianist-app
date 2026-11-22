@@ -1,0 +1,56 @@
+{
+  "articleId": "v1n1-matrangola",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-matrangola/Fig01_Lecce_Santa_Croce.png",
+      "alt": "Close-up of the carved stone balustrade of the Basilica of Santa Croce in Lecce, with figures of animals and dense Baroque ornament.",
+      "caption": "Fig. 1. Lecce, Basilica of Santa Croce, balustrade detail. The fragility of Lecce stone makes the material limits of heritage visible: protection as intervention. Photo: Bernard Gagnon, CC0, via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-matrangola/Fig03_schema_Faro_EN.png",
+      "alt": "Diagram of the Faro Convention: public institutions and heritage communities in constant dialogue, leading to cultural, social, economic, educational and environmental outcomes.",
+      "caption": "Fig. 2. The outcomes of dialogue between institutions and heritage communities from the perspective of the Faro Convention. Author’s elaboration.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-matrangola/La_Focara_-_Di_mano_in_mano__1_.jpg",
+      "alt": "Black-and-white photograph of people climbing a tall pile of vine branches to build the Focara bonfire in Novoli.",
+      "caption": "Fig. 3. Novoli (Lecce), building the Focara bonfire. Intangible heritage that lives through collective work and hand-to-hand transmission across generations. Photo: Dbuccarella, CC BY-SA 4.0, via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-matrangola/Fig04_Castel_del_Monte.png",
+      "alt": "Photograph of Castel del Monte, an octagonal stone castle with octagonal towers and a central portal, under a cloudy sky.",
+      "caption": "Fig. 4. Castel del Monte (Andria), a symbol of Frederick II’s legacy and of a culture of knowledge rooted in the encounter of Mediterranean traditions. Photo: ParisTaras, CC BY-SA 4.0, via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-matrangola/Fig02_pexels-axp-photography-500641970-30099425_AXP_Photography.jpg",
+      "alt": "Photograph of the trulli of Alberobello: whitewashed houses with conical stone roofs climbing a hillside.",
+      "caption": "Fig. 5. Alberobello, the Rione Monti trulli district, part of the UNESCO World Heritage site The Trulli of Alberobello. Balancing accessibility and conservation is one of the clearest challenges for historic centres with high tourist appeal. Photo: AXP Photography, via Pexels (Pexels License).",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-matrangola/Fig05_schema_CCL_EN.png",
+      "alt": "Two-part diagram: the Coordination for the Care of Places linking institutions, associations and communities, and a four-step cycle of the pact for the care of places.",
+      "caption": "Fig. 6. (a) The Coordination for the Care of Places (Regional Resolution No. 655/2025) as a model of participatory governance. (b) A proposed four-step “pact for the care of places” with annual public review; panel (b) is the author’s proposal and not part of the resolution. Author’s elaboration.",
+      "downloadable": true,
+      "credit": ""
+    }
+  ]
+}

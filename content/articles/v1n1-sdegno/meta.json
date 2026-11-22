@@ -1,0 +1,38 @@
+{
+  "articleId": "v1n1-sdegno",
+  "provisional": true,
+  "note": "Da EPUB; sarà sostituito dalla sincronizzazione OJS.",
+  "ojsSubmissionId": null,
+  "ojsUrl": null,
+  "pdfUrl": null,
+  "doi": null,
+  "issue": "v1n1",
+  "volume": 1,
+  "number": 1,
+  "year": 2026,
+  "section": {
+    "en": "Articles",
+    "it": "Articoli"
+  },
+  "title": "Palladio and Canaletto in Venice. Between reality and imagination",
+  "authors": [
+    {
+      "given": "Alberto",
+      "family": "Sdegno",
+      "affiliation": "Università degli Studi di Udine",
+      "orcid": null,
+      "email": "alberto.sdegno@uniud.it"
+    }
+  ],
+  "pages": "132–153",
+  "dates": {
+    "received": "2026-06-22",
+    "accepted": "2026-09-01",
+    "published": "2026-10-30"
+  },
+  "license": {
+    "code": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "journal": "Palladianist. The Future of Drawing"
+}

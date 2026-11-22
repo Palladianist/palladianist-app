@@ -1,0 +1,260 @@
+{
+  "articleId": "v1n1-palazzo",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "The comparative study of art and architecture helps clarify the particular features that set cultures and historical periods apart from one another. Although most scholarship in recent decades has specialized in detailed study within specific cultural boundaries or, at most, in cultural exchanges documented with textual sources, cross-cultural comparison of artistic methods can enhance our awareness of preferences and techniques employed in different contexts. Such is the case when investigating how Chinese and Italian art in the fourteenth and fifteenth centuries approached the problem of showing three-dimensional space on the two-dimensional surface of representational drawings and paintings. The dialogues on <em>Raffaello and Zhang Zeduan</em> promoted by the Pinacoteca di Brera in 2020 (Bradburne, 2020) set a valuable precedent for such an approach."
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "This study explores the construction of space in Chinese and Italian paintings, starting out from the writings of two later artists, critics and historians: Dong Qichang and Giorgio Vasari (Vasari, 1568/1991; see Cahill, 1978, for Dong). It investigates the different representational devices that came to be regarded in these critics’ time as the hallmarks of these artistic cultures, namely, the manipulation of empty space on the Chinese picture plane and the construction of geometric perspective in Italian scenes. Deploying these devices in painting, however, entailed pictorial and conceptual contradictions inherent in their principles. The way artists and critics in China and Italy acknowledged and worked with these contradictions gives insights into the rising status of art as an intellectual pursuit and of the artist’s craft as a body of theoretical knowledge in the sixteenth and seventeenth centuries."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "The depiction of space in paintings and drawings was a major concern among formalist schools of art historiography. Even though (more or less) deterministic approaches such as Wölfflin (1950)’s have been discredited or rendered moot, a few texts from the early- to mid-twentieth century still bear, if surreptitiously, upon our understanding of architectural space and its significance for art history. Among these are Panofsky (1997)’s interpretation of the representation of space in linear perspective as bearer of symbolic meaning, and especially Schmarsow’s theory (Schwarzer &amp; Schmarsow, 1991), later developed by Bruno Zevi and Argan (1961/1973), that the evolution of spatial awareness is the marker of historical change in architecture."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "This study proceeds, as per Kita (1999)’s definition, by anthology, or, as in Gombrich (1996)’s terms, by collecting symptoms of a cultural syndrome rather than looking for a deterministic relationship between cause and effect. This is because the argument of this article hinges on explorations with methods of spatial representation that, as Scott (1914) once warned regarding interpretations of Renaissance architecture, cannot be thought of as a teleological search for a preordained solution. Moreover, Evans (1995) reminds us that the seeming unity of classical compositions is a brilliant but contrived achievement made up of contradictory applications of an underlying principle. It is this tension between intellectual pursuits that are widespread in a given historical period and cultural context, on the one hand, and the need to account for technical or conceptual difficulties that arise from the actualization of those pursuits, on the other, that give its defining character to Chinese and Italian representations of space from the fourteenth to the sixteenth century."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Intellectual space"
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "The development of distinct methods for depicting or projecting space on the picture plane, and even the rise and fall of interest in the search for such methods, remain relevant in the comparative study of art history. Even more so, the reciprocal influence of spatial articulation in pictorial art and in architecture (including landscape design) makes technical challenges and intellectual interests visible through the works. This relevance was constructed by the retrospective gaze of writers of art history and theory in later periods of Chinese and Italian art, namely the late Ming-dynasty (1368–1644) painter Dong Qichang (1555–1636, Fig. 1) and the Florentine painter and architect Giorgio Vasari (1511–1574, fig. 2), both of whom established a canon of interests in subjects and methods of depiction. Dong’s history and theory of landscape painting, concerned with the role of intuition in the appreciation and representation of landscapes since the Song dynasty (960–1279), became known to Western readers in part thanks to Cahill (1978). Vasari, likewise, was interested in the evolution of artistic technique in Italy since the Gothic period (late thirteenth century) up to his own time, the mid-sixteenth century."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "In both Vasari’s and Dong’s writings, the interest in the works of earlier artists was linked to their concern for the current state of art. It was with this in mind that Dong grouped Song dynasty landscape painting into two “schools,” the Northern and the Southern. The distinction was not geographic but hinged on different modes of depicting spatial depth in the landscape. This, in turn, was based on an analogy with the Northern and Southern Chan (Zen) philosophical schools."
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "This seemingly technical distinction was a political argument as well. Like many of his contemporaries in the late Ming dynasty, Dong looked to the Song dynasty as a golden age of culture and society, and to its art as the classical model to be followed by contemporary artists. Moreover, Dong’s art historical categories also celebrated the rise of the <em>literati</em>, who were ethnic Han gentleman artists such as himself, at the expense of court painters, who in hindsight came to be associated with professional service to the later Yuan (Mongol) dynasty. This narrative provided a foil to Dong’s own turbulent times, when the Ming dynasty was under mounting pressure both from another foreign power, the Manchus who would eventually overrun China starting in 1644, as well as from the failings of the Ming’s own administration, to which Dong belonged. His narrative about an earlier age of artistic brilliance overshadowed by imminent collapse was therefore a model for his own time, and not only in the aesthetic sense."
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "Therefore, to grasp Dong’s awareness that he lived in a “late” period of art and history as opposed to the “high” age of classical painting, we must understand the pictorial space of this classical age was, to him, more of a philosophical concept than a geometric device. The depiction of space in landscape paintings was the core of Dong’s definition of the Northern and Southern schools of painting. Accordingly, Dong characterized the Northern school as that which represented space with a gradual buildup of layers from the foreground to the middle ground and background, as in Juran’s (fl. ca. 960–980) hanging scroll Seeking the Tao in Autumn Mountains (Fig. 3). This resembled the rolling landscape of north–central China but, more crucially, the Northern Chan school’s gradual approach to achieving Buddhist enlightenment. Southern school paintings such as Guo Xi’s (ca. 1020–ca. 1090) Early Spring (Fig. 4), on the other hand, are characterized by a sudden jump from a small foreground to towering mountains in the background, separating both planes with a mist-filled gap. The resemblance with the eroded peaks typical of some Southern Chinese landscapes is less important than the analogy to the Southern Chan’s intuitive approach to enlightenment, said to come from a sudden awakening rather than gradual understanding."
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "Dong held the Southern school to be superior, as the similarity he perceived with intuitive enlightenment formed a convenient parallel to his ideal of the gentleman artist achieving aesthetic perfection through cultivated sensitivity rather than technical effort. At any rate, both Northern and Southern school paintings were named after the physical objects that appeared in them: mountains, streams, and so on. Yet, their most distinctive feature, that which Dong used to set both schools apart from each other, was not the depiction of things, but the character of the empty space between things. Moreover, as the Song-dynasty order broke down and the Yuan dynasty sidelined the ethnic Han ruling class, Han scholars retreated into intellectual and artistic pursuits. Ma Lin’s (c. 1185–after 1260) <em>Scholar Reclining and Watching Rising Clouds</em> (Fig. 5) exemplifies what Lee &amp; Ho (1964) argue was the lyrical and introspective response to the ongoing breakdown of classical Chinese society."
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "The contemplation of empty space through paintings thus gained even more prestige as an expression of cultivated, free-thinking minds spurred by the increasing popularity of Chan Buddhism (Ortiz, 1999, p. 7). The parallel is hard to miss between, on the one hand, Dong Qichang’s ideal of the seemingly effortless intuition of the gentleman artist contemplating and expressing space, and, on the other, the ideal of gentlemanly <em>sprezzatura</em> put forward by Baldassare Castiglione, the famous Renaissance courtier, a friend and collaborator of Raphael. The artistic equivalent of <em>sprezzatura</em> in demeanor was the idea of static balance Wölfflin (1888) saw in High Renaissance painting, even though its subject matter might seem to be at odds with balance or repose. Evans (1995) argued that, in the pictorial space of Raphael’s fresco <em>Disputation of the Holy Sacrament</em>, completed in 1510 (Fig. 6), the appearance of effortless pictorial stability in reconciling contradictory perspective constructions and competing centers of interest was the key to the fresco’s compositional strategy."
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "The Italian Renaissance artist strove to achieve a gentlemanly character of effortless repose through the studied contrivance of contradictory viewpoints in the pictorial space. Likewise, the Chinese gentleman claimed the highest artistic status by affirming that the appearance of effortless intuition was the greatest achievement of painting. Moreover, in both cases, the intellectual concept of space had to do with a change in the spiritual state of the observer through the contemplation of the painting: from material reality to immaterial introspection or spiritual contemplation."
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "2. Geometric space"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "The development of geometric techniques for depicting space on the picture plane involved, in China as in Italy, trade-offs between representational possibilities gained and lost. The emergence of articulated space in Chinese painting can be traced back to the rock-cut reliefs and paintings of the Han dynasty (206 B.C.E.–220 C.E) tombs (Soullière, 2018) (earlier paintings were often made on soft supports, such as ink paintings on cloth or wood, or were mural paintings in palaces since destroyed, and thus have not survived)."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "In these early scenes (X. Liu, 2002, p. 48), architecture figured prominently as a means of organizing the placement and importance of characters and episodes within a broader narrative scene. Later developments clarified the spatial structure. Tang-dynasty (618–907) court painters such as Zhou Wenju (917–975) (Fig. 7) used architecture, now represented in cavalier projection, as a spatial and symbolic framework to separate character groups and narrative episodes more effectively. Empty space in these pictorial tales increasingly acquired definite shape, bounded by buildings and figure groupings."
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "The contemporary theoretical framework in which this geometric technique developed is one of the thorniest subjects in the scholarship of Chinese art (see Bush, 2012b for a literature review of this controversy). What is of interest here is to note, following Bush (2012b, p. 10), that “the nonformal and even nontechnical aspects of this art” were given early on precedence over the geometric construction of drawings. Buildings were thus cursorily dismissed in an early treatise, Gu Kaizhi’s <em>Essay on Painting</em> of the late fourth century, as unchallenging tasks that merely required time to complete (cited by Bush, 2012a, p. 24)."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "This precedence of nongeometric expression over geometric form continued to bear upon Dong’s later interpretation of Chinese painting, and helps explain why we have no extant writings discussing cavalier perspective as opposed to the large body of European texts discussing linear perspective."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "It was, then, during the process of development of Chinese landscape painting during the Song and Yuan dynasties and its revival under the Ming that the nonformal theory of art became canonical. Throughout these periods, artistic skill hinged on the tasteful manipulation of the space left as a blank expanse of mist on the scroll, and the geometric proficiency displayed by professional court painters, capable of constructing cavalier projections of great complexity and clarity, came to be regarded as a minor skill."
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "In Italian painting, from the fourteenth to the sixteenth century, on the other hand, there emerged steadily a body of techniques to portray the geometry of space from a given point of view, and this came to be regarded as one of the highest achievements in art. Italian authors from Alberti to Vasari, however, seem to have been oblivious to the fact that it was space itself that linear perspective enabled artists to portray, stressing instead the geometric structure of physical objects contemplated individually (Elkins, 1992)."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "Especially in the case of fresco painting, the geometric incongruity between the architectural space within which the viewer’s position changes continually and the multiple perspective constructs of the painting creates a tension that developing techniques of geometric projection sought to address during this period, for example in Masaccio’s (1401–1428) <em>Holy Trinity</em> (Fig. 8)."
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "This tension is often masked by the clarity with which Renaissance artists manipulated architectural and pictorial space, endowing it with an overbearing appearance of unity. This was in part the result of technical choices that enforced an increasingly strict separation between incompatible points of view."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "The articulation in Raphael’s generation of a theory of architectural plans, elevations, and perspectives was thus not an incidental reading of Vitruvius, but a technical necessity to endow each kind of drawing with its own geometric coherence, hiding from direct scrutiny problems such as where lies the actual center of a centralized church (Evans, 1995). This imperfect conceptual articulation disguised as formal perfection is, as Scott (1914) perceived, the nature of Humanistic architecture, rather than a race to a definite goal of classical perfection. Still, in the necessary incompleteness of this system lies the nature of space as Renaissance artists understood it."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "Our idealistic concept of architectural space as an awareness developing gradually throughout history, inherited from Schmarsow and even more explicitly from Zevi, is at odds with it, and this is why we have difficulty perceiving the original tension. Indeed, our modern (Pérez-Gómez, 1983) concept of space is the infinite, homeotropic expanse inherited from the Cartesian <em>res extensa</em>. In this kind of space, the task of architecture is to lay out objects such as the structural grid, partitions, and furniture to organize the preexisting reality of spatial expanse. More explicitly, modernist architectural theories and designs have stressed that the purpose of modern architecture is to enhance the perception of this spatial continuity, and to avoid disturbing it with preconceived geometric shapes, as Argan (1961/1973) stated. Renaissance space, on the other hand, has the nature of a heterotropic place brought into existence by the act of architectural <em>disegno</em>. Architect and theorist Krier (1988) went so far as to claim that having a definite shape that sets it apart from formless void is architecture’s very reason for being."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "4. Form and formlessness"
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "After the Tang dynasty, courtly narrative painting as a technical endeavor gradually lost favor in China to landscape painting as a scholarly pursuit (J. Liu, 2003). Still, it was the ensuing Song dynasty that produced the masterwork of Chinese narrative painting, Zhang Zeduan’s (1085–1145) <em>Along the River During the Qingming Festival</em> (Fig. 9). This painting was so famous that copies of it were commissioned under the ensuing Ming and Qing (1644–1912) dynasties."
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "Here, courtly painting appeared under a new guise, that of the virtuous ruler portrayed not directly, but through the representation of society as a whole, functioning in orderly fashion (The word <em>Qingming</em> may either refer to a specific holiday, its season in general, or to the concepts of purity and clarity, prized by Chinese rulers), with the new taste for broad landscapes as the backdrop. It is useful to draw a parallel between the <em>Qingming</em> scroll and Ambrogio Lorenzetti’s (fl. 1317–1348) allegories of good and bad government in the Palazzo Pubblico in Siena (Fig. 10). In the Sienese frescoes, too, space is put to narrative use, and as in the <em>Qingming</em> scroll, it must organize a myriad separate episodes on an unbroken visual sequence. Gothic painting affords a different take on spatial significance than Panofsky’s view of linear perspective as “symbolic form.” The spatial articulation of a Gothic narrative picture also departs from his argument that Gothic architecture parallels the organization of scholastic discourse."
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "Trachtenberg (2010) showed how this architecture can be interpreted not quite as a closed rhetorical argument made up of definite parts, but rather as an open-ended formal operation regulated by a proportional method."
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "Likewise, grand narrative paintings such as the Siena frescoes were structured in such a way as to allow for an open-ended narrative stream. What tied this sort of composition together, then, was its flexible spatial framework. Unlike Chinese courtly painting, which unified an episodic composition by means of the geometric regularity of cavalier projection, Italian Gothic painting did away with any conspicuous and deterministic spatial geometry. The piecemeal development of vanishing-point perspective throughout the fifteenth century, however, achieved a unified representation of space and the objects within it. It did so, however, at the cost of forsaking the possibility of a narrative painting made up of chained episodes. To overcome this limitation, artists such as Fra Angelico (Fig. 11) and Piero della Francesca (Fig. 12) invented a pictorial device to separate moments or scenes within their compositions, which Schumacher (1987) called the deep space–shallow space division."
+    },
+    {
+      "id": "f-11",
+      "type": "figure",
+      "ref": "fig-11"
+    },
+    {
+      "id": "f-12",
+      "type": "figure",
+      "ref": "fig-12"
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "In contrast, explorations with spatial articulation in Chinese painting moved away from the rigor of a geometric projection, even if the cavalier projection afforded greater narrative flexibility than linear perspective. During the thirteenth and fourteenth centuries, large, vertical landscape paintings showing monumental sceneries gave way to small, roughly square paintings giving glimpses of places or, to put it more accurately, suggesting aesthetic experiences, partly or even mostly clouded by mist. This tendency paralleled the growing emphasis on the unified experience of viewing landscapes, making pictures of landscapes, viewing pictures, and writing (poetry) about the pictures, as the ultimate display of cultivation and sensitivity on the part of well-to-do <em>literati</em>."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusions"
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "In the artistic cultures of China and Italy, the concept of space remained implicit in theoretical and critical writings. Nevertheless, we have seen how changing ways of showing space in pictorial compositions shed light on the explicit concerns of the later critics, Dong Qichang and Giorgio Vasari. We explored two major strains in this change. On the one hand, an intellectual understanding of space privileged, in China as in Italy, the use of artworks as supports for the contemplation of immaterial things—a philosophical or spiritual understanding of Nature beyond the material objects that occupy space. On the other hand, the geometric ability to place things in space was a narrative device that eventually turned, beginning in fifteenth-century Italy, into a concept of Nature itself as created through geometry. This concept, filtered through the theological doctrine of a Universe having a geometric center, influenced the effort to reconcile the individual point of view of linear perspective with the divinely ordained center. From the Gothic period to the Renaissance, architectural theory and practice in Italy thus grappled with the implications of the newly contrived concern with centrality in church buildings, much in the same way Renaissance painting increasingly strove to display geometric control of a single point of view through vanishing point perspective. In Song, Yuan, and Ming China, on the other hand, the individual point of view was not a geometric construction but a personal reaction to the landscape and its representation. Its pictorial paragon was not the contrived perfection of the architectural interior, but the artfully controlled lines of sight across the classical garden of gentlemen’s villas. The concept of space Chinese painting contrived from Buddhist and Taoist doctrines of reality was thus not about outward geometry, but a political argument asserting that the highest achievement consisted in grasping the essence of Nature intuitively through its expression in art. In both Italy and China, the history of how art came to portray space was integral to the criticism of contemporary artworks. By setting out to look at the emergence of spatial representation in paintings, Vasari and Dong did more than trace a history of this endeavor through the work of their predecessors. They also framed this history as a narrative that came full circle in their own age, when artists imitating one another’s manners became the leading theme of art. This way of telling the history of pictorial space highlighted social and cultural parallels between the beginning and end points of the narrative. However, the development of pictorial space is more than a construct of the art historians’ narratives. From Gothic painting to Renaissance perspective in Italy, and from illustrated tales of courtly life to introspective landscape paintings in China, artists strove for methods of representing the space between objects. These efforts were not concerted movements towards preordained goals, but individual explorations that happened to show common experiences among artists. Still, the results of these explorations left diverse lessons in technique and worldview to artists and architects of all ages. Moreover, they show ways of reckoning with a cultural past perceived as ideal during times of political and social upheaval."
+    }
+  ],
+  "notes": [],
+  "references": [
+    "Argan, G. C. (1973). <em>El concepto del espacio arquitectónico desde el barroco a nuestros días</em> (L. Rainis, Trans.). Nueva Visión. (Original work published 1961)",
+    "Bradburne, J. M. (Ed.). (2020). <em>Raffaello and Zhang Zeduan: New perspectives on perspective</em>. Mandragora.",
+    "Bush, S. (Ed.). (2012a). <em>Early Chinese texts on painting</em> (2. ed.). Hong Kong Univ. Press.",
+    "Bush, S. (Ed.). (2012b). Introduction. In <em>Early Chinese texts on painting</em> (2nd ed., pp. 1–17). Hong Kong University Press.",
+    "Cahill, J. (1978). <em>Parting at the shore: Chinese painting of the early and middle Ming dynasty, 1368-1580</em>. Weatherhill.",
+    "Elkins, J. (1992). Renaissance perspectives. <em>Journal of the History of Ideas</em>, <em>53</em>(2), 209–230. https://doi.org/10.2307/2709871",
+    "Evans, R. (1995). <em>The projective cast: Architecture and its three geometries</em>. MIT Press.",
+    "Gombrich, E. H. (1996). The social history of art. In R. Woodfield (Ed.), <em>The essential Gombrich: Selected writings on art and culture</em> (pp. 369–380). Phaidon.",
+    "Kita, S. (1999). <em>The last Tosa: Iwasa Katsumochi Matabei, bridge to Ukiyo-e</em>. University of Hawaii Press.",
+    "Krier, R. (1988). <em>Architectural composition</em>. Rizzoli. https://archive.org/details/architecturalcom0000krie",
+    "Lee, S. E., &amp; Ho, W.-K. (1964). Scattered pearls beyond the ocean. <em>The Bulletin of the Cleveland Museum of Art</em>, <em>51</em>(2), 23–39. https://www.jstor.org/stable/25151985",
+    "Liu, J. (2003). Chinese literature and painting. <em>Comparative Literature: East &amp; West</em>, <em>5</em>(1), 150–160. https://doi.org/10.1080/25723618.2003.12015636",
+    "Liu, X. (2002). The Qin and Han dynasties. In N. S. Steinhardt (Ed.), <em>Chinese architecture</em> (pp. 33–59). Yale University Press. https://archive.org/details/chinesearchitect0000unse",
+    "Ortiz, V. M. (1999). <em>Dreaming the Southern Song landscape: The power of illusion in chinese painting</em>. Brill.",
+    "Panofsky, E. (1927/1997). <em>Perspective as symbolic form</em> (C. S. Wood, Trans.). Zone.",
+    "Pérez-Gómez, A. (1983). <em>Architecture and the crisis of modern science</em>. MIT Press.",
+    "Schumacher, T. L. (1987). Deep space shallow space. <em>Architectural Record</em>, <em>175</em>(1), 37–42.",
+    "Schwarzer, M. W. (1991). The emergence of architectural space: August Schmarsow’s theory of “Raumgestaltung.” <em>Assemblage</em>, (15), 48. https://doi.org/10.2307/3171125",
+    "Scott, G. (1914). <em>The architecture of humanism: A study in the history of taste</em>. Houghton Mifflin. http://archive.org/details/cu31924014760353",
+    "Soullière, E. (2018). Chinese visual culture traditions: looking back and looking forward. <em>New Zealand Journal of Asian Studies</em>, <em>20</em>(2), 3–39. Retrieved from https://nzasia.org.nz/wp-content/uploads/2025/10/nzjas_dec18_soulliere-2018-December.pdf",
+    "Trachtenberg, M. (2010). <em>Building-in-time: From Giotto to Alberti and modern oblivion</em>. Yale University Press.",
+    "Vasari, G. (1568). <em>Le vite de’ più eccellenti pittori, scultori e architettori</em> (2nd ed., Vols. 1–3). Giunti.",
+    "Zevi, B. (1948). <em>Saper vedere l’architettura</em>. Einaudi.",
+    "Wölfflin, H. (1888). <em>Renaissance und Barock: Eine Untersuchung über Wesen und Entstehung des Barockstils in Italien</em>. T. Ackermann. http://archive.org/details/gri_33125006523688",
+    "Wölfflin, H. (1915/1950). <em>Principles of art history: The problem of the development of style in later art</em> (M. D. M. Hottinger, Trans.). Dover. https://archive.org/details/principlesofarth00woel"
+  ],
+  "furtherReading": []
+}

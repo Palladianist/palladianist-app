@@ -1,0 +1,30 @@
+{
+  "articleId": "v1n1-mansoori-mehr",
+  "issue": "v1n1",
+  "section": "article",
+  "chapterFile": "OEBPS/06_MANSOORI.xhtml",
+  "title": [
+    "Between Palladio and Persepolis",
+    "Beaux-Arts pedagogy and the translation of architectural knowledge in modern Iran"
+  ],
+  "author": {
+    "name": "Amir Abbas Mansoori Mehr",
+    "affiliation": "Politecnico di Torino",
+    "email": "amir.mansoori@polito.it",
+    "bio": "Amir Abbas Mansoori Mehr is a research fellow in architectural and urban history at the Interuniversity Department of Regional and Urban Studies and Planning, Politecnico di Torino. His research interests focus on the architectural and urban history of the Middle East, especially early modern and 20th-century Iran. His work examines architecture, cities, cultural institutions, architectural education, and the production of historical knowledge across Iranian and transregional contexts."
+  },
+  "keywords": [
+    "Andrea Palladio",
+    "École des Beaux-Arts",
+    "Mohsen Foroughi",
+    "Iranian modern architecture",
+    "architectural drawing and pedagogy"
+  ],
+  "abstract": [
+    "This article examines modern Iran’s relationship with Palladianism as a problem of translating architectural knowledge rather than one of direct influence or stylistic imitation. Iran did not need Europe to discover order, proportion, axiality or hierarchy: its traditions had long developed systems of geometry, courtyard, garden, water, threshold and iwan. The question is how these spatial traditions were recoded within twentieth-century educational, professional and institutional frameworks. Without proposing an unbroken genealogy from Palladio to the École des Beaux-Arts and Iran, the study reconstructs episodes of Palladio’s selective reception in French academic culture, notably Blondel’s systematisation of Palladian principles and Guadet’s use of Palladio, through readings of treatise plates, teaching programmes, student drawings and buildings. It then traces how this pedagogical culture was rebuilt in Iran during the first Pahlavi period (1925–1941), when Mohsen Foroughi, moving between Paris and Tehran, reworked iwan, courtyard, garden, portico and tilework through programme, drawing, atelier practice and public commissions. “Between Palladio and Persepolis” thus names an uneven passage between codified knowledge and an ancient past reactivated by modern education, where translation means adapting knowledge to new conditions."
+  ],
+  "pages": "154–175",
+  "datesLine": "Received [05/26/2026] | Accepted [09/01/2026] | Published [10/30/2026]",
+  "source": "Palladianist_v1n1_numero_completo.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

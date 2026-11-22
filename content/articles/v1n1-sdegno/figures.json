@@ -1,0 +1,88 @@
+{
+  "articleId": "v1n1-sdegno",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._1.jpg",
+      "alt": "Engraving of the façade of San Giorgio Maggiore in elevation, with a central pediment on giant columns and lower side wings.",
+      "caption": "Fig. 1. O. Bertotti Scamozzi, Elevation of San Giorgio Maggiore. Source: <em>Le fabbriche e i disegni di Andrea Palladio</em>, Vol. IV, pl. VIII.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._2.png",
+      "alt": "Canaletto painting of the church of San Giorgio Maggiore seen across the water, with its white façade, dome and bell tower and gondolas in front.",
+      "caption": "Fig. 2. Canaletto, The Church of San Giorgio Maggiore, Venice, ca. 1730–31, oil on canvas. London, private collection. Public domain.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._3.jpg",
+      "alt": "Canaletto capriccio combining the Rialto Bridge and the church of San Giorgio Maggiore beside a canal with boats.",
+      "caption": "Fig. 3. Canaletto, Capriccio: The Rialto Bridge and the Church of S. Giorgio Maggiore, ca. 1750, oil on canvas. Raleigh, North Carolina Museum of Art, 52.9.149. Public domain.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._4.png",
+      "alt": "Woodcut from the Quattro libri: plan and section of the Convento della Carità with its atrium and cloister.",
+      "caption": "Fig. 4. Palladio, plan and section of the Convento della Carità. Source: Palladio, 1570, Book II, p. 30.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._5.png",
+      "alt": "Photograph of the surviving brick façade of the Carità cloister in Venice, with arches on three levels.",
+      "caption": "Fig. 5. The surviving façade of the Carità cloister. Photo: the author.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-sdegno/SDEGNO_Fig.7_704618-1503054622.jpg",
+      "alt": "Canaletto painting of a monastery courtyard with arcaded brick loggias on three storeys and small figures in the foreground.",
+      "caption": "Fig. 6. Canaletto, <em>Venice: Caprice View of the Monastery of the Lateran Canons</em>, c. 1743–44, oil on canvas. Royal Collection, RCIN … © Royal Collection Enterprises Limited 2026 | Royal Collection Trust.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-7",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._7.jpg",
+      "alt": "Axonometric digital model of the Convento della Carità in yellow lines on a black background, with its plan.",
+      "caption": "Fig. 7. Digital reconstruction of Palladio’s Convento della Carità. Author’s elaboration.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-8",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._8.jpg",
+      "alt": "Perspective analysis of Canaletto's painting: construction lines on a black background linking the painting to the plan and elevations of the cloister.",
+      "caption": "Fig. 8. Perspective restitution of Canaletto’s painting and comparison with Palladio’s design. Author’s elaboration.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-9",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._9.jpg",
+      "alt": "Rendered view of the digital model of the Carità cloister: a brick courtyard with arcades on three levels.",
+      "caption": "Fig. 9. Perspective view of the digital model of the Carità cloister. Author’s elaboration.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-10",
+      "src": "/figures/v1n1-sdegno/Sdegno_Fig._10.png",
+      "alt": "AI-generated image of the cloister courtyard based on Canaletto's capriccio, with brick arcades and a balustrade.",
+      "caption": "Fig. 10. AI-assisted interpretative visualization of Canaletto’s Capriccio. Author’s elaboration.",
+      "downloadable": true,
+      "credit": ""
+    }
+  ]
+}

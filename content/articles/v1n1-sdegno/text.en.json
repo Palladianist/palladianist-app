@@ -1,0 +1,257 @@
+{
+  "articleId": "v1n1-sdegno",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction and State of the Art"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "Andrea Palladio’s Venetian works occupy a distinctive position within his architectural production, particularly in the field of religious architecture. The churches of the Redentore and San Giorgio Maggiore (Fig. 1), together with the façade of San Francesco della Vigna, show the central role of the architectural front in his interpretation of the city. The Convento della Carità differs from these examples: it is a religious complex without a comparable monumental façade, yet it is the only Venetian work included in his <em>I Quattro Libri dell’Architettura </em>(Palladio, 1570, Book II, pp. 29-30). Its significance therefore lies not only in its surviving fabric but also in the relationship between the published ideal and its incomplete realisation."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "Antonio Canal, known as Canaletto, subsequently transformed Venetian architecture into a pictorial subject. His production ranges from views apparently faithful to recognisable sites (Fig. 2) to capricci that combine architectural elements in invented settings (Fig. 3). The distinction between views “taken from nature” and “invented views” appears in the title of his etchings (Canal, 1740-1744). Nevertheless, a precise appearance cannot automatically be equated with a metrically faithful representation. Corboz questioned this assumption, interpreting Canaletto’s images through the interaction of observation and invention (Corboz, 1974, 1985). Studies of the painter’s drawings and optical procedures have similarly emphasized the complexity of his representational practice (Gioseffi, 1959; Pignatti, 1970; Steadman, 2025)."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "The relationship between Palladio and Canaletto can thus be examined at three levels: architectural conception, constructed reality, and painted image. This comparison is not, in itself, new (Sdegno, 2005). The present study does not claim the first perspective restitution or digital reconstruction of the Carità. Its specific purpose is to organise the geometric discrepancies into a transparent comparative reading, distinguishing changes introduced in construction from those attributable to pictorial composition, and to clarify the supplementary, non-metric role of AI-assisted visualisation."
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "The historical question is consequently inseparable from a representational one. An architectural drawing can prescribe a possible building, a surviving fragment can attest only to what was executed, and a painting can combine observed detail with deliberately transformed relationships. Keeping these evidentiary functions separate prevents the visual similarity of the three sources from being mistaken for documentary equivalence. It also explains why the Carità, where an ambitious published scheme survives alongside a fragmentary construction and a highly articulated pictorial view, provides an especially useful case for comparative analysis."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Research Objectives and Methodology"
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "The investigation addresses three connected questions. First, which features of Palladio’s published scheme differ from the surviving cloister? Second, which features of Canaletto’s 1744 painting correspond to either configuration, and which are independent inventions? Third, how can descriptive geometry and digital modelling make those transformations intelligible without confusing historical evidence, geometric inference, and visual simulation? The materials compared are Palladio’s plan and section in the treatise, the existing façade, and Canaletto’s frontal view (Figs. 4, 5, 6)."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "The three-dimensional reconstruction was developed through geometric modelling operations: Boolean addition and subtraction, linear extrusion, ruled surfaces, and surfaces of revolution. Extrusions define repetitive linear and prismatic components; rotational constructions describe elements such as shafts and mouldings; ruled surfaces and Boolean operations support the articulation of architectural profiles and openings. The published drawings establish the organisation of the ideal project, while the surviving elevation provides a distinct reference for the built configuration. The model is an analytical reconstruction rather than a complete archaeological record: assumptions concerning unbuilt parts must not be mistaken for surveyed evidence (Fig. 7)."
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "The painting was investigated by traditional descriptive geometry applied to inverse perspective. The procedure begins by identifying horizontal alignments, repeated bays, the principal point and the horizon line. The frontal configuration makes it possible to compare the represented elevation with the project and the surviving façade. Projective relationships are then used to infer planimetric and altimetric arrangements, including the relative depth of the portico. The homological rotation procedure permits the transfer of selected elements from the perspective image to a reference plane (Fig. 8). Because the painted image is an artistic construction, the resulting restitutions must be interpreted as geometrically reasoned hypotheses rather than direct measurements of a physical object."
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "The geometric reading proceeds from observable image features toward inferred spatial relationships, rather than the reverse. Repeated verticals and horizontals establish the principal architectural axes; corresponding openings provide a comparative module; the visible recession of the loggia informs hypotheses about depth. The reconstructed elevation and plan are compared with the treatise scheme only after their distinct evidentiary status has been identified, so to have a final result in terms of rendering image (Fig. 9). This order of operations is essential: agreement between two drawings is not, by itself, proof that the painted architecture ever existed in that configuration. Likewise, local irregularities in the picture may result from intentional adjustments, pictorial execution, or limitations of the available reproduction."
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "The analysis is comparative and primarily proportional. The present documentation does not establish the dates and instruments of a dedicated survey campaign, a measurement reference system, numerical control-point coordinates, software versions, or a quantified error budget. No absolute accuracy or statistical uncertainty is therefore asserted. These limits also prevent presenting the restitution as a fully reproducible metric survey; the geometric assumptions and graphic comparisons, however, remain open to examination."
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "Generative artificial intelligence was employed at a subsequent stage to produce interpretative imagery of the reconstructed spatial configuration (Fig. 10). This operation was used to examine the visual effects of composition, material appearance and illumination, not to derive dimensions or verify perspective. The specific architecture of the generative model is not documented, so the procedure is not identified as convolutional-neural-network processing. The AI-generated image is consequently evidence of a visualization experiment, not independent evidence about Palladio’s design or Canaletto’s intentions."
+    },
+    {
+      "id": "f-10",
+      "type": "figure",
+      "ref": "fig-10"
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "2. Palladio’s design and the built peristilium"
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "The Convento della Carità was partially built for the Lateran Canons in the 16th century (Bassi, 1971; Modesti, 2005). Palladio placed its description among the examples of ancient domestic arrangements discussed in the second book of his treatise. The guiding ambition was to “make this house resemble those of the Ancients” (“assimigliar questa casa à quelle de gli Antichi”) (Palladio, 1570, Book II, p. 29). The project thus adapts the vocabulary of the Roman domus to a Venetian religious institution, transforming an archaeological and theoretical model into an architectural proposal."
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "Three principal spaces organise the published complex: the Atrium, providing access; the Tablinum, placed laterally rather than on the central axis; and the Peristilium, the largest open area, represented as paved rather than planted (Fig. 4). The reference to the Vitruvian Corinthian Atrium helps explain the deliberate dialogue with antiquity. Yet the scheme should not be read as a literal reconstruction of a Roman house: Palladio selectively rearranged ancient components to address a different building type and setting."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "The Peristilium presents three superimposed orders. The ground-floor Doric and first-floor Ionic registers comprise arcaded loggias articulated by engaged semicircular columns. The upper register is organised by Corinthian pilasters framing windows. Exposed brick characterises both the walls and much of the architectural articulation; stone is reserved for selected elements including capitals, bases and window surrounds (Fig. 6). These material choices are important to the perception of the façade, because the rhythm of the orders is expressed through both relief and surface."
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "The treatise drawing, printed in reverse, represents a rectangular cloister with six bays on its longer sides and five on the shorter sides. A terrace appears on one short side opposite the Corinthian Atrium, visible in section rather than plan. Its presence produces an additional upper-level bay and niche along the adjoining long side, establishing an asymmetrical condition. The built fabric differs substantially. Only one long façade survives as a completed architectural front; it contains seven arches with terminal niche-bearing bays on the lower two levels and seven corresponding windows above. The built elevation therefore tends toward symmetry, whereas the published arrangement retains an asymmetrical terrace condition."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "This divergence is fundamental. Before Canaletto intervened pictorially, the architecture had already moved from a theoretical configuration to a modified built one. The surviving façade cannot be used uncritically as a transparent illustration of the treatise, just as the treatise cannot be treated as an exact record of the executed work."
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "The relationship between plan and section is particularly instructive. In the published representation, the terrace is not equally legible in every drawing, and its consequences for the adjoining elevation become clear only when the graphic sources are read together. The asymmetry is therefore not simply a matter of counting openings: it concerns the articulation of full-height and reduced-height portions of the cloister. In the built elevation, by contrast, the repeated arch-and-niche rhythm establishes a more uniform reading of the long front. The comparison shows how a relatively limited modification in the arrangement of bays can alter the perceived balance of an entire courtyard."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "3. Canaletto’s Interpretation and Perspective Restitution"
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "Canaletto’s Capriccio with the Cloister of the Convento della Carità (1744) adopts a markedly frontal composition (Fig. 6). Unlike the more expansive views often associated with the painter, this image directs attention toward the repetitive geometry of a single architectural elevation. The principal vanishing point is situated on the vertical axis of the central column, and the horizon lies near the lower intrados of the entablature. This configuration reinforces the apparent stability and symmetry of the scene, while making its architectural transformations especially legible."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "At first sight, the painting seems to document a plausible Palladian courtyard. Closer comparison reveals a different organisation. Canaletto introduces two lateral terraces above the ground-floor portico, whereas Palladio’s published section indicates a terrace on only one side. The painted full-height façade contains six central arches supplemented by an arch at each end, with lateral niches disposed symmetrically. The upper arrangement follows the same compositional logic through its windows, pilasters and niches. Two rectangular doorways appear at the ends of the lower elevation. These features cannot be explained as a simple transcription of either the published scheme or the existing façade."
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "The painting appears instead to combine selected aspects of both. The terrace motif recalls Palladio’s design, but its duplication transforms the original asymmetry into a bilateral arrangement. The symmetry itself resonates with the built elevation, yet the number and disposition of bays differ. The result is not an arbitrary architectural fantasy: it is a reorganization of identifiable Palladian elements into a new, visually coherent whole."
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "Inverse perspective analysis provides a means of testing this interpretation beyond stylistic observation. The first stage establishes the picture’s projective framework from architectural lines and repeated features. In a frontal perspective, elements parallel to the picture plane can be compared in elevation, while the recession of the portico requires reconstruction through converging directions. The method of homological rotation supports the transfer of projected relationships into a reconstructed plan. The resulting geometric scheme is then compared with the dimensions and proportions inferred from Palladio’s published drawings (Fig. 8). The restitution is especially valuable because it separates architectural syntax from spatial proportion. Orders, arches, niches and entablatures can remain recognizable even when their relative dimensions change. A spectator may therefore accept the scene as architecturally convincing without detecting the displacement of a terrace or the vertical stretching of a register."
+    },
+    {
+      "id": "p-021",
+      "type": "paragraph",
+      "text": "This distinction also limits interpretation: the geometric discrepancies demonstrate that the image is not a literal measured elevation, but they do not alone reveal whether Canaletto relied on a drawing, on direct observation, on optical aids, or on a combination of working procedures in this particular painting."
+    },
+    {
+      "id": "p-022",
+      "type": "paragraph",
+      "text": "The comparison identifies two principal categories of difference. In plan, the portico appears narrower than its counterpart in the architectural scheme. The engaged columns also display apparent adjustments near the edges of the painted field; these may be read as optical-perceptual corrections, although the painter’s precise procedure cannot be demonstrated. In elevation, the represented façade is elongated across its three registers, from the ground-floor arcade to the crowning cornice. Because the view is frontal, these vertical variations are particularly evident. Their cumulative effect is to produce an architecture that is recognisably Palladian but not identical to Palladio’s design or to the surviving construction."
+    },
+    {
+      "id": "p-023",
+      "type": "paragraph",
+      "text": "The classification of the painting as a capriccio is therefore supported by geometric as well as iconographic considerations. Nevertheless, its relation to the actual site remains essential: the persuasive quality of the image depends on recognizable architectural syntax. Canaletto’s invention operates within the constraints of an existing architectural language, not outside it."
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "4. Results and Discussion"
+    },
+    {
+      "id": "p-024",
+      "type": "paragraph",
+      "text": "The comparison produces a sequence of three configurations rather than a binary opposition between truth and falsehood. The published project establishes a theoretical arrangement with a unilateral terrace and a six-by-five-bay cloister. The surviving elevation documents a modified and more symmetrical construction with seven arches and terminal niche bays. The painting introduces a further reconfiguration, most visibly through its paired terraces, altered bay distribution and elongated elevation. These observations can be inspected directly against the comparative drawings and perspective restitution (Figs. 4, 6-8)."
+    },
+    {
+      "id": "p-025",
+      "type": "paragraph",
+      "text": "The digital model makes the spatial consequences of the original architectural scheme more intelligible (Fig. 9). It also helps distinguish differences of architectural organisation from differences caused by viewpoint and projection. The AI-assisted visualisation offers another, explicitly interpretative layer: the reduced height of the lateral wings in Canaletto’s imagined composition opens the courtyard to a different distribution of light (Fig. 10). This observation concerns the visual plausibility of the reconstructed scene; it does not establish the actual lighting conditions of a lost building."
+    },
+    {
+      "id": "p-026",
+      "type": "paragraph",
+      "text": "The contribution of the study lies in making the transitions between evidence types explicit. Palladio’s treatise records an architectural proposition; the surviving fabric records partial execution and modification; Canaletto’s painting records a pictorial reconstruction."
+    },
+    {
+      "id": "p-027",
+      "type": "paragraph",
+      "text": "Descriptive geometry allows their compositional differences to be discussed in projective terms, while modelling provides a shared spatial language. These procedures do not, without additional metric documentation, establish new absolute measurements or a statistically validated correction model."
+    },
+    {
+      "id": "p-028",
+      "type": "paragraph",
+      "text": "The limits of the available evidence are therefore part of the interpretation. Numerical deviations, survey accuracy, the provenance of all control dimensions and the detailed generative-image workflow would require further documentation before a quantitative or fully replicable claim could be made. The present argument is narrower but defensible: a rigorous distinction between designed, built and painted configurations reveals how apparent realism can coexist with systematic architectural invention. The figures should be read as complementary rather than interchangeable tests. The photograph documents the material condition of the extant front; the treatise image communicates a design; the perspective restitution exposes a graphic inference; the digital view visualizes a spatial hypothesis; and the AI image explores appearance. No single illustration can establish the entire argument."
+    },
+    {
+      "id": "h-06",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusions"
+    },
+    {
+      "id": "p-029",
+      "type": "paragraph",
+      "text": "The Peristilium of the Convento della Carità offers a particularly revealing example of the relationship between architectural theory, material realization and pictorial representation. Palladio’s published project transposed an ancient domestic model into a Venetian convent, but the completed portions already diverged from the ideal scheme. Canaletto subsequently transformed that altered reality into a balanced and convincing architectural image, preserving recognizable forms while modifying their disposition and proportions."
+    },
+    {
+      "id": "p-030",
+      "type": "paragraph",
+      "text": "The inverse-perspective reading and digital reconstruction clarify the nature of these transformations. Their value lies not in presenting the painting as a measurable substitute for the building, but in identifying where the three configurations converge and where they separate. AI-assisted imagery extends the visual discussion without replacing geometric evidence. Between Palladio’s architectural imagination and Canaletto’s pictorial invention, the cloister demonstrates that every representation is also an interpretation—and that its claims must be assessed according to the kind of evidence from which it is constructed."
+    }
+  ],
+  "notes": [],
+  "references": [
+    "Bassi, E. (1971). <em>Il convento della Carità</em>. Vicenza: Centro internazionale di studi di architettura “Andrea Palladio”.",
+    "Bertotti Scamozzi, O. (1776–1783). <em>Le fabbriche e i disegni di Andrea Palladio raccolti ed illustrati (Vols. 1–4)</em>. Francesco Modena.",
+    "Canal, A. (1740-1744). <em>Vedute altre prese da i Luoghi altre ideate</em>… Venezia.",
+    "Corboz, A. (1974). Sur la prétendue objectivité de Canaletto. In <em>Arte Veneta</em>, No. XXVIII, pp. 206-218.",
+    "Corboz, A. (1985). <em>Canaletto: Una Venezia immaginaria</em>. Electa.",
+    "Gioseffi, D. (1959). <em>Canaletto. Il quaderno delle Gallerie Veneziane e l’impiego della camera ottica</em>. Università degli Studi di Trieste.",
+    "Modesti, P. (2005). <em>Il convento della Carità e Andrea Palladio. Storie, progetti, immagini</em>. Cierre edizioni.",
+    "Palladio, A. (1570). <em>I quattro libri dell’architettura</em>. Dominico de’ Franceschi.",
+    "Pignatti, T. (1970). Canaletto e la camera ottica. In V. Branca (Ed.), <em>Rappresentazione artistica e rappresentazione scientifica nel secolo dei lumi</em>, (pp. 307-321). Sansoni.",
+    "Sdegno, A. (2005). <em>Geometrie romane a Venezia. Il disegno del Convento palladiano della Carità</em>. Cafoscarina.",
+    "Steadman, P. (2025). <em>Canaletto’s Camera</em>. UCL Press."
+  ],
+  "furtherReading": []
+}

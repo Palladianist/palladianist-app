@@ -1,0 +1,31 @@
+{
+  "articleId": "v1n1-sdegno",
+  "issue": "v1n1",
+  "section": "article",
+  "chapterFile": "OEBPS/05_SDEGNO.xhtml",
+  "title": [
+    "Palladio and Canaletto in Venice",
+    "Between reality and imagination"
+  ],
+  "author": {
+    "name": "Alberto Sdegno",
+    "affiliation": "Università degli Studi di Udine",
+    "email": "alberto.sdegno@uniud.it",
+    "bio": "Alberto Sdegno is Full Professor of Drawing. He is a member of the inter-university PhD program in Civil-Environmental Engineering and Architecture between the Universities of Trieste and Udine, which he coordinated from 2019 to 2025. He is scientific coordinator of several research projects, including the PSD-7 unit of the ESPeRT Project and the Uniud Spoke 4 of the iNEST PNRR project. He has authored, co-authored, or edited more than 200 publications. His teaching, research, and dissemination activities focus on advanced technologies for representation and communication."
+  },
+  "keywords": [
+    "Venice",
+    "ANDREA Palladio",
+    "Canaletto",
+    "Convento della Carità",
+    "digital modelling"
+  ],
+  "abstract": [
+    "This paper examines the relationship between architecture, representation and perception through the peristyle of the Convento della Carità in Venice, designed by Andrea Palladio and later depicted by Antonio Canal, known as Canaletto. It compares three levels of interpretation: the project published in I quattro libri dell’architettura (1570), the building as constructed and its transposition in Canaletto’s painting. The Carità holds a special place in Palladio’s Venetian work, as it reinterprets the Vitruvian Corinthian atrium and transfers models of classical antiquity to the lagoon, although the building phase already departed significantly from the original design.",
+    "Through geometric and perspectival analysis of the painting, supported by surveys and digital reconstructions, the study identifies numerous discrepancies among painting, project and existing building. Canaletto’s view occupies an intermediate position between a topographical view and an architectural capriccio, presenting an architecture that appears plausible yet does not exist. The comparison between project, construction and representation thus opens a broader reflection on the interpretative nature of every architectural image and on the dialogue between truth and invention that runs through the work of both Palladio and Canaletto."
+  ],
+  "pages": "132–153",
+  "datesLine": "Received [06/22/2026] | Accepted [09/01/2026] | Published [10/30/2026]",
+  "source": "Palladianist_v1n1_numero_completo.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

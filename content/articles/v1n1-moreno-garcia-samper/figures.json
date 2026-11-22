@@ -1,0 +1,85 @@
+{
+  "articleId": "v1n1-moreno-garcia-samper",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-moreno-garcia-samper/FIGURA1.jpg",
+      "alt": "Five point-cloud models of Gothic cathedrals seen in perspective, numbered from 1 to 5.",
+      "caption": "Fig. 1. Models generated from the digitization of the five cathedrals examined in this study: 1) Girona Cathedral, 2) Mallorca Cathedral, 3) Narbonne Cathedral, 4) Laon Cathedral, and 5) Chartres Cathedral. Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-moreno-garcia-samper/FIGURA2.jpg",
+      "alt": "Historic drawing by Viollet-le-Duc of Narbonne Cathedral in plan and elevation, above vector redrawings and details of the vaults.",
+      "caption": "Fig. 2. The upper part shows an original drawing by Viollet-le-Duc depicting the principal architectural drawings of Narbonne Cathedral. The lower part presents the CAD vector reproduction prepared from this historical documentation. Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig03.png",
+      "alt": "Plans and cross-sections of the five cathedrals redrawn in vector format, side by side at the same scale.",
+      "caption": "Fig. 3. Plans and sections resulting from the CAD vector reproductions of the historical documentation for the five cathedrals analyzed. Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig04.png",
+      "alt": "Longitudinal section of Narbonne Cathedral as a vector drawing compared with an orthoimage from the laser scan.",
+      "caption": "Fig. 4. Longitudinal section of Narbonne Cathedral in vector format and an orthoimage generated from the point cloud acquired through terrestrial laser scanning (TLS). Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig05.png",
+      "alt": "Plan of Girona Cathedral as a vector drawing compared with an orthoimage from the laser scan.",
+      "caption": "Fig. 5. Plan of Girona Cathedral in vector format and an orthoimage generated from the point cloud acquired through terrestrial laser scanning (TLS). Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig06.png",
+      "alt": "Plan of Narbonne Cathedral as a vector drawing compared with an orthoimage from the laser scan.",
+      "caption": "Fig. 6. Plan of Narbonne Cathedral in vector format and an orthoimage generated from the point cloud acquired through TLS. Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-7",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig07.png",
+      "alt": "Section of Mallorca Cathedral as a vector drawing compared with an orthoimage from the laser scan.",
+      "caption": "Fig. 7. Section of Mallorca Cathedral in vector format and an orthoimage generated from the point cloud acquired through terrestrial laser scanning (TLS). Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-8",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig08.jpg",
+      "alt": "Overlaid plans of three cathedrals: historical drawings in orange over laser-scan models in blue.",
+      "caption": "Fig. 8. Plan overlays of the vectorized historical documents (shown in orange) and the models obtained through terrestrial laser scanning (TLS), shown in blue, for the cathedrals of Girona, Mallorca, and Narbonne. Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-9",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig09.png",
+      "alt": "Overlaid plans of two further cathedrals: historical drawings in orange over laser-scan models in blue.",
+      "caption": "Fig. 9. Plan overlays of the vectorized historical documents (shown in orange) and the models obtained through terrestrial laser scanning (TLS), shown in blue, for the cathedrals of Laon and Chartres. Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-10",
+      "src": "/figures/v1n1-moreno-garcia-samper/MorenoSamper_fig10.png",
+      "alt": "Cross-sections of the five cathedrals compared, historical drawings in orange beside laser-scan sections in blue.",
+      "caption": "Fig. 10. Section comparisons between the vectorized historical documents (shown in orange) and the models obtained through terrestrial laser scanning (TLS), shown in blue. Image produced by the authors.",
+      "downloadable": true,
+      "credit": ""
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "articleId": "v1n1-alvarez-diaz",
+  "issue": "v1n1",
+  "section": "article",
+  "chapterFile": "OEBPS/04_ALVAREZ-DIAZ.xhtml",
+  "title": [
+    "Between measure and machine",
+    "Palladian methodologies in the age of artificial intelligence"
+  ],
+  "author": {
+    "name": "Ricardo Álvarez-Díaz",
+    "affiliation": "Álvarez-Díaz & Villalón (AD&V)",
+    "email": "ralvarezdiaz@advfirm.com",
+    "bio": "Ricardo Álvarez-Díaz, FAIA, is a Puerto Rican architect, author, and educator whose work explores the intersections of architecture, history, cultural identity, and emerging technologies. He studied architecture at the University of Notre Dame, including its Rome Studies Program, and later pursued studies at Harvard University’s Graduate School of Design. He is co-founder and chairman of Álvarez-Díaz & Villalón (AD&V®) and has taught architecture at the University of Puerto Rico, the the Polytechnic University of Puerto Rico, and the University of Notre Dame."
+  },
+  "keywords": [
+    "Artificial Intelligence",
+    "Andrea Palladio",
+    "Architectural Representation",
+    "Building Information Modeling (BIM)",
+    "Environmental Simulation"
+  ],
+  "abstract": [
+    "Artificial intelligence is increasingly shaping how buildings are conceived, represented, analyzed and constructed. This paper argues that Andrea Palladio’s I quattro libri dell’architettura (1570) offers a methodological framework for addressing this challenge, reading his drawings not as stylistic precedents but as structured architectural knowledge that can be reinterpreted through digital technologies.",
+    "The argument is tested on Casa Andelani in San Juan, Puerto Rico, through an AI-assisted analytical method combining hand sketching, measured drawing, BIM, multimodal AI, environmental simulation and human judgment. ChatGPT, Microsoft Copilot and Claude were introduced only after the design was complete, as interpretive instruments rather than form generators; every AI-generated proposition was checked against sketches, dimensioned drawings, BIM geometry and Palladian sources. Airflow and seasonal solar simulations provide a separate layer for testing environmental hypotheses in a tropical climate.",
+    "Palladian methodology remains relevant as an interpretive system of relationships rather than a historical style. AI’s future value in architecture may lie not in replacing human authorship but in expanding the architect’s capacity to interpret, evaluate and adapt architectural knowledge."
+  ],
+  "pages": "110–131",
+  "datesLine": "Received [05/15/2026] | Accepted [09/01/2026] | Published [10/30/2026]",
+  "source": "Palladianist_v1n1_numero_completo.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

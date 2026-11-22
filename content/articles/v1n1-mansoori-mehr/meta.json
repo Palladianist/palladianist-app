@@ -1,0 +1,38 @@
+{
+  "articleId": "v1n1-mansoori-mehr",
+  "provisional": true,
+  "note": "Da EPUB; sarà sostituito dalla sincronizzazione OJS.",
+  "ojsSubmissionId": null,
+  "ojsUrl": null,
+  "pdfUrl": null,
+  "doi": null,
+  "issue": "v1n1",
+  "volume": 1,
+  "number": 1,
+  "year": 2026,
+  "section": {
+    "en": "Articles",
+    "it": "Articoli"
+  },
+  "title": "Between Palladio and Persepolis. Beaux-Arts pedagogy and the translation of architectural knowledge in modern Iran",
+  "authors": [
+    {
+      "given": "Amir Abbas",
+      "family": "Mansoori Mehr",
+      "affiliation": "Politecnico di Torino",
+      "orcid": null,
+      "email": "amir.mansoori@polito.it"
+    }
+  ],
+  "pages": "154–175",
+  "dates": {
+    "received": "2026-05-26",
+    "accepted": "2026-09-01",
+    "published": "2026-10-30"
+  },
+  "license": {
+    "code": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "journal": "Palladianist. The Future of Drawing"
+}

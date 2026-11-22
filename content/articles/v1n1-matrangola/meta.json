@@ -1,0 +1,38 @@
+{
+  "articleId": "v1n1-matrangola",
+  "provisional": true,
+  "note": "Da EPUB; sarà sostituito dalla sincronizzazione OJS.",
+  "ojsSubmissionId": null,
+  "ojsUrl": null,
+  "pdfUrl": null,
+  "doi": null,
+  "issue": "v1n1",
+  "volume": 1,
+  "number": 1,
+  "year": 2026,
+  "section": {
+    "en": "Articles",
+    "it": "Articoli"
+  },
+  "title": "The Limit and the Poetics of Wonder. Heritage communities and the Faro Convention",
+  "authors": [
+    {
+      "given": "Viviana",
+      "family": "Matrangola",
+      "affiliation": "Bureau of the Regional Council of Apulia",
+      "orcid": null,
+      "email": "matrangola.viviana@consiglio.puglia.it"
+    }
+  ],
+  "pages": "90–109",
+  "dates": {
+    "received": "2026-05-25",
+    "accepted": "2026-05-25",
+    "published": "2026-10-30"
+  },
+  "license": {
+    "code": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "journal": "Palladianist. The Future of Drawing"
+}

@@ -1,0 +1,56 @@
+{
+  "articleId": "v1n1-mansoori-mehr",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-mansoori-mehr/MansooriMehr_fig01.png",
+      "alt": "Plate from Palladio's treatise: ground-floor plan and principal elevation of Palazzo Antonini in Udine.",
+      "caption": "Fig. 1. Andrea Palladio, Palazzo Antonini, Udine: ground-floor plan and principal elevation. From The Four Books of Architecture, Book II, Chapter III, plate 1, trans. Isaac Ware (London: R. Ware, 1738). Source: Getty Research Institute, digitized by Internet Archive, item gri_33125011569684, public domain.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-mansoori-mehr/MansooriMehr_fig02.jpg",
+      "alt": "Two printed pages of tables of the proportions of the orders after Palladio, from Blondel's Cours d'architecture.",
+      "caption": "Fig. 2. François Blondel, “Table de la doctrine des Ordres suivant les figures de Palladio,” in Cours d’architecture enseigné dans l’Académie royale d’architecture, 2nd ed., Paris, 1698, pp. 792–793. Source: Getty Research Institute/Internet Archive, public domain.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-mansoori-mehr/MansooriMehr_fig03.jpg",
+      "alt": "Printed page from Guadet's treatise with an engraving of the Basilica in Vicenza, showing its two levels of arcades and roof.",
+      "caption": "Fig. 3. Andrea Palladio’s Basilica at Vicenza, reproduced as “Basilique de Vicence” (fig. 316) in Julien Guadet, Éléments et théorie de l’architecture: Cours professé à l’École nationale et spéciale des beaux-arts, vol. 1, Paris: Librairie de la Construction Moderne, 1909, p. 428. Source: Smithsonian Libraries/Internet Archive, public domain.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-mansoori-mehr/MansooriMehr_fig04.jpg",
+      "alt": "Competition drawing by Mohsen Foroughi for a school of oriental languages: a large plan above and an elevation with a central arch below.",
+      "caption": "Fig. 4. Mohsen Foroughi, Une École des langues orientales, project awarded Première Médaille, École nationale supérieure des beaux-arts, 1935, pl. 108; plans, section, and principal elevation. Student of Gustave Umbdenstock. Source: Les concours d’architecture de l’année scolaire 1934–1935: vingt-sixième année; Bibliothèques de l’Université de Strasbourg/Numistral, record coll20/id/3232; public domain.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-mansoori-mehr/MansooriMehr_fig05.png",
+      "alt": "Sheet of drawings by Mohsen Foroughi for a summer residence in Persia, with site views, plan and several elevations.",
+      "caption": "Fig. 5. Mohsen Foroughi, Une Résidence d’été en Perse, diploma project awarded Mention Très bien, École nationale supérieure des beaux-arts, 1937, student of Gustave Umbdenstock. Above: plans, site organisation, and perspectives, pl. 108. Below: principal and garden elevations and longitudinal sections, pl. 109. Source: Les concours d’architecture de l’année scolaire 1936–1937: vingt-huitième année; Bibliothèques de l’Université de Strasbourg/Numistral, records coll20/id/3869 and coll20/id/3871; public domain.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-mansoori-mehr/MansooriMehr_fig06.png",
+      "alt": "Plan of the Faculty of Law of the University of Tehran above, and a black-and-white photograph of its main entrance below.",
+      "caption": "Fig. 6. Mohsen Foroughi, Faculty of Law, University of Tehran. Above: ground-floor plan. Below: exterior view of the principal entrance. Sources: plan from Architecte, no. 6 (June 1948), p. 214, fig. 216; photograph, 1939, photographer unknown, “University of Tehran Faculty of Law 1318.jpg,” Wikimedia Commons, public domain in Iran. Composite by the author.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    }
+  ]
+}

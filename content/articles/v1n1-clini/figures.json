@@ -1,0 +1,87 @@
+{
+  "articleId": "v1n1-clini",
+  "figures": [
+    {
+      "id": "fig-cover",
+      "src": "/figures/v1n1-clini/Clini_Copertina.jpg",
+      "alt": "Illustrated cover for the article: the title 'From Fanum Fortunae to Palladio' above a drawing of the Vitruvian basilica in plan and perspective, with a ruined column in the foreground.",
+      "caption": "Cover image by the author.",
+      "downloadable": true,
+      "credit": "Paolo Clini"
+    },
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-clini/Clini_fig01.jpg",
+      "alt": "Photograph of the excavation site of the Basilica of Fano in a town square, with exposed foundations and covered remains between modern arcaded buildings.",
+      "caption": "Fig. 1. The archaeological excavation complex of the Basilica of Fano as it appears today (photograph by the author).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-clini/Clini_fig02.png",
+      "alt": "Plan of the Basilica of Fano with its rectangular colonnade, next to a three-dimensional model of the building with a tiled roof.",
+      "caption": "Fig. 2. Plan of the Basilica of Fano and external volumetric elevation, as presented in the first reconstruction developed in the author’s doctoral dissertation (reconstruction by the author; 1997 doctoral dissertation, <em>La Basilica di Fano di Vitruvio, dalla critica storiografica a nuovi rilievi e ipotesi di ricostruzione</em> [The Basilica of Vitruvius in Fano: From historiographical criticism to new surveys and reconstruction hypotheses]).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-clini/clini_fig03.png",
+      "alt": "Historic engraving with the plan of the Basilica of Fano above and its sectional elevation below, from a Renaissance edition of Vitruvius.",
+      "caption": "Fig. 3. Plan and sectional elevation of the Basilica of Fano in the reconstruction attributed to Andrea Palladio, in M. Vitruvius, I dieci libri dell’architettura [The Ten Books on Architecture], translated and annotated by Daniele Barbaro (Venice: Francesco de’ Franceschi Senese and Giovanni Chrieger, 1567), pp. 219–221. Source: e-rara / Stiftung Bibliothek Werner Oechslin, Public Domain.",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-clini/clini_fig04.png",
+      "alt": "Urban plan of the centre of Fano with the reconstructed forum and the proposed position of the Basilica of Vitruvius marked in red.",
+      "caption": "Fig. 4. Reconstruction of the Forum of <em>Fanum Fortunae</em>, proposing the location of the Basilica of Vitruvius in present-day Piazza Andrea Costa, 2013 drawing (drawing by the author).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-clini/clini_fig05.jpg",
+      "alt": "Aerial view of the excavation area overlaid with the plan of the reconstructed basilica, with the matching remains marked in red.",
+      "caption": "Fig. 5. Overlay of the reconstruction of the Basilica of Vitruvius and the current state of the excavations. The correspondences identified to date are highlighted in red (reconstruction by the author, www.maindh.it).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-clini/clini_fig06.jpg",
+      "alt": "Photograph of the excavated base of a large brick column and pilaster, with a measuring rod for scale.",
+      "caption": "Fig. 6. Remains of the large column and pilaster of the giant order of the Basilica of Fano, with sandstone masonry facing and an opus caementicium core (photograph by the author).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-7",
+      "src": "/figures/v1n1-clini/clini_fig07.png",
+      "alt": "Two digital renderings of the interior of the reconstructed basilica, showing giant columns rising through two storeys with galleries.",
+      "caption": "Fig. 7. Interior views of the Basilica of Vitruvius, highlighting the giant order extending across both storeys, 2014 (reconstruction by the author, www.maindh.it).",
+      "downloadable": true,
+      "credit": ""
+    },
+    {
+      "id": "fig-8",
+      "src": "/figures/v1n1-clini/clini_fig08.jpg",
+      "alt": "Photograph of the courtyard of Villa Sarego with giant rusticated Ionic columns supporting two levels of loggias.",
+      "caption": "Fig. 8. Andrea Palladio, Villa Sarego, Santa Sofia di Pedemonte (San Pietro in Cariano, Verona), courtyard with the giant Ionic columns of rusticated stone. Photo: Hans A. Rosbach, 2011, CC BY-SA 3.0, via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-9",
+      "src": "/figures/v1n1-clini/clini_fig09.jpg",
+      "alt": "Two photographs of the White House in Washington: the north front with its pedimented portico and the south front with its curved portico.",
+      "caption": "Fig. 9. The White House complex, designed by James Hoban in 1792 in the Neo-Palladian style. Public domain (work of the U.S. federal government), via Wikimedia Commons",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "articleId": "v1n1-clini",
+  "issue": "v1n1",
+  "section": "article",
+  "chapterFile": "OEBPS/02_CLINI.xhtml",
+  "title": [
+    "From Fanum Fortunae to Palladio",
+    "Vitruvius’s Basilica and the genealogy of classical architecture"
+  ],
+  "author": {
+    "name": "Paolo Clini",
+    "affiliation": "Università Politecnica delle Marche",
+    "email": "p.clini@staff.univpm.it",
+    "bio": "Paolo Clini is Full Professor of Architectural Survey and Representation at the Università Politecnica delle Marche, chair of the DiStoRi Heritage research group and scientific director of mAIndh_Lab, a laboratory devoted to artificial intelligence for cultural heritage. His research combines historic architecture and digital technologies: 3D survey, digital twins, virtual museums and immersive tools for cultural heritage documentation and enhancement. He founded the Centro Internazionale di Studi Vitruviani in Fano. Vitruvius has run through his work since his doctoral thesis on the Basilica of Fanum Fortunae: his digital reconstructions contributed to the recent identification of the remains of the Vitruvian basilica in Fano. He has led numerous digitisation projects."
+  },
+  "keywords": [
+    "Vitruvius",
+    "Fanum Fortunae",
+    "Palladio",
+    "Vitruvius’s Basilica at Fanum Fortunae",
+    "digital reconstruction"
+  ],
+  "abstract": [
+    "The recent archaeological identification of Vitruvius’s basilica at Fanum Fortunae (Fano) offers an opportunity to reinterpret the building as both a material and a theoretical nexus in the continuity of classical architecture. Drawing on more than thirty years of research on the Vitruvian text, the history of its graphic interpretations, architectural survey, 3D modelling and digital archaeology, the article traces the shift from a building known for centuries only through De architectura and the reconstructions of treatise writers to a new condition in which text, hypotheses and material remains can at last be compared directly.",
+    "The basilica emerges not only as a discovery of local significance but as a test case for the Western architectural tradition: in the passage of Book V describing the building he designed and built, Vitruvius brings theory, symmetria, civic function and built form together in a unique instance. This thread leads to Palladio, whose reception of Vitruvius went beyond the adoption of a classical vocabulary to translate Vitruvian principles into a design language that is measurable, transmissible and historically fertile. The article concludes by considering digital survey, three-dimensional reconstruction and AI as critical tools that can make explicit the relationships among sources, models, uncertainties and interpretations."
+  ],
+  "pages": "68–89",
+  "datesLine": "Received [06/10/2026] | Accepted [-] | Published [10/30/2026]",
+  "source": "Palladianist_v1n1_numero_completo.epub",
+  "note": "Provisional metadata from EPUB. OJS meta.json is authoritative once synced."
+}

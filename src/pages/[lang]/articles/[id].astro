@@ -79,9 +79,11 @@ const canonical = m.ojsUrl || undefined;
         for (const b of doc.blocks) {
           if (b.type === 'listitem') { list.push(<li id={b.id} data-en={enById[b.id]} set:html={b.text} />); continue; }
           flush();
-          if (b.type === 'heading') out.push(<h2 id={b.id} set:html={b.text} />);
+          if (b.type === 'heading') out.push(b.level === 3 ? <h3 id={b.id} set:html={b.text} /> : <h2 id={b.id} set:html={b.text} />);
+          else if (b.type === 'table') out.push(
+            <div class="table-wrap" id={b.id}><table>{b.rows.map((r, i) => <tr>{r.map((c) => i === 0 ? <th set:html={c} /> : <td set:html={c} />)}</tr>)}</table></div>);
           else if (b.type === 'figure') { const f = figs[b.ref]; if (f) out.push(
-            <figure id={b.id}><button type="button" data-zoom={f.src} aria-label={strip(f.caption)}><img src={f.src} alt={f.alt} loading="lazy" /></button><figcaption set:html={f.caption} /></figure>); }
+            <figure id={b.id}><button type="button" data-zoom={f.src} aria-label={strip(f.caption)}><img src={f.src} alt={f.alt} loading="lazy" /></button>{(f.extra || []).map((e) => <button type="button" data-zoom={e.src} aria-label={e.alt}><img src={e.src} alt={e.alt} loading="lazy" style="margin-top:6px" /></button>)}<figcaption set:html={f.caption} /></figure>); }
           else out.push(<p id={b.id} data-en={enById[b.id]} set:html={b.text} />);
         }
         flush(); return out;

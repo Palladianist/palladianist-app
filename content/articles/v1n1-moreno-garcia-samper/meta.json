@@ -1,0 +1,45 @@
+{
+  "articleId": "v1n1-moreno-garcia-samper",
+  "provisional": true,
+  "note": "Da EPUB; sarà sostituito dalla sincronizzazione OJS.",
+  "ojsSubmissionId": null,
+  "ojsUrl": null,
+  "pdfUrl": null,
+  "doi": null,
+  "issue": "v1n1",
+  "volume": 1,
+  "number": 1,
+  "year": 2026,
+  "section": {
+    "en": "Articles",
+    "it": "Articoli"
+  },
+  "title": "Ideal geometry and built reality in Gothic cathedrals. A comparative analysis through terrestrial laser scanning",
+  "authors": [
+    {
+      "given": "David",
+      "family": "Moreno-García",
+      "affiliation": "Universitat Rovira i Virgili",
+      "orcid": null,
+      "email": "david.moreno@urv.cat"
+    },
+    {
+      "given": "Albert",
+      "family": "Samper",
+      "affiliation": "Universitat Rovira i Virgili",
+      "orcid": null,
+      "email": null
+    }
+  ],
+  "pages": "176–195",
+  "dates": {
+    "received": "2026-05-18",
+    "accepted": "2026-09-01",
+    "published": "2026-10-30"
+  },
+  "license": {
+    "code": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "journal": "Palladianist. The Future of Drawing"
+}

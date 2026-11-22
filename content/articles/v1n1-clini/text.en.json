@@ -1,0 +1,217 @@
+{
+  "articleId": "v1n1-clini",
+  "lang": "en",
+  "blocks": [
+    {
+      "id": "f-00",
+      "type": "figure",
+      "ref": "fig-cover"
+    },
+    {
+      "id": "h-01",
+      "type": "heading",
+      "level": 2,
+      "text": "Introduction"
+    },
+    {
+      "id": "p-001",
+      "type": "paragraph",
+      "text": "On 19 January 2026, the official announcement of the discovery of Vitruvius’s Basilica at <em>Fanum Fortunae</em> (Fano) gave material form to a problem that for centuries had remained suspended between text, drawing, and hypothesis (Fig. 1). The Ministry of Culture presented the building that emerged in Piazza Andrea Costa as the basilica described in De architectura and as the only building that can now be attributed with certainty to the Roman architect (Ministero della Cultura, 2026). Beyond the media attention, the event’s value lies in this transition: not a simple archaeological confirmation, but the possibility of materially verifying one of the most decisive passages in ancient architectural theory."
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
+    },
+    {
+      "id": "p-002",
+      "type": "paragraph",
+      "text": "I first encountered Vitruvius’s basilica in 1992, at the start of my doctoral research (Clini, 1997), when, in Fano, it survived almost solely as a problem: a few lines in Book V, precise enough to impose a form, yet enigmatic enough to produce divergent readings. For a long time, the basilica existed for me, as it did for generations of scholars, as a text and a constellation of drawings. My research began in this intermediate space, where the architecture was not yet a securely identified material reality, but was no longer merely a literary subject."
+    },
+    {
+      "id": "p-003",
+      "type": "paragraph",
+      "text": "In this sense, the basilica became a historiographical and design laboratory. Understanding it meant reconstructing not only a lost building, but also a chain of transmission of architectural knowledge extending from antiquity to the Renaissance and, through the Renaissance, to the modern culture of survey, representation, and information modelling. The discovery does not erase this long interpretative history: it finally makes it comparable with the stones."
+    },
+    {
+      "id": "h-02",
+      "type": "heading",
+      "level": 2,
+      "text": "1. Vitruvius and the Basilica at Fanum Fortunae"
+    },
+    {
+      "id": "p-004",
+      "type": "paragraph",
+      "text": "Vitruvius’s passage on the basilica at <em>Fanum</em> <em>Fortunae</em> (Vitruvius, ca. 15 B.C.E./1997, 5.1.6–10) is extraordinary for two reasons. The first is evident: Vitruvius states that he is describing a building that he himself sited and caused to be built, interrupting the general prescriptive register to introduce a concrete case. The second is more profound: the building at Fano does not simply correspond to the basilican type just set out in the preceding prescriptions, but modifies it from within, transforming a civic building into a complex apparatus of proportions, structure, light, tribunal, Temple of Augustus, and relationship with the forum. Vitruvius provides exceptionally precise data: a central hall (testudo) 120 feet long and 60 feet wide and lateral porticoes 20 feet wide; columns 50 feet high and 5 feet in diameter; piers attached to the columns; the omission of two central columns on one long side so as not to obstruct the view of the pronaos of the Temple of Augustus; a tribunal shaped as a segment of a circle; and a roofing system compared to the shape of the letter T (Fig. 2). The basilica is therefore not a mere administrative container: it is an apparatus for the representation of civic power and, at the same time, a typological experiment. This very density has produced a multiplicity of reconstructions over the centuries. Because the Vitruvian diagrammata were lost and the text reached the Renaissance in a condition that was not always clear, the basilica at Fanum Fortunae became a testing ground for European cultures of interpretation. Fra Giocondo, Sangallo, Barbaro, Palladio (Fig. 3), Perrault, and many others did not merely illustrate a building (Clini, 2003; Salatin, 2012): they took a position on how Vitruvius should be read. Every reconstruction is also a theory of antiquity, of the text, and of design."
+    },
+    {
+      "id": "f-02",
+      "type": "figure",
+      "ref": "fig-2"
+    },
+    {
+      "id": "f-03",
+      "type": "figure",
+      "ref": "fig-3"
+    },
+    {
+      "id": "h-03",
+      "type": "heading",
+      "level": 2,
+      "text": "2. From Words to Stones"
+    },
+    {
+      "id": "p-005",
+      "type": "paragraph",
+      "text": "When I began working on the basilica, the central problem was how to move from words to possible traces in the urban fabric. My 1997 doctoral thesis (Clini, 1997) addressed this issue explicitly: to document the interpretations of treatise writers and, at the same time, to test on the ground the hypotheses concerning the building’s location within the historic city of Fano. Even then, the conviction was that the basilica could not be found through a single clue, but only through a disciplinary convergence: text, local memory, archaeological remains, measurement, typological compatibility, urban design, and survey technologies."
+    },
+    {
+      "id": "p-006",
+      "type": "paragraph",
+      "text": "In 2013, this convergence took on a precise graphic form: a planimetric reconstruction that placed the basilica in the area where the structures have now emerged (Fig. 4). Excavations in Piazza Andrea Costa brought to light a rectangular layout with a perimeter colonnade; according to the institutional announcement (Ministero della Cultura, 2026), confirmation came from the test trench that revealed the fifth corner column, confirming the position and orientation of the building (Fig. 5). The columns, approximately five Roman feet in diameter, that is 147-150 cm, and about 15 m high, were set against load-bearing piers and pilasters designed to support an upper level (Fig. 6)."
+    },
+    {
+      "id": "f-04",
+      "type": "figure",
+      "ref": "fig-4"
+    },
+    {
+      "id": "f-05",
+      "type": "figure",
+      "ref": "fig-5"
+    },
+    {
+      "id": "f-06",
+      "type": "figure",
+      "ref": "fig-6"
+    },
+    {
+      "id": "p-007",
+      "type": "paragraph",
+      "text": "This situation requires a twofold response. On the one hand, the exceptional importance of the event must be acknowledged: for the first time, the problem of the basilica is no longer solely historiographical and graphic; it is also archaeological, architectural, engineering, and cultural. On the other hand, the symbolic force of the discovery must not be allowed to simplify the problem. The material evidence does not replace the preceding critical work; it reorganises it. The hypotheses of past centuries, including Palladio’s, do not become useless: they become comparable."
+    },
+    {
+      "id": "h-04",
+      "type": "heading",
+      "level": 2,
+      "text": "3. The Giant Order"
+    },
+    {
+      "id": "p-008",
+      "type": "paragraph",
+      "text": "The true heart of Vitruvius’s Basilica at Fanum Fortunae is the giant order: not simply a ‘large’ column, but a column that exceeds the ordinary scale of a single storey and unites the lower and upper levels in a single vertical gesture. What historiography would later call the ‘giant order’ or ‘colossal order’ is, in fact, an architectural order that extends beyond one storey and may span more than one; its full flowering on facades belongs to the Italian Renaissance, although the ancient world had already known columns on a monumental scale. Another extraordinary aspect is that Vitruvius does not theorise it as a style: he invents it almost inadvertently, as a builder. The decisive passage lies in the economic paradox. Vitruvius explains that eliminating the upper order, with its architraves, parapets, cornices, and additional columns, reduces labour and expense; yet this very renunciation produces the opposite of poverty. The columns carried ‘<em>in altitudine perpetua</em>’ (Vitruvius, ca. 15 B.C.E./1997, 5.1.10), that is, without a break up to the beams of the great roof, increase the magnificence and authority of the work. In other words, economy becomes vision. Technical necessity generates a new monumental language (Fig. 7). For this reason, the giant order at Fano is not a decorative detail, but the basilica’s true spatial invention. The column no longer belongs to a single storey: it becomes the measure of the entire building. It connects ground to roof, public life to the representation of power, and the human body to the scale of the city. In this sense, Vitruvius’s Basilica can be read as a kind of ‘skyscraper of antiquity’, in an analogical and perceptual sense: not because it rises through many storeys, but because it transforms the interior into a vertical machine, a space that makes height perceptible as a civic and almost cosmic event."
+    },
+    {
+      "id": "f-07",
+      "type": "figure",
+      "ref": "fig-7"
+    },
+    {
+      "id": "p-009",
+      "type": "paragraph",
+      "text": "Here, Fano becomes an exceptional case in the history of architecture. The basilica presents a very rare instance of non-monolithic giant structural columns, built in rubble-core masonry and integrated with engaged piers; among known Roman civic basilicas, the combination of an internal load-bearing function and uninterrupted vertical development appears especially significant. Fano does not repeat Rome: it interprets it in an experimental direction. The Vitruvian basilica is therefore a unicum within Roman monumental architecture: a fragment of the future embedded in ancient architecture."
+    },
+    {
+      "id": "p-010",
+      "type": "paragraph",
+      "text": "From this arises one of Western architecture’s most powerful lines. In the Renaissance, the giant order became one of the instruments through which Bramante, Raphael, Michelangelo, and, above all, Palladio transformed antiquity into a modern language of magnificence. For Palladio, the connection with Fano is particularly direct: in his collaboration with Daniele Barbaro on the annotated edition of Vitruvius, Palladio supplied almost all the illustrations (Salatin, 2012; Vitruvius, ca. 15 B.C.E./1556; 2nd ed. 1567), and his reconstruction of the basilica crystallised the motif of the giant order with free-standing columns spanning two storeys."
+    },
+    {
+      "id": "p-011",
+      "type": "paragraph",
+      "text": "It is no coincidence that Villa Sarego at Santa Sofia (Fig. 8), one of Palladio’s most singular works (Palladio, 1570, Book 2; Palladio Museum, n.d.), is organised around the great void of the courtyard and dominated by giant Ionic columns composed of roughly dressed limestone blocks. Here the echo of Vitruvius is not merely philological: it becomes construction, physical experience, and the energy of matter. The legacy of the giant order would later extend to European and American Palladianism. Even the White House, in its most recognisable image, preserves this long inheritance: the north and south porticoes, with their monumental columns, and the pilastrade that wraps around the body of the building translate into modern political form the same idea of classical authority founded on the column that dominates several levels. This is not a linear, direct descent from Fano to Washington, but a deep genealogy: Vitruvius invents, out of necessity, what the Renaissance would recognise as grandeur; Palladio turns it into a system; and Palladianism disseminates it as a universal language of civic power (Fig. 9). Vitruvius’s Basilica at Fanum Fortunae, then, is not only the sole work that can be attributed with certainty to Vitruvius. It is the place where Western architecture discovers that the column can cease to be one element among others and become the very principle of magnificence. The giant order is born here: from an economy of means, from a constructive intuition, from a column that, instead of stopping at one storey, rises to the roof and transforms public space into vision."
+    },
+    {
+      "id": "f-08",
+      "type": "figure",
+      "ref": "fig-8"
+    },
+    {
+      "id": "f-09",
+      "type": "figure",
+      "ref": "fig-9"
+    },
+    {
+      "id": "h-05",
+      "type": "heading",
+      "level": 2,
+      "text": "4. A Living Genealogy"
+    },
+    {
+      "id": "p-012",
+      "type": "paragraph",
+      "text": "The notion of a living genealogy is central because it prevents the relationship between Vitruvius and Palladio from being read as a simple line of influence. For centuries, the basilica at <em>Fanum</em> <em>Fortunae</em> existed simultaneously as an absent and a present building: absent as securely identified material fabric, present as text, drawing, mental image, and urban memory. Each period gave it a form compatible with its own instruments of knowledge."
+    },
+    {
+      "id": "p-013",
+      "type": "paragraph",
+      "text": "Humanists interrogated it through philology; treatise writers through engraving; modern archaeology through excavation and survey; and digital scholarship through models and simulation. The implications are both historiographical and operational. Historiographically, the 2026 discovery requires rewriting the dossier on the basilica, no longer as the history of a lost building, but as the history of a building that generated centuries of anticipatory interpretation before being materially recognised. Operationally, it calls for knowledge platforms in which excavation, survey, historical drawings, 3D models, and public interfaces are not separate systems, but interoperable layers of the same information environment. For contemporary practice, the legacy is even clearer. The shared lesson of Vitruvius and Palladio does not lie in the formal repertoire of classicism, but in the close relationship among use, measure, constructive clarity, and aesthetic quality. In this perspective, the classical is not a closed style, but a method of ordering design. The basilica speaks again today not as a relic, but as evidence that architecture becomes universal only when it succeeds in moving critically from words to drawing, from drawing to construction, and from construction to shared knowledge."
+    },
+    {
+      "id": "h-06",
+      "type": "heading",
+      "level": 2,
+      "text": "5. Method: Survey, Reconstruction, and Digital Models"
+    },
+    {
+      "id": "p-014",
+      "type": "paragraph",
+      "text": "The method followed over these decades has been founded on the integration of different levels. The first is philological and historical: reading Vitruvius’s text, its editions, translations, commentaries, corruptions, and variants. The second is graphic and historiographical: analysing the drawings that, from the early modern period onwards, attempted to reconstruct the basilica. The third is metric and spatial: architectural survey, modelling, proportional verification, and constructive compatibility. The fourth is communicative and epistemic: constructing tools that make it possible not merely to visualise the reconstruction, but to articulate its underlying argument. In 2003, I described a hypertext archive devoted to drawings of the basilica (Clini, 2003), constructed from more than 500 editions, translations, and epitomes of <em>De architectura</em>, with 35 original drawings associated with approximately 150 editions."
+    },
+    {
+      "id": "p-015",
+      "type": "paragraph",
+      "text": "The aim was not to accumulate images, but to identify the recurring interpretative questions posed by the text: overall form, construction techniques, materials, the location of the tribunal, roof systems, and the relationship between temple and basilica. Three-dimensional modelling entered this research pathway at an early stage. The 1997 thesis already culminated in an initial digital model; subsequent studies developed its role as a virtual space and critical synthesis; and the 2014 essay introduced structural and lighting simulations (Clini et al., 2014). The model is valuable not as a seductive image, but as an environment for verification: if form, structure, construction techniques, and light do not agree, the reconstruction must be reconsidered. From this perspective, artificial intelligence too can be useful only if it remains a critical tool: pattern recognition, semantic association between data and paradata, uncertainty management, and comparison among reconstruction variants."
+    },
+    {
+      "id": "h-07",
+      "type": "heading",
+      "level": 2,
+      "text": "Conclusions"
+    },
+    {
+      "id": "p-016",
+      "type": "paragraph",
+      "text": "The rediscovery of Vitruvius’s Basilica at <em>Fanum Fortunae</em> does not close a line of research; it reopens it at a higher level. After more than thirty years of work, the deepest significance of this story lies not only in having identified a building, but in having restored a measurable body, open to interrogation and debate, to a foundational text of Western architecture. The discovery shifts the problem: from the question of where the basilica stood to the more complex question of what it now enables us to understand about the relationship among theory, construction, and transmission."
+    },
+    {
+      "id": "p-017",
+      "type": "paragraph",
+      "text": "The first outcome concerns Vitruvius. The basilica at <em>Fanum Fortunae</em> shows that <em>De architectura</em> is not merely a prescriptive repertoire, but also the record of a concrete design experience. At the point where Vitruvius describes his own work, the treatise becomes a building; and the building, in turn, becomes a theoretical argument. The giant order, born from a constructive and economic solution, thus acquires a value that goes beyond pure technique: it becomes a spatial response to the need to give public form to civic life. Fano therefore allows Vitruvius to be read not only as an author of rules, but as a designer who experiments, adapts, and invents."
+    },
+    {
+      "id": "p-018",
+      "type": "paragraph",
+      "text": "The second outcome concerns Palladio. The discovery does not naively confirm Palladio, nor does it project him retrospectively onto antiquity; rather, it makes his role as an interpreter more legible. Through drawing, survey, and proportional clarity, Palladio transforms Vitruvian authority into a grammar of design. <em>Fanum Fortunae</em> thus appears as one of the points of origin of a tradition that does not consist in the simple repetition of ancient forms, but in their continuous translation into measurable, communicable, and reusable systems. The third outcome concerns the present. The basilica at Fano requires the construction of a knowledge environment in which excavation, survey, written sources, historical drawings, 3D models, simulations, and artificial intelligence are not separate levels, but parts of the same critical argument. Digital methods must not produce a new definitive image of the basilica; they must make the alternatives legible, declare uncertainties, and show the dependencies between source and model. Only in this way does reconstruction become knowledge rather than illustration."
+    },
+    {
+      "id": "p-019",
+      "type": "paragraph",
+      "text": "The genealogy linking <em>Fanum Fortunae</em> to Palladio is therefore neither a simple nor a settled line: it is a continuity made up of losses, interpretations, errors, verifications, and new questions. Precisely for this reason, it is alive. The re-emergent basilica is not merely an exceptional relic; it is the place where the classical once again reveals itself as method: measure, use, construction, beauty, and shared knowledge. From this perspective, Fano represents not only an outcome of research into the past, but the beginning of a new critical responsibility: to preserve, study, and communicate the basilica without reducing it either to a media myth or to a mere artefact, but recognising it as an apparatus still capable of generating design."
+    },
+    {
+      "id": "h-08",
+      "type": "heading",
+      "level": 2,
+      "text": "Image credits"
+    },
+    {
+      "id": "p-020",
+      "type": "paragraph",
+      "text": "Fig. 8: Hans A. Rosbach, “VillaSarego20110707-1”, 7 July 2011, CC BY-SA 3.0 (https://creativecommons.org/licenses/by-sa/3.0/). https://commons.wikimedia.org/wiki/File:VillaSarego20110707-1.jpg"
+    }
+  ],
+  "notes": [],
+  "references": [
+    "Clini, P. (1997). <em>La basilica di Fano di Vitruvio, dalla critica storiografica a nuovi rilievi e ipotesi di ricostruzione</em> [Vitruvius’s basilica at Fano: From historiographical criticism to new surveys and reconstruction hypotheses] [Doctoral dissertation, Università degli Studi di Ancona, Parma, Bologna and Roma Tor Vergata].",
+    "Clini, P. (2003). Vitruvius’ basilica at Fano: The drawings of a lost building from <em>De architectura libri decem</em>. <em>The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences, XXXIV</em>(5/W12), 121–126. https://www.isprs.org/proceedings/XXXIV/5-W12/proceedings/26.pdf",
+    "Clini, P., Lenci, S., Amadei, D., Bertuccioli, L., Camerini, E., &amp; Del Gaiso, C. (2014). La basilica di Vitruvio di Fano: Un approccio di archeologia sperimentale per la validazione di un modello 3D [Vitruvius’s basilica at Fano: An experimental archaeology approach to validating a 3D model]. <em>SCIRES-IT, 4</em>(1), 69–84. https://doi.org/10.2423/i22394303v4n1p69",
+    "Ministero della Cultura. (2026, January 19). <em>Scoperta Basilica di Vitruvio, Giuli: “A Fano il cuore della più antica sapienza architettonica dell’Occidente”</em> [Discovery of Vitruvius’s basilica, Giuli: “In Fano, the heart of the West’s most ancient architectural wisdom”] [Press release]. https://cultura.gov.it/comunicato/28580",
+    "Palladio, A. (1570). <em>I quattro libri dell’architettura</em> [The four books on architecture]. Dominico de’ Franceschi.",
+    "Palladio Museum. (n.d.). <em>Villa Sarego a Santa Sofia, San Pietro in Cariano (VR)</em> [Villa Sarego at Santa Sofia, San Pietro in Cariano (Verona)]. Retrieved June 7, 2026, from https://mediateca.palladiomuseum.org/palladio/opera.php?id=64",
+    "Salatin, F. (2012). La basilica di Fano: Giocondo, Palladio e il Vitruvio ferrarese [The basilica of Fano: Giocondo, Palladio and the Ferrara Vitruvius]. <em>Annali di architettura, 24</em>, 9–18.",
+    "Vitruvius. (1567). <em>I dieci libri dell’architettura</em> [The ten books on architecture] (D. Barbaro, Trans. &amp; Commentary). Francesco de’ Franceschi Senese &amp; Giovanni Chrieger. (Original work published ca. 15 B.C.E.)",
+    "Vitruvius. (1997). <em>De architectura</em> [On architecture] (P. Gros, Ed.; A. Corso &amp; E. Romano, Trans.). Einaudi. (Original work published ca. 15 B.C.E.)"
+  ],
+  "furtherReading": []
+}

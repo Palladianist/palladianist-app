@@ -1,0 +1,119 @@
+{
+  "articleId": "v1n1-palazzo",
+  "figures": [
+    {
+      "id": "fig-1",
+      "src": "/figures/v1n1-palazzo/fig01.jpg",
+      "alt": "Painted portrait of Giorgio Vasari: a bearded man in dark clothes with a gold chain, against a dark background.",
+      "caption": "Fig. 1. Attributed to Jacopo Zucchi, <em>Portrait of Giorgio Vasari</em> (formerly considered a self-portrait), 1571–74, oil on canvas. Florence, Gallerie degli Uffizi, [inv. 00021975]. Courtesy of the Ministero della Cultura – Gallerie degli Uffizi.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-2",
+      "src": "/figures/v1n1-palazzo/fig02.jpg",
+      "alt": "Painted full-length portrait of Dong Qichang standing in a long robe with a scholar's hat.",
+      "caption": "Fig. 2. Xu Zhang (1694–1749), posthumous portrait of Dong Qichang, from the album <em>Songjiang bangyan huaxiang (Portraits of Eminent Men of Songjiang)</em>, 18th century, ink and colour on paper. Nanjing Museum.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-3",
+      "src": "/figures/v1n1-palazzo/fig03.jpg",
+      "alt": "Chinese hanging scroll in ink on silk showing tall rounded mountains, forests and a winding path.",
+      "caption": "Fig. 3. Attributed to Juran, <em>Seeking the Tao in Autumn Mountains</em>, Five Dynasties–Northern Song, late 10th century, hanging scroll, ink on silk, 156.2 × 77.2 cm. Taipei, National Palace Museum, inv. Guhua 000021. Open Data, CC BY 4.0.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-4",
+      "src": "/figures/v1n1-palazzo/fig04.jpg",
+      "alt": "Chinese hanging scroll Early Spring by Guo Xi: towering rocky mountains with twisted trees and mist.",
+      "caption": "Fig. 4. Guo Xi, <em>Early Spring</em>, 1072, hanging scroll, ink and light colour on silk, 158.3 × 108.1 cm. Taipei, National Palace Museum, inv. Guhua 000053. Open Data, CC BY 4.0.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-5",
+      "src": "/figures/v1n1-palazzo/fig05.png",
+      "alt": "Round Chinese album leaf in ink on silk: a scholar on a riverbank watching clouds rise over distant hills.",
+      "caption": "Fig. 5. Ma Lin, Scholar Reclining and Watching Rising Clouds (poem by Wang Wei), c. 1256, album leaf, ink on silk, 25.1 × 25.3 cm. Cleveland Museum of Art, 1961.421, John L. Severance Fund. Public domain (CC0).",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-6",
+      "src": "/figures/v1n1-palazzo/fig06.png",
+      "alt": "Raphael's fresco The Disputation of the Holy Sacrament: heavenly figures on clouds above a gathering of theologians around an altar.",
+      "caption": "Fig. 6. Raphael, Disputation of the Holy Sacrament (Disputa del Sacramento), 1509–10, fresco. Vatican City, Apostolic Palace, Stanza della Segnatura. Photo © Governatorato SCV – Direzione dei Musei.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-7",
+      "src": "/figures/v1n1-palazzo/fig08.jpg",
+      "alt": "Chinese handscroll with groups of women playing music in a palace garden, followed by an enlarged detail of the same scene.",
+      "caption": "Fig. 7. Attributed to Zhou Wenju, <em>United by Music</em>, Ming dynasty (15th–16th century). Art Institute of Chicago, 1950.1370 (CC0). Below, detail.",
+      "downloadable": true,
+      "credit": "",
+      "extra": [
+        {
+          "src": "/figures/v1n1-palazzo/fig08_COMMONS_DETAIL.jpg",
+          "alt": "Enlarged detail of the same handscroll."
+        }
+      ],
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-8",
+      "src": "/figures/v1n1-palazzo/fig07_COMMONS.png",
+      "alt": "Masaccio's fresco of the Holy Trinity: Christ on the cross under a coffered barrel vault, with figures kneeling in front.",
+      "caption": "Fig. 8. Masaccio, <em>Holy Trinity</em>, c. 1425–1427. Fresco, 667 × 317 cm. Florence, Santa Maria Novella. Public domain via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-9",
+      "src": "/figures/v1n1-palazzo/fig09_COMMONS2.png",
+      "alt": "Detail of the Chinese handscroll Along the River During the Qingming Festival: an arched bridge crowded with people and boats.",
+      "caption": "Fig. 9. Zhang Zeduan, <em>Along the River During the Qingming Festival</em>, Northern Song dynasty, early 12th century, detail. Handscroll, ink and colours on silk, 24.8 × 528.7 cm. Palace Museum, Beijing. Public domain (PD-Art), via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-10",
+      "src": "/figures/v1n1-palazzo/fig10.jpg",
+      "alt": "Detail of Lorenzetti's fresco of Good Government: a busy city with towers, houses and people in the streets.",
+      "caption": "Fig. 10. Ambrogio Lorenzetti, <em>Effects of Good Government in the City and Countryside</em>, 1338–1339, detail of the city. Fresco. Siena, Palazzo Pubblico, Sala dei Nove. Courtesy of Comune di Siena – Museo Civico. Public domain (Google Art Project, via Wikimedia Commons).",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-11",
+      "src": "/figures/v1n1-palazzo/fig11_commons.jpg",
+      "alt": "Fra Angelico's Annunciation: the angel and the Virgin facing each other under a vaulted loggia with slender columns.",
+      "caption": "Fig. 11. Fra Angelico, <em>Annunciation</em>, c. 1440–1445. Fresco, 230 × 321 cm. Florence, Museo di San Marco, north corridor. By permission of the Ministero della Cultura – Direzione regionale Musei nazionali Toscana. Public domain, via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    },
+    {
+      "id": "fig-12",
+      "src": "/figures/v1n1-palazzo/fig12_COMMONS.jpg",
+      "alt": "Piero della Francesca's Flagellation of Christ: the scene in a classical hall on the left and three men standing in the foreground on the right.",
+      "caption": "Fig. 12. Piero della Francesca, <em>The Flagellation of Christ,</em> c. 1459–1460. Tempera on poplar panel, 58.4 × 81.5 cm. Urbino, Galleria Nazionale delle Marche (Palazzo Ducale), inv. DE 229. By permission of the Ministero della Cultura – Galleria Nazionale delle Marche. Public domain, via Wikimedia Commons.",
+      "downloadable": true,
+      "credit": "",
+      "excludedFromLicense": true
+    }
+  ]
+}

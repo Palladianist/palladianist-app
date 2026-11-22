@@ -1,0 +1,38 @@
+{
+  "articleId": "v1n1-palazzo",
+  "provisional": true,
+  "note": "Da EPUB; sarà sostituito dalla sincronizzazione OJS.",
+  "ojsSubmissionId": null,
+  "ojsUrl": null,
+  "pdfUrl": null,
+  "doi": null,
+  "issue": "v1n1",
+  "volume": 1,
+  "number": 1,
+  "year": 2026,
+  "section": {
+    "en": "Articles",
+    "it": "Articoli"
+  },
+  "title": "Space in classical Chinese and Italian painting. Late Renaissance conceptual and geometric devices",
+  "authors": [
+    {
+      "given": "Pedro P.",
+      "family": "Palazzo",
+      "affiliation": "University of Brasília",
+      "orcid": null,
+      "email": "palazzo@unb.br"
+    }
+  ],
+  "pages": "196–221",
+  "dates": {
+    "received": "2026-04-27",
+    "accepted": "2026-09-01",
+    "published": "2026-10-30"
+  },
+  "license": {
+    "code": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "journal": "Palladianist. The Future of Drawing"
+}
