@@ -8,7 +8,7 @@
     "reviewedBy": "Giuseppe Amoruso",
     "reviewedOn": "2026-11-22"
   },
-  "translationNotes": "Punti da verificare con l'autore nell'originale: (1) in p-005 Dong è indicato come Fig. 1 e Vasari come Fig. 2, ma le didascalie dicono il contrario; (2) la numerazione delle sezioni salta da 2 a 4 («4. Form and formlessness»); (3) «homeotropic/heterotropic» in p-021 è reso con «omeotropo/eterotropo», come nell'originale (forse si intendeva «isotropo/anisotropo»); (4) in p-013 Zhou Wenju (917–975) è detto pittore di corte Tang (618–907). La traduzione segue l'originale in tutti e quattro i casi.",
+  "translationNotes": "Punti da verificare con l'autore nell'originale: (1) in p-005 i rimandi alle figure sono stati corretti dall'autore nell'epub aggiornato (Dong = Fig. 2, Vasari = Fig. 1); (2) la numerazione delle sezioni è stata corretta (3. Form and formlessness); (3) «homeotropic/heterotropic» in p-021 è reso con «omeotropo/eterotropo», come nell'originale (forse si intendeva «isotropo/anisotropo»); (4) in p-013 Zhou Wenju (917–975) è detto pittore di corte Tang (618–907). La traduzione segue l'originale in tutti e quattro i casi.",
   "title": "Lo spazio nella pittura classica cinese e italiana. Dispositivi concettuali e geometrici del tardo Rinascimento",
   "abstract": [
     "L'articolo propone uno sguardo comparativo sullo sviluppo delle rappresentazioni dello spazio architettonico e dello spazio aperto nella pittura e nel disegno cinesi e italiani. Gli storici dell'architettura hanno a lungo discusso il concetto di spazio nell'ambito delle teorie della percezione e della cognizione estetica. I loro lavori, tuttavia, hanno legato lo studio della concezione spaziale a nozioni estranee come la libertà artistica, e a una visione teleologica del Moderno come fine (e scopo) di ogni sviluppo spaziale in architettura e nella sua rappresentazione artistica. Esaminare la rappresentazione dello spazio nell'arte premoderna permette di comprendere l'articolazione spaziale nell'architettura, nel disegno urbano e del paesaggio nei termini delle culture che l'hanno prodotta, liberi dai presupposti della teoria moderna. L'arte cinese e italiana del Trecento e del Quattrocento, vista attraverso gli occhi dei critici del Cinquecento, è particolarmente rilevante per uno studio di questo tipo: entrambe le tradizioni fecero i conti con il proprio passato alla luce degli sforzi contemporanei di affermare nuovi sistemi di governo del territorio e di definire il rapporto tra l'approccio tecnico e quello da gentiluomo all'arte e all'architettura. Attraverso lo studio di alcune opere canoniche di rappresentazione bidimensionale dello spazio, l'articolo esplora concetti come vuoto e forma, profondità e bassa profondità, e il loro significato politico e culturale in entrambe le società."
@@ -56,17 +56,17 @@
     {
       "id": "p-005",
       "type": "paragraph",
-      "text": "Lo sviluppo di metodi distinti per raffigurare o proiettare lo spazio sul piano pittorico, e persino l'ascesa e il declino dell'interesse per la ricerca di tali metodi, restano rilevanti nello studio comparato della storia dell'arte. Ancor più, l'influenza reciproca dell'articolazione spaziale nell'arte pittorica e nell'architettura (compreso il disegno del paesaggio) rende visibili attraverso le opere sfide tecniche e interessi intellettuali. Questa rilevanza fu costruita dallo sguardo retrospettivo di autori di storia e teoria dell'arte in periodi successivi dell'arte cinese e italiana: il pittore della tarda dinastia Ming (1368–1644) Dong Qichang (1555–1636, Fig. 1) e il pittore e architetto fiorentino Giorgio Vasari (1511–1574, fig. 2), che fissarono entrambi un canone di interessi per soggetti e metodi di raffigurazione. La storia e la teoria della pittura di paesaggio di Dong, attente al ruolo dell'intuizione nell'apprezzamento e nella rappresentazione del paesaggio a partire dalla dinastia Song (960–1279), sono divenute note ai lettori occidentali in parte grazie a Cahill (1978). Vasari, a sua volta, si interessava all'evoluzione della tecnica artistica in Italia dal periodo gotico (fine del Duecento) fino al proprio tempo, la metà del Cinquecento."
-    },
-    {
-      "id": "f-01",
-      "type": "figure",
-      "ref": "fig-1"
+      "text": "Lo sviluppo di metodi distinti per raffigurare o proiettare lo spazio sul piano pittorico, e persino l'ascesa e il declino dell'interesse per la ricerca di tali metodi, restano rilevanti nello studio comparato della storia dell'arte. Ancor più, l'influenza reciproca dell'articolazione spaziale nell'arte pittorica e nell'architettura (compreso il disegno del paesaggio) rende visibili attraverso le opere sfide tecniche e interessi intellettuali. Questa rilevanza fu costruita dallo sguardo retrospettivo di autori di storia e teoria dell'arte in periodi successivi dell'arte cinese e italiana: il pittore della tarda dinastia Ming (1368–1644) Dong Qichang (1555–1636, Fig. 2) e il pittore e architetto fiorentino Giorgio Vasari (1511–1574, fig. 1), che fissarono entrambi un canone di interessi per soggetti e metodi di raffigurazione. La storia e la teoria della pittura di paesaggio di Dong, attente al ruolo dell'intuizione nell'apprezzamento e nella rappresentazione del paesaggio a partire dalla dinastia Song (960–1279), sono divenute note ai lettori occidentali in parte grazie a Cahill (1978). Vasari, a sua volta, si interessava all'evoluzione della tecnica artistica in Italia dal periodo gotico (fine del Duecento) fino al proprio tempo, la metà del Cinquecento."
     },
     {
       "id": "f-02",
       "type": "figure",
       "ref": "fig-2"
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
     },
     {
       "id": "p-006",
@@ -188,7 +188,7 @@
       "id": "h-04",
       "type": "heading",
       "level": 2,
-      "text": "4. Forma e assenza di forma"
+      "text": "3. Forma e assenza di forma"
     },
     {
       "id": "p-022",

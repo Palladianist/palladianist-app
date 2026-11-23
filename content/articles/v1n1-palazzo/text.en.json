@@ -37,17 +37,17 @@
     {
       "id": "p-005",
       "type": "paragraph",
-      "text": "The development of distinct methods for depicting or projecting space on the picture plane, and even the rise and fall of interest in the search for such methods, remain relevant in the comparative study of art history. Even more so, the reciprocal influence of spatial articulation in pictorial art and in architecture (including landscape design) makes technical challenges and intellectual interests visible through the works. This relevance was constructed by the retrospective gaze of writers of art history and theory in later periods of Chinese and Italian art, namely the late Ming-dynasty (1368–1644) painter Dong Qichang (1555–1636, Fig. 1) and the Florentine painter and architect Giorgio Vasari (1511–1574, fig. 2), both of whom established a canon of interests in subjects and methods of depiction. Dong’s history and theory of landscape painting, concerned with the role of intuition in the appreciation and representation of landscapes since the Song dynasty (960–1279), became known to Western readers in part thanks to Cahill (1978). Vasari, likewise, was interested in the evolution of artistic technique in Italy since the Gothic period (late thirteenth century) up to his own time, the mid-sixteenth century."
-    },
-    {
-      "id": "f-01",
-      "type": "figure",
-      "ref": "fig-1"
+      "text": "The development of distinct methods for depicting or projecting space on the picture plane, and even the rise and fall of interest in the search for such methods, remain relevant in the comparative study of art history. Even more so, the reciprocal influence of spatial articulation in pictorial art and in architecture (including landscape design) makes technical challenges and intellectual interests visible through the works. This relevance was constructed by the retrospective gaze of writers of art history and theory in later periods of Chinese and Italian art, namely the late Ming-dynasty (1368–1644) painter Dong Qichang (1555–1636, Fig. 2) and the Florentine painter and architect Giorgio Vasari (1511–1574, fig. 1), both of whom established a canon of interests in subjects and methods of depiction. Dong’s history and theory of landscape painting, concerned with the role of intuition in the appreciation and representation of landscapes since the Song dynasty (960–1279), became known to Western readers in part thanks to Cahill (1978). Vasari, likewise, was interested in the evolution of artistic technique in Italy since the Gothic period (late thirteenth century) up to his own time, the mid-sixteenth century."
     },
     {
       "id": "f-02",
       "type": "figure",
       "ref": "fig-2"
+    },
+    {
+      "id": "f-01",
+      "type": "figure",
+      "ref": "fig-1"
     },
     {
       "id": "p-006",
@@ -169,7 +169,7 @@
       "id": "h-04",
       "type": "heading",
       "level": 2,
-      "text": "4. Form and formlessness"
+      "text": "3. Form and formlessness"
     },
     {
       "id": "p-022",
